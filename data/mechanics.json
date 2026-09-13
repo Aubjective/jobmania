@@ -1,5 +1,5 @@
 {
-  "version": 18,
+  "version": 19,
   "source": "Jobmania Database Guides and Skill Unit sheets, Localization Skills Description sheet, plus confirmed in-game descriptions",
   "powerLv": {
     "stat": {
@@ -1029,6 +1029,129 @@
       },
       "healPercentOfDamageDealt": 50,
       "upgradeHealPercentOfDamageDealt": 100
+    },
+    "Invulnerable": {
+      "skillUnit": "Protect",
+      "effect": "Direct",
+      "termKey": "mechanic.invulnerable",
+      "localisationKey": "InvulnerableDescr",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet+localisation",
+      "clickable": true,
+      "templateKey": "invulnerable",
+      "blocksDirectAttacks": true,
+      "usesRemainingBlocks": true,
+      "blockCountBasedOn": "CharacterLevel",
+      "removedAt": "TurnStart"
+    },
+    "Gamble": {
+      "family": "Apply Tag",
+      "applyTag": true,
+      "skillUnit": "ApplyOn",
+      "effect": "Dice",
+      "termKey": "mechanic.gamble",
+      "localisationKey": "GambleDescr",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet+localisation",
+      "clickable": true,
+      "templateKey": "gamble",
+      "playerDiceOutcomes": {
+        "1-2": 0,
+        "3-4": 1,
+        "5": 2,
+        "6": 3
+      },
+      "diceRollMayBeSkipped": true,
+      "enemyRandomExecutionMin": 1,
+      "enemyRandomExecutionMax": 3
+    },
+    "Swindler Odds": {
+      "skillUnit": "Buff",
+      "effect": "Dice",
+      "termKey": "mechanic.swindlerOdds",
+      "localisationKey": "SwindlerOddsDesc",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet+localisation",
+      "clickable": true,
+      "templateKey": "swindlerOdds",
+      "templateArgs": {
+        "rollA": "affectedRolls.0",
+        "rollB": "affectedRolls.1",
+        "increase": "outcomeIncrease"
+      },
+      "affectedRolls": [
+        2,
+        4
+      ],
+      "outcomeIncrease": 1,
+      "triggerAt": "DiceRoll"
+    },
+    "X Bond": {
+      "skillUnit": "Mark",
+      "effect": "Direct",
+      "termKey": "mechanic.xBond",
+      "localisationKey": "XBondDescr",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet+localisation",
+      "clickable": true,
+      "templateKey": "xBond",
+      "playerOnly": true,
+      "triggerAt": "SwitchHero",
+      "boostAppliesToNextHeroAbility": true,
+      "boostedValues": [
+        "attack",
+        "heal",
+        "protectGain"
+      ],
+      "boostPercent": 50
+    },
+    "Sleight Of Hands": {
+      "skillUnit": "Upgrade",
+      "effect": "Exhaust",
+      "termKey": "mechanic.sleightOfHands",
+      "localisationKey": "SleightOfHandsDescr",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet+localisation",
+      "clickable": true,
+      "templateKey": "sleightOfHands",
+      "templateArgs": {
+        "stacks": "randomBuffStacks"
+      },
+      "playerOnly": true,
+      "triggerEvents": [
+        "ExhaustAbilityBySkillEffect",
+        "DiscardAbilityBySkillEffect"
+      ],
+      "excludedActions": [
+        "+1AP action"
+      ],
+      "randomBuffStacks": 5,
+      "randomBuffPool": [
+        "Max HP Action Buff",
+        "Strength Action Buff",
+        "Agility Action Buff",
+        "Intelligence Action Buff",
+        "Gamble Token"
+      ]
+    },
+    "Jack-of-all-Trades": {
+      "skillUnit": "Upgrade",
+      "effect": "Null",
+      "termKey": "mechanic.jackOfAllTrades",
+      "localisationKey": "NormalMasterXDescr",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet+localisation",
+      "clickable": true,
+      "templateKey": "jackOfAllTrades",
+      "rawValuesOnly": true,
+      "affectedValues": [
+        "damage",
+        "heal",
+        "protect"
+      ],
+      "playerPercentPerHeroLevel": 15,
+      "heroesModeAdditionalPercent": 1000,
+      "enemyPercentPerLevel": 3
     }
   },
   "applyTags": {
