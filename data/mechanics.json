@@ -1,5 +1,5 @@
 {
-  "version": 23,
+  "version": 24,
   "source": "Jobmania Database Guides and Skill Unit sheets, Localization Skills Description sheet, plus confirmed in-game descriptions",
   "powerLv": {
     "stat": {
@@ -1728,6 +1728,23 @@
       "sourceAmount": "ExcessHeal",
       "conversionTarget": "OpponentDamage",
       "excludesDrainHealing": true
+    },
+    "Overloaded": {
+      "family": "Apply Tag",
+      "applyTag": true,
+      "skillUnit": "ApplyOn",
+      "effect": "Multiply",
+      "termKey": "mechanic.overloaded",
+      "localisationKey": "Overloaded",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet+localisation",
+      "clickable": true,
+      "templateKey": "overloaded",
+      "triggerAt": "OnAction",
+      "consumeActionsBasedOn": "RemainingAP",
+      "repeatCountBasedOn": "RemainingAP",
+      "heroAbilityExtraRepeats": 1,
+      "enemyMonsterExtraRepeats": 1
     }
   },
   "applyTags": {
