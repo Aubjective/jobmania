@@ -1,0 +1,54 @@
+name: Update Guard Master mechanic
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-guard-master.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update Guard Master
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          mp = Path('data/mechanics.json')
+          data = json.loads(mp.read_text())
+          defs = data.setdefault('effectDefinitions', {})
+          defs['Guard Master'] = {
+            'skillUnit': 'Upgrade',
+            'effect': 'Guard',
+            'termKey': 'mechanic.guardMaster',
+            'mechanicConfirmed': True,
+            'confirmationSource': 'live+sheet',
+            'clickable': True,
+            'templateKey': 'guardMaster',
+            'upgrades': ['Guard', 'Stack Guard']
+          }
+          data['version'] = max(int(data.get('version', 0)), 24)
+          mp.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
+
+          lp = Path('data/mechanics_localisation.json')
+          loc = json.loads(lp.read_text())
+          locales = loc.setdefault('locales', {})
+          en = locales.setdefault('en', {})
+          en.setdefault('terms', {})['mechanic.guardMaster'] = 'Guard Master'
+          en.setdefault('templates', {})['guardMaster'] = 'Upgrade Guard and Stack Guard skills.'
+          loc['version'] = max(int(loc.get('version', 0)), 22)
+          lp.write_text(json.dumps(loc, ensure_ascii=False, indent=2) + '\n')
+          PY
+      - name: Commit changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/mechanics.json data/mechanics_localisation.json
+          git diff --cached --quiet || git commit -m 'Add confirmed Guard Master mechanic'
+          git push
