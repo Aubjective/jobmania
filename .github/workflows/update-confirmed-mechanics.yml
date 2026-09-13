@@ -1,0 +1,249 @@
+name: Update confirmed mechanics
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-confirmed-mechanics.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Update mechanics data and localisation
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          mechanics_path = Path('data/mechanics.json')
+          loc_path = Path('data/mechanics_localisation.json')
+
+          mechanics = json.loads(mechanics_path.read_text(encoding='utf-8'))
+          mechanics['version'] = max(int(mechanics.get('version', 0)), 19)
+          defs = mechanics.setdefault('effectDefinitions', {})
+
+          defs.update({
+            'Invulnerable': {
+              'skillUnit': 'Protect',
+              'effect': 'Direct',
+              'termKey': 'mechanic.invulnerable',
+              'localisationKey': 'InvulnerableDescr',
+              'mechanicConfirmed': True,
+              'confirmationSource': 'live+sheet+localisation',
+              'clickable': True,
+              'templateKey': 'invulnerable',
+              'blocksDirectAttacks': True,
+              'usesRemainingBlocks': True,
+              'blockCountBasedOn': 'CharacterLevel',
+              'removedAt': 'TurnStart'
+            },
+            'Gamble': {
+              'family': 'Apply Tag',
+              'applyTag': True,
+              'skillUnit': 'ApplyOn',
+              'effect': 'Dice',
+              'termKey': 'mechanic.gamble',
+              'localisationKey': 'GambleDescr',
+              'mechanicConfirmed': True,
+              'confirmationSource': 'live+sheet+localisation',
+              'clickable': True,
+              'templateKey': 'gamble',
+              'playerDiceOutcomes': {
+                '1-2': 0,
+                '3-4': 1,
+                '5': 2,
+                '6': 3
+              },
+              'diceRollMayBeSkipped': True,
+              'enemyRandomExecutionMin': 1,
+              'enemyRandomExecutionMax': 3
+            },
+            'Swindler Odds': {
+              'skillUnit': 'Buff',
+              'effect': 'Dice',
+              'termKey': 'mechanic.swindlerOdds',
+              'localisationKey': 'SwindlerOddsDesc',
+              'mechanicConfirmed': True,
+              'confirmationSource': 'live+sheet+localisation',
+              'clickable': True,
+              'templateKey': 'swindlerOdds',
+              'templateArgs': {
+                'rollA': 'affectedRolls.0',
+                'rollB': 'affectedRolls.1',
+                'increase': 'outcomeIncrease'
+              },
+              'affectedRolls': [2, 4],
+              'outcomeIncrease': 1,
+              'triggerAt': 'DiceRoll'
+            },
+            'X Bond': {
+              'skillUnit': 'Mark',
+              'effect': 'Direct',
+              'termKey': 'mechanic.xBond',
+              'localisationKey': 'XBondDescr',
+              'mechanicConfirmed': True,
+              'confirmationSource': 'live+sheet+localisation',
+              'clickable': True,
+              'templateKey': 'xBond',
+              'playerOnly': True,
+              'triggerAt': 'SwitchHero',
+              'boostAppliesToNextHeroAbility': True,
+              'boostedValues': ['attack', 'heal', 'protectGain'],
+              'boostPercent': 50
+            },
+            'Sleight Of Hands': {
+              'skillUnit': 'Upgrade',
+              'effect': 'Exhaust',
+              'termKey': 'mechanic.sleightOfHands',
+              'localisationKey': 'SleightOfHandsDescr',
+              'mechanicConfirmed': True,
+              'confirmationSource': 'live+sheet+localisation',
+              'clickable': True,
+              'templateKey': 'sleightOfHands',
+              'templateArgs': {
+                'stacks': 'randomBuffStacks'
+              },
+              'playerOnly': True,
+              'triggerEvents': ['ExhaustAbilityBySkillEffect', 'DiscardAbilityBySkillEffect'],
+              'excludedActions': ['+1AP action'],
+              'randomBuffStacks': 5,
+              'randomBuffPool': [
+                'Max HP Action Buff',
+                'Strength Action Buff',
+                'Agility Action Buff',
+                'Intelligence Action Buff',
+                'Gamble Token'
+              ]
+            },
+            'Jack-of-all-Trades': {
+              'skillUnit': 'Upgrade',
+              'effect': 'Null',
+              'termKey': 'mechanic.jackOfAllTrades',
+              'localisationKey': 'NormalMasterXDescr',
+              'mechanicConfirmed': True,
+              'confirmationSource': 'live+sheet+localisation',
+              'clickable': True,
+              'templateKey': 'jackOfAllTrades',
+              'rawValuesOnly': True,
+              'affectedValues': ['damage', 'heal', 'protect'],
+              'playerPercentPerHeroLevel': 15,
+              'heroesModeAdditionalPercent': 1000,
+              'enemyPercentPerLevel': 3
+            }
+          })
+
+          mechanics_path.write_text(json.dumps(mechanics, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          loc = json.loads(loc_path.read_text(encoding='utf-8'))
+          loc['version'] = max(int(loc.get('version', 0)), 17)
+
+          additions = {
+            'en': {
+              'terms': {
+                'mechanic.invulnerable': 'Invulnerable',
+                'mechanic.gamble': 'Gamble',
+                'mechanic.swindlerOdds': 'Swindler Odds',
+                'mechanic.xBond': 'X Bond',
+                'mechanic.sleightOfHands': 'Sleight Of Hands',
+                'mechanic.jackOfAllTrades': 'Jack-of-all-Trades'
+              },
+              'names': {
+                'Invulnerable': 'Invulnerable',
+                'Gamble': 'Gamble',
+                'Swindler Odds': 'Swindler Odds',
+                'X Bond': 'X Bond',
+                'Sleight Of Hands': 'Sleight Of Hands',
+                'Jack-of-all-Trades': 'Jack-of-all-Trades'
+              },
+              'templates': {
+                'invulnerable': 'Protects the user from any direct attack X times where X is the level of the character. (Removed at the start of turn)',
+                'gamble': "Player - Roll a dice: Side 1 or 2 = The skill won't be executed. Side 3 or 4 = The skill goes off as usual. Side 5 = Execute the skill 2 times. Side 6 = Execute the skill 3 times. (Some situations may skip the dice roll process) Enemy monsters - Randomly use the skill 1 to 3 times.",
+                'swindlerOdds': 'During battles, dice outcome increased by {increase} if you roll a {rollA} or {rollB}.',
+                'xBond': "(Player only) When the player swaps the current hero with X, boost X's next hero ability attack, heal, and Protect gain by 50%.",
+                'sleightOfHands': '(Player only) Whenever you exhaust abilities or discard abilities through skill effects (not including +1AP action), randomly gain {stacks} stacks of one of the following buffs: Max HP Action Buff, Strength Action Buff, Agility Action Buff, Intelligence Action Buff, Gamble Token.',
+                'jackOfAllTrades': "(Player) Increase [Raw] damage, heal, and Protect values (without stat multipliers) by 15% based on the hero's level. Increase additionally 1000% if playing in Heroes Mode. / (Enemy) The value increases by 3% instead based on their levels."
+              }
+            },
+            'zh-CN': {
+              'terms': {
+                'mechanic.invulnerable': '无敌状态',
+                'mechanic.gamble': '赌博',
+                'mechanic.swindlerOdds': '不公的倍率',
+                'mechanic.xBond': 'X 连接',
+                'mechanic.sleightOfHands': '诡弊之手',
+                'mechanic.jackOfAllTrades': '万事通'
+              },
+              'names': {
+                'Invulnerable': '无敌状态',
+                'Gamble': '赌博',
+                'Swindler Odds': '不公的倍率',
+                'X Bond': 'X 连接',
+                'Sleight Of Hands': '诡弊之手',
+                'Jack-of-all-Trades': '万事通'
+              },
+              'templates': {
+                'invulnerable': '保护自身免受 X 次直接攻击。X等于角色的等级。(回合开始时消除)',
+                'gamble': '玩家 - 摇个骰子查看结果：出1或2，使用不了技能。出3或4，普通地使用此技能。出5，使用此技能2次。出6，使用此技能3次。(一些情况将跳过摇骰过程) 非玩家 - 随机使用此技能1、2或3次。',
+                'swindlerOdds': '在战斗中，如果摇骰子的结果等于{rollA}或{rollB}，骰子数+{increase}。',
+                'xBond': '(玩家限定) 当玩家将当前英雄切换成 X 时，X 的下个英雄技能攻击、恢复和护甲获得量提高50%。',
+                'sleightOfHands': '(玩家限定) 每当你因技能效果除外技能或舍弃技能（不包括+1AP行动），随机获得{stacks}层以下其中一种效果：Max HP行动增益、力量行动增益、敏捷行动增益、智力行动增益、赌博代币。',
+                'jackOfAllTrades': '（玩家）根据英雄等级，使【固定】伤害、恢复与护甲获得量（不包括属性倍率）提高15%。在英雄模式里额外提高1000%。／（敌人）则根据等级每级提高3%。'
+              }
+            },
+            'zh-TW': {
+              'terms': {
+                'mechanic.invulnerable': '無敵狀態',
+                'mechanic.gamble': '賭博',
+                'mechanic.swindlerOdds': '不公的倍率',
+                'mechanic.xBond': 'X 連接',
+                'mechanic.sleightOfHands': '詭弊之手',
+                'mechanic.jackOfAllTrades': '萬事通'
+              },
+              'names': {
+                'Invulnerable': '無敵狀態',
+                'Gamble': '賭博',
+                'Swindler Odds': '不公的倍率',
+                'X Bond': 'X 連接',
+                'Sleight Of Hands': '詭弊之手',
+                'Jack-of-all-Trades': '萬事通'
+              },
+              'templates': {
+                'invulnerable': '保護自身免受 X 次直接攻擊。X等於角色的等級。(回合開始時消除)',
+                'gamble': '玩家 - 搖個骰子查看結果：出1或2，使用不了技能。出3或4，普通地使用此技能。出5，使用此技能2次。出6，使用此技能3次。(一些情況將跳過搖骰過程) 非玩家 - 隨機使用此技能1、2或3次。',
+                'swindlerOdds': '在戰鬥中，如果搖骰子的結果等於{rollA}或{rollB}，骰子數+{increase}。',
+                'xBond': '(玩家限定) 當玩家將當前英雄切換成 X 時，X 的下個英雄技能攻擊、恢復和護甲獲得量提高50%。',
+                'sleightOfHands': '(玩家限定) 每當你因技能效果除外技能或捨棄技能（不包括+1AP行動），隨機獲得{stacks}層以下其中一種效果：Max HP行動增益、力量行動增益、敏捷行動增益、智力行動增益、賭博代幣。',
+                'jackOfAllTrades': '（玩家）根據英雄等級，使【固定】傷害、恢復與護甲獲得量（不包括屬性倍率）提高15%。在英雄模式裏額外提高1000%。／（敵人）則根據等級每級提高3%。'
+              }
+            }
+          }
+
+          locales = loc.setdefault('locales', {})
+          for locale, block in additions.items():
+            target = locales.setdefault(locale, {})
+            target.setdefault('terms', {}).update(block['terms'])
+            target.setdefault('mechanicNames', {}).update(block['names'])
+            target.setdefault('templates', {}).update(block['templates'])
+
+          loc_path.write_text(json.dumps(loc, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+
+      - name: Commit confirmed mechanics
+        run: |
+          if git diff --quiet; then
+            echo 'No changes required.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/mechanics.json data/mechanics_localisation.json
+          git commit -m 'Add confirmed Invulnerable and gamble mechanics'
+          git push
