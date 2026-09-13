@@ -1,5 +1,5 @@
 {
-  "version": 24,
+  "version": 25,
   "source": "Jobmania Database Guides and Skill Unit sheets, Localization Skills Description sheet, plus confirmed in-game descriptions",
   "powerLv": {
     "stat": {
@@ -1745,6 +1745,34 @@
       "repeatCountBasedOn": "RemainingAP",
       "heroAbilityExtraRepeats": 1,
       "enemyMonsterExtraRepeats": 1
+    },
+    "Gamble Token": {
+      "family": "Gamble",
+      "skillUnit": "Buff",
+      "effect": "Dice",
+      "termKey": "mechanic.gambleToken",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet",
+      "clickable": true,
+      "templateKey": "gambleToken",
+      "templateArgs": {
+        "doubleThreshold": "executionThresholds.0.stacks",
+        "doubleMultiplier": "executionThresholds.0.multiplier",
+        "tripleThreshold": "executionThresholds.1.stacks",
+        "tripleMultiplier": "executionThresholds.1.multiplier"
+      },
+      "executionThresholds": [
+        {
+          "stacks": 10,
+          "multiplier": 2
+        },
+        {
+          "stacks": 20,
+          "multiplier": 3
+        }
+      ],
+      "appliesToNext": "GambleSkillExecution",
+      "consumedOnActivation": true
     }
   },
   "applyTags": {

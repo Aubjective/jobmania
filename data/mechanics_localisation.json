@@ -83,7 +83,8 @@
         "mechanic.maxHPActionDebuff": "Max HP Action Debuff",
         "mechanic.protectiveHeal": "Protective Heal",
         "mechanic.offensiveHeal": "Offensive Heal",
-        "mechanic.overloaded": "Overloaded"
+        "mechanic.overloaded": "Overloaded",
+        "mechanic.gambleToken": "Gamble Token"
       },
       "mechanicNames": {
         "Strength Buff": "Strength Buff",
@@ -219,7 +220,8 @@
         "statActionDebuff": "Debuff one action's {stat} attack, heal and Protect by {percent}% for each stack. (Max {max}/upgrade {upgradeMax} stacks. Consumed on activation, [End-Of-Turn] passives will also consume this debuff)",
         "protectiveHeal": "For each stack, {percent}% of the excess heal will instead turn into Protect on self. (Max {maxPercent}%. Excludes drain healing)",
         "offensiveHeal": "For each stack, {percent}% of the excess heal will instead damage the opponent. (Max {maxPercent}%. Excludes drain healing)",
-        "overloaded": "Consume X actions and repeat the ability X times, where X is the user's remaining AP. (As a hero's ability, or when enemy monsters use it, gain extra 1 time(s))"
+        "overloaded": "Consume X actions and repeat the ability X times, where X is the user's remaining AP. (As a hero's ability, or when enemy monsters use it, gain extra 1 time(s))",
+        "gambleToken": "With {doubleThreshold} or more stacks, multiply the next Gamble Skill's execution by {doubleMultiplier}; execution x{tripleMultiplier} if there are {tripleThreshold} stacks. (Consume on activation)"
       }
     },
     "zh-CN": {
