@@ -1,5 +1,5 @@
 {
-  "version": 21,
+  "version": 22,
   "source": "Jobmania Database Guides and Skill Unit sheets, Localization Skills Description sheet, plus confirmed in-game descriptions",
   "powerLv": {
     "stat": {
@@ -1440,6 +1440,246 @@
       "damageBasedOn": "OpponentMaxHP",
       "removedOnTrigger": true,
       "upgradeDamagePercentPerStack": 5
+    },
+    "Strength Action Buff": {
+      "family": "Stat Action Modifier",
+      "familyKey": "statActionModifier",
+      "variant": "buff",
+      "skillUnit": "InstantBoost",
+      "effect": "Strength",
+      "stat": "Strength",
+      "termKey": "mechanic.strengthActionBuff",
+      "localisationKey": "XActBuffDescr",
+      "mechanicConfirmed": true,
+      "confirmationSource": "sheet+localisation",
+      "clickable": true,
+      "templateKey": "statActionBuff",
+      "templateArgs": {
+        "stat": "stat",
+        "percent": "percentPerStack",
+        "max": "maxStacks",
+        "upgradeMax": "upgradeMaxStacks"
+      },
+      "percentPerStack": 5,
+      "maxStacks": 15,
+      "upgradeMaxStacks": 20,
+      "affectedValues": [
+        "attack",
+        "heal",
+        "protect"
+      ],
+      "consumedOnActivation": true,
+      "endOfTurnPassivesAlsoConsume": true
+    },
+    "Strength Action Debuff": {
+      "family": "Stat Action Modifier",
+      "familyKey": "statActionModifier",
+      "variant": "debuff",
+      "skillUnit": "InstantNerf",
+      "effect": "Strength",
+      "stat": "Strength",
+      "termKey": "mechanic.strengthActionDebuff",
+      "localisationKey": "XActDebuffDescr",
+      "mechanicConfirmed": true,
+      "confirmationSource": "sheet+localisation",
+      "clickable": true,
+      "templateKey": "statActionDebuff",
+      "templateArgs": {
+        "stat": "stat",
+        "percent": "percentPerStack",
+        "max": "maxStacks",
+        "upgradeMax": "upgradeMaxStacks"
+      },
+      "percentPerStack": 5,
+      "maxStacks": 5,
+      "upgradeMaxStacks": 10,
+      "affectedValues": [
+        "attack",
+        "heal",
+        "protect"
+      ],
+      "consumedOnActivation": true,
+      "endOfTurnPassivesAlsoConsume": true
+    },
+    "Agility Action Buff": {
+      "family": "Stat Action Modifier",
+      "familyKey": "statActionModifier",
+      "variant": "buff",
+      "skillUnit": "InstantBoost",
+      "effect": "Agility",
+      "stat": "Agility",
+      "termKey": "mechanic.agilityActionBuff",
+      "localisationKey": "XActBuffDescr",
+      "mechanicConfirmed": true,
+      "confirmationSource": "sheet+localisation",
+      "clickable": true,
+      "templateKey": "statActionBuff",
+      "templateArgs": {
+        "stat": "stat",
+        "percent": "percentPerStack",
+        "max": "maxStacks",
+        "upgradeMax": "upgradeMaxStacks"
+      },
+      "percentPerStack": 5,
+      "maxStacks": 15,
+      "upgradeMaxStacks": 20,
+      "affectedValues": [
+        "attack",
+        "heal",
+        "protect"
+      ],
+      "consumedOnActivation": true,
+      "endOfTurnPassivesAlsoConsume": true
+    },
+    "Agility Action Debuff": {
+      "family": "Stat Action Modifier",
+      "familyKey": "statActionModifier",
+      "variant": "debuff",
+      "skillUnit": "InstantNerf",
+      "effect": "Agility",
+      "stat": "Agility",
+      "termKey": "mechanic.agilityActionDebuff",
+      "localisationKey": "XActDebuffDescr",
+      "mechanicConfirmed": true,
+      "confirmationSource": "sheet+localisation",
+      "clickable": true,
+      "templateKey": "statActionDebuff",
+      "templateArgs": {
+        "stat": "stat",
+        "percent": "percentPerStack",
+        "max": "maxStacks",
+        "upgradeMax": "upgradeMaxStacks"
+      },
+      "percentPerStack": 5,
+      "maxStacks": 5,
+      "upgradeMaxStacks": 10,
+      "affectedValues": [
+        "attack",
+        "heal",
+        "protect"
+      ],
+      "consumedOnActivation": true,
+      "endOfTurnPassivesAlsoConsume": true
+    },
+    "Intelligence Action Buff": {
+      "family": "Stat Action Modifier",
+      "familyKey": "statActionModifier",
+      "variant": "buff",
+      "skillUnit": "InstantBoost",
+      "effect": "Intelligence",
+      "stat": "Intelligence",
+      "termKey": "mechanic.intelligenceActionBuff",
+      "localisationKey": "XActBuffDescr",
+      "mechanicConfirmed": true,
+      "confirmationSource": "sheet+localisation",
+      "clickable": true,
+      "templateKey": "statActionBuff",
+      "templateArgs": {
+        "stat": "stat",
+        "percent": "percentPerStack",
+        "max": "maxStacks",
+        "upgradeMax": "upgradeMaxStacks"
+      },
+      "percentPerStack": 5,
+      "maxStacks": 15,
+      "upgradeMaxStacks": 20,
+      "affectedValues": [
+        "attack",
+        "heal",
+        "protect"
+      ],
+      "consumedOnActivation": true,
+      "endOfTurnPassivesAlsoConsume": true
+    },
+    "Intelligence Action Debuff": {
+      "family": "Stat Action Modifier",
+      "familyKey": "statActionModifier",
+      "variant": "debuff",
+      "skillUnit": "InstantNerf",
+      "effect": "Intelligence",
+      "stat": "Intelligence",
+      "termKey": "mechanic.intelligenceActionDebuff",
+      "localisationKey": "XActDebuffDescr",
+      "mechanicConfirmed": true,
+      "confirmationSource": "sheet+localisation",
+      "clickable": true,
+      "templateKey": "statActionDebuff",
+      "templateArgs": {
+        "stat": "stat",
+        "percent": "percentPerStack",
+        "max": "maxStacks",
+        "upgradeMax": "upgradeMaxStacks"
+      },
+      "percentPerStack": 5,
+      "maxStacks": 5,
+      "upgradeMaxStacks": 10,
+      "affectedValues": [
+        "attack",
+        "heal",
+        "protect"
+      ],
+      "consumedOnActivation": true,
+      "endOfTurnPassivesAlsoConsume": true
+    },
+    "Max HP Action Buff": {
+      "family": "Stat Action Modifier",
+      "familyKey": "statActionModifier",
+      "variant": "buff",
+      "skillUnit": "InstantBoost",
+      "effect": "MaxHP",
+      "stat": "MaxHP",
+      "termKey": "mechanic.maxHPActionBuff",
+      "localisationKey": "XActBuffDescr",
+      "mechanicConfirmed": true,
+      "confirmationSource": "sheet+localisation",
+      "clickable": true,
+      "templateKey": "statActionBuff",
+      "templateArgs": {
+        "stat": "stat",
+        "percent": "percentPerStack",
+        "max": "maxStacks",
+        "upgradeMax": "upgradeMaxStacks"
+      },
+      "percentPerStack": 5,
+      "maxStacks": 15,
+      "upgradeMaxStacks": 20,
+      "affectedValues": [
+        "attack",
+        "heal",
+        "protect"
+      ],
+      "consumedOnActivation": true,
+      "endOfTurnPassivesAlsoConsume": true
+    },
+    "Max HP Action Debuff": {
+      "family": "Stat Action Modifier",
+      "familyKey": "statActionModifier",
+      "variant": "debuff",
+      "skillUnit": "InstantNerf",
+      "effect": "MaxHP",
+      "stat": "MaxHP",
+      "termKey": "mechanic.maxHPActionDebuff",
+      "localisationKey": "XActDebuffDescr",
+      "mechanicConfirmed": true,
+      "confirmationSource": "sheet+localisation",
+      "clickable": true,
+      "templateKey": "statActionDebuff",
+      "templateArgs": {
+        "stat": "stat",
+        "percent": "percentPerStack",
+        "max": "maxStacks",
+        "upgradeMax": "upgradeMaxStacks"
+      },
+      "percentPerStack": 5,
+      "maxStacks": 5,
+      "upgradeMaxStacks": 10,
+      "affectedValues": [
+        "attack",
+        "heal",
+        "protect"
+      ],
+      "consumedOnActivation": true,
+      "endOfTurnPassivesAlsoConsume": true
     }
   },
   "applyTags": {
@@ -1554,6 +1794,40 @@
           "damagePercentPerStack": 2.5,
           "upgradeDamagePercentPerStack": 5,
           "damageBasedOn": "OpponentMaxHP"
+        }
+      }
+    }
+  },
+  "mechanicFamilies": {
+    "statActionModifier": {
+      "mechanicConfirmed": true,
+      "confirmationSource": "sheet+localisation",
+      "stats": [
+        "Strength",
+        "Agility",
+        "Intelligence",
+        "MaxHP"
+      ],
+      "percentPerStack": 5,
+      "affectedValues": [
+        "attack",
+        "heal",
+        "protect"
+      ],
+      "consumedOnActivation": true,
+      "endOfTurnPassivesAlsoConsume": true,
+      "variants": {
+        "buff": {
+          "skillUnit": "InstantBoost",
+          "direction": "increase",
+          "maxStacks": 15,
+          "upgradeMaxStacks": 20
+        },
+        "debuff": {
+          "skillUnit": "InstantNerf",
+          "direction": "decrease",
+          "maxStacks": 5,
+          "upgradeMaxStacks": 10
         }
       }
     }
