@@ -84,7 +84,10 @@
         "mechanic.protectiveHeal": "Protective Heal",
         "mechanic.offensiveHeal": "Offensive Heal",
         "mechanic.overloaded": "Overloaded",
-        "mechanic.gambleToken": "Gamble Token"
+        "mechanic.gambleToken": "Gamble Token",
+        "mechanic.preparation": "Preparation",
+        "mechanic.pureElement": "Pure Element",
+        "mechanic.focusEnergy": "Focus Energy"
       },
       "mechanicNames": {
         "Strength Buff": "Strength Buff",
@@ -221,7 +224,10 @@
         "protectiveHeal": "For each stack, {percent}% of the excess heal will instead turn into Protect on self. (Max {maxPercent}%. Excludes drain healing)",
         "offensiveHeal": "For each stack, {percent}% of the excess heal will instead damage the opponent. (Max {maxPercent}%. Excludes drain healing)",
         "overloaded": "Consume X actions and repeat the ability X times, where X is the user's remaining AP. (As a hero's ability, or when enemy monsters use it, gain extra 1 time(s))",
-        "gambleToken": "With {doubleThreshold} or more stacks, multiply the next Gamble Skill's execution by {doubleMultiplier}; execution x{tripleMultiplier} if there are {tripleThreshold} stacks. (Consume on activation)"
+        "gambleToken": "With {doubleThreshold} or more stacks, multiply the next Gamble Skill's execution by {doubleMultiplier}; execution x{tripleMultiplier} if there are {tripleThreshold} stacks. (Consume on activation)",
+        "preparation": "The ability with the same name can only be used once per turn. If it is a Hero Ability, it will have 1 extra turn of cooldown.",
+        "pureElement": "Increase existing element stacks; otherwise get a random element from Fire, Water, Thunder, Earth, Wind, Light or Dark.",
+        "focusEnergy": "The damage and healing of this skill is increased by {percent}% for each distinct buff on self. (Max {max} buffs / upgraded {upgradeMax} buffs.)"
       }
     },
     "zh-CN": {

@@ -1,5 +1,5 @@
 {
-  "version": 25,
+  "version": 26,
   "source": "Jobmania Database Guides and Skill Unit sheets, Localization Skills Description sheet, plus confirmed in-game descriptions",
   "powerLv": {
     "stat": {
@@ -1773,6 +1773,68 @@
       ],
       "appliesToNext": "GambleSkillExecution",
       "consumedOnActivation": true
+    },
+    "Preparation": {
+      "family": "Apply Tag",
+      "applyTag": true,
+      "skillUnit": "ApplyOn",
+      "effect": "Preparation",
+      "termKey": "mechanic.preparation",
+      "localisationKey": "PreparationDescr",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet+localisation",
+      "clickable": true,
+      "templateKey": "preparation",
+      "sameNameAbilityLimitPerTurn": 1,
+      "heroAbilityExtraCooldownTurns": 1
+    },
+    "Pure Element": {
+      "family": "Apply Tag",
+      "applyTag": true,
+      "skillUnit": "ApplyOn",
+      "effect": "PureElement",
+      "termKey": "mechanic.pureElement",
+      "localisationKey": "PureElementDescr",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet+localisation",
+      "clickable": true,
+      "templateKey": "pureElement",
+      "increaseExistingElementStacks": true,
+      "ifNoExistingElementStack": "RandomElement",
+      "randomElementPool": [
+        "Fire",
+        "Water",
+        "Thunder",
+        "Earth",
+        "Wind",
+        "Light",
+        "Dark"
+      ]
+    },
+    "Focus Energy": {
+      "family": "Apply Tag",
+      "applyTag": true,
+      "skillUnit": "ApplyOn",
+      "effect": "BuffCount",
+      "termKey": "mechanic.focusEnergy",
+      "localisationKey": "FocusEnergyDescr",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet+localisation",
+      "clickable": true,
+      "templateKey": "focusEnergy",
+      "templateArgs": {
+        "percent": "increasePercentPerDistinctBuff",
+        "max": "maxDistinctBuffs",
+        "upgradeMax": "upgradeMaxDistinctBuffs"
+      },
+      "increasePercentPerDistinctBuff": 8,
+      "countsDistinctBuffsOnSelf": true,
+      "affectedValues": [
+        "damage",
+        "healing"
+      ],
+      "maxDistinctBuffs": 9,
+      "upgradeMaxDistinctBuffs": 15
     }
   },
   "applyTags": {
