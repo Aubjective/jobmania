@@ -1,0 +1,114 @@
+name: Update Preparation Pure Element Focus Energy
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-preparation-pureelement-focusenergy.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update mechanic data
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          mp = Path('data/mechanics.json')
+          data = json.loads(mp.read_text())
+          defs = data.setdefault('effectDefinitions', {})
+
+          defs['Preparation'] = {
+            'family': 'Apply Tag',
+            'applyTag': True,
+            'skillUnit': 'ApplyOn',
+            'effect': 'Preparation',
+            'termKey': 'mechanic.preparation',
+            'localisationKey': 'PreparationDescr',
+            'mechanicConfirmed': True,
+            'confirmationSource': 'live+sheet+localisation',
+            'clickable': True,
+            'templateKey': 'preparation',
+            'sameNameAbilityLimitPerTurn': 1,
+            'heroAbilityExtraCooldownTurns': 1
+          }
+
+          defs['Pure Element'] = {
+            'family': 'Apply Tag',
+            'applyTag': True,
+            'skillUnit': 'ApplyOn',
+            'effect': 'PureElement',
+            'termKey': 'mechanic.pureElement',
+            'localisationKey': 'PureElementDescr',
+            'mechanicConfirmed': True,
+            'confirmationSource': 'live+sheet+localisation',
+            'clickable': True,
+            'templateKey': 'pureElement',
+            'increaseExistingElementStacks': True,
+            'ifNoExistingElementStack': 'RandomElement',
+            'randomElementPool': ['Fire','Water','Thunder','Earth','Wind','Light','Dark']
+          }
+
+          defs['Focus Energy'] = {
+            'family': 'Apply Tag',
+            'applyTag': True,
+            'skillUnit': 'ApplyOn',
+            'effect': 'BuffCount',
+            'termKey': 'mechanic.focusEnergy',
+            'localisationKey': 'FocusEnergyDescr',
+            'mechanicConfirmed': True,
+            'confirmationSource': 'live+sheet+localisation',
+            'clickable': True,
+            'templateKey': 'focusEnergy',
+            'templateArgs': {
+              'percent': 'increasePercentPerDistinctBuff',
+              'max': 'maxDistinctBuffs',
+              'upgradeMax': 'upgradeMaxDistinctBuffs'
+            },
+            'increasePercentPerDistinctBuff': 8,
+            'countsDistinctBuffsOnSelf': True,
+            'affectedValues': ['damage','healing'],
+            'maxDistinctBuffs': 9,
+            'upgradeMaxDistinctBuffs': 15
+          }
+
+          data['version'] = max(int(data.get('version', 0)), 26)
+          mp.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
+
+          lp = Path('data/mechanics_localisation.json')
+          loc = json.loads(lp.read_text())
+          locales = loc.setdefault('locales', {})
+          additions = {
+            'en': {
+              'terms': {
+                'mechanic.preparation': 'Preparation',
+                'mechanic.pureElement': 'Pure Element',
+                'mechanic.focusEnergy': 'Focus Energy'
+              },
+              'templates': {
+                'preparation': 'The ability with the same name can only be used once per turn. If it is a Hero Ability, it will have 1 extra turn of cooldown.',
+                'pureElement': 'Increase existing element stacks; otherwise get a random element from Fire, Water, Thunder, Earth, Wind, Light or Dark.',
+                'focusEnergy': 'The damage and healing of this skill is increased by {percent}% for each distinct buff on self. (Max {max} buffs / upgraded {upgradeMax} buffs.)'
+              }
+            }
+          }
+          for locale, payload in additions.items():
+              target = locales.setdefault(locale, {})
+              target.setdefault('terms', {}).update(payload['terms'])
+              target.setdefault('templates', {}).update(payload['templates'])
+          loc['version'] = max(int(loc.get('version', 0)), 22)
+          lp.write_text(json.dumps(loc, ensure_ascii=False, indent=2) + '\n')
+          PY
+      - name: Commit changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/mechanics.json data/mechanics_localisation.json
+          git diff --cached --quiet || git commit -m 'Add confirmed Preparation Pure Element and Focus Energy mechanics'
+          git push
