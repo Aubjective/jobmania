@@ -1,5 +1,5 @@
 {
-  "version": 19,
+  "version": 20,
   "source": "Jobmania Database Guides and Skill Unit sheets, Localization Skills Description sheet, plus confirmed in-game descriptions",
   "powerLv": {
     "stat": {
@@ -1152,6 +1152,113 @@
       "playerPercentPerHeroLevel": 15,
       "heroesModeAdditionalPercent": 1000,
       "enemyPercentPerLevel": 3
+    },
+    "Injury": {
+      "skillUnit": "Debuff",
+      "effect": "Injury",
+      "termKey": "mechanic.injury",
+      "localisationKey": "InjuryXDescr",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet+localisation",
+      "clickable": true,
+      "templateKey": "injury",
+      "templateArgs": {
+        "percent": "attackDamageReductionPercentPerStack",
+        "max": "maxStacks",
+        "upgradeMax": "upgradeMaxStacks"
+      },
+      "attackDamageReductionPercentPerStack": 3,
+      "maxStacks": 8,
+      "upgradeMaxStacks": 15,
+      "stackReductionAt": "TurnEnd",
+      "stackReduction": "half"
+    },
+    "Tenacity": {
+      "skillUnit": "Protect",
+      "effect": "Delay",
+      "termKey": "mechanic.tenacity",
+      "localisationKey": "TenacityDescr",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet+localisation",
+      "clickable": true,
+      "templateKey": "tenacity",
+      "dotDamageMultiplier": 0.5,
+      "dotDamageReductionPercent": 50,
+      "affectedDotEffects": [
+        "Burn",
+        "Bleed",
+        "Venom",
+        "Restrain",
+        "Insane"
+      ]
+    },
+    "Charge Master": {
+      "skillUnit": "Upgrade",
+      "effect": "Charge",
+      "termKey": "mechanic.chargeMaster",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet",
+      "clickable": true,
+      "templateKey": "chargeMaster",
+      "upgrades": [
+        "Charge",
+        "Stack Charge"
+      ]
+    },
+    "After Action Passive": {
+      "family": "System Rule",
+      "termKey": "mechanic.afterActionPassive",
+      "localisationKey": "AfterActionPassive",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+localisation",
+      "clickable": true,
+      "templateKey": "afterActionPassive",
+      "resolutionOrder": [
+        "AfterActionDamage",
+        "AfterActionHeal",
+        "AfterActionBuff",
+        "AfterActionDebuff"
+      ],
+      "buffsAndDebuffsResolveAfterDamageAndHeal": true
+    },
+    "Thunder Sigil": {
+      "family": "Element Sigil",
+      "familyElement": "Thunder",
+      "skillUnit": "Mark",
+      "effect": "Thunder",
+      "termKey": "mechanic.thunderSigil",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet",
+      "clickable": true,
+      "templateKey": "thunderSigil",
+      "maxStacks": 10,
+      "upgradeMaxStacks": 10,
+      "status": "Paralysis",
+      "immunityBypassChancePercentPerStack": 3,
+      "triggerElement": "Thunder",
+      "triggerElementSources": [
+        "AbilityElement",
+        "CharacterElementStack"
+      ],
+      "damagePercentPerStack": 5,
+      "damageBasedOn": "OpponentStrongestAttribute",
+      "removedAt": "TurnEnd"
+    },
+    "Elemental Burst": {
+      "family": "Apply Tag",
+      "applyTag": true,
+      "skillUnit": "ApplyOn",
+      "effect": "Element",
+      "termKey": "mechanic.elementalBurst",
+      "localisationKey": "ElementalBurst",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet+localisation",
+      "clickable": true,
+      "templateKey": "elementalBurst",
+      "triggerAt": "AttackEffect",
+      "requiresAttackElementMatchesOpponentElementalVulnerable": true,
+      "removeMatchingElementalVulnerable": true,
+      "bonusDamagePercentPerRemovedStack": 5
     }
   },
   "applyTags": {
