@@ -1,5 +1,5 @@
 {
-  "version": 18,
+  "version": 19,
   "locales": {
     "en": {
       "terms": {
@@ -62,7 +62,17 @@
         "mechanic.chargeMaster": "Charge Master",
         "mechanic.afterActionPassive": "After Action Passive",
         "mechanic.thunderSigil": "Thunder Sigil",
-        "mechanic.elementalBurst": "Elemental Burst"
+        "mechanic.elementalBurst": "Elemental Burst",
+        "mechanic.fireSigil": "Fire Sigil",
+        "mechanic.waterSigil": "Water Sigil",
+        "mechanic.earthSigil": "Earth Sigil",
+        "mechanic.windSigil": "Wind Sigil",
+        "mechanic.lightSigil": "Light Sigil",
+        "mechanic.darkSigil": "Dark Sigil",
+        "mechanic.strengthSigil": "Strength Sigil",
+        "mechanic.agilitySigil": "Agility Sigil",
+        "mechanic.intelligenceSigil": "Intelligence Sigil",
+        "mechanic.maxhpSigil": "Max HP Sigil"
       },
       "mechanicNames": {
         "Strength Buff": "Strength Buff",
@@ -112,7 +122,17 @@
         "Charge Master": "Charge Master",
         "After Action Passive": "After Action Passive",
         "Thunder Sigil": "Thunder Sigil",
-        "Elemental Burst": "Elemental Burst"
+        "Elemental Burst": "Elemental Burst",
+        "Fire Sigil": "Fire Sigil",
+        "Water Sigil": "Water Sigil",
+        "Earth Sigil": "Earth Sigil",
+        "Wind Sigil": "Wind Sigil",
+        "Light Sigil": "Light Sigil",
+        "Dark Sigil": "Dark Sigil",
+        "Strength Sigil": "Strength Sigil",
+        "Agility Sigil": "Agility Sigil",
+        "Intelligence Sigil": "Intelligence Sigil",
+        "MaxHP Sigil": "Max HP Sigil"
       },
       "nameTemplates": {
         "element": "{element} Element",
@@ -172,7 +192,10 @@
         "chargeMaster": "Upgrade Charge and Stack Charge skills.",
         "afterActionPassive": "After-action buffs and debuffs will always execute after after-action damage and heal.",
         "thunderSigil": "For each stack, Paralysis debuffs have a 3% chance to bypass your Paralysis immunity. Additionally, whenever an ability with the Thunder element is used (either from the ability itself or the character's element stack), you suffer 5% damage per sigil stack, based on the opponent's strongest attribute. (Max 10 stacks. Removed at the end of the turn.)",
-        "elementalBurst": "When the element of the attack matches the opponent's elemental Vulnerable, remove the corresponding Vulnerable and further increase the damage by 5% per stack removed."
+        "elementalBurst": "When the element of the attack matches the opponent's elemental Vulnerable, remove the corresponding Vulnerable and further increase the damage by 5% per stack removed.",
+        "elementSigil": "For each stack, {status} debuffs have a 3% chance to bypass your {status} immunity. Additionally, whenever an ability with the {element} element is used (either from the ability itself or the character's element stack), you suffer 5% damage per sigil stack, based on the opponent's strongest attribute. (Max 10 stacks. Removed at the end of the turn.)",
+        "statSigil": "When receiving matching stat damage, suffer 20% additional damage per Sigil stack based on the opponent's matching stat. Remove the Sigil when triggered.",
+        "statSigilMaxHP": "When receiving Max HP damage, suffer 2.5% additional damage per Sigil stack based on the opponent's Max HP, or 5% if upgraded. Remove the Sigil when triggered."
       }
     },
     "zh-CN": {

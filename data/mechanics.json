@@ -1,5 +1,5 @@
 {
-  "version": 20,
+  "version": 21,
   "source": "Jobmania Database Guides and Skill Unit sheets, Localization Skills Description sheet, plus confirmed in-game descriptions",
   "powerLv": {
     "stat": {
@@ -1221,29 +1221,6 @@
       ],
       "buffsAndDebuffsResolveAfterDamageAndHeal": true
     },
-    "Thunder Sigil": {
-      "family": "Element Sigil",
-      "familyElement": "Thunder",
-      "skillUnit": "Mark",
-      "effect": "Thunder",
-      "termKey": "mechanic.thunderSigil",
-      "mechanicConfirmed": true,
-      "confirmationSource": "live+sheet",
-      "clickable": true,
-      "templateKey": "thunderSigil",
-      "maxStacks": 10,
-      "upgradeMaxStacks": 10,
-      "status": "Paralysis",
-      "immunityBypassChancePercentPerStack": 3,
-      "triggerElement": "Thunder",
-      "triggerElementSources": [
-        "AbilityElement",
-        "CharacterElementStack"
-      ],
-      "damagePercentPerStack": 5,
-      "damageBasedOn": "OpponentStrongestAttribute",
-      "removedAt": "TurnEnd"
-    },
     "Elemental Burst": {
       "family": "Apply Tag",
       "applyTag": true,
@@ -1259,6 +1236,210 @@
       "requiresAttackElementMatchesOpponentElementalVulnerable": true,
       "removeMatchingElementalVulnerable": true,
       "bonusDamagePercentPerRemovedStack": 5
+    },
+    "Fire Sigil": {
+      "family": "Element Sigil",
+      "skillUnit": "Mark",
+      "effect": "Fire",
+      "termKey": "mechanic.fireSigil",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet+localisation",
+      "clickable": true,
+      "templateKey": "elementSigil",
+      "templateArgs": {
+        "element": "effect",
+        "status": "status"
+      },
+      "status": "Burn",
+      "immunityBypassChancePercentPerStack": 3,
+      "damagePercentPerStack": 5,
+      "damageBasedOn": "OpponentStrongestAttribute",
+      "maxStacks": 10,
+      "upgradeMaxStacks": 10,
+      "removedAt": "TurnEnd"
+    },
+    "Water Sigil": {
+      "family": "Element Sigil",
+      "skillUnit": "Mark",
+      "effect": "Water",
+      "termKey": "mechanic.waterSigil",
+      "mechanicConfirmed": true,
+      "confirmationSource": "family-confirmed+sheet+localisation",
+      "clickable": true,
+      "templateKey": "elementSigil",
+      "templateArgs": {
+        "element": "effect",
+        "status": "status"
+      },
+      "status": "Chill",
+      "immunityBypassChancePercentPerStack": 3,
+      "damagePercentPerStack": 5,
+      "damageBasedOn": "OpponentStrongestAttribute",
+      "maxStacks": 10,
+      "upgradeMaxStacks": 10,
+      "removedAt": "TurnEnd"
+    },
+    "Thunder Sigil": {
+      "family": "Element Sigil",
+      "skillUnit": "Mark",
+      "effect": "Thunder",
+      "termKey": "mechanic.thunderSigil",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet+localisation",
+      "clickable": true,
+      "templateKey": "elementSigil",
+      "templateArgs": {
+        "element": "effect",
+        "status": "status"
+      },
+      "status": "Paralysis",
+      "immunityBypassChancePercentPerStack": 3,
+      "damagePercentPerStack": 5,
+      "damageBasedOn": "OpponentStrongestAttribute",
+      "maxStacks": 10,
+      "upgradeMaxStacks": 10,
+      "removedAt": "TurnEnd"
+    },
+    "Earth Sigil": {
+      "family": "Element Sigil",
+      "skillUnit": "Mark",
+      "effect": "Earth",
+      "termKey": "mechanic.earthSigil",
+      "mechanicConfirmed": true,
+      "confirmationSource": "family-confirmed+sheet+localisation",
+      "clickable": true,
+      "templateKey": "elementSigil",
+      "templateArgs": {
+        "element": "effect",
+        "status": "status"
+      },
+      "status": "Seed",
+      "immunityBypassChancePercentPerStack": 3,
+      "damagePercentPerStack": 5,
+      "damageBasedOn": "OpponentStrongestAttribute",
+      "maxStacks": 10,
+      "upgradeMaxStacks": 10,
+      "removedAt": "TurnEnd"
+    },
+    "Wind Sigil": {
+      "family": "Element Sigil",
+      "skillUnit": "Mark",
+      "effect": "Wind",
+      "termKey": "mechanic.windSigil",
+      "mechanicConfirmed": true,
+      "confirmationSource": "family-confirmed+sheet+localisation",
+      "clickable": true,
+      "templateKey": "elementSigil",
+      "templateArgs": {
+        "element": "effect",
+        "status": "status"
+      },
+      "status": "Dizzy",
+      "immunityBypassChancePercentPerStack": 3,
+      "damagePercentPerStack": 5,
+      "damageBasedOn": "OpponentStrongestAttribute",
+      "maxStacks": 10,
+      "upgradeMaxStacks": 10,
+      "removedAt": "TurnEnd"
+    },
+    "Light Sigil": {
+      "family": "Element Sigil",
+      "skillUnit": "Mark",
+      "effect": "Light",
+      "termKey": "mechanic.lightSigil",
+      "mechanicConfirmed": true,
+      "confirmationSource": "family-confirmed+sheet+localisation",
+      "clickable": true,
+      "templateKey": "elementSigil",
+      "templateArgs": {
+        "element": "effect",
+        "status": "status"
+      },
+      "status": "Blind",
+      "immunityBypassChancePercentPerStack": 3,
+      "damagePercentPerStack": 5,
+      "damageBasedOn": "OpponentStrongestAttribute",
+      "maxStacks": 10,
+      "upgradeMaxStacks": 10,
+      "removedAt": "TurnEnd"
+    },
+    "Dark Sigil": {
+      "family": "Element Sigil",
+      "skillUnit": "Mark",
+      "effect": "Dark",
+      "termKey": "mechanic.darkSigil",
+      "mechanicConfirmed": true,
+      "confirmationSource": "family-confirmed+sheet+localisation",
+      "clickable": true,
+      "templateKey": "elementSigil",
+      "templateArgs": {
+        "element": "effect",
+        "status": "status"
+      },
+      "status": "Depress",
+      "immunityBypassChancePercentPerStack": 3,
+      "damagePercentPerStack": 5,
+      "damageBasedOn": "OpponentStrongestAttribute",
+      "maxStacks": 10,
+      "upgradeMaxStacks": 10,
+      "removedAt": "TurnEnd"
+    },
+    "Strength Sigil": {
+      "family": "Stat Sigil",
+      "skillUnit": "Mark",
+      "effect": "Strength",
+      "termKey": "mechanic.strengthSigil",
+      "mechanicConfirmed": true,
+      "confirmationSource": "sheet+localisation",
+      "clickable": true,
+      "templateKey": "statSigil",
+      "triggerAt": "ReceiveMatchingStatDamage",
+      "damagePercentPerStack": 20,
+      "damageBasedOn": "OpponentStrength",
+      "removedOnTrigger": true
+    },
+    "Agility Sigil": {
+      "family": "Stat Sigil",
+      "skillUnit": "Mark",
+      "effect": "Agility",
+      "termKey": "mechanic.agilitySigil",
+      "mechanicConfirmed": true,
+      "confirmationSource": "sheet+localisation",
+      "clickable": true,
+      "templateKey": "statSigil",
+      "triggerAt": "ReceiveMatchingStatDamage",
+      "damagePercentPerStack": 20,
+      "damageBasedOn": "OpponentAgility",
+      "removedOnTrigger": true
+    },
+    "Intelligence Sigil": {
+      "family": "Stat Sigil",
+      "skillUnit": "Mark",
+      "effect": "Intelligence",
+      "termKey": "mechanic.intelligenceSigil",
+      "mechanicConfirmed": true,
+      "confirmationSource": "sheet+localisation",
+      "clickable": true,
+      "templateKey": "statSigil",
+      "triggerAt": "ReceiveMatchingStatDamage",
+      "damagePercentPerStack": 20,
+      "damageBasedOn": "OpponentIntelligence",
+      "removedOnTrigger": true
+    },
+    "MaxHP Sigil": {
+      "family": "Stat Sigil",
+      "skillUnit": "Mark",
+      "effect": "MaxHP",
+      "termKey": "mechanic.maxhpSigil",
+      "mechanicConfirmed": true,
+      "confirmationSource": "sheet+localisation",
+      "clickable": true,
+      "templateKey": "statSigilMaxHP",
+      "triggerAt": "ReceiveMatchingStatDamage",
+      "damagePercentPerStack": 2.5,
+      "damageBasedOn": "OpponentMaxHP",
+      "removedOnTrigger": true,
+      "upgradeDamagePercentPerStack": 5
     }
   },
   "applyTags": {
@@ -1308,5 +1489,73 @@
     "Food": "Food",
     "Tool": "Tool",
     "Prepare": "Preparation"
+  },
+  "sigilFamilies": {
+    "element": {
+      "family": "Element Sigil",
+      "skillUnit": "Mark",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet+localisation",
+      "clickable": true,
+      "templateKey": "elementSigil",
+      "immunityBypassChancePercentPerStack": 3,
+      "damagePercentPerStack": 5,
+      "damageBasedOn": "OpponentStrongestAttribute",
+      "maxStacks": 10,
+      "upgradeMaxStacks": 10,
+      "removedAt": "TurnEnd",
+      "variants": {
+        "Fire": {
+          "status": "Burn"
+        },
+        "Water": {
+          "status": "Chill"
+        },
+        "Thunder": {
+          "status": "Paralysis"
+        },
+        "Earth": {
+          "status": "Seed"
+        },
+        "Wind": {
+          "status": "Dizzy"
+        },
+        "Light": {
+          "status": "Blind"
+        },
+        "Dark": {
+          "status": "Depress"
+        }
+      }
+    },
+    "stat": {
+      "family": "Stat Sigil",
+      "skillUnit": "Mark",
+      "mechanicConfirmed": true,
+      "confirmationSource": "sheet+localisation",
+      "clickable": true,
+      "templateKey": "statSigil",
+      "triggerAt": "ReceiveMatchingStatDamage",
+      "removedOnTrigger": true,
+      "variants": {
+        "Strength": {
+          "damagePercentPerStack": 20,
+          "damageBasedOn": "OpponentStrength"
+        },
+        "Agility": {
+          "damagePercentPerStack": 20,
+          "damageBasedOn": "OpponentAgility"
+        },
+        "Intelligence": {
+          "damagePercentPerStack": 20,
+          "damageBasedOn": "OpponentIntelligence"
+        },
+        "MaxHP": {
+          "damagePercentPerStack": 2.5,
+          "upgradeDamagePercentPerStack": 5,
+          "damageBasedOn": "OpponentMaxHP"
+        }
+      }
+    }
   }
 }
