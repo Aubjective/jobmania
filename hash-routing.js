@@ -17,6 +17,7 @@
 
     let applyingRoute = false;
     let bootstrapped = false;
+    let lastHandledHref = '';
 
     function viewHash(view) {
         return `#/${String(view || 'Home').toLowerCase()}`;
@@ -47,6 +48,7 @@
         } finally {
             applyingRoute = false;
         }
+        lastHandledHref = window.location.href;
         return true;
     }
 
@@ -55,7 +57,14 @@
             renderRoute(parseHash());
             return;
         }
-        const state = { ...(history.state || {}), jobmaniaRoute: true };
+
+        const currentDepth = Number(history.state?.jobmaniaDepth || 0);
+        const state = {
+            ...(history.state || {}),
+            jobmaniaRoute: true,
+            jobmaniaDepth: replace ? currentDepth : currentDepth + 1
+        };
+
         if (replace) history.replaceState(state, '', hash);
         else history.pushState(state, '', hash);
         renderRoute(parseHash());
@@ -63,15 +72,13 @@
 
     function applyCurrentHash() {
         const route = parseHash();
-        if (!route) {
-            navigate('#/home', true);
+        if (!route || !window.location.hash) {
+            history.replaceState({ ...(history.state || {}), jobmaniaRoute: true, jobmaniaDepth: 0 }, '', '#/home');
+            renderRoute({ type: 'view', view: 'Home' });
             return;
         }
-        if (!window.location.hash) {
-            navigate('#/home', true);
-            return;
-        }
-        history.replaceState({ ...(history.state || {}), jobmaniaRoute: true }, '', window.location.href);
+
+        history.replaceState({ ...(history.state || {}), jobmaniaRoute: true, jobmaniaDepth: 0 }, '', window.location.href);
         renderRoute(route);
     }
 
@@ -94,7 +101,7 @@
     };
 
     window.goBackToPreviousDetail = function () {
-        if (history.state?.jobmaniaRoute && history.length > 1) {
+        if (Number(history.state?.jobmaniaDepth || 0) > 0) {
             history.back();
             return;
         }
@@ -104,7 +111,7 @@
     };
 
     function handleHistoryNavigation() {
-        if (!bootstrapped) return;
+        if (!bootstrapped || lastHandledHref === window.location.href) return;
         const route = parseHash();
         if (route) renderRoute(route);
         else navigate('#/home', true);
