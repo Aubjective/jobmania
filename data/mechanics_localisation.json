@@ -1,5 +1,5 @@
 {
-  "version": 24,
+  "version": 25,
   "locales": {
     "en": {
       "terms": {
@@ -88,7 +88,9 @@
         "mechanic.preparation": "Preparation",
         "mechanic.pureElement": "Pure Element",
         "mechanic.focusEnergy": "Focus Energy",
-        "mechanic.chronocharge": "Chronocharge"
+        "mechanic.chronocharge": "Chronocharge",
+        "mechanic.certain": "Certain",
+        "mechanic.afterimage": "Afterimage"
       },
       "mechanicNames": {
         "Strength Buff": "Strength Buff",
@@ -229,7 +231,9 @@
         "preparation": "The ability with the same name can only be used once per turn. If it is a Hero Ability, it will have 1 extra turn of cooldown.",
         "pureElement": "Increase existing element stacks; otherwise get a random element from Fire, Water, Thunder, Earth, Wind, Light or Dark.",
         "focusEnergy": "The damage and healing of this skill is increased by {percent}% for each distinct buff on self. (Max {max} buffs / upgraded {upgradeMax} buffs.)",
-        "chronocharge": "The damage and healing of this skill is increased by {percent}% for every turn that has passed. (Max {max}/upgrade {upgradeMax} stacks)"
+        "chronocharge": "The damage and healing of this skill is increased by {percent}% for every turn that has passed. (Max {max}/upgrade {upgradeMax} stacks)",
+        "certain": "For one action, user can learn the following Slack, Confuse, Injury, Blind, Dizzy, Depress, Reflux and get a 20% boost on attack, healing and protect gain. (Remove 1 stack on trigger. [End-of-Turn] passives will also consume this buff)",
+        "afterimage": "Increase the number of uses of the next originally 0 AP cost ability on hand or Overloaded ability by X times. (X is the number of stacks. Excluding discard and recover ability effect. Consumed on activation. Enemy monster will use any of its next ability X more times)"
       }
     },
     "zh-CN": {

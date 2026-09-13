@@ -1,5 +1,5 @@
 {
-  "version": 26,
+  "version": 27,
   "source": "Jobmania Database Guides and Skill Unit sheets, Localization Skills Description sheet, plus confirmed in-game descriptions",
   "powerLv": {
     "stat": {
@@ -1857,6 +1857,53 @@
       ],
       "maxStacks": 4,
       "upgradeMaxStacks": 6
+    },
+    "Certain": {
+      "skillUnit": "ApplyOn",
+      "effect": "Certain",
+      "termKey": "mechanic.certain",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet+localisation",
+      "clickable": true,
+      "templateKey": "certain",
+      "duration": "OneAction",
+      "cleansesOrIgnores": [
+        "Slack",
+        "Confuse",
+        "Injury",
+        "Blind",
+        "Dizzy",
+        "Depress",
+        "Reflux"
+      ],
+      "boostPercent": 20,
+      "affectedValues": [
+        "attack",
+        "healing",
+        "protect"
+      ],
+      "consumeStacksOnTrigger": 1,
+      "endOfTurnPassivesConsume": true
+    },
+    "Afterimage": {
+      "skillUnit": "ApplyOn",
+      "effect": "Afterimage",
+      "termKey": "mechanic.afterimage",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet+localisation",
+      "clickable": true,
+      "templateKey": "afterimage",
+      "extraUsesPerStack": 1,
+      "targets": [
+        "NextOriginallyZeroAPAbilityInHand",
+        "OverloadedAbility"
+      ],
+      "excludesEffects": [
+        "DiscardAbilityEffect",
+        "RecoverAbilityEffect"
+      ],
+      "consumedOnActivation": true,
+      "enemyMonsterBehavior": "NextAbilityUsedXAdditionalTimes"
     }
   },
   "applyTags": {
