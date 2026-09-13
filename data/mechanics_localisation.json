@@ -1,5 +1,5 @@
 {
-  "version": 22,
+  "version": 24,
   "locales": {
     "en": {
       "terms": {
@@ -87,7 +87,8 @@
         "mechanic.gambleToken": "Gamble Token",
         "mechanic.preparation": "Preparation",
         "mechanic.pureElement": "Pure Element",
-        "mechanic.focusEnergy": "Focus Energy"
+        "mechanic.focusEnergy": "Focus Energy",
+        "mechanic.chronocharge": "Chronocharge"
       },
       "mechanicNames": {
         "Strength Buff": "Strength Buff",
@@ -227,7 +228,8 @@
         "gambleToken": "With {doubleThreshold} or more stacks, multiply the next Gamble Skill's execution by {doubleMultiplier}; execution x{tripleMultiplier} if there are {tripleThreshold} stacks. (Consume on activation)",
         "preparation": "The ability with the same name can only be used once per turn. If it is a Hero Ability, it will have 1 extra turn of cooldown.",
         "pureElement": "Increase existing element stacks; otherwise get a random element from Fire, Water, Thunder, Earth, Wind, Light or Dark.",
-        "focusEnergy": "The damage and healing of this skill is increased by {percent}% for each distinct buff on self. (Max {max} buffs / upgraded {upgradeMax} buffs.)"
+        "focusEnergy": "The damage and healing of this skill is increased by {percent}% for each distinct buff on self. (Max {max} buffs / upgraded {upgradeMax} buffs.)",
+        "chronocharge": "The damage and healing of this skill is increased by {percent}% for every turn that has passed. (Max {max}/upgrade {upgradeMax} stacks)"
       }
     },
     "zh-CN": {
@@ -287,7 +289,8 @@
         "mechanic.maxHPActionDebuff": "Max HP微减益",
         "mechanic.protectiveHeal": "保护型恢复",
         "mechanic.offensiveHeal": "输出型恢复",
-        "mechanic.overloaded": "超载"
+        "mechanic.overloaded": "超载",
+        "mechanic.chronocharge": "时能蓄力"
       },
       "mechanicNames": {
         "Protect": "护甲",
@@ -368,7 +371,8 @@
         "statActionBuff": "每层增强一个行动的{stat}攻击、恢复和护甲获得量{percent}%。(叠加上限{max}/升级后{upgradeMax}。发动后消耗，【回合结束】被动技能也会消耗此增益)",
         "statActionDebuff": "每层降低一个行动的{stat}攻击、恢复和护甲获得量{percent}%。(叠加上限{max}/升级后{upgradeMax}。发动后消耗，【回合结束】被动技能也会消耗此减益)",
         "protectiveHeal": "每层将{percent}%的过度恢复转换成自身护盾。（上限{maxPercent}%，不包括吸血类的恢复）",
-        "offensiveHeal": "每层将{percent}%的过度恢复转换成对敌方的伤害。（上限{maxPercent}%，不包括吸血类的恢复）"
+        "offensiveHeal": "每层将{percent}%的过度恢复转换成对敌方的伤害。（上限{maxPercent}%，不包括吸血类的恢复）",
+        "chronocharge": "每经过1回合，此技能的伤害和恢复提高{percent}%。（最多{max}层/升级后{upgradeMax}层）"
       }
     },
     "zh-TW": {
@@ -428,7 +432,8 @@
         "mechanic.maxHPActionDebuff": "Max HP微減益",
         "mechanic.protectiveHeal": "保護型恢復",
         "mechanic.offensiveHeal": "輸出型恢復",
-        "mechanic.overloaded": "超載"
+        "mechanic.overloaded": "超載",
+        "mechanic.chronocharge": "時能蓄力"
       },
       "mechanicNames": {
         "Protect": "護甲",
@@ -509,7 +514,8 @@
         "statActionBuff": "每層增強一個行動的{stat}攻擊、恢復和護甲獲得量{percent}%。(疊加上限{max}/升級後{upgradeMax}。發動後消耗，【回合結束】被動技能也會消耗此增益)",
         "statActionDebuff": "每層降低一個行動的{stat}攻擊、恢復和護甲獲得量{percent}%。(疊加上限{max}/升級後{upgradeMax}。發動後消耗，【回合結束】被動技能也會消耗此減益)",
         "protectiveHeal": "每層將{percent}%的過度恢復轉換成自身護盾。（上限{maxPercent}%，不包括吸血類的恢復）",
-        "offensiveHeal": "每層將{percent}%的過度恢復轉換成對敵方的傷害。（上限{maxPercent}%，不包括吸血類的恢復）"
+        "offensiveHeal": "每層將{percent}%的過度恢復轉換成對敵方的傷害。（上限{maxPercent}%，不包括吸血類的恢復）",
+        "chronocharge": "每經過1回合，此技能的傷害和恢復提高{percent}%。（最多{max}層/升級後{upgradeMax}層）"
       }
     }
   }

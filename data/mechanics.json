@@ -1835,6 +1835,28 @@
       ],
       "maxDistinctBuffs": 9,
       "upgradeMaxDistinctBuffs": 15
+    },
+    "Chronocharge": {
+      "skillUnit": "ApplyOn",
+      "effect": "Chronocharge",
+      "termKey": "mechanic.chronocharge",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet+localisation",
+      "clickable": true,
+      "templateKey": "chronocharge",
+      "templateArgs": {
+        "percent": "boostPercentPerTurn",
+        "max": "maxStacks",
+        "upgradeMax": "upgradeMaxStacks"
+      },
+      "boostPercentPerTurn": 15,
+      "scalesWith": "TurnsPassed",
+      "affects": [
+        "damage",
+        "heal"
+      ],
+      "maxStacks": 4,
+      "upgradeMaxStacks": 6
     }
   },
   "applyTags": {
