@@ -1,5 +1,5 @@
 {
-  "version": 22,
+  "version": 23,
   "source": "Jobmania Database Guides and Skill Unit sheets, Localization Skills Description sheet, plus confirmed in-game descriptions",
   "powerLv": {
     "stat": {
@@ -1680,6 +1680,54 @@
       ],
       "consumedOnActivation": true,
       "endOfTurnPassivesAlsoConsume": true
+    },
+    "Protective Heal": {
+      "family": "Excess Heal Conversion",
+      "familyVariant": "Protective",
+      "skillUnit": "Heal",
+      "effect": "Guard",
+      "termKey": "mechanic.protectiveHeal",
+      "localisationKey": "ProtectiveHealXDescr",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet+localisation",
+      "clickable": true,
+      "templateKey": "protectiveHeal",
+      "templateArgs": {
+        "percent": "conversionPercentPerStack",
+        "maxPercent": "maxConversionPercent"
+      },
+      "triggerAt": "AfterHeal",
+      "passiveType": "AlwaysActive",
+      "conversionPercentPerStack": 25,
+      "maxStacks": 4,
+      "maxConversionPercent": 100,
+      "sourceAmount": "ExcessHeal",
+      "conversionTarget": "SelfProtect",
+      "excludesDrainHealing": true
+    },
+    "Offensive Heal": {
+      "family": "Excess Heal Conversion",
+      "familyVariant": "Offensive",
+      "skillUnit": "Heal",
+      "effect": "Charge",
+      "termKey": "mechanic.offensiveHeal",
+      "localisationKey": "AggressiveHealXDescr",
+      "mechanicConfirmed": true,
+      "confirmationSource": "live+sheet+localisation",
+      "clickable": true,
+      "templateKey": "offensiveHeal",
+      "templateArgs": {
+        "percent": "conversionPercentPerStack",
+        "maxPercent": "maxConversionPercent"
+      },
+      "triggerAt": "AfterHeal",
+      "passiveType": "AlwaysActive",
+      "conversionPercentPerStack": 25,
+      "maxStacks": 4,
+      "maxConversionPercent": 100,
+      "sourceAmount": "ExcessHeal",
+      "conversionTarget": "OpponentDamage",
+      "excludesDrainHealing": true
     }
   },
   "applyTags": {

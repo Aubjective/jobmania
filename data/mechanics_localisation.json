@@ -1,5 +1,5 @@
 {
-  "version": 20,
+  "version": 21,
   "locales": {
     "en": {
       "terms": {
@@ -80,7 +80,9 @@
         "mechanic.intelligenceActionBuff": "Intelligence Action Buff",
         "mechanic.intelligenceActionDebuff": "Intelligence Action Debuff",
         "mechanic.maxHPActionBuff": "Max HP Action Buff",
-        "mechanic.maxHPActionDebuff": "Max HP Action Debuff"
+        "mechanic.maxHPActionDebuff": "Max HP Action Debuff",
+        "mechanic.protectiveHeal": "Protective Heal",
+        "mechanic.offensiveHeal": "Offensive Heal"
       },
       "mechanicNames": {
         "Strength Buff": "Strength Buff",
@@ -213,7 +215,9 @@
         "statSigil": "When receiving matching stat damage, suffer 20% additional damage per Sigil stack based on the opponent's matching stat. Remove the Sigil when triggered.",
         "statSigilMaxHP": "When receiving Max HP damage, suffer 2.5% additional damage per Sigil stack based on the opponent's Max HP, or 5% if upgraded. Remove the Sigil when triggered.",
         "statActionBuff": "Buff one action's {stat} attack, heal and Protect by {percent}% for each stack. (Max {max}/upgrade {upgradeMax} stacks. Consumed on activation, [End-Of-Turn] passives will also consume this buff)",
-        "statActionDebuff": "Debuff one action's {stat} attack, heal and Protect by {percent}% for each stack. (Max {max}/upgrade {upgradeMax} stacks. Consumed on activation, [End-Of-Turn] passives will also consume this debuff)"
+        "statActionDebuff": "Debuff one action's {stat} attack, heal and Protect by {percent}% for each stack. (Max {max}/upgrade {upgradeMax} stacks. Consumed on activation, [End-Of-Turn] passives will also consume this debuff)",
+        "protectiveHeal": "For each stack, {percent}% of the excess heal will instead turn into Protect on self. (Max {maxPercent}%. Excludes drain healing)",
+        "offensiveHeal": "For each stack, {percent}% of the excess heal will instead damage the opponent. (Max {maxPercent}%. Excludes drain healing)"
       }
     },
     "zh-CN": {
@@ -270,7 +274,9 @@
         "mechanic.intelligenceActionBuff": "智力微增益",
         "mechanic.intelligenceActionDebuff": "智力微减益",
         "mechanic.maxHPActionBuff": "Max HP微增益",
-        "mechanic.maxHPActionDebuff": "Max HP微减益"
+        "mechanic.maxHPActionDebuff": "Max HP微减益",
+        "mechanic.protectiveHeal": "保护型恢复",
+        "mechanic.offensiveHeal": "输出型恢复"
       },
       "mechanicNames": {
         "Protect": "护甲",
@@ -349,7 +355,9 @@
         "jackOfAllTrades": "（玩家）根据英雄等级，使【固定】伤害、恢复与护甲获得量（不包括属性倍率）提高15%。在英雄模式里额外提高1000%。／（敌人）则根据等级每级提高3%。",
         "injury": "减低自身{percent}%的输出伤害。(叠加上限{max} / 升级后{upgradeMax}。回合结束后失去一半的叠加数)",
         "statActionBuff": "每层增强一个行动的{stat}攻击、恢复和护甲获得量{percent}%。(叠加上限{max}/升级后{upgradeMax}。发动后消耗，【回合结束】被动技能也会消耗此增益)",
-        "statActionDebuff": "每层降低一个行动的{stat}攻击、恢复和护甲获得量{percent}%。(叠加上限{max}/升级后{upgradeMax}。发动后消耗，【回合结束】被动技能也会消耗此减益)"
+        "statActionDebuff": "每层降低一个行动的{stat}攻击、恢复和护甲获得量{percent}%。(叠加上限{max}/升级后{upgradeMax}。发动后消耗，【回合结束】被动技能也会消耗此减益)",
+        "protectiveHeal": "每层将{percent}%的过度恢复转换成自身护盾。（上限{maxPercent}%，不包括吸血类的恢复）",
+        "offensiveHeal": "每层将{percent}%的过度恢复转换成对敌方的伤害。（上限{maxPercent}%，不包括吸血类的恢复）"
       }
     },
     "zh-TW": {
@@ -406,7 +414,9 @@
         "mechanic.intelligenceActionBuff": "智力微增益",
         "mechanic.intelligenceActionDebuff": "智力微減益",
         "mechanic.maxHPActionBuff": "Max HP微增益",
-        "mechanic.maxHPActionDebuff": "Max HP微減益"
+        "mechanic.maxHPActionDebuff": "Max HP微減益",
+        "mechanic.protectiveHeal": "保護型恢復",
+        "mechanic.offensiveHeal": "輸出型恢復"
       },
       "mechanicNames": {
         "Protect": "護甲",
@@ -485,7 +495,9 @@
         "jackOfAllTrades": "（玩家）根據英雄等級，使【固定】傷害、恢復與護甲獲得量（不包括屬性倍率）提高15%。在英雄模式裏額外提高1000%。／（敵人）則根據等級每級提高3%。",
         "injury": "減低自身{percent}%的輸出傷害。 (疊加上限{max} / 升級後{upgradeMax}。回合結束後失去一半的疊加數)",
         "statActionBuff": "每層增強一個行動的{stat}攻擊、恢復和護甲獲得量{percent}%。(疊加上限{max}/升級後{upgradeMax}。發動後消耗，【回合結束】被動技能也會消耗此增益)",
-        "statActionDebuff": "每層降低一個行動的{stat}攻擊、恢復和護甲獲得量{percent}%。(疊加上限{max}/升級後{upgradeMax}。發動後消耗，【回合結束】被動技能也會消耗此減益)"
+        "statActionDebuff": "每層降低一個行動的{stat}攻擊、恢復和護甲獲得量{percent}%。(疊加上限{max}/升級後{upgradeMax}。發動後消耗，【回合結束】被動技能也會消耗此減益)",
+        "protectiveHeal": "每層將{percent}%的過度恢復轉換成自身護盾。（上限{maxPercent}%，不包括吸血類的恢復）",
+        "offensiveHeal": "每層將{percent}%的過度恢復轉換成對敵方的傷害。（上限{maxPercent}%，不包括吸血類的恢復）"
       }
     }
   }
