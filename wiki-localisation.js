@@ -7,6 +7,61 @@
     const originalRenderFieldValue = window.renderFieldValue;
     const originalLoadDetail = window.loadDetail;
 
+    // Relic passive wiki layer. Raw IDs and compatibility fields stay internal.
+    window.JOBMANIA_HIDDEN_FIELDS = window.JOBMANIA_HIDDEN_FIELDS || {};
+    window.JOBMANIA_HIDDEN_FIELDS.relic = ['RelicId', 'InnatePassiveId', 'SpecialType'];
+
+    let relicPassiveDataPromise = null;
+    function ensureRelicPassiveData() {
+        if (relicPassiveDataPromise) return relicPassiveDataPromise;
+        relicPassiveDataPromise = Promise.all([
+            fetch('data/relic_passives.json').then(r => r.ok ? r.json() : []),
+            fetch('data/relic_passive_localisation.json').then(r => r.ok ? r.json() : [])
+        ]).then(([passives, terms]) => ({ passives, terms }));
+        return relicPassiveDataPromise;
+    }
+
+    function relicPassiveTerm(rows, key) {
+        if (!key) return '';
+        const row = rows.find(item => item.Key === key);
+        const lang = ({ en: 'English', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Traditional)' })[window.JOBMANIA_LOCALE || 'en'] || 'English';
+        return row?.[lang] || row?.English || key;
+    }
+
+    function formatRelicPassive(passive, terms) {
+        if (!passive) return '';
+        const parts = [relicPassiveTerm(terms, passive.SkillType), relicPassiveTerm(terms, passive.EffectType)];
+        if (Number(passive.Multiplier) !== 0) parts.push(String(passive.Multiplier));
+        return parts.filter(Boolean).join(' · ');
+    }
+
+    async function insertRelicPassives(relicKey) {
+        const relic = typeof db !== 'undefined' ? db.relic?.find(item => item.RelicKey === relicKey) : null;
+        if (!relic) return;
+        const stack = document.querySelector('#content .detail-stack');
+        if (!stack || stack.querySelector('.relic-passives-section')) return;
+        const { passives, terms } = await ensureRelicPassiveData();
+        const rarity = String(relic.Rarity || '');
+        const specialType = String(relic.SpecialType || '');
+        const compatible = passives.filter(p =>
+            Array.isArray(p.Rarities) && p.Rarities.includes(rarity) &&
+            (specialType ? (!p.Type || p.Type === specialType) : !p.Type)
+        );
+        const innate = passives.find(p => Number(p.RelicPassiveId) === Number(relic.InnatePassiveId));
+        const t = window.JOBMANIA_T || ((key) => key);
+        const section = document.createElement('div');
+        section.className = 'card detail-section relic-passives-section';
+        let html = '<h2>' + escapeHtml(t('Relic Passives', 'Relic Passives')) + '</h2><div class="info-list">';
+        if (innate) html += infoRow(t('Innate Passive', 'Innate Passive'), escapeHtml(formatRelicPassive(innate, terms)));
+        const pool = compatible.length
+            ? compatible.map(p => escapeHtml(formatRelicPassive(p, terms))).join('<span class="skill-separator"> · </span>')
+            : '—';
+        html += infoRow(t('Possible Passives', 'Possible Passives'), pool);
+        html += '</div>';
+        section.innerHTML = html;
+        stack.appendChild(section);
+    }
+
     const relicReferenceFields = {
         'Craft Material x1': 'materials',
         'Craft Ability x5': 'abilities'
@@ -189,6 +244,7 @@
             } else {
                 currentAbilityCostKey = null;
             }
+            if (normalizedCat === 'relic') await insertRelicPassives(key);
             return result;
         };
     }
