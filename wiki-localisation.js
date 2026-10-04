@@ -60,32 +60,32 @@
         section.innerHTML =
             '<h2>' + escapeHtml(t('Relic Passives', 'Relic Passives')) + '</h2>' +
             '<div class="relic-passive-group">' +
-                '<h3>Upgrade</h3>' +
+                '<h3>' + escapeHtml(t('Upgrade', 'Upgrade')) + '</h3>' +
                 '<div class="info-list">' +
                     infoRow(t('Innate Passive', 'Innate Passive'), innate ? passiveText(innate) : '—') +
-                    infoRow('First Passive', innate ? 'Innate Passive (guaranteed)' : 'Random from compatible pool') +
-                    infoRow('Additional Passive', 'Random from compatible pool') +
+                    infoRow(t('First Passive', 'First Passive'), innate ? t('Innate Passive (guaranteed)', 'Innate Passive (guaranteed)') : t('Random from compatible pool', 'Random from compatible pool')) +
+                    infoRow(t('Additional Passive', 'Additional Passive'), t('Random from compatible pool', 'Random from compatible pool')) +
                 '</div>' +
             '</div>' +
             '<div class="relic-passive-group">' +
-                '<h3>Dungeon Loot</h3>' +
+                '<h3>' + escapeHtml(t('Dungeon Loot', 'Dungeon Loot')) + '</h3>' +
                 '<div class="info-list">' +
-                    infoRow('First Passive', '60% random from compatible pool') +
-                    infoRow('Empty Chance', '40%') +
-                    infoRow('Innate Passive', 'Not guaranteed') +
+                    infoRow(t('First Passive', 'First Passive'), t('60% random from compatible pool', '60% random from compatible pool')) +
+                    infoRow(t('Empty Chance', 'Empty Chance'), '40%') +
+                    infoRow(t('Innate Passive', 'Innate Passive'), t('Not guaranteed', 'Not guaranteed')) +
                 '</div>' +
             '</div>' +
             '<div class="relic-passive-group">' +
-                '<h3>Reforge</h3>' +
+                '<h3>' + escapeHtml(t('Reforge', 'Reforge')) + '</h3>' +
                 '<div class="info-list">' +
-                    infoRow('Passive Source', 'Compatible pool') +
-                    infoRow('Rate-Up', 'Weighted, not guaranteed') +
+                    infoRow(t('Passive Source', 'Passive Source'), t('Compatible pool', 'Compatible pool')) +
+                    infoRow(t('Rate-Up', 'Rate-Up'), t('Weighted, not guaranteed', 'Weighted, not guaranteed')) +
                 '</div>' +
             '</div>' +
             '<div class="relic-passive-group relic-passive-pool">' +
-                '<h3>' + escapeHtml(t('Passive Pool', 'Compatible Passive Pool')) + '</h3>' +
+                '<h3>' + escapeHtml(t('Compatible Passive Pool', 'Compatible Passive Pool')) + '</h3>' +
                 '<details>' +
-                    '<summary>' + compatible.length + ' ' + escapeHtml(t('Possible Passives', 'possible passives')) + '</summary>' +
+                    '<summary>' + compatible.length + ' ' + escapeHtml(t('possible passives', 'possible passives')) + '</summary>' +
                     '<ul class="relic-passive-list">' + poolRows + '</ul>' +
                 '</details>' +
             '</div>';
