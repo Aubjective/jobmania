@@ -86,3 +86,17 @@ h1 { text-align: center; color: #ffd700; margin: 10px 0 25px; font-size: 2.2rem;
     :root { --field-label-width: 124px; --field-gap: 8px; }
     .card { padding: 18px; }
 }
+
+/* Relic passive mechanics: keep acquisition paths distinct and the large pool collapsed. */
+.relic-passives-section { display: flex; flex-direction: column; gap: 18px; }
+.relic-passives-section > h2 { margin-bottom: 0; }
+.relic-passive-group { padding-top: 16px; border-top: 1px solid #334477; }
+.relic-passive-group h3 { margin: 0 0 10px; color: var(--label); font-size: 1rem; }
+.relic-passive-pool details { border: 1px solid #334477; border-radius: 10px; overflow: hidden; }
+.relic-passive-pool summary { cursor: pointer; padding: 11px 13px; font-weight: 600; }
+.relic-passive-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px 20px; margin: 0; padding: 4px 34px 14px; }
+.relic-passive-list li { overflow-wrap: anywhere; line-height: 1.4; }
+
+@media (max-width: 768px) {
+    .relic-passive-list { grid-template-columns: 1fr; }
+}
