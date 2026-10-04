@@ -610,5 +610,35 @@
     "English": "possible passives",
     "Chinese": "个可获得被动技能",
     "Chinese (Traditional)": "個可獲得被動技能"
+  },
+  {
+    "Key": "Random passive based on rarity",
+    "English": "Random passive based on rarity",
+    "Chinese": "根据稀有度随机获得被动技能",
+    "Chinese (Traditional)": "根據稀有度隨機獲得被動技能"
+  },
+  {
+    "Key": "Upgrade Material",
+    "English": "Upgrade Material",
+    "Chinese": "升级素材",
+    "Chinese (Traditional)": "升級素材"
+  },
+  {
+    "Key": "Max-level, not favourited, not in saved presets",
+    "English": "Max-level, not favourited, not in saved presets",
+    "Chinese": "最高等级、未收藏且不在已保存的探险组合中",
+    "Chinese (Traditional)": "最高等級、未收藏且不在已保存的探險組合中"
+  },
+  {
+    "Key": "Target Passive",
+    "English": "Target Passive",
+    "Chinese": "目标被动技能",
+    "Chinese (Traditional)": "目標被動技能"
+  },
+  {
+    "Key": "Chance-based",
+    "English": "Chance-based",
+    "Chinese": "按几率获得",
+    "Chinese (Traditional)": "按機率獲得"
   }
 ]
