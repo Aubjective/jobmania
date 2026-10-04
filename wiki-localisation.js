@@ -40,6 +40,7 @@
         if (!relic) return;
         const stack = document.querySelector('#content .detail-stack');
         if (!stack || stack.querySelector('.relic-passives-section')) return;
+
         const { passives, terms } = await ensureRelicPassiveData();
         const rarity = String(relic.Rarity || '');
         const specialType = String(relic.SpecialType || '');
@@ -49,16 +50,45 @@
         );
         const innate = passives.find(p => Number(p.RelicPassiveId) === Number(relic.InnatePassiveId));
         const t = window.JOBMANIA_T || ((key) => key);
+        const passiveText = p => escapeHtml(formatRelicPassive(p, terms));
+        const poolRows = compatible.length
+            ? compatible.map(p => '<li>' + passiveText(p) + '</li>').join('')
+            : '<li>—</li>';
+
         const section = document.createElement('div');
         section.className = 'card detail-section relic-passives-section';
-        let html = '<h2>' + escapeHtml(t('Relic Passives', 'Relic Passives')) + '</h2><div class="info-list">';
-        if (innate) html += infoRow(t('Innate Passive', 'Innate Passive'), escapeHtml(formatRelicPassive(innate, terms)));
-        const pool = compatible.length
-            ? compatible.map(p => escapeHtml(formatRelicPassive(p, terms))).join('<span class="skill-separator"> · </span>')
-            : '—';
-        html += infoRow(t('Possible Passives', 'Possible Passives'), pool);
-        html += '</div>';
-        section.innerHTML = html;
+        section.innerHTML =
+            '<h2>' + escapeHtml(t('Relic Passives', 'Relic Passives')) + '</h2>' +
+            '<div class="relic-passive-group">' +
+                '<h3>Upgrade</h3>' +
+                '<div class="info-list">' +
+                    infoRow(t('Innate Passive', 'Innate Passive'), innate ? passiveText(innate) : '—') +
+                    infoRow('First Passive', innate ? 'Innate Passive (guaranteed)' : 'Random from compatible pool') +
+                    infoRow('Additional Passive', 'Random from compatible pool') +
+                '</div>' +
+            '</div>' +
+            '<div class="relic-passive-group">' +
+                '<h3>Dungeon Loot</h3>' +
+                '<div class="info-list">' +
+                    infoRow('First Passive', '60% random from compatible pool') +
+                    infoRow('Empty Chance', '40%') +
+                    infoRow('Innate Passive', 'Not guaranteed') +
+                '</div>' +
+            '</div>' +
+            '<div class="relic-passive-group">' +
+                '<h3>Reforge</h3>' +
+                '<div class="info-list">' +
+                    infoRow('Passive Source', 'Compatible pool') +
+                    infoRow('Rate-Up', 'Weighted, not guaranteed') +
+                '</div>' +
+            '</div>' +
+            '<div class="relic-passive-group relic-passive-pool">' +
+                '<h3>' + escapeHtml(t('Passive Pool', 'Compatible Passive Pool')) + '</h3>' +
+                '<details>' +
+                    '<summary>' + compatible.length + ' ' + escapeHtml(t('Possible Passives', 'possible passives')) + '</summary>' +
+                    '<ul class="relic-passive-list">' + poolRows + '</ul>' +
+                '</details>' +
+            '</div>';
         stack.appendChild(section);
     }
 
