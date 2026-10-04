@@ -63,8 +63,9 @@
                 '<h3>' + escapeHtml(t('Upgrade', 'Upgrade')) + '</h3>' +
                 '<div class="info-list">' +
                     infoRow(t('Innate Passive', 'Innate Passive'), innate ? passiveText(innate) : '—') +
-                    infoRow(t('First Passive', 'First Passive'), innate ? t('Innate Passive (guaranteed)', 'Innate Passive (guaranteed)') : t('Random from compatible pool', 'Random from compatible pool')) +
-                    infoRow(t('Additional Passive', 'Additional Passive'), t('Random from compatible pool', 'Random from compatible pool')) +
+                    infoRow(t('First Passive', 'First Passive'), innate ? t('Innate Passive (guaranteed)', 'Innate Passive (guaranteed)') : t('Random passive based on rarity', 'Random passive based on rarity')) +
+                    infoRow(t('Additional Passive', 'Additional Passive'), t('Random passive based on rarity', 'Random passive based on rarity')) +
+                    infoRow(t('Upgrade Material', 'Upgrade Material'), t('Max-level, not favourited, not in saved presets', 'Max-level, not favourited, not in saved presets')) +
                 '</div>' +
             '</div>' +
             '<div class="relic-passive-group">' +
@@ -79,7 +80,7 @@
                 '<h3>' + escapeHtml(t('Reforge', 'Reforge')) + '</h3>' +
                 '<div class="info-list">' +
                     infoRow(t('Passive Source', 'Passive Source'), t('Compatible pool', 'Compatible pool')) +
-                    infoRow(t('Rate-Up', 'Rate-Up'), t('Weighted, not guaranteed', 'Weighted, not guaranteed')) +
+                    infoRow(t('Target Passive', 'Target Passive'), t('Chance-based', 'Chance-based')) +
                 '</div>' +
             '</div>' +
             '<div class="relic-passive-group relic-passive-pool">' +
