@@ -1,0 +1,270 @@
+[
+  {
+    "Key": "Action",
+    "English": "Action"
+  },
+  {
+    "Key": "ActionBuff",
+    "English": "Action Buff"
+  },
+  {
+    "Key": "ActionDamage",
+    "English": "Action Damage"
+  },
+  {
+    "Key": "ActionDebuff",
+    "English": "Action Debuff"
+  },
+  {
+    "Key": "ActionHeal",
+    "English": "Action Heal"
+  },
+  {
+    "Key": "Aggro",
+    "English": "Aggro"
+  },
+  {
+    "Key": "Agility",
+    "English": "Agility"
+  },
+  {
+    "Key": "AgilityM",
+    "English": "Agility Multiplier"
+  },
+  {
+    "Key": "ApplyOn",
+    "English": "Apply On"
+  },
+  {
+    "Key": "Bleed",
+    "English": "Bleed"
+  },
+  {
+    "Key": "Buff",
+    "English": "Buff"
+  },
+  {
+    "Key": "Certain",
+    "English": "Certain"
+  },
+  {
+    "Key": "Charge",
+    "English": "Charge"
+  },
+  {
+    "Key": "Combo",
+    "English": "Combo"
+  },
+  {
+    "Key": "Confuse",
+    "English": "Confuse"
+  },
+  {
+    "Key": "Creature",
+    "English": "Creature"
+  },
+  {
+    "Key": "Crystal",
+    "English": "Crystal"
+  },
+  {
+    "Key": "Curse",
+    "English": "Curse"
+  },
+  {
+    "Key": "Dark",
+    "English": "Dark"
+  },
+  {
+    "Key": "Debuff",
+    "English": "Debuff"
+  },
+  {
+    "Key": "Delay",
+    "English": "Delay"
+  },
+  {
+    "Key": "Dice",
+    "English": "Dice"
+  },
+  {
+    "Key": "Discard",
+    "English": "Discard"
+  },
+  {
+    "Key": "Drain",
+    "English": "Drain"
+  },
+  {
+    "Key": "Draw",
+    "English": "Draw"
+  },
+  {
+    "Key": "Earth",
+    "English": "Earth"
+  },
+  {
+    "Key": "Element",
+    "English": "Element"
+  },
+  {
+    "Key": "Exhaust",
+    "English": "Exhaust"
+  },
+  {
+    "Key": "Fire",
+    "English": "Fire"
+  },
+  {
+    "Key": "Food",
+    "English": "Food"
+  },
+  {
+    "Key": "Full",
+    "English": "Full"
+  },
+  {
+    "Key": "Gold",
+    "English": "Gold"
+  },
+  {
+    "Key": "Guard",
+    "English": "Guard"
+  },
+  {
+    "Key": "Heal",
+    "English": "Heal"
+  },
+  {
+    "Key": "Humanoid",
+    "English": "Humanoid"
+  },
+  {
+    "Key": "Injury",
+    "English": "Injury"
+  },
+  {
+    "Key": "Insane",
+    "English": "Insane"
+  },
+  {
+    "Key": "InstantBoost",
+    "English": "Instant Boost"
+  },
+  {
+    "Key": "InstantNerf",
+    "English": "Instant Nerf"
+  },
+  {
+    "Key": "Intelligence",
+    "English": "Intelligence"
+  },
+  {
+    "Key": "IntelligenceM",
+    "English": "Intelligence Multiplier"
+  },
+  {
+    "Key": "LifeSteal",
+    "English": "Life Steal"
+  },
+  {
+    "Key": "Light",
+    "English": "Light"
+  },
+  {
+    "Key": "Matter",
+    "English": "Matter"
+  },
+  {
+    "Key": "MaxHP",
+    "English": "Max HP"
+  },
+  {
+    "Key": "MaxHPM",
+    "English": "Max HP Multiplier"
+  },
+  {
+    "Key": "Multiply",
+    "English": "Multiply"
+  },
+  {
+    "Key": "Null",
+    "English": "Null"
+  },
+  {
+    "Key": "Protect",
+    "English": "Protect"
+  },
+  {
+    "Key": "Reflect",
+    "English": "Reflect"
+  },
+  {
+    "Key": "Restrain",
+    "English": "Restrain"
+  },
+  {
+    "Key": "Reverse",
+    "English": "Reverse"
+  },
+  {
+    "Key": "Sacrifice",
+    "English": "Sacrifice"
+  },
+  {
+    "Key": "Slack",
+    "English": "Slack"
+  },
+  {
+    "Key": "Spirit",
+    "English": "Spirit"
+  },
+  {
+    "Key": "Strength",
+    "English": "Strength"
+  },
+  {
+    "Key": "StrengthM",
+    "English": "Strength Multiplier"
+  },
+  {
+    "Key": "Thunder",
+    "English": "Thunder"
+  },
+  {
+    "Key": "TurnBuff",
+    "English": "Turn Buff"
+  },
+  {
+    "Key": "TurnDamage",
+    "English": "Turn Damage"
+  },
+  {
+    "Key": "TurnDebuff",
+    "English": "Turn Debuff"
+  },
+  {
+    "Key": "TurnHeal",
+    "English": "Turn Heal"
+  },
+  {
+    "Key": "Unique",
+    "English": "Unique"
+  },
+  {
+    "Key": "Upgrade",
+    "English": "Upgrade"
+  },
+  {
+    "Key": "Venom",
+    "English": "Venom"
+  },
+  {
+    "Key": "Water",
+    "English": "Water"
+  },
+  {
+    "Key": "Wind",
+    "English": "Wind"
+  }
+]
