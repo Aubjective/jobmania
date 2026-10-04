@@ -1,84 +1,512 @@
 [
-  {"Key":"HP","English":"HP","Chinese":"体力","Chinese (Traditional)":"體力"},
-  {"Key":"MaxHP","English":"MaxHP","Chinese":"体力上限","Chinese (Traditional)":"體力上限"},
-  {"Key":"Str","English":"Str","Chinese":"力量","Chinese (Traditional)":"力量"},
-  {"Key":"Strength","English":"Strength","Chinese":"力量","Chinese (Traditional)":"力量"},
-  {"Key":"Agi","English":"Agi","Chinese":"敏捷","Chinese (Traditional)":"敏捷"},
-  {"Key":"Agility","English":"Agility","Chinese":"敏捷","Chinese (Traditional)":"敏捷"},
-  {"Key":"Int","English":"Int","Chinese":"智力","Chinese (Traditional)":"智力"},
-  {"Key":"Intelligence","English":"Intelligence","Chinese":"智力","Chinese (Traditional)":"智力"},
-
-  {"Key":"Humanoid","English":"Humanoid","Chinese":"人族","Chinese (Traditional)":"人族"},
-  {"Key":"Creature","English":"Creature","Chinese":"兽族","Chinese (Traditional)":"獸族"},
-  {"Key":"Spirit","English":"Spirit","Chinese":"魂族","Chinese (Traditional)":"魂族"},
-  {"Key":"Matter","English":"Matter","Chinese":"物族","Chinese (Traditional)":"物族"},
-
-  {"Key":"Fire","English":"Fire","Chinese":"火","Chinese (Traditional)":"火"},
-  {"Key":"Water","English":"Water","Chinese":"水","Chinese (Traditional)":"水"},
-  {"Key":"Thunder","English":"Thunder","Chinese":"雷","Chinese (Traditional)":"雷"},
-  {"Key":"Earth","English":"Earth","Chinese":"土","Chinese (Traditional)":"土"},
-  {"Key":"Wind","English":"Wind","Chinese":"风","Chinese (Traditional)":"風"},
-  {"Key":"Light","English":"Light","Chinese":"光","Chinese (Traditional)":"光"},
-  {"Key":"Dark","English":"Dark","Chinese":"暗","Chinese (Traditional)":"暗"},
-
-  {"Key":"Gacha","English":"Gacha","Chinese":"常驻","Chinese (Traditional)":"常駐"},
-  {"Key":"EventGacha","English":"EventGacha","Chinese":"活动","Chinese (Traditional)":"活動"},
-  {"Key":"SpecialGacha","English":"SpecialGacha","Chinese":"特别","Chinese (Traditional)":"特別"},
-  {"Key":"Unobtainable","English":"Unobtainable","Chinese":"无法获得","Chinese (Traditional)":"無法獲得"},
-  {"Key":"Normal","English":"Normal","Chinese":"普通","Chinese (Traditional)":"普通"},
-  {"Key":"Special","English":"Special","Chinese":"特殊","Chinese (Traditional)":"特殊"},
-  {"Key":"Male","English":"Male","Chinese":"男性","Chinese (Traditional)":"男性"},
-  {"Key":"Female","English":"Female","Chinese":"女性","Chinese (Traditional)":"女性"},
-  {"Key":"Other","English":"Other","Chinese":"其他","Chinese (Traditional)":"其他"},
-  {"Key":"Null","English":"Null","Chinese":"无","Chinese (Traditional)":"無"},
-
-  {"Key":"Home","English":"Home","Chinese":"首页","Chinese (Traditional)":"首頁"},
-  {"Key":"Characters","English":"Characters","Chinese":"角色","Chinese (Traditional)":"角色"},
-  {"Key":"Jobs","English":"Jobs","Chinese":"职业","Chinese (Traditional)":"職業"},
-  {"Key":"Abilities","English":"Abilities","Chinese":"主动技能","Chinese (Traditional)":"主動技能"},
-  {"Key":"Passives","English":"Passives","Chinese":"被动技能","Chinese (Traditional)":"被動技能"},
-  {"Key":"Materials","English":"Materials","Chinese":"素材","Chinese (Traditional)":"素材"},
-  {"Key":"Relic System","English":"Relic System","Chinese":"遗物系统","Chinese (Traditional)":"遺物系統"},
-  {"Key":"Join Discord","English":"Join Discord","Chinese":"加入 Discord","Chinese (Traditional)":"加入 Discord"},
-  {"Key":"Contains ads • In-app purchases","English":"Contains ads • In-app purchases","Chinese":"包含广告 • 应用内购买","Chinese (Traditional)":"包含廣告 • 應用程式內購買"},
-  {"Key":"Loading Wiki Data...","English":"Loading Wiki Data...","Chinese":"正在加载 Wiki 数据...","Chinese (Traditional)":"正在載入 Wiki 資料..."},
-  {"Key":"Loading data...","English":"Loading data...","Chinese":"正在加载数据...","Chinese (Traditional)":"正在載入資料..."},
-  {"Key":"Search...","English":"Search...","Chinese":"搜索...","Chinese (Traditional)":"搜尋..."},
-  {"Key":"entries","English":"entries","Chinese":"条目","Chinese (Traditional)":"條目"},
-  {"Key":"Error","English":"Error","Chinese":"错误","Chinese (Traditional)":"錯誤"},
-  {"Key":"Please refresh the page.","English":"Please refresh the page.","Chinese":"请刷新页面。","Chinese (Traditional)":"請重新整理頁面。"},
-  {"Key":"Back","English":"Back","Chinese":"返回","Chinese (Traditional)":"返回"},
-  {"Key":"Basic Info","English":"Basic Info","Chinese":"基本信息","Chinese (Traditional)":"基本資訊"},
-  {"Key":"More Info","English":"More Info","Chinese":"更多信息","Chinese (Traditional)":"更多資訊"},
-  {"Key":"Used By","English":"Used By","Chinese":"使用者","Chinese (Traditional)":"使用者"},
-  {"Key":"Description","English":"Description","Chinese":"说明","Chinese (Traditional)":"說明"},
-  {"Key":"Condition","English":"Condition","Chinese":"条件","Chinese (Traditional)":"條件"},
-  {"Key":"Combine List","English":"Combine List","Chinese":"合成列表","Chinese (Traditional)":"合成列表"},
-  {"Key":"Job","English":"Job","Chinese":"职业","Chinese (Traditional)":"職業"},
-  {"Key":"Crafted Job","English":"Crafted Job","Chinese":"合成职业","Chinese (Traditional)":"合成職業"},
-  {"Key":"Crafting Path","English":"Crafting Path","Chinese":"合成路线","Chinese (Traditional)":"合成路線"},
-  {"Key":"Crafts Into","English":"Crafts Into","Chinese":"可合成为","Chinese (Traditional)":"可合成為"},
-  {"Key":"Enemy Skill Pools","English":"Enemy Skill Pools","Chinese":"敌人技能池","Chinese (Traditional)":"敵人技能池"},
-  {"Key":"Random Passives","English":"Random Passives","Chinese":"随机被动技能","Chinese (Traditional)":"隨機被動技能"},
-  {"Key":"Random Abilities","English":"Random Abilities","Chinese":"随机技能","Chinese (Traditional)":"隨機技能"},
-  {"Key":"Threshold Abilities","English":"Threshold Abilities","Chinese":"阈值技能","Chinese (Traditional)":"閾值技能"},
-  {"Key":"Special Case Abilities","English":"Special Case Abilities","Chinese":"特殊条件技能","Chinese (Traditional)":"特殊條件技能"},
-  {"Key":"Enemy act first","English":"Enemy act first","Chinese":"敌人先行动","Chinese (Traditional)":"敵人先行動"},
-  {"Key":"Below 50%","English":"Below 50%","Chinese":"低于 50%","Chinese (Traditional)":"低於 50%"},
-  {"Key":"Below 30%","English":"Below 30%","Chinese":"低于 30%","Chinese (Traditional)":"低於 30%"},
-  {"Key":"Switch Skill","English":"Switch Skill","Chinese":"切换技能","Chinese (Traditional)":"切換技能"},
-  {"Key":"Deck Ability","English":"Deck Ability","Chinese":"牌组技能","Chinese (Traditional)":"牌組技能"},
-  {"Key":"Passive","English":"Passive","Chinese":"被动技能","Chinese (Traditional)":"被動技能"},
-  {"Key":"Ability","English":"Ability","Chinese":"主动技能","Chinese (Traditional)":"主動技能"},
-  {"Key":"Character","English":"Character","Chinese":"角色","Chinese (Traditional)":"角色"},
-  {"Key":"Relic","English":"Relic","Chinese":"遗物","Chinese (Traditional)":"遺物"},
-
-  {"Key":"Rarity","English":"Rarity","Chinese":"稀有度","Chinese (Traditional)":"稀有度"},
-  {"Key":"Difficulty","English":"Difficulty","Chinese":"难度","Chinese (Traditional)":"難度"},
-  {"Key":"Race","English":"Race","Chinese":"种族","Chinese (Traditional)":"種族"},
-  {"Key":"Gender","English":"Gender","Chinese":"性别","Chinese (Traditional)":"性別"},
-  {"Key":"Acquire Type","English":"Acquire Type","Chinese":"获取方式","Chinese (Traditional)":"取得方式"},
-  {"Key":"Acquire Method","English":"Acquire Method","Chinese":"获取方式","Chinese (Traditional)":"取得方式"},
-  {"Key":"Ability Tier","English":"Ability Tier","Chinese":"技能等级","Chinese (Traditional)":"技能等級"},
-  {"Key":"Skill Rank","English":"Skill Rank","Chinese":"技能等级","Chinese (Traditional)":"技能等級"}
+  {
+    "Key": "HP",
+    "English": "HP",
+    "Chinese": "体力",
+    "Chinese (Traditional)": "體力"
+  },
+  {
+    "Key": "MaxHP",
+    "English": "MaxHP",
+    "Chinese": "体力上限",
+    "Chinese (Traditional)": "體力上限"
+  },
+  {
+    "Key": "Str",
+    "English": "Str",
+    "Chinese": "力量",
+    "Chinese (Traditional)": "力量"
+  },
+  {
+    "Key": "Strength",
+    "English": "Strength",
+    "Chinese": "力量",
+    "Chinese (Traditional)": "力量"
+  },
+  {
+    "Key": "Agi",
+    "English": "Agi",
+    "Chinese": "敏捷",
+    "Chinese (Traditional)": "敏捷"
+  },
+  {
+    "Key": "Agility",
+    "English": "Agility",
+    "Chinese": "敏捷",
+    "Chinese (Traditional)": "敏捷"
+  },
+  {
+    "Key": "Int",
+    "English": "Int",
+    "Chinese": "智力",
+    "Chinese (Traditional)": "智力"
+  },
+  {
+    "Key": "Intelligence",
+    "English": "Intelligence",
+    "Chinese": "智力",
+    "Chinese (Traditional)": "智力"
+  },
+  {
+    "Key": "Humanoid",
+    "English": "Humanoid",
+    "Chinese": "人族",
+    "Chinese (Traditional)": "人族"
+  },
+  {
+    "Key": "Creature",
+    "English": "Creature",
+    "Chinese": "兽族",
+    "Chinese (Traditional)": "獸族"
+  },
+  {
+    "Key": "Spirit",
+    "English": "Spirit",
+    "Chinese": "魂族",
+    "Chinese (Traditional)": "魂族"
+  },
+  {
+    "Key": "Matter",
+    "English": "Matter",
+    "Chinese": "物族",
+    "Chinese (Traditional)": "物族"
+  },
+  {
+    "Key": "Fire",
+    "English": "Fire",
+    "Chinese": "火",
+    "Chinese (Traditional)": "火"
+  },
+  {
+    "Key": "Water",
+    "English": "Water",
+    "Chinese": "水",
+    "Chinese (Traditional)": "水"
+  },
+  {
+    "Key": "Thunder",
+    "English": "Thunder",
+    "Chinese": "雷",
+    "Chinese (Traditional)": "雷"
+  },
+  {
+    "Key": "Earth",
+    "English": "Earth",
+    "Chinese": "土",
+    "Chinese (Traditional)": "土"
+  },
+  {
+    "Key": "Wind",
+    "English": "Wind",
+    "Chinese": "风",
+    "Chinese (Traditional)": "風"
+  },
+  {
+    "Key": "Light",
+    "English": "Light",
+    "Chinese": "光",
+    "Chinese (Traditional)": "光"
+  },
+  {
+    "Key": "Dark",
+    "English": "Dark",
+    "Chinese": "暗",
+    "Chinese (Traditional)": "暗"
+  },
+  {
+    "Key": "Gacha",
+    "English": "Gacha",
+    "Chinese": "常驻",
+    "Chinese (Traditional)": "常駐"
+  },
+  {
+    "Key": "EventGacha",
+    "English": "EventGacha",
+    "Chinese": "活动",
+    "Chinese (Traditional)": "活動"
+  },
+  {
+    "Key": "SpecialGacha",
+    "English": "SpecialGacha",
+    "Chinese": "特别",
+    "Chinese (Traditional)": "特別"
+  },
+  {
+    "Key": "Unobtainable",
+    "English": "Unobtainable",
+    "Chinese": "无法获得",
+    "Chinese (Traditional)": "無法獲得"
+  },
+  {
+    "Key": "Normal",
+    "English": "Normal",
+    "Chinese": "普通",
+    "Chinese (Traditional)": "普通"
+  },
+  {
+    "Key": "Special",
+    "English": "Special",
+    "Chinese": "特殊",
+    "Chinese (Traditional)": "特殊"
+  },
+  {
+    "Key": "Male",
+    "English": "Male",
+    "Chinese": "男性",
+    "Chinese (Traditional)": "男性"
+  },
+  {
+    "Key": "Female",
+    "English": "Female",
+    "Chinese": "女性",
+    "Chinese (Traditional)": "女性"
+  },
+  {
+    "Key": "Other",
+    "English": "Other",
+    "Chinese": "其他",
+    "Chinese (Traditional)": "其他"
+  },
+  {
+    "Key": "Null",
+    "English": "Null",
+    "Chinese": "无",
+    "Chinese (Traditional)": "無"
+  },
+  {
+    "Key": "Home",
+    "English": "Home",
+    "Chinese": "首页",
+    "Chinese (Traditional)": "首頁"
+  },
+  {
+    "Key": "Characters",
+    "English": "Characters",
+    "Chinese": "角色",
+    "Chinese (Traditional)": "角色"
+  },
+  {
+    "Key": "Jobs",
+    "English": "Jobs",
+    "Chinese": "职业",
+    "Chinese (Traditional)": "職業"
+  },
+  {
+    "Key": "Abilities",
+    "English": "Abilities",
+    "Chinese": "主动技能",
+    "Chinese (Traditional)": "主動技能"
+  },
+  {
+    "Key": "Passives",
+    "English": "Passives",
+    "Chinese": "被动技能",
+    "Chinese (Traditional)": "被動技能"
+  },
+  {
+    "Key": "Materials",
+    "English": "Materials",
+    "Chinese": "素材",
+    "Chinese (Traditional)": "素材"
+  },
+  {
+    "Key": "Relic System",
+    "English": "Relic System",
+    "Chinese": "遗物系统",
+    "Chinese (Traditional)": "遺物系統"
+  },
+  {
+    "Key": "Join Discord",
+    "English": "Join Discord",
+    "Chinese": "加入 Discord",
+    "Chinese (Traditional)": "加入 Discord"
+  },
+  {
+    "Key": "Contains ads • In-app purchases",
+    "English": "Contains ads • In-app purchases",
+    "Chinese": "包含广告 • 应用内购买",
+    "Chinese (Traditional)": "包含廣告 • 應用程式內購買"
+  },
+  {
+    "Key": "Loading Wiki Data...",
+    "English": "Loading Wiki Data...",
+    "Chinese": "正在加载 Wiki 数据...",
+    "Chinese (Traditional)": "正在載入 Wiki 資料..."
+  },
+  {
+    "Key": "Loading data...",
+    "English": "Loading data...",
+    "Chinese": "正在加载数据...",
+    "Chinese (Traditional)": "正在載入資料..."
+  },
+  {
+    "Key": "Search...",
+    "English": "Search...",
+    "Chinese": "搜索...",
+    "Chinese (Traditional)": "搜尋..."
+  },
+  {
+    "Key": "entries",
+    "English": "entries",
+    "Chinese": "条目",
+    "Chinese (Traditional)": "條目"
+  },
+  {
+    "Key": "Error",
+    "English": "Error",
+    "Chinese": "错误",
+    "Chinese (Traditional)": "錯誤"
+  },
+  {
+    "Key": "Please refresh the page.",
+    "English": "Please refresh the page.",
+    "Chinese": "请刷新页面。",
+    "Chinese (Traditional)": "請重新整理頁面。"
+  },
+  {
+    "Key": "Back",
+    "English": "Back",
+    "Chinese": "返回",
+    "Chinese (Traditional)": "返回"
+  },
+  {
+    "Key": "Basic Info",
+    "English": "Basic Info",
+    "Chinese": "基本信息",
+    "Chinese (Traditional)": "基本資訊"
+  },
+  {
+    "Key": "More Info",
+    "English": "More Info",
+    "Chinese": "更多信息",
+    "Chinese (Traditional)": "更多資訊"
+  },
+  {
+    "Key": "Used By",
+    "English": "Used By",
+    "Chinese": "使用者",
+    "Chinese (Traditional)": "使用者"
+  },
+  {
+    "Key": "Description",
+    "English": "Description",
+    "Chinese": "说明",
+    "Chinese (Traditional)": "說明"
+  },
+  {
+    "Key": "Condition",
+    "English": "Condition",
+    "Chinese": "条件",
+    "Chinese (Traditional)": "條件"
+  },
+  {
+    "Key": "Combine List",
+    "English": "Combine List",
+    "Chinese": "合成列表",
+    "Chinese (Traditional)": "合成列表"
+  },
+  {
+    "Key": "Job",
+    "English": "Job",
+    "Chinese": "职业",
+    "Chinese (Traditional)": "職業"
+  },
+  {
+    "Key": "Crafted Job",
+    "English": "Crafted Job",
+    "Chinese": "合成职业",
+    "Chinese (Traditional)": "合成職業"
+  },
+  {
+    "Key": "Crafting Path",
+    "English": "Crafting Path",
+    "Chinese": "合成路线",
+    "Chinese (Traditional)": "合成路線"
+  },
+  {
+    "Key": "Crafts Into",
+    "English": "Crafts Into",
+    "Chinese": "可合成为",
+    "Chinese (Traditional)": "可合成為"
+  },
+  {
+    "Key": "Enemy Skill Pools",
+    "English": "Enemy Skill Pools",
+    "Chinese": "敌人技能池",
+    "Chinese (Traditional)": "敵人技能池"
+  },
+  {
+    "Key": "Random Passives",
+    "English": "Random Passives",
+    "Chinese": "随机被动技能",
+    "Chinese (Traditional)": "隨機被動技能"
+  },
+  {
+    "Key": "Random Abilities",
+    "English": "Random Abilities",
+    "Chinese": "随机技能",
+    "Chinese (Traditional)": "隨機技能"
+  },
+  {
+    "Key": "Threshold Abilities",
+    "English": "Threshold Abilities",
+    "Chinese": "阈值技能",
+    "Chinese (Traditional)": "閾值技能"
+  },
+  {
+    "Key": "Special Case Abilities",
+    "English": "Special Case Abilities",
+    "Chinese": "特殊条件技能",
+    "Chinese (Traditional)": "特殊條件技能"
+  },
+  {
+    "Key": "Enemy act first",
+    "English": "Enemy act first",
+    "Chinese": "敌人先行动",
+    "Chinese (Traditional)": "敵人先行動"
+  },
+  {
+    "Key": "Below 50%",
+    "English": "Below 50%",
+    "Chinese": "低于 50%",
+    "Chinese (Traditional)": "低於 50%"
+  },
+  {
+    "Key": "Below 30%",
+    "English": "Below 30%",
+    "Chinese": "低于 30%",
+    "Chinese (Traditional)": "低於 30%"
+  },
+  {
+    "Key": "Switch Skill",
+    "English": "Switch Skill",
+    "Chinese": "切换技能",
+    "Chinese (Traditional)": "切換技能"
+  },
+  {
+    "Key": "Deck Ability",
+    "English": "Deck Ability",
+    "Chinese": "牌组技能",
+    "Chinese (Traditional)": "牌組技能"
+  },
+  {
+    "Key": "Passive",
+    "English": "Passive",
+    "Chinese": "被动技能",
+    "Chinese (Traditional)": "被動技能"
+  },
+  {
+    "Key": "Ability",
+    "English": "Ability",
+    "Chinese": "主动技能",
+    "Chinese (Traditional)": "主動技能"
+  },
+  {
+    "Key": "Character",
+    "English": "Character",
+    "Chinese": "角色",
+    "Chinese (Traditional)": "角色"
+  },
+  {
+    "Key": "Relic",
+    "English": "Relic",
+    "Chinese": "遗物",
+    "Chinese (Traditional)": "遺物"
+  },
+  {
+    "Key": "Rarity",
+    "English": "Rarity",
+    "Chinese": "稀有度",
+    "Chinese (Traditional)": "稀有度"
+  },
+  {
+    "Key": "Difficulty",
+    "English": "Difficulty",
+    "Chinese": "难度",
+    "Chinese (Traditional)": "難度"
+  },
+  {
+    "Key": "Race",
+    "English": "Race",
+    "Chinese": "种族",
+    "Chinese (Traditional)": "種族"
+  },
+  {
+    "Key": "Gender",
+    "English": "Gender",
+    "Chinese": "性别",
+    "Chinese (Traditional)": "性別"
+  },
+  {
+    "Key": "Acquire Type",
+    "English": "Acquire Type",
+    "Chinese": "获取方式",
+    "Chinese (Traditional)": "取得方式"
+  },
+  {
+    "Key": "Acquire Method",
+    "English": "Acquire Method",
+    "Chinese": "获取方式",
+    "Chinese (Traditional)": "取得方式"
+  },
+  {
+    "Key": "Ability Tier",
+    "English": "Ability Tier",
+    "Chinese": "技能等级",
+    "Chinese (Traditional)": "技能等級"
+  },
+  {
+    "Key": "Skill Rank",
+    "English": "Skill Rank",
+    "Chinese": "技能等级",
+    "Chinese (Traditional)": "技能等級"
+  },
+  {
+    "Key": "Relic Items",
+    "English": "Relic Items",
+    "Chinese": "遗物",
+    "Chinese (Traditional)": "遺物"
+  },
+  {
+    "Key": "Relic Passives",
+    "English": "Relic Passives",
+    "Chinese": "遗物被动技能",
+    "Chinese (Traditional)": "遺物被動技能"
+  },
+  {
+    "Key": "Innate Passive",
+    "English": "Innate Passive",
+    "Chinese": "固有被动技能",
+    "Chinese (Traditional)": "固有被動技能"
+  },
+  {
+    "Key": "Possible Passives",
+    "English": "Possible Passives",
+    "Chinese": "可获得被动技能",
+    "Chinese (Traditional)": "可獲得被動技能"
+  },
+  {
+    "Key": "Passive Pool",
+    "English": "Passive Pool",
+    "Chinese": "被动技能池",
+    "Chinese (Traditional)": "被動技能池"
+  },
+  {
+    "Key": "Skill Type",
+    "English": "Skill Type",
+    "Chinese": "技能类型",
+    "Chinese (Traditional)": "技能類型"
+  },
+  {
+    "Key": "Effect Type",
+    "English": "Effect Type",
+    "Chinese": "效果类型",
+    "Chinese (Traditional)": "效果類型"
+  },
+  {
+    "Key": "Multiplier",
+    "English": "Multiplier",
+    "Chinese": "倍率",
+    "Chinese (Traditional)": "倍率"
+  }
 ]
