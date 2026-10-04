@@ -508,5 +508,107 @@
     "English": "Multiplier",
     "Chinese": "倍率",
     "Chinese (Traditional)": "倍率"
+  },
+  {
+    "Key": "Upgrade",
+    "English": "Upgrade",
+    "Chinese": "升级遗物",
+    "Chinese (Traditional)": "升級遺物"
+  },
+  {
+    "Key": "Dungeon Loot",
+    "English": "Dungeon Loot",
+    "Chinese": "探险遗物",
+    "Chinese (Traditional)": "探險遺物"
+  },
+  {
+    "Key": "Reforge",
+    "English": "Reforge",
+    "Chinese": "重铸",
+    "Chinese (Traditional)": "重鑄"
+  },
+  {
+    "Key": "First Passive",
+    "English": "First Passive",
+    "Chinese": "第一个被动技能",
+    "Chinese (Traditional)": "第一個被動技能"
+  },
+  {
+    "Key": "Additional Passive",
+    "English": "Additional Passive",
+    "Chinese": "额外被动技能",
+    "Chinese (Traditional)": "額外被動技能"
+  },
+  {
+    "Key": "Empty Chance",
+    "English": "Empty Chance",
+    "Chinese": "空被动几率",
+    "Chinese (Traditional)": "空被動機率"
+  },
+  {
+    "Key": "Passive Source",
+    "English": "Passive Source",
+    "Chinese": "被动技能来源",
+    "Chinese (Traditional)": "被動技能來源"
+  },
+  {
+    "Key": "Rate-Up",
+    "English": "Rate-Up",
+    "Chinese": "概率提升",
+    "Chinese (Traditional)": "機率提升"
+  },
+  {
+    "Key": "Guaranteed",
+    "English": "Guaranteed",
+    "Chinese": "必定获得",
+    "Chinese (Traditional)": "必定獲得"
+  },
+  {
+    "Key": "Not guaranteed",
+    "English": "Not guaranteed",
+    "Chinese": "不保证获得",
+    "Chinese (Traditional)": "不保證獲得"
+  },
+  {
+    "Key": "Random from compatible pool",
+    "English": "Random from compatible pool",
+    "Chinese": "从兼容被动技能池随机获得",
+    "Chinese (Traditional)": "從相容被動技能池隨機獲得"
+  },
+  {
+    "Key": "Innate Passive (guaranteed)",
+    "English": "Innate Passive (guaranteed)",
+    "Chinese": "固有被动技能（必定获得）",
+    "Chinese (Traditional)": "固有被動技能（必定獲得）"
+  },
+  {
+    "Key": "60% random from compatible pool",
+    "English": "60% random from compatible pool",
+    "Chinese": "60% 几率从兼容被动技能池随机获得",
+    "Chinese (Traditional)": "60% 機率從相容被動技能池隨機獲得"
+  },
+  {
+    "Key": "Compatible pool",
+    "English": "Compatible pool",
+    "Chinese": "兼容被动技能池",
+    "Chinese (Traditional)": "相容被動技能池"
+  },
+  {
+    "Key": "Weighted, not guaranteed",
+    "English": "Weighted, not guaranteed",
+    "Chinese": "概率提升，但不保证获得",
+    "Chinese (Traditional)": "機率提升，但不保證獲得"
+  },
+  {
+    "Key": "Compatible Passive Pool",
+    "English": "Compatible Passive Pool",
+    "Chinese": "兼容被动技能池",
+    "Chinese (Traditional)": "相容被動技能池"
+  },
+  {
+    "Key": "possible passives",
+    "English": "possible passives",
+    "Chinese": "个可获得被动技能",
+    "Chinese (Traditional)": "個可獲得被動技能"
   }
 ]
