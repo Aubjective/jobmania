@@ -1,0 +1,30 @@
+{
+  "source": "Jobmania Database / RelicPassives",
+  "poolRule": {
+    "rarityMustMatch": true,
+    "passiveTypeMatchesRelicSpecialType": true,
+    "blankPassiveTypeIsShared": true,
+    "blankRelicSpecialTypeUsesSharedOnly": true
+  },
+  "slots": {
+    "level5": {
+      "innateWhenPresent": true,
+      "otherwise": "compatiblePool"
+    },
+    "level10": {
+      "source": "compatiblePool"
+    }
+  },
+  "duplicateRule": {
+    "secondPassiveCannotMatchFirstSkillTypeAndEffectType": true
+  },
+  "dungeonDrop": {
+    "innateGuaranteed": false,
+    "firstPassiveEmptyChance": 0.4
+  },
+  "reforge": {
+    "usesCompatiblePool": true,
+    "rateUpWeighted": true,
+    "rateUpGuaranteed": false
+  }
+}
