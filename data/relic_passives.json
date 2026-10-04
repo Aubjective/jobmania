@@ -1,0 +1,4659 @@
+[
+  {
+    "RelicPassiveId": 1,
+    "RelicPassiveKey": "TurnBuffStrength1",
+    "SkillType": "TurnBuff",
+    "EffectType": "Strength",
+    "Multiplier": 1,
+    "Type": "Strength",
+    "Rarities": [
+      "Common"
+    ]
+  },
+  {
+    "RelicPassiveId": 2,
+    "RelicPassiveKey": "TurnDamageStrength3",
+    "SkillType": "TurnDamage",
+    "EffectType": "Strength",
+    "Multiplier": 3,
+    "Type": "Strength",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 3,
+    "RelicPassiveKey": "TurnDamageStrength4",
+    "SkillType": "TurnDamage",
+    "EffectType": "Strength",
+    "Multiplier": 4,
+    "Type": "Strength",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 4,
+    "RelicPassiveKey": "TurnDamageStrength5",
+    "SkillType": "TurnDamage",
+    "EffectType": "Strength",
+    "Multiplier": 5,
+    "Type": "Strength",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 5,
+    "RelicPassiveKey": "TurnBuffAgility1",
+    "SkillType": "TurnBuff",
+    "EffectType": "Agility",
+    "Multiplier": 1,
+    "Type": "Agility",
+    "Rarities": [
+      "Common"
+    ]
+  },
+  {
+    "RelicPassiveId": 6,
+    "RelicPassiveKey": "TurnDamageAgility3",
+    "SkillType": "TurnDamage",
+    "EffectType": "Agility",
+    "Multiplier": 3,
+    "Type": "Agility",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 7,
+    "RelicPassiveKey": "TurnDamageAgility4",
+    "SkillType": "TurnDamage",
+    "EffectType": "Agility",
+    "Multiplier": 4,
+    "Type": "Agility",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 8,
+    "RelicPassiveKey": "TurnDamageAgility5",
+    "SkillType": "TurnDamage",
+    "EffectType": "Agility",
+    "Multiplier": 5,
+    "Type": "Agility",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 9,
+    "RelicPassiveKey": "TurnBuffIntelligence1",
+    "SkillType": "TurnBuff",
+    "EffectType": "Intelligence",
+    "Multiplier": 1,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Common"
+    ]
+  },
+  {
+    "RelicPassiveId": 10,
+    "RelicPassiveKey": "TurnDamageIntelligence3",
+    "SkillType": "TurnDamage",
+    "EffectType": "Intelligence",
+    "Multiplier": 3,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 11,
+    "RelicPassiveKey": "TurnDamageIntelligence4",
+    "SkillType": "TurnDamage",
+    "EffectType": "Intelligence",
+    "Multiplier": 4,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 12,
+    "RelicPassiveKey": "TurnDamageIntelligence5",
+    "SkillType": "TurnDamage",
+    "EffectType": "Intelligence",
+    "Multiplier": 5,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 13,
+    "RelicPassiveKey": "TurnDamageMaxHP1",
+    "SkillType": "TurnDamage",
+    "EffectType": "MaxHP",
+    "Multiplier": 1,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 14,
+    "RelicPassiveKey": "TurnDamageMaxHP2",
+    "SkillType": "TurnDamage",
+    "EffectType": "MaxHP",
+    "Multiplier": 2,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 15,
+    "RelicPassiveKey": "ReflectMaxHPM1",
+    "SkillType": "Reflect",
+    "EffectType": "MaxHPM",
+    "Multiplier": 1,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 16,
+    "RelicPassiveKey": "TurnDamageProtect4",
+    "SkillType": "TurnDamage",
+    "EffectType": "Protect",
+    "Multiplier": 4,
+    "Type": "",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 17,
+    "RelicPassiveKey": "TurnDamageProtect5",
+    "SkillType": "TurnDamage",
+    "EffectType": "Protect",
+    "Multiplier": 5,
+    "Type": "",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 18,
+    "RelicPassiveKey": "TurnDamageProtect6",
+    "SkillType": "TurnDamage",
+    "EffectType": "Protect",
+    "Multiplier": 6,
+    "Type": "",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 19,
+    "RelicPassiveKey": "TurnBuffStrength2",
+    "SkillType": "TurnBuff",
+    "EffectType": "Strength",
+    "Multiplier": 2,
+    "Type": "Strength",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 20,
+    "RelicPassiveKey": "TurnHealStrength3",
+    "SkillType": "TurnHeal",
+    "EffectType": "Strength",
+    "Multiplier": 3,
+    "Type": "Strength",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 21,
+    "RelicPassiveKey": "TurnHealStrength4",
+    "SkillType": "TurnHeal",
+    "EffectType": "Strength",
+    "Multiplier": 4,
+    "Type": "Strength",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 22,
+    "RelicPassiveKey": "TurnHealStrength5",
+    "SkillType": "TurnHeal",
+    "EffectType": "Strength",
+    "Multiplier": 5,
+    "Type": "Strength",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 23,
+    "RelicPassiveKey": "TurnBuffAgility2",
+    "SkillType": "TurnBuff",
+    "EffectType": "Agility",
+    "Multiplier": 2,
+    "Type": "Agility",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 24,
+    "RelicPassiveKey": "TurnHealAgility3",
+    "SkillType": "TurnHeal",
+    "EffectType": "Agility",
+    "Multiplier": 3,
+    "Type": "Agility",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 25,
+    "RelicPassiveKey": "TurnHealAgility4",
+    "SkillType": "TurnHeal",
+    "EffectType": "Agility",
+    "Multiplier": 4,
+    "Type": "Agility",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 26,
+    "RelicPassiveKey": "TurnHealAgility5",
+    "SkillType": "TurnHeal",
+    "EffectType": "Agility",
+    "Multiplier": 5,
+    "Type": "Agility",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 27,
+    "RelicPassiveKey": "TurnBuffIntelligence2",
+    "SkillType": "TurnBuff",
+    "EffectType": "Intelligence",
+    "Multiplier": 2,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 28,
+    "RelicPassiveKey": "TurnHealIntelligence3",
+    "SkillType": "TurnHeal",
+    "EffectType": "Intelligence",
+    "Multiplier": 3,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 29,
+    "RelicPassiveKey": "TurnHealIntelligence4",
+    "SkillType": "TurnHeal",
+    "EffectType": "Intelligence",
+    "Multiplier": 4,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 30,
+    "RelicPassiveKey": "TurnHealIntelligence5",
+    "SkillType": "TurnHeal",
+    "EffectType": "Intelligence",
+    "Multiplier": 5,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 31,
+    "RelicPassiveKey": "TurnHealMaxHP1",
+    "SkillType": "TurnHeal",
+    "EffectType": "MaxHP",
+    "Multiplier": 1,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 32,
+    "RelicPassiveKey": "TurnHealMaxHP2",
+    "SkillType": "TurnHeal",
+    "EffectType": "MaxHP",
+    "Multiplier": 2,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 33,
+    "RelicPassiveKey": "ReflectMaxHPM2",
+    "SkillType": "Reflect",
+    "EffectType": "MaxHPM",
+    "Multiplier": 2,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 34,
+    "RelicPassiveKey": "TurnHealProtect4",
+    "SkillType": "TurnHeal",
+    "EffectType": "Protect",
+    "Multiplier": 4,
+    "Type": "",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 35,
+    "RelicPassiveKey": "TurnHealProtect5",
+    "SkillType": "TurnHeal",
+    "EffectType": "Protect",
+    "Multiplier": 5,
+    "Type": "",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 36,
+    "RelicPassiveKey": "TurnHealProtect6",
+    "SkillType": "TurnHeal",
+    "EffectType": "Protect",
+    "Multiplier": 6,
+    "Type": "",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 37,
+    "RelicPassiveKey": "ActionDamageProtect1",
+    "SkillType": "ActionDamage",
+    "EffectType": "Protect",
+    "Multiplier": 1,
+    "Type": "",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 38,
+    "RelicPassiveKey": "ActionDamageProtect2",
+    "SkillType": "ActionDamage",
+    "EffectType": "Protect",
+    "Multiplier": 2,
+    "Type": "",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 39,
+    "RelicPassiveKey": "ActionDamageProtect3",
+    "SkillType": "ActionDamage",
+    "EffectType": "Protect",
+    "Multiplier": 3,
+    "Type": "",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 40,
+    "RelicPassiveKey": "ActionHealProtect1",
+    "SkillType": "ActionHeal",
+    "EffectType": "Protect",
+    "Multiplier": 1,
+    "Type": "",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 41,
+    "RelicPassiveKey": "ActionHealProtect2",
+    "SkillType": "ActionHeal",
+    "EffectType": "Protect",
+    "Multiplier": 2,
+    "Type": "",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 42,
+    "RelicPassiveKey": "ActionHealProtect3",
+    "SkillType": "ActionHeal",
+    "EffectType": "Protect",
+    "Multiplier": 3,
+    "Type": "",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 43,
+    "RelicPassiveKey": "InstantBoostStrength1",
+    "SkillType": "InstantBoost",
+    "EffectType": "Strength",
+    "Multiplier": 1,
+    "Type": "Strength",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 44,
+    "RelicPassiveKey": "InstantBoostStrength2",
+    "SkillType": "InstantBoost",
+    "EffectType": "Strength",
+    "Multiplier": 2,
+    "Type": "Strength",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 45,
+    "RelicPassiveKey": "InstantBoostStrength3",
+    "SkillType": "InstantBoost",
+    "EffectType": "Strength",
+    "Multiplier": 3,
+    "Type": "Strength",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 46,
+    "RelicPassiveKey": "InstantBoostAgility1",
+    "SkillType": "InstantBoost",
+    "EffectType": "Agility",
+    "Multiplier": 1,
+    "Type": "Agility",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 47,
+    "RelicPassiveKey": "InstantBoostAgility2",
+    "SkillType": "InstantBoost",
+    "EffectType": "Agility",
+    "Multiplier": 2,
+    "Type": "Agility",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 48,
+    "RelicPassiveKey": "InstantBoostAgility3",
+    "SkillType": "InstantBoost",
+    "EffectType": "Agility",
+    "Multiplier": 3,
+    "Type": "Agility",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 49,
+    "RelicPassiveKey": "InstantBoostIntelligence1",
+    "SkillType": "InstantBoost",
+    "EffectType": "Intelligence",
+    "Multiplier": 1,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 50,
+    "RelicPassiveKey": "InstantBoostIntelligence2",
+    "SkillType": "InstantBoost",
+    "EffectType": "Intelligence",
+    "Multiplier": 2,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 51,
+    "RelicPassiveKey": "InstantBoostIntelligence3",
+    "SkillType": "InstantBoost",
+    "EffectType": "Intelligence",
+    "Multiplier": 3,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 52,
+    "RelicPassiveKey": "InstantBoostMaxHP1",
+    "SkillType": "InstantBoost",
+    "EffectType": "MaxHP",
+    "Multiplier": 1,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 53,
+    "RelicPassiveKey": "InstantBoostMaxHP2",
+    "SkillType": "InstantBoost",
+    "EffectType": "MaxHP",
+    "Multiplier": 2,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 54,
+    "RelicPassiveKey": "InstantBoostMaxHP3",
+    "SkillType": "InstantBoost",
+    "EffectType": "MaxHP",
+    "Multiplier": 3,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 55,
+    "RelicPassiveKey": "InstantBoostFire1",
+    "SkillType": "InstantBoost",
+    "EffectType": "Fire",
+    "Multiplier": 1,
+    "Type": "Fire",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 56,
+    "RelicPassiveKey": "InstantBoostFire2",
+    "SkillType": "InstantBoost",
+    "EffectType": "Fire",
+    "Multiplier": 2,
+    "Type": "Fire",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 57,
+    "RelicPassiveKey": "InstantBoostFire3",
+    "SkillType": "InstantBoost",
+    "EffectType": "Fire",
+    "Multiplier": 3,
+    "Type": "Fire",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 58,
+    "RelicPassiveKey": "InstantBoostWater1",
+    "SkillType": "InstantBoost",
+    "EffectType": "Water",
+    "Multiplier": 1,
+    "Type": "Water",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 59,
+    "RelicPassiveKey": "InstantBoostWater2",
+    "SkillType": "InstantBoost",
+    "EffectType": "Water",
+    "Multiplier": 2,
+    "Type": "Water",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 60,
+    "RelicPassiveKey": "InstantBoostWater3",
+    "SkillType": "InstantBoost",
+    "EffectType": "Water",
+    "Multiplier": 3,
+    "Type": "Water",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 61,
+    "RelicPassiveKey": "InstantBoostThunder1",
+    "SkillType": "InstantBoost",
+    "EffectType": "Thunder",
+    "Multiplier": 1,
+    "Type": "Thunder",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 62,
+    "RelicPassiveKey": "InstantBoostThunder2",
+    "SkillType": "InstantBoost",
+    "EffectType": "Thunder",
+    "Multiplier": 2,
+    "Type": "Thunder",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 63,
+    "RelicPassiveKey": "InstantBoostThunder3",
+    "SkillType": "InstantBoost",
+    "EffectType": "Thunder",
+    "Multiplier": 3,
+    "Type": "Thunder",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 64,
+    "RelicPassiveKey": "InstantBoostEarth1",
+    "SkillType": "InstantBoost",
+    "EffectType": "Earth",
+    "Multiplier": 1,
+    "Type": "Earth",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 65,
+    "RelicPassiveKey": "InstantBoostEarth2",
+    "SkillType": "InstantBoost",
+    "EffectType": "Earth",
+    "Multiplier": 2,
+    "Type": "Earth",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 66,
+    "RelicPassiveKey": "InstantBoostEarth3",
+    "SkillType": "InstantBoost",
+    "EffectType": "Earth",
+    "Multiplier": 3,
+    "Type": "Earth",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 67,
+    "RelicPassiveKey": "InstantBoostWind1",
+    "SkillType": "InstantBoost",
+    "EffectType": "Wind",
+    "Multiplier": 1,
+    "Type": "Wind",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 68,
+    "RelicPassiveKey": "InstantBoostWind2",
+    "SkillType": "InstantBoost",
+    "EffectType": "Wind",
+    "Multiplier": 2,
+    "Type": "Wind",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 69,
+    "RelicPassiveKey": "InstantBoostWind3",
+    "SkillType": "InstantBoost",
+    "EffectType": "Wind",
+    "Multiplier": 3,
+    "Type": "Wind",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 70,
+    "RelicPassiveKey": "InstantBoostLight1",
+    "SkillType": "InstantBoost",
+    "EffectType": "Light",
+    "Multiplier": 1,
+    "Type": "Light",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 71,
+    "RelicPassiveKey": "InstantBoostLight2",
+    "SkillType": "InstantBoost",
+    "EffectType": "Light",
+    "Multiplier": 2,
+    "Type": "Light",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 72,
+    "RelicPassiveKey": "InstantBoostLight3",
+    "SkillType": "InstantBoost",
+    "EffectType": "Light",
+    "Multiplier": 3,
+    "Type": "Light",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 73,
+    "RelicPassiveKey": "InstantBoostDark1",
+    "SkillType": "InstantBoost",
+    "EffectType": "Dark",
+    "Multiplier": 1,
+    "Type": "Dark",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 74,
+    "RelicPassiveKey": "InstantBoostDark2",
+    "SkillType": "InstantBoost",
+    "EffectType": "Dark",
+    "Multiplier": 2,
+    "Type": "Dark",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 75,
+    "RelicPassiveKey": "InstantBoostDark3",
+    "SkillType": "InstantBoost",
+    "EffectType": "Dark",
+    "Multiplier": 3,
+    "Type": "Dark",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 76,
+    "RelicPassiveKey": "InstantBoostCharge1",
+    "SkillType": "InstantBoost",
+    "EffectType": "Charge",
+    "Multiplier": 1,
+    "Type": "",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 77,
+    "RelicPassiveKey": "InstantBoostCharge2",
+    "SkillType": "InstantBoost",
+    "EffectType": "Charge",
+    "Multiplier": 2,
+    "Type": "",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 78,
+    "RelicPassiveKey": "InstantBoostCharge3",
+    "SkillType": "InstantBoost",
+    "EffectType": "Charge",
+    "Multiplier": 3,
+    "Type": "",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 79,
+    "RelicPassiveKey": "InstantBoostGuard1",
+    "SkillType": "InstantBoost",
+    "EffectType": "Guard",
+    "Multiplier": 1,
+    "Type": "",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 80,
+    "RelicPassiveKey": "InstantBoostGuard2",
+    "SkillType": "InstantBoost",
+    "EffectType": "Guard",
+    "Multiplier": 2,
+    "Type": "",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 81,
+    "RelicPassiveKey": "InstantBoostGuard3",
+    "SkillType": "InstantBoost",
+    "EffectType": "Guard",
+    "Multiplier": 3,
+    "Type": "",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 82,
+    "RelicPassiveKey": "BuffStrength1",
+    "SkillType": "Buff",
+    "EffectType": "Strength",
+    "Multiplier": 1,
+    "Type": "Strength",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 83,
+    "RelicPassiveKey": "BuffStrength2",
+    "SkillType": "Buff",
+    "EffectType": "Strength",
+    "Multiplier": 2,
+    "Type": "Strength",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 84,
+    "RelicPassiveKey": "BuffAgility1",
+    "SkillType": "Buff",
+    "EffectType": "Agility",
+    "Multiplier": 1,
+    "Type": "Agility",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 85,
+    "RelicPassiveKey": "BuffAgility2",
+    "SkillType": "Buff",
+    "EffectType": "Agility",
+    "Multiplier": 2,
+    "Type": "Agility",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 86,
+    "RelicPassiveKey": "BuffIntelligence1",
+    "SkillType": "Buff",
+    "EffectType": "Intelligence",
+    "Multiplier": 1,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 87,
+    "RelicPassiveKey": "BuffIntelligence2",
+    "SkillType": "Buff",
+    "EffectType": "Intelligence",
+    "Multiplier": 2,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 88,
+    "RelicPassiveKey": "BuffMaxHP2",
+    "SkillType": "Buff",
+    "EffectType": "MaxHP",
+    "Multiplier": 2,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 89,
+    "RelicPassiveKey": "BuffAction1",
+    "SkillType": "Buff",
+    "EffectType": "Action",
+    "Multiplier": 1,
+    "Type": "",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 90,
+    "RelicPassiveKey": "BuffDraw1",
+    "SkillType": "Buff",
+    "EffectType": "Draw",
+    "Multiplier": 1,
+    "Type": "",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 91,
+    "RelicPassiveKey": "ProtectGuard1",
+    "SkillType": "Protect",
+    "EffectType": "Guard",
+    "Multiplier": 1,
+    "Type": "",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 92,
+    "RelicPassiveKey": "ProtectStrength2",
+    "SkillType": "Protect",
+    "EffectType": "Strength",
+    "Multiplier": 2,
+    "Type": "Strength",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 93,
+    "RelicPassiveKey": "ProtectStrength3",
+    "SkillType": "Protect",
+    "EffectType": "Strength",
+    "Multiplier": 3,
+    "Type": "Strength",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 94,
+    "RelicPassiveKey": "ProtectStrength4",
+    "SkillType": "Protect",
+    "EffectType": "Strength",
+    "Multiplier": 4,
+    "Type": "Strength",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 95,
+    "RelicPassiveKey": "ProtectAgility2",
+    "SkillType": "Protect",
+    "EffectType": "Agility",
+    "Multiplier": 2,
+    "Type": "Agility",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 96,
+    "RelicPassiveKey": "ProtectAgility3",
+    "SkillType": "Protect",
+    "EffectType": "Agility",
+    "Multiplier": 3,
+    "Type": "Agility",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 97,
+    "RelicPassiveKey": "ProtectAgility4",
+    "SkillType": "Protect",
+    "EffectType": "Agility",
+    "Multiplier": 4,
+    "Type": "Agility",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 98,
+    "RelicPassiveKey": "ProtectIntelligence2",
+    "SkillType": "Protect",
+    "EffectType": "Intelligence",
+    "Multiplier": 2,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 99,
+    "RelicPassiveKey": "ProtectIntelligence3",
+    "SkillType": "Protect",
+    "EffectType": "Intelligence",
+    "Multiplier": 3,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 100,
+    "RelicPassiveKey": "ProtectIntelligence4",
+    "SkillType": "Protect",
+    "EffectType": "Intelligence",
+    "Multiplier": 4,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 101,
+    "RelicPassiveKey": "ProtectMaxHP1",
+    "SkillType": "Protect",
+    "EffectType": "MaxHP",
+    "Multiplier": 1,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 102,
+    "RelicPassiveKey": "ProtectMaxHP2",
+    "SkillType": "Protect",
+    "EffectType": "MaxHP",
+    "Multiplier": 2,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 103,
+    "RelicPassiveKey": "ProtectMaxHP3",
+    "SkillType": "Protect",
+    "EffectType": "MaxHP",
+    "Multiplier": 3,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 104,
+    "RelicPassiveKey": "ProtectFire0",
+    "SkillType": "Protect",
+    "EffectType": "Fire",
+    "Multiplier": 0,
+    "Type": "Fire",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 105,
+    "RelicPassiveKey": "ProtectWater0",
+    "SkillType": "Protect",
+    "EffectType": "Water",
+    "Multiplier": 0,
+    "Type": "Water",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 106,
+    "RelicPassiveKey": "ProtectThunder0",
+    "SkillType": "Protect",
+    "EffectType": "Thunder",
+    "Multiplier": 0,
+    "Type": "Thunder",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 107,
+    "RelicPassiveKey": "ProtectEarth0",
+    "SkillType": "Protect",
+    "EffectType": "Earth",
+    "Multiplier": 0,
+    "Type": "Earth",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 108,
+    "RelicPassiveKey": "ProtectWind0",
+    "SkillType": "Protect",
+    "EffectType": "Wind",
+    "Multiplier": 0,
+    "Type": "Wind",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 109,
+    "RelicPassiveKey": "ProtectLight0",
+    "SkillType": "Protect",
+    "EffectType": "Light",
+    "Multiplier": 0,
+    "Type": "Light",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 110,
+    "RelicPassiveKey": "ProtectDark0",
+    "SkillType": "Protect",
+    "EffectType": "Dark",
+    "Multiplier": 0,
+    "Type": "Dark",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 111,
+    "RelicPassiveKey": "ProtectBleed0",
+    "SkillType": "Protect",
+    "EffectType": "Bleed",
+    "Multiplier": 0,
+    "Type": "",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 112,
+    "RelicPassiveKey": "ProtectInjury0",
+    "SkillType": "Protect",
+    "EffectType": "Injury",
+    "Multiplier": 0,
+    "Type": "",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 113,
+    "RelicPassiveKey": "ProtectVenom0",
+    "SkillType": "Protect",
+    "EffectType": "Venom",
+    "Multiplier": 0,
+    "Type": "Venom",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 114,
+    "RelicPassiveKey": "ProtectRestrain0",
+    "SkillType": "Protect",
+    "EffectType": "Restrain",
+    "Multiplier": 0,
+    "Type": "Restrain",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 115,
+    "RelicPassiveKey": "ProtectInsane0",
+    "SkillType": "Protect",
+    "EffectType": "Insane",
+    "Multiplier": 0,
+    "Type": "Insane",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 116,
+    "RelicPassiveKey": "ProtectLifeSteal1",
+    "SkillType": "Protect",
+    "EffectType": "LifeSteal",
+    "Multiplier": 1,
+    "Type": "",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 117,
+    "RelicPassiveKey": "ReflectStrength1",
+    "SkillType": "Reflect",
+    "EffectType": "Strength",
+    "Multiplier": 1,
+    "Type": "Strength",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 118,
+    "RelicPassiveKey": "ReflectStrength2",
+    "SkillType": "Reflect",
+    "EffectType": "Strength",
+    "Multiplier": 2,
+    "Type": "Strength",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 119,
+    "RelicPassiveKey": "ReflectAgility1",
+    "SkillType": "Reflect",
+    "EffectType": "Agility",
+    "Multiplier": 1,
+    "Type": "Agility",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 120,
+    "RelicPassiveKey": "ReflectAgility2",
+    "SkillType": "Reflect",
+    "EffectType": "Agility",
+    "Multiplier": 2,
+    "Type": "Agility",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 121,
+    "RelicPassiveKey": "ReflectIntelligence1",
+    "SkillType": "Reflect",
+    "EffectType": "Intelligence",
+    "Multiplier": 1,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 122,
+    "RelicPassiveKey": "ReflectIntelligence2",
+    "SkillType": "Reflect",
+    "EffectType": "Intelligence",
+    "Multiplier": 2,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 123,
+    "RelicPassiveKey": "ReflectMaxHP1",
+    "SkillType": "Reflect",
+    "EffectType": "MaxHP",
+    "Multiplier": 1,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 124,
+    "RelicPassiveKey": "ReflectProtect0",
+    "SkillType": "Reflect",
+    "EffectType": "Protect",
+    "Multiplier": 0,
+    "Type": "",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 125,
+    "RelicPassiveKey": "ReflectBleed1",
+    "SkillType": "Reflect",
+    "EffectType": "Bleed",
+    "Multiplier": 1,
+    "Type": "Bleed",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 126,
+    "RelicPassiveKey": "ReflectInjury1",
+    "SkillType": "Reflect",
+    "EffectType": "Injury",
+    "Multiplier": 1,
+    "Type": "",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 127,
+    "RelicPassiveKey": "ReflectVenom1",
+    "SkillType": "Reflect",
+    "EffectType": "Venom",
+    "Multiplier": 1,
+    "Type": "Venom",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 128,
+    "RelicPassiveKey": "ReflectRestrain1",
+    "SkillType": "Reflect",
+    "EffectType": "Restrain",
+    "Multiplier": 1,
+    "Type": "Restrain",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 129,
+    "RelicPassiveKey": "ReflectInsane1",
+    "SkillType": "Reflect",
+    "EffectType": "Insane",
+    "Multiplier": 1,
+    "Type": "Insane",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 130,
+    "RelicPassiveKey": "ReflectFire1",
+    "SkillType": "Reflect",
+    "EffectType": "Fire",
+    "Multiplier": 1,
+    "Type": "Fire",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 131,
+    "RelicPassiveKey": "ReflectWater1",
+    "SkillType": "Reflect",
+    "EffectType": "Water",
+    "Multiplier": 1,
+    "Type": "Water",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 132,
+    "RelicPassiveKey": "ReflectThunder1",
+    "SkillType": "Reflect",
+    "EffectType": "Thunder",
+    "Multiplier": 1,
+    "Type": "Thunder",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 133,
+    "RelicPassiveKey": "ReflectEarth1",
+    "SkillType": "Reflect",
+    "EffectType": "Earth",
+    "Multiplier": 1,
+    "Type": "Earth",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 134,
+    "RelicPassiveKey": "ReflectWind1",
+    "SkillType": "Reflect",
+    "EffectType": "Wind",
+    "Multiplier": 1,
+    "Type": "Wind",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 135,
+    "RelicPassiveKey": "ReflectLight1",
+    "SkillType": "Reflect",
+    "EffectType": "Light",
+    "Multiplier": 1,
+    "Type": "Light",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 136,
+    "RelicPassiveKey": "ReflectDark1",
+    "SkillType": "Reflect",
+    "EffectType": "Dark",
+    "Multiplier": 1,
+    "Type": "Dark",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 137,
+    "RelicPassiveKey": "ReflectElement1",
+    "SkillType": "Reflect",
+    "EffectType": "Element",
+    "Multiplier": 1,
+    "Type": "Element",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 138,
+    "RelicPassiveKey": "SacrificeCharge1",
+    "SkillType": "Sacrifice",
+    "EffectType": "Charge",
+    "Multiplier": 1,
+    "Type": "",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 139,
+    "RelicPassiveKey": "SacrificeCharge2",
+    "SkillType": "Sacrifice",
+    "EffectType": "Charge",
+    "Multiplier": 2,
+    "Type": "",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 140,
+    "RelicPassiveKey": "SacrificeGuard1",
+    "SkillType": "Sacrifice",
+    "EffectType": "Guard",
+    "Multiplier": 1,
+    "Type": "",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 141,
+    "RelicPassiveKey": "SacrificeGuard2",
+    "SkillType": "Sacrifice",
+    "EffectType": "Guard",
+    "Multiplier": 2,
+    "Type": "",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 142,
+    "RelicPassiveKey": "HealGuard1",
+    "SkillType": "Heal",
+    "EffectType": "Guard",
+    "Multiplier": 1,
+    "Type": "",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 143,
+    "RelicPassiveKey": "HealCharge1",
+    "SkillType": "Heal",
+    "EffectType": "Charge",
+    "Multiplier": 1,
+    "Type": "",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 144,
+    "RelicPassiveKey": "UpgradeStrength1",
+    "SkillType": "Upgrade",
+    "EffectType": "Strength",
+    "Multiplier": 1,
+    "Type": "Strength",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 145,
+    "RelicPassiveKey": "UpgradeAgility1",
+    "SkillType": "Upgrade",
+    "EffectType": "Agility",
+    "Multiplier": 1,
+    "Type": "Agility",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 146,
+    "RelicPassiveKey": "UpgradeIntelligence1",
+    "SkillType": "Upgrade",
+    "EffectType": "Intelligence",
+    "Multiplier": 1,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 147,
+    "RelicPassiveKey": "UpgradeMaxHP1",
+    "SkillType": "Upgrade",
+    "EffectType": "MaxHP",
+    "Multiplier": 1,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 148,
+    "RelicPassiveKey": "UpgradeProtect0",
+    "SkillType": "Upgrade",
+    "EffectType": "Protect",
+    "Multiplier": 0,
+    "Type": "",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 149,
+    "RelicPassiveKey": "UpgradeMultiply0",
+    "SkillType": "Upgrade",
+    "EffectType": "Multiply",
+    "Multiplier": 0,
+    "Type": "",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 150,
+    "RelicPassiveKey": "UpgradeHumanoid0",
+    "SkillType": "Upgrade",
+    "EffectType": "Humanoid",
+    "Multiplier": 0,
+    "Type": "",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 151,
+    "RelicPassiveKey": "UpgradeSpirit0",
+    "SkillType": "Upgrade",
+    "EffectType": "Spirit",
+    "Multiplier": 0,
+    "Type": "",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 152,
+    "RelicPassiveKey": "UpgradeCreature0",
+    "SkillType": "Upgrade",
+    "EffectType": "Creature",
+    "Multiplier": 0,
+    "Type": "",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 153,
+    "RelicPassiveKey": "UpgradeMatter0",
+    "SkillType": "Upgrade",
+    "EffectType": "Matter",
+    "Multiplier": 0,
+    "Type": "",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 154,
+    "RelicPassiveKey": "UpgradeFire0",
+    "SkillType": "Upgrade",
+    "EffectType": "Fire",
+    "Multiplier": 0,
+    "Type": "Fire",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 155,
+    "RelicPassiveKey": "UpgradeWater0",
+    "SkillType": "Upgrade",
+    "EffectType": "Water",
+    "Multiplier": 0,
+    "Type": "Water",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 156,
+    "RelicPassiveKey": "UpgradeEarth0",
+    "SkillType": "Upgrade",
+    "EffectType": "Earth",
+    "Multiplier": 0,
+    "Type": "Earth",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 157,
+    "RelicPassiveKey": "UpgradeThunder0",
+    "SkillType": "Upgrade",
+    "EffectType": "Thunder",
+    "Multiplier": 0,
+    "Type": "Thunder",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 158,
+    "RelicPassiveKey": "UpgradeWind0",
+    "SkillType": "Upgrade",
+    "EffectType": "Wind",
+    "Multiplier": 0,
+    "Type": "Wind",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 159,
+    "RelicPassiveKey": "UpgradeLight0",
+    "SkillType": "Upgrade",
+    "EffectType": "Light",
+    "Multiplier": 0,
+    "Type": "Light",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 160,
+    "RelicPassiveKey": "UpgradeDark0",
+    "SkillType": "Upgrade",
+    "EffectType": "Dark",
+    "Multiplier": 0,
+    "Type": "Dark",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 161,
+    "RelicPassiveKey": "UpgradeElement0",
+    "SkillType": "Upgrade",
+    "EffectType": "Element",
+    "Multiplier": 0,
+    "Type": "Element",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 162,
+    "RelicPassiveKey": "UpgradeBleed0",
+    "SkillType": "Upgrade",
+    "EffectType": "Bleed",
+    "Multiplier": 0,
+    "Type": "Bleed",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 163,
+    "RelicPassiveKey": "UpgradeInjury0",
+    "SkillType": "Upgrade",
+    "EffectType": "Injury",
+    "Multiplier": 0,
+    "Type": "",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 164,
+    "RelicPassiveKey": "DrainStrength1",
+    "SkillType": "Drain",
+    "EffectType": "Strength",
+    "Multiplier": 1,
+    "Type": "Strength",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 165,
+    "RelicPassiveKey": "DrainAgility1",
+    "SkillType": "Drain",
+    "EffectType": "Agility",
+    "Multiplier": 1,
+    "Type": "Agility",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 166,
+    "RelicPassiveKey": "DrainIntelligence1",
+    "SkillType": "Drain",
+    "EffectType": "Intelligence",
+    "Multiplier": 1,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 167,
+    "RelicPassiveKey": "DrainMaxHP1",
+    "SkillType": "Drain",
+    "EffectType": "MaxHP",
+    "Multiplier": 1,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 168,
+    "RelicPassiveKey": "DrainVenom1",
+    "SkillType": "Drain",
+    "EffectType": "Venom",
+    "Multiplier": 1,
+    "Type": "Venom",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 169,
+    "RelicPassiveKey": "DrainRestrain1",
+    "SkillType": "Drain",
+    "EffectType": "Restrain",
+    "Multiplier": 1,
+    "Type": "Restrain",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 170,
+    "RelicPassiveKey": "DrainInsane1",
+    "SkillType": "Drain",
+    "EffectType": "Insane",
+    "Multiplier": 1,
+    "Type": "Insane",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 171,
+    "RelicPassiveKey": "BuffGold1",
+    "SkillType": "Buff",
+    "EffectType": "Gold",
+    "Multiplier": 1,
+    "Type": "",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 172,
+    "RelicPassiveKey": "BuffCrystal1",
+    "SkillType": "Buff",
+    "EffectType": "Crystal",
+    "Multiplier": 1,
+    "Type": "",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 173,
+    "RelicPassiveKey": "CurseExhaust0",
+    "SkillType": "Curse",
+    "EffectType": "Exhaust",
+    "Multiplier": 0,
+    "Type": "Curse",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 174,
+    "RelicPassiveKey": "DiscardCurse0",
+    "SkillType": "Discard",
+    "EffectType": "Curse",
+    "Multiplier": 0,
+    "Type": "Curse",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 175,
+    "RelicPassiveKey": "HealCurse0",
+    "SkillType": "Heal",
+    "EffectType": "Curse",
+    "Multiplier": 0,
+    "Type": "Curse",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 176,
+    "RelicPassiveKey": "ApplyOnFire0",
+    "SkillType": "ApplyOn",
+    "EffectType": "Fire",
+    "Multiplier": 0,
+    "Type": "Fire",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 177,
+    "RelicPassiveKey": "ApplyOnWater0",
+    "SkillType": "ApplyOn",
+    "EffectType": "Water",
+    "Multiplier": 0,
+    "Type": "Water",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 178,
+    "RelicPassiveKey": "ApplyOnThunder0",
+    "SkillType": "ApplyOn",
+    "EffectType": "Thunder",
+    "Multiplier": 0,
+    "Type": "Thunder",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 179,
+    "RelicPassiveKey": "ApplyOnEarth0",
+    "SkillType": "ApplyOn",
+    "EffectType": "Earth",
+    "Multiplier": 0,
+    "Type": "Earth",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 180,
+    "RelicPassiveKey": "ApplyOnWind0",
+    "SkillType": "ApplyOn",
+    "EffectType": "Wind",
+    "Multiplier": 0,
+    "Type": "Wind",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 181,
+    "RelicPassiveKey": "ApplyOnLight0",
+    "SkillType": "ApplyOn",
+    "EffectType": "Light",
+    "Multiplier": 0,
+    "Type": "Light",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 182,
+    "RelicPassiveKey": "ApplyOnDark0",
+    "SkillType": "ApplyOn",
+    "EffectType": "Dark",
+    "Multiplier": 0,
+    "Type": "Dark",
+    "Rarities": [
+      "Common",
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 183,
+    "RelicPassiveKey": "ApplyOnHumanoid0",
+    "SkillType": "ApplyOn",
+    "EffectType": "Humanoid",
+    "Multiplier": 0,
+    "Type": "",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 184,
+    "RelicPassiveKey": "ApplyOnCreature0",
+    "SkillType": "ApplyOn",
+    "EffectType": "Creature",
+    "Multiplier": 0,
+    "Type": "",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 185,
+    "RelicPassiveKey": "ApplyOnSpirit0",
+    "SkillType": "ApplyOn",
+    "EffectType": "Spirit",
+    "Multiplier": 0,
+    "Type": "",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 186,
+    "RelicPassiveKey": "ApplyOnMatter0",
+    "SkillType": "ApplyOn",
+    "EffectType": "Matter",
+    "Multiplier": 0,
+    "Type": "",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 187,
+    "RelicPassiveKey": "BuffFire1",
+    "SkillType": "Buff",
+    "EffectType": "Fire",
+    "Multiplier": 1,
+    "Type": "Fire",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 188,
+    "RelicPassiveKey": "BuffFire2",
+    "SkillType": "Buff",
+    "EffectType": "Fire",
+    "Multiplier": 2,
+    "Type": "Fire",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 189,
+    "RelicPassiveKey": "BuffFire3",
+    "SkillType": "Buff",
+    "EffectType": "Fire",
+    "Multiplier": 3,
+    "Type": "Fire",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 190,
+    "RelicPassiveKey": "BuffWater1",
+    "SkillType": "Buff",
+    "EffectType": "Water",
+    "Multiplier": 1,
+    "Type": "Water",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 191,
+    "RelicPassiveKey": "BuffWater2",
+    "SkillType": "Buff",
+    "EffectType": "Water",
+    "Multiplier": 2,
+    "Type": "Water",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 192,
+    "RelicPassiveKey": "BuffWater3",
+    "SkillType": "Buff",
+    "EffectType": "Water",
+    "Multiplier": 3,
+    "Type": "Water",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 193,
+    "RelicPassiveKey": "BuffThunder1",
+    "SkillType": "Buff",
+    "EffectType": "Thunder",
+    "Multiplier": 1,
+    "Type": "Thunder",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 194,
+    "RelicPassiveKey": "BuffThunder2",
+    "SkillType": "Buff",
+    "EffectType": "Thunder",
+    "Multiplier": 2,
+    "Type": "Thunder",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 195,
+    "RelicPassiveKey": "BuffThunder3",
+    "SkillType": "Buff",
+    "EffectType": "Thunder",
+    "Multiplier": 3,
+    "Type": "Thunder",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 196,
+    "RelicPassiveKey": "BuffEarth1",
+    "SkillType": "Buff",
+    "EffectType": "Earth",
+    "Multiplier": 1,
+    "Type": "Earth",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 197,
+    "RelicPassiveKey": "BuffEarth2",
+    "SkillType": "Buff",
+    "EffectType": "Earth",
+    "Multiplier": 2,
+    "Type": "Earth",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 198,
+    "RelicPassiveKey": "BuffEarth3",
+    "SkillType": "Buff",
+    "EffectType": "Earth",
+    "Multiplier": 3,
+    "Type": "Earth",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 199,
+    "RelicPassiveKey": "BuffWind1",
+    "SkillType": "Buff",
+    "EffectType": "Wind",
+    "Multiplier": 1,
+    "Type": "Wind",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 200,
+    "RelicPassiveKey": "BuffWind2",
+    "SkillType": "Buff",
+    "EffectType": "Wind",
+    "Multiplier": 2,
+    "Type": "Wind",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 201,
+    "RelicPassiveKey": "BuffWind3",
+    "SkillType": "Buff",
+    "EffectType": "Wind",
+    "Multiplier": 3,
+    "Type": "Wind",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 202,
+    "RelicPassiveKey": "BuffLight1",
+    "SkillType": "Buff",
+    "EffectType": "Light",
+    "Multiplier": 1,
+    "Type": "Light",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 203,
+    "RelicPassiveKey": "BuffLight2",
+    "SkillType": "Buff",
+    "EffectType": "Light",
+    "Multiplier": 2,
+    "Type": "Light",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 204,
+    "RelicPassiveKey": "BuffLight3",
+    "SkillType": "Buff",
+    "EffectType": "Light",
+    "Multiplier": 3,
+    "Type": "Light",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 205,
+    "RelicPassiveKey": "BuffDark1",
+    "SkillType": "Buff",
+    "EffectType": "Dark",
+    "Multiplier": 1,
+    "Type": "Dark",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 206,
+    "RelicPassiveKey": "BuffDark2",
+    "SkillType": "Buff",
+    "EffectType": "Dark",
+    "Multiplier": 2,
+    "Type": "Dark",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 207,
+    "RelicPassiveKey": "BuffDark3",
+    "SkillType": "Buff",
+    "EffectType": "Dark",
+    "Multiplier": 3,
+    "Type": "Dark",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 208,
+    "RelicPassiveKey": "BuffElement1",
+    "SkillType": "Buff",
+    "EffectType": "Element",
+    "Multiplier": 1,
+    "Type": "Element",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 209,
+    "RelicPassiveKey": "BuffElement2",
+    "SkillType": "Buff",
+    "EffectType": "Element",
+    "Multiplier": 2,
+    "Type": "Element",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 210,
+    "RelicPassiveKey": "ProtectElement0",
+    "SkillType": "Protect",
+    "EffectType": "Element",
+    "Multiplier": 0,
+    "Type": "Element",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 211,
+    "RelicPassiveKey": "ProtectElement1",
+    "SkillType": "Protect",
+    "EffectType": "Element",
+    "Multiplier": 1,
+    "Type": "Element",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 212,
+    "RelicPassiveKey": "ProtectElement2",
+    "SkillType": "Protect",
+    "EffectType": "Element",
+    "Multiplier": 2,
+    "Type": "Element",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 213,
+    "RelicPassiveKey": "BuffMaxHP1",
+    "SkillType": "Buff",
+    "EffectType": "MaxHP",
+    "Multiplier": 1,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 214,
+    "RelicPassiveKey": "BuffGold2",
+    "SkillType": "Buff",
+    "EffectType": "Gold",
+    "Multiplier": 2,
+    "Type": "",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 215,
+    "RelicPassiveKey": "UpgradeDelay0",
+    "SkillType": "Upgrade",
+    "EffectType": "Delay",
+    "Multiplier": 0,
+    "Type": "Exhaust",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 216,
+    "RelicPassiveKey": "ActionBuffFire1",
+    "SkillType": "ActionBuff",
+    "EffectType": "Fire",
+    "Multiplier": 1,
+    "Type": "Fire",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 217,
+    "RelicPassiveKey": "ActionBuffFire2",
+    "SkillType": "ActionBuff",
+    "EffectType": "Fire",
+    "Multiplier": 2,
+    "Type": "Fire",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 218,
+    "RelicPassiveKey": "ActionBuffFire3",
+    "SkillType": "ActionBuff",
+    "EffectType": "Fire",
+    "Multiplier": 3,
+    "Type": "Fire",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 219,
+    "RelicPassiveKey": "ActionBuffWater1",
+    "SkillType": "ActionBuff",
+    "EffectType": "Water",
+    "Multiplier": 1,
+    "Type": "Water",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 220,
+    "RelicPassiveKey": "ActionBuffWater2",
+    "SkillType": "ActionBuff",
+    "EffectType": "Water",
+    "Multiplier": 2,
+    "Type": "Water",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 221,
+    "RelicPassiveKey": "ActionBuffWater3",
+    "SkillType": "ActionBuff",
+    "EffectType": "Water",
+    "Multiplier": 3,
+    "Type": "Water",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 222,
+    "RelicPassiveKey": "ActionBuffThunder1",
+    "SkillType": "ActionBuff",
+    "EffectType": "Thunder",
+    "Multiplier": 1,
+    "Type": "Thunder",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 223,
+    "RelicPassiveKey": "ActionBuffThunder2",
+    "SkillType": "ActionBuff",
+    "EffectType": "Thunder",
+    "Multiplier": 2,
+    "Type": "Thunder",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 224,
+    "RelicPassiveKey": "ActionBuffThunder3",
+    "SkillType": "ActionBuff",
+    "EffectType": "Thunder",
+    "Multiplier": 3,
+    "Type": "Thunder",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 225,
+    "RelicPassiveKey": "ActionBuffEarth1",
+    "SkillType": "ActionBuff",
+    "EffectType": "Earth",
+    "Multiplier": 1,
+    "Type": "Earth",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 226,
+    "RelicPassiveKey": "ActionBuffEarth2",
+    "SkillType": "ActionBuff",
+    "EffectType": "Earth",
+    "Multiplier": 2,
+    "Type": "Earth",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 227,
+    "RelicPassiveKey": "ActionBuffEarth3",
+    "SkillType": "ActionBuff",
+    "EffectType": "Earth",
+    "Multiplier": 3,
+    "Type": "Earth",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 228,
+    "RelicPassiveKey": "ActionBuffWind1",
+    "SkillType": "ActionBuff",
+    "EffectType": "Wind",
+    "Multiplier": 1,
+    "Type": "Wind",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 229,
+    "RelicPassiveKey": "ActionBuffWind2",
+    "SkillType": "ActionBuff",
+    "EffectType": "Wind",
+    "Multiplier": 2,
+    "Type": "Wind",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 230,
+    "RelicPassiveKey": "ActionBuffWind3",
+    "SkillType": "ActionBuff",
+    "EffectType": "Wind",
+    "Multiplier": 3,
+    "Type": "Wind",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 231,
+    "RelicPassiveKey": "ActionBuffLight1",
+    "SkillType": "ActionBuff",
+    "EffectType": "Light",
+    "Multiplier": 1,
+    "Type": "Light",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 232,
+    "RelicPassiveKey": "ActionBuffLight2",
+    "SkillType": "ActionBuff",
+    "EffectType": "Light",
+    "Multiplier": 2,
+    "Type": "Light",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 233,
+    "RelicPassiveKey": "ActionBuffLight3",
+    "SkillType": "ActionBuff",
+    "EffectType": "Light",
+    "Multiplier": 3,
+    "Type": "Light",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 234,
+    "RelicPassiveKey": "ActionBuffDark1",
+    "SkillType": "ActionBuff",
+    "EffectType": "Dark",
+    "Multiplier": 1,
+    "Type": "Dark",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 235,
+    "RelicPassiveKey": "ActionBuffDark2",
+    "SkillType": "ActionBuff",
+    "EffectType": "Dark",
+    "Multiplier": 2,
+    "Type": "Dark",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 236,
+    "RelicPassiveKey": "ActionBuffDark3",
+    "SkillType": "ActionBuff",
+    "EffectType": "Dark",
+    "Multiplier": 3,
+    "Type": "Dark",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 237,
+    "RelicPassiveKey": "SacrificeCurse0",
+    "SkillType": "Sacrifice",
+    "EffectType": "Curse",
+    "Multiplier": 0,
+    "Type": "Curse",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 238,
+    "RelicPassiveKey": "ActionDebuffVenom1",
+    "SkillType": "ActionDebuff",
+    "EffectType": "Venom",
+    "Multiplier": 1,
+    "Type": "Venom",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 239,
+    "RelicPassiveKey": "ActionDebuffRestrain1",
+    "SkillType": "ActionDebuff",
+    "EffectType": "Restrain",
+    "Multiplier": 1,
+    "Type": "Restrain",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 240,
+    "RelicPassiveKey": "ActionDebuffInsane1",
+    "SkillType": "ActionDebuff",
+    "EffectType": "Insane",
+    "Multiplier": 1,
+    "Type": "Insane",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 241,
+    "RelicPassiveKey": "ApplyOnSacrifice0",
+    "SkillType": "ApplyOn",
+    "EffectType": "Sacrifice",
+    "Multiplier": 0,
+    "Type": "Exhaust",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 242,
+    "RelicPassiveKey": "ApplyOnFull0",
+    "SkillType": "ApplyOn",
+    "EffectType": "Full",
+    "Multiplier": 0,
+    "Type": "Exhaust",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 243,
+    "RelicPassiveKey": "ComboFire1",
+    "SkillType": "Combo",
+    "EffectType": "Fire",
+    "Multiplier": 1,
+    "Type": "Fire",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 244,
+    "RelicPassiveKey": "ComboFire2",
+    "SkillType": "Combo",
+    "EffectType": "Fire",
+    "Multiplier": 2,
+    "Type": "Fire",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 245,
+    "RelicPassiveKey": "ComboWater1",
+    "SkillType": "Combo",
+    "EffectType": "Water",
+    "Multiplier": 1,
+    "Type": "Water",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 246,
+    "RelicPassiveKey": "ComboWater2",
+    "SkillType": "Combo",
+    "EffectType": "Water",
+    "Multiplier": 2,
+    "Type": "Water",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 247,
+    "RelicPassiveKey": "ComboThunder1",
+    "SkillType": "Combo",
+    "EffectType": "Thunder",
+    "Multiplier": 1,
+    "Type": "Thunder",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 248,
+    "RelicPassiveKey": "ComboThunder2",
+    "SkillType": "Combo",
+    "EffectType": "Thunder",
+    "Multiplier": 2,
+    "Type": "Thunder",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 249,
+    "RelicPassiveKey": "ComboEarth1",
+    "SkillType": "Combo",
+    "EffectType": "Earth",
+    "Multiplier": 1,
+    "Type": "Earth",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 250,
+    "RelicPassiveKey": "ComboEarth2",
+    "SkillType": "Combo",
+    "EffectType": "Earth",
+    "Multiplier": 2,
+    "Type": "Earth",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 251,
+    "RelicPassiveKey": "ComboWind1",
+    "SkillType": "Combo",
+    "EffectType": "Wind",
+    "Multiplier": 1,
+    "Type": "Wind",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 252,
+    "RelicPassiveKey": "ComboWind2",
+    "SkillType": "Combo",
+    "EffectType": "Wind",
+    "Multiplier": 2,
+    "Type": "Wind",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 253,
+    "RelicPassiveKey": "ComboLight1",
+    "SkillType": "Combo",
+    "EffectType": "Light",
+    "Multiplier": 1,
+    "Type": "Light",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 254,
+    "RelicPassiveKey": "ComboLight2",
+    "SkillType": "Combo",
+    "EffectType": "Light",
+    "Multiplier": 2,
+    "Type": "Light",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 255,
+    "RelicPassiveKey": "ComboDark1",
+    "SkillType": "Combo",
+    "EffectType": "Dark",
+    "Multiplier": 1,
+    "Type": "Dark",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 256,
+    "RelicPassiveKey": "ComboDark2",
+    "SkillType": "Combo",
+    "EffectType": "Dark",
+    "Multiplier": 2,
+    "Type": "Dark",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 257,
+    "RelicPassiveKey": "TurnDebuffStrength1",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Strength",
+    "Multiplier": 1,
+    "Type": "Strength",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 258,
+    "RelicPassiveKey": "TurnDebuffStrength2",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Strength",
+    "Multiplier": 2,
+    "Type": "Strength",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 259,
+    "RelicPassiveKey": "TurnDebuffAgility1",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Agility",
+    "Multiplier": 1,
+    "Type": "Agility",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 260,
+    "RelicPassiveKey": "TurnDebuffAgility2",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Agility",
+    "Multiplier": 2,
+    "Type": "Agility",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 261,
+    "RelicPassiveKey": "TurnDebuffIntelligence1",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Intelligence",
+    "Multiplier": 1,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 262,
+    "RelicPassiveKey": "TurnDebuffIntelligence2",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Intelligence",
+    "Multiplier": 2,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 263,
+    "RelicPassiveKey": "TurnDebuffFire1",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Fire",
+    "Multiplier": 1,
+    "Type": "Fire",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 264,
+    "RelicPassiveKey": "TurnDebuffWater1",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Water",
+    "Multiplier": 1,
+    "Type": "Water",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 265,
+    "RelicPassiveKey": "TurnDebuffThunder1",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Thunder",
+    "Multiplier": 1,
+    "Type": "Thunder",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 266,
+    "RelicPassiveKey": "TurnDebuffThunder2",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Thunder",
+    "Multiplier": 2,
+    "Type": "Thunder",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 267,
+    "RelicPassiveKey": "TurnDebuffEarth1",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Earth",
+    "Multiplier": 1,
+    "Type": "Earth",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 268,
+    "RelicPassiveKey": "TurnDebuffEarth2",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Earth",
+    "Multiplier": 2,
+    "Type": "Earth",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 269,
+    "RelicPassiveKey": "TurnDebuffWind1",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Wind",
+    "Multiplier": 1,
+    "Type": "Wind",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 270,
+    "RelicPassiveKey": "TurnDebuffWind2",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Wind",
+    "Multiplier": 2,
+    "Type": "Wind",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 271,
+    "RelicPassiveKey": "TurnDebuffLight1",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Light",
+    "Multiplier": 1,
+    "Type": "Light",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 272,
+    "RelicPassiveKey": "TurnDebuffLight2",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Light",
+    "Multiplier": 2,
+    "Type": "Light",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 273,
+    "RelicPassiveKey": "TurnDebuffDark1",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Dark",
+    "Multiplier": 1,
+    "Type": "Dark",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 274,
+    "RelicPassiveKey": "TurnDebuffDark2",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Dark",
+    "Multiplier": 2,
+    "Type": "Dark",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 275,
+    "RelicPassiveKey": "TurnDebuffInjury1",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Injury",
+    "Multiplier": 1,
+    "Type": "Injury",
+    "Rarities": [
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 276,
+    "RelicPassiveKey": "TurnDebuffInjury2",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Injury",
+    "Multiplier": 2,
+    "Type": "Injury",
+    "Rarities": [
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 277,
+    "RelicPassiveKey": "TurnDebuffInjury3",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Injury",
+    "Multiplier": 3,
+    "Type": "Injury",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 278,
+    "RelicPassiveKey": "TurnDebuffBleed1",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Bleed",
+    "Multiplier": 1,
+    "Type": "Bleed",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 279,
+    "RelicPassiveKey": "TurnDebuffBleed2",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Bleed",
+    "Multiplier": 2,
+    "Type": "Bleed",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 280,
+    "RelicPassiveKey": "ComboElement1",
+    "SkillType": "Combo",
+    "EffectType": "Element",
+    "Multiplier": 1,
+    "Type": "Element",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 281,
+    "RelicPassiveKey": "ComboElement2",
+    "SkillType": "Combo",
+    "EffectType": "Element",
+    "Multiplier": 2,
+    "Type": "Element",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 282,
+    "RelicPassiveKey": "InstantNerfFire1",
+    "SkillType": "InstantNerf",
+    "EffectType": "Fire",
+    "Multiplier": 1,
+    "Type": "Curse",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 283,
+    "RelicPassiveKey": "InstantNerfWater1",
+    "SkillType": "InstantNerf",
+    "EffectType": "Water",
+    "Multiplier": 1,
+    "Type": "Curse",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 284,
+    "RelicPassiveKey": "InstantNerfThunder1",
+    "SkillType": "InstantNerf",
+    "EffectType": "Thunder",
+    "Multiplier": 1,
+    "Type": "Curse",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 285,
+    "RelicPassiveKey": "InstantNerfEarth1",
+    "SkillType": "InstantNerf",
+    "EffectType": "Earth",
+    "Multiplier": 1,
+    "Type": "Curse",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 286,
+    "RelicPassiveKey": "InstantNerfWind1",
+    "SkillType": "InstantNerf",
+    "EffectType": "Wind",
+    "Multiplier": 1,
+    "Type": "Curse",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 287,
+    "RelicPassiveKey": "InstantNerfLight1",
+    "SkillType": "InstantNerf",
+    "EffectType": "Light",
+    "Multiplier": 1,
+    "Type": "Curse",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 288,
+    "RelicPassiveKey": "InstantNerfDark1",
+    "SkillType": "InstantNerf",
+    "EffectType": "Dark",
+    "Multiplier": 1,
+    "Type": "Curse",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 289,
+    "RelicPassiveKey": "InstantNerfBleed1",
+    "SkillType": "InstantNerf",
+    "EffectType": "Bleed",
+    "Multiplier": 1,
+    "Type": "Curse",
+    "Rarities": [
+      "Common"
+    ]
+  },
+  {
+    "RelicPassiveId": 290,
+    "RelicPassiveKey": "InstantNerfBleed2",
+    "SkillType": "InstantNerf",
+    "EffectType": "Bleed",
+    "Multiplier": 2,
+    "Type": "Curse",
+    "Rarities": [
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 291,
+    "RelicPassiveKey": "InstantNerfBleed3",
+    "SkillType": "InstantNerf",
+    "EffectType": "Bleed",
+    "Multiplier": 3,
+    "Type": "Curse",
+    "Rarities": [
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 292,
+    "RelicPassiveKey": "InstantNerfVenom2",
+    "SkillType": "InstantNerf",
+    "EffectType": "Venom",
+    "Multiplier": 2,
+    "Type": "Curse",
+    "Rarities": [
+      "Common"
+    ]
+  },
+  {
+    "RelicPassiveId": 293,
+    "RelicPassiveKey": "InstantNerfVenom5",
+    "SkillType": "InstantNerf",
+    "EffectType": "Venom",
+    "Multiplier": 5,
+    "Type": "Curse",
+    "Rarities": [
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 294,
+    "RelicPassiveKey": "InstantNerfVenom7",
+    "SkillType": "InstantNerf",
+    "EffectType": "Venom",
+    "Multiplier": 7,
+    "Type": "Curse",
+    "Rarities": [
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 295,
+    "RelicPassiveKey": "InstantNerfRestrain2",
+    "SkillType": "InstantNerf",
+    "EffectType": "Restrain",
+    "Multiplier": 2,
+    "Type": "Curse",
+    "Rarities": [
+      "Common"
+    ]
+  },
+  {
+    "RelicPassiveId": 296,
+    "RelicPassiveKey": "InstantNerfRestrain5",
+    "SkillType": "InstantNerf",
+    "EffectType": "Restrain",
+    "Multiplier": 5,
+    "Type": "Curse",
+    "Rarities": [
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 297,
+    "RelicPassiveKey": "InstantNerfRestrain7",
+    "SkillType": "InstantNerf",
+    "EffectType": "Restrain",
+    "Multiplier": 7,
+    "Type": "Curse",
+    "Rarities": [
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 298,
+    "RelicPassiveKey": "InstantNerfInsane2",
+    "SkillType": "InstantNerf",
+    "EffectType": "Insane",
+    "Multiplier": 2,
+    "Type": "Curse",
+    "Rarities": [
+      "Common"
+    ]
+  },
+  {
+    "RelicPassiveId": 299,
+    "RelicPassiveKey": "InstantNerfInsane5",
+    "SkillType": "InstantNerf",
+    "EffectType": "Insane",
+    "Multiplier": 5,
+    "Type": "Curse",
+    "Rarities": [
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 300,
+    "RelicPassiveKey": "InstantNerfInsane7",
+    "SkillType": "InstantNerf",
+    "EffectType": "Insane",
+    "Multiplier": 7,
+    "Type": "Curse",
+    "Rarities": [
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 301,
+    "RelicPassiveKey": "SacrificeBleed0",
+    "SkillType": "Sacrifice",
+    "EffectType": "Bleed",
+    "Multiplier": 0,
+    "Type": "Bleed",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 302,
+    "RelicPassiveKey": "DrainBleed0",
+    "SkillType": "Drain",
+    "EffectType": "Bleed",
+    "Multiplier": 0,
+    "Type": "Bleed",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 303,
+    "RelicPassiveKey": "ApplyOnCertain0",
+    "SkillType": "ApplyOn",
+    "EffectType": "Certain",
+    "Multiplier": 0,
+    "Type": "Certain",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 304,
+    "RelicPassiveKey": "ApplyOnBuff0",
+    "SkillType": "ApplyOn",
+    "EffectType": "Buff",
+    "Multiplier": 0,
+    "Type": "",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 305,
+    "RelicPassiveKey": "ApplyOnDebuff0",
+    "SkillType": "ApplyOn",
+    "EffectType": "Debuff",
+    "Multiplier": 0,
+    "Type": "",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 306,
+    "RelicPassiveKey": "InstantBoostCertain1",
+    "SkillType": "InstantBoost",
+    "EffectType": "Certain",
+    "Multiplier": 1,
+    "Type": "Certain",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 307,
+    "RelicPassiveKey": "TurnBuffMaxHP1",
+    "SkillType": "TurnBuff",
+    "EffectType": "MaxHP",
+    "Multiplier": 1,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Common"
+    ]
+  },
+  {
+    "RelicPassiveId": 308,
+    "RelicPassiveKey": "TurnBuffMaxHP2",
+    "SkillType": "TurnBuff",
+    "EffectType": "MaxHP",
+    "Multiplier": 2,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Common",
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 309,
+    "RelicPassiveKey": "TurnBuffStrength3",
+    "SkillType": "TurnBuff",
+    "EffectType": "Strength",
+    "Multiplier": 3,
+    "Type": "Strength",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 310,
+    "RelicPassiveKey": "TurnBuffAgility3",
+    "SkillType": "TurnBuff",
+    "EffectType": "Agility",
+    "Multiplier": 3,
+    "Type": "Agility",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 311,
+    "RelicPassiveKey": "TurnBuffIntelligence3",
+    "SkillType": "TurnBuff",
+    "EffectType": "Intelligence",
+    "Multiplier": 3,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 312,
+    "RelicPassiveKey": "TurnBuffMaxHP3",
+    "SkillType": "TurnBuff",
+    "EffectType": "MaxHP",
+    "Multiplier": 3,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 313,
+    "RelicPassiveKey": "TurnBuffStrength4",
+    "SkillType": "TurnBuff",
+    "EffectType": "Strength",
+    "Multiplier": 4,
+    "Type": "Strength",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 314,
+    "RelicPassiveKey": "TurnBuffAgility4",
+    "SkillType": "TurnBuff",
+    "EffectType": "Agility",
+    "Multiplier": 4,
+    "Type": "Agility",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 315,
+    "RelicPassiveKey": "TurnBuffIntelligence4",
+    "SkillType": "TurnBuff",
+    "EffectType": "Intelligence",
+    "Multiplier": 4,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 316,
+    "RelicPassiveKey": "TurnBuffStrength5",
+    "SkillType": "TurnBuff",
+    "EffectType": "Strength",
+    "Multiplier": 5,
+    "Type": "Strength",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 317,
+    "RelicPassiveKey": "TurnBuffAgility5",
+    "SkillType": "TurnBuff",
+    "EffectType": "Agility",
+    "Multiplier": 5,
+    "Type": "Agility",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 318,
+    "RelicPassiveKey": "TurnBuffIntelligence5",
+    "SkillType": "TurnBuff",
+    "EffectType": "Intelligence",
+    "Multiplier": 5,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 319,
+    "RelicPassiveKey": "TurnBuffMaxHP4",
+    "SkillType": "TurnBuff",
+    "EffectType": "MaxHP",
+    "Multiplier": 4,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 320,
+    "RelicPassiveKey": "TurnBuffMaxHP5",
+    "SkillType": "TurnBuff",
+    "EffectType": "MaxHP",
+    "Multiplier": 5,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 321,
+    "RelicPassiveKey": "ReflectStrengthM1",
+    "SkillType": "Reflect",
+    "EffectType": "StrengthM",
+    "Multiplier": 1,
+    "Type": "Strength",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 322,
+    "RelicPassiveKey": "ReflectStrengthM2",
+    "SkillType": "Reflect",
+    "EffectType": "StrengthM",
+    "Multiplier": 2,
+    "Type": "Strength",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 323,
+    "RelicPassiveKey": "ReflectAgilityM1",
+    "SkillType": "Reflect",
+    "EffectType": "AgilityM",
+    "Multiplier": 1,
+    "Type": "Agility",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 324,
+    "RelicPassiveKey": "ReflectAgilityM2",
+    "SkillType": "Reflect",
+    "EffectType": "AgilityM",
+    "Multiplier": 2,
+    "Type": "Agility",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 325,
+    "RelicPassiveKey": "ReflectIntelligenceM1",
+    "SkillType": "Reflect",
+    "EffectType": "IntelligenceM",
+    "Multiplier": 1,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 326,
+    "RelicPassiveKey": "ReflectIntelligenceM2",
+    "SkillType": "Reflect",
+    "EffectType": "IntelligenceM",
+    "Multiplier": 2,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 327,
+    "RelicPassiveKey": "UpgradeCharge0",
+    "SkillType": "Upgrade",
+    "EffectType": "Charge",
+    "Multiplier": 0,
+    "Type": "",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 328,
+    "RelicPassiveKey": "UpgradeGuard0",
+    "SkillType": "Upgrade",
+    "EffectType": "Guard",
+    "Multiplier": 0,
+    "Type": "",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 329,
+    "RelicPassiveKey": "ApplyOnLifeSteal0",
+    "SkillType": "ApplyOn",
+    "EffectType": "LifeSteal",
+    "Multiplier": 0,
+    "Type": "Bleed",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 330,
+    "RelicPassiveKey": "UpgradeExhaust0",
+    "SkillType": "Upgrade",
+    "EffectType": "Exhaust",
+    "Multiplier": 0,
+    "Type": "Exhaust",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 331,
+    "RelicPassiveKey": "BuffDelay0",
+    "SkillType": "Buff",
+    "EffectType": "Delay",
+    "Multiplier": 0,
+    "Type": "Exhaust",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 332,
+    "RelicPassiveKey": "BuffNull0",
+    "SkillType": "Buff",
+    "EffectType": "Null",
+    "Multiplier": 0,
+    "Type": "Exhaust",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 333,
+    "RelicPassiveKey": "TurnDebuffConfuse1",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Confuse",
+    "Multiplier": 1,
+    "Type": "Exhaust",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 334,
+    "RelicPassiveKey": "TurnDebuffSlack1",
+    "SkillType": "TurnDebuff",
+    "EffectType": "Slack",
+    "Multiplier": 1,
+    "Type": "Exhaust",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 335,
+    "RelicPassiveKey": "UpgradeNull0",
+    "SkillType": "Upgrade",
+    "EffectType": "Null",
+    "Multiplier": 0,
+    "Type": "Exhaust",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 336,
+    "RelicPassiveKey": "DrainStrength2",
+    "SkillType": "Drain",
+    "EffectType": "Strength",
+    "Multiplier": 2,
+    "Type": "Strength",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 337,
+    "RelicPassiveKey": "DrainAgility2",
+    "SkillType": "Drain",
+    "EffectType": "Agility",
+    "Multiplier": 2,
+    "Type": "Agility",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 338,
+    "RelicPassiveKey": "DrainIntelligence2",
+    "SkillType": "Drain",
+    "EffectType": "Intelligence",
+    "Multiplier": 2,
+    "Type": "Intelligence",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 339,
+    "RelicPassiveKey": "DrainMaxHP2",
+    "SkillType": "Drain",
+    "EffectType": "MaxHP",
+    "Multiplier": 2,
+    "Type": "MaxHP",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 340,
+    "RelicPassiveKey": "UpgradeAggro0",
+    "SkillType": "Upgrade",
+    "EffectType": "Aggro",
+    "Multiplier": 0,
+    "Type": "Exhaust",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 341,
+    "RelicPassiveKey": "TurnBuffDice1",
+    "SkillType": "TurnBuff",
+    "EffectType": "Dice",
+    "Multiplier": 1,
+    "Type": "Dice",
+    "Rarities": [
+      "Common"
+    ]
+  },
+  {
+    "RelicPassiveId": 342,
+    "RelicPassiveKey": "TurnBuffDice2",
+    "SkillType": "TurnBuff",
+    "EffectType": "Dice",
+    "Multiplier": 2,
+    "Type": "Dice",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 343,
+    "RelicPassiveKey": "TurnBuffDice3",
+    "SkillType": "TurnBuff",
+    "EffectType": "Dice",
+    "Multiplier": 3,
+    "Type": "Dice",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 344,
+    "RelicPassiveKey": "TurnBuffDice4",
+    "SkillType": "TurnBuff",
+    "EffectType": "Dice",
+    "Multiplier": 4,
+    "Type": "Dice",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 345,
+    "RelicPassiveKey": "TurnBuffFire1",
+    "SkillType": "TurnBuff",
+    "EffectType": "Fire",
+    "Multiplier": 1,
+    "Type": "Fire",
+    "Rarities": [
+      "Common"
+    ]
+  },
+  {
+    "RelicPassiveId": 346,
+    "RelicPassiveKey": "TurnBuffFire2",
+    "SkillType": "TurnBuff",
+    "EffectType": "Fire",
+    "Multiplier": 2,
+    "Type": "Fire",
+    "Rarities": [
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 347,
+    "RelicPassiveKey": "TurnBuffFire3",
+    "SkillType": "TurnBuff",
+    "EffectType": "Fire",
+    "Multiplier": 3,
+    "Type": "Fire",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 348,
+    "RelicPassiveKey": "TurnBuffFire4",
+    "SkillType": "TurnBuff",
+    "EffectType": "Fire",
+    "Multiplier": 4,
+    "Type": "Fire",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 349,
+    "RelicPassiveKey": "TurnBuffWater1",
+    "SkillType": "TurnBuff",
+    "EffectType": "Water",
+    "Multiplier": 1,
+    "Type": "Water",
+    "Rarities": [
+      "Common"
+    ]
+  },
+  {
+    "RelicPassiveId": 350,
+    "RelicPassiveKey": "TurnBuffWater2",
+    "SkillType": "TurnBuff",
+    "EffectType": "Water",
+    "Multiplier": 2,
+    "Type": "Water",
+    "Rarities": [
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 351,
+    "RelicPassiveKey": "TurnBuffWater3",
+    "SkillType": "TurnBuff",
+    "EffectType": "Water",
+    "Multiplier": 3,
+    "Type": "Water",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 352,
+    "RelicPassiveKey": "TurnBuffWater4",
+    "SkillType": "TurnBuff",
+    "EffectType": "Water",
+    "Multiplier": 4,
+    "Type": "Water",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 353,
+    "RelicPassiveKey": "TurnBuffThunder1",
+    "SkillType": "TurnBuff",
+    "EffectType": "Thunder",
+    "Multiplier": 1,
+    "Type": "Thunder",
+    "Rarities": [
+      "Common"
+    ]
+  },
+  {
+    "RelicPassiveId": 354,
+    "RelicPassiveKey": "TurnBuffThunder2",
+    "SkillType": "TurnBuff",
+    "EffectType": "Thunder",
+    "Multiplier": 2,
+    "Type": "Thunder",
+    "Rarities": [
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 355,
+    "RelicPassiveKey": "TurnBuffThunder3",
+    "SkillType": "TurnBuff",
+    "EffectType": "Thunder",
+    "Multiplier": 3,
+    "Type": "Thunder",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 356,
+    "RelicPassiveKey": "TurnBuffThunder4",
+    "SkillType": "TurnBuff",
+    "EffectType": "Thunder",
+    "Multiplier": 4,
+    "Type": "Thunder",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 357,
+    "RelicPassiveKey": "TurnBuffEarth1",
+    "SkillType": "TurnBuff",
+    "EffectType": "Earth",
+    "Multiplier": 1,
+    "Type": "Earth",
+    "Rarities": [
+      "Common"
+    ]
+  },
+  {
+    "RelicPassiveId": 358,
+    "RelicPassiveKey": "TurnBuffEarth2",
+    "SkillType": "TurnBuff",
+    "EffectType": "Earth",
+    "Multiplier": 2,
+    "Type": "Earth",
+    "Rarities": [
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 359,
+    "RelicPassiveKey": "TurnBuffEarth3",
+    "SkillType": "TurnBuff",
+    "EffectType": "Earth",
+    "Multiplier": 3,
+    "Type": "Earth",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 360,
+    "RelicPassiveKey": "TurnBuffEarth4",
+    "SkillType": "TurnBuff",
+    "EffectType": "Earth",
+    "Multiplier": 4,
+    "Type": "Earth",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 361,
+    "RelicPassiveKey": "TurnBuffWind1",
+    "SkillType": "TurnBuff",
+    "EffectType": "Wind",
+    "Multiplier": 1,
+    "Type": "Wind",
+    "Rarities": [
+      "Common"
+    ]
+  },
+  {
+    "RelicPassiveId": 362,
+    "RelicPassiveKey": "TurnBuffWind2",
+    "SkillType": "TurnBuff",
+    "EffectType": "Wind",
+    "Multiplier": 2,
+    "Type": "Wind",
+    "Rarities": [
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 363,
+    "RelicPassiveKey": "TurnBuffWind3",
+    "SkillType": "TurnBuff",
+    "EffectType": "Wind",
+    "Multiplier": 3,
+    "Type": "Wind",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 364,
+    "RelicPassiveKey": "TurnBuffWind4",
+    "SkillType": "TurnBuff",
+    "EffectType": "Wind",
+    "Multiplier": 4,
+    "Type": "Wind",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 365,
+    "RelicPassiveKey": "TurnBuffLight1",
+    "SkillType": "TurnBuff",
+    "EffectType": "Light",
+    "Multiplier": 1,
+    "Type": "Light",
+    "Rarities": [
+      "Common"
+    ]
+  },
+  {
+    "RelicPassiveId": 366,
+    "RelicPassiveKey": "TurnBuffLight2",
+    "SkillType": "TurnBuff",
+    "EffectType": "Light",
+    "Multiplier": 2,
+    "Type": "Light",
+    "Rarities": [
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 367,
+    "RelicPassiveKey": "TurnBuffLight3",
+    "SkillType": "TurnBuff",
+    "EffectType": "Light",
+    "Multiplier": 3,
+    "Type": "Light",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 368,
+    "RelicPassiveKey": "TurnBuffLight4",
+    "SkillType": "TurnBuff",
+    "EffectType": "Light",
+    "Multiplier": 4,
+    "Type": "Light",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 369,
+    "RelicPassiveKey": "TurnBuffDark1",
+    "SkillType": "TurnBuff",
+    "EffectType": "Dark",
+    "Multiplier": 1,
+    "Type": "Dark",
+    "Rarities": [
+      "Common"
+    ]
+  },
+  {
+    "RelicPassiveId": 370,
+    "RelicPassiveKey": "TurnBuffDark2",
+    "SkillType": "TurnBuff",
+    "EffectType": "Dark",
+    "Multiplier": 2,
+    "Type": "Dark",
+    "Rarities": [
+      "Rare"
+    ]
+  },
+  {
+    "RelicPassiveId": 371,
+    "RelicPassiveKey": "TurnBuffDark3",
+    "SkillType": "TurnBuff",
+    "EffectType": "Dark",
+    "Multiplier": 3,
+    "Type": "Dark",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 372,
+    "RelicPassiveKey": "TurnBuffDark4",
+    "SkillType": "TurnBuff",
+    "EffectType": "Dark",
+    "Multiplier": 4,
+    "Type": "Dark",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 373,
+    "RelicPassiveKey": "DrainFire0",
+    "SkillType": "Drain",
+    "EffectType": "Fire",
+    "Multiplier": 0,
+    "Type": "Fire",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 374,
+    "RelicPassiveKey": "DrainWater0",
+    "SkillType": "Drain",
+    "EffectType": "Water",
+    "Multiplier": 0,
+    "Type": "Water",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 375,
+    "RelicPassiveKey": "DrainThunder0",
+    "SkillType": "Drain",
+    "EffectType": "Thunder",
+    "Multiplier": 0,
+    "Type": "Thunder",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 376,
+    "RelicPassiveKey": "DrainEarth0",
+    "SkillType": "Drain",
+    "EffectType": "Earth",
+    "Multiplier": 0,
+    "Type": "Earth",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 377,
+    "RelicPassiveKey": "DrainWind0",
+    "SkillType": "Drain",
+    "EffectType": "Wind",
+    "Multiplier": 0,
+    "Type": "Wind",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 378,
+    "RelicPassiveKey": "DrainLight0",
+    "SkillType": "Drain",
+    "EffectType": "Light",
+    "Multiplier": 0,
+    "Type": "Light",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 379,
+    "RelicPassiveKey": "DrainDark0",
+    "SkillType": "Drain",
+    "EffectType": "Dark",
+    "Multiplier": 0,
+    "Type": "Dark",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 380,
+    "RelicPassiveKey": "ApplyOnElement0",
+    "SkillType": "ApplyOn",
+    "EffectType": "Element",
+    "Multiplier": 0,
+    "Type": "Element",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 381,
+    "RelicPassiveKey": "ApplyOnCurse0",
+    "SkillType": "ApplyOn",
+    "EffectType": "Curse",
+    "Multiplier": 0,
+    "Type": "Curse",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 382,
+    "RelicPassiveKey": "ApplyOnFood0",
+    "SkillType": "ApplyOn",
+    "EffectType": "Food",
+    "Multiplier": 0,
+    "Type": "Exhaust",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 383,
+    "RelicPassiveKey": "UpgradeDice0",
+    "SkillType": "Upgrade",
+    "EffectType": "Dice",
+    "Multiplier": 0,
+    "Type": "Dice",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 384,
+    "RelicPassiveKey": "SacrificeDice0",
+    "SkillType": "Sacrifice",
+    "EffectType": "Dice",
+    "Multiplier": 0,
+    "Type": "Dice",
+    "Rarities": [
+      "Rare",
+      "Epic"
+    ]
+  },
+  {
+    "RelicPassiveId": 385,
+    "RelicPassiveKey": "ComboDice0",
+    "SkillType": "Combo",
+    "EffectType": "Dice",
+    "Multiplier": 0,
+    "Type": "Dice",
+    "Rarities": [
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 386,
+    "RelicPassiveKey": "CurseDice0",
+    "SkillType": "Curse",
+    "EffectType": "Dice",
+    "Multiplier": 0,
+    "Type": "Dice",
+    "Rarities": [
+      "Epic",
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 387,
+    "RelicPassiveKey": "ApplyOnCombo0",
+    "SkillType": "ApplyOn",
+    "EffectType": "Combo",
+    "Multiplier": 0,
+    "Type": "",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 388,
+    "RelicPassiveKey": "UniqueDice0",
+    "SkillType": "Unique",
+    "EffectType": "Dice",
+    "Multiplier": 0,
+    "Type": "Dice",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 389,
+    "RelicPassiveKey": "UniqueReverse0",
+    "SkillType": "Unique",
+    "EffectType": "Reverse",
+    "Multiplier": 0,
+    "Type": "Exhaust",
+    "Rarities": [
+      "Legendary"
+    ]
+  },
+  {
+    "RelicPassiveId": 390,
+    "RelicPassiveKey": "UpgradeDebuff0",
+    "SkillType": "Upgrade",
+    "EffectType": "Debuff",
+    "Multiplier": 0,
+    "Type": "Exhaust",
+    "Rarities": [
+      "Legendary"
+    ]
+  }
+]
