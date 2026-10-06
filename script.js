@@ -17,7 +17,8 @@ const localisationFiles = {
     monsters: 'monsters_localisation',
     passives: 'passives_localisation',
     materials: 'materials_localisation',
-    relic: 'relic_localisation'
+    relic: 'relic_localisation',
+    chaptersSeries: 'chapters_series_localisation'
 };
 const entityKeyFields = {
     abilities: 'AbilityKey',
@@ -25,7 +26,8 @@ const entityKeyFields = {
     monsters: 'MonsterKey',
     passives: 'PassiveKey',
     materials: 'MaterialKey',
-    relic: 'RelicKey'
+    relic: 'RelicKey',
+    chaptersSeries: 'Key'
 };
 
 let detailHistory = [];
