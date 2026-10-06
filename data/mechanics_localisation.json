@@ -1,5 +1,5 @@
 {
-  "version": 25,
+  "version": 27,
   "locales": {
     "en": {
       "terms": {
@@ -342,7 +342,23 @@
         "Intelligence Action Buff": "智力微增益",
         "Intelligence Action Debuff": "智力微减益",
         "Max HP Action Buff": "Max HP微增益",
-        "Max HP Action Debuff": "Max HP微减益"
+        "Max HP Action Debuff": "Max HP微减益",
+        "Strength Buff": "力量增益",
+        "Agility Buff": "敏捷增益",
+        "Intelligence Buff": "智力增益",
+        "MaxHP Buff": "体力上限增益",
+        "Strength Debuff": "减益力量",
+        "Agility Debuff": "减益敏捷",
+        "Intelligence Debuff": "减益智力",
+        "MaxHP Debuff": "体力上限减益",
+        "Burn": "燃烧",
+        "Overloaded": "超载",
+        "Gamble Token": "赌博令牌",
+        "Preparation": "预备",
+        "Pure Element": "原始元素",
+        "Focus Energy": "集中之力",
+        "Certain": "必然",
+        "Afterimage": "残影"
       },
       "nameTemplates": {},
       "linkTemplates": {},
@@ -485,7 +501,23 @@
         "Intelligence Action Buff": "智力微增益",
         "Intelligence Action Debuff": "智力微減益",
         "Max HP Action Buff": "Max HP微增益",
-        "Max HP Action Debuff": "Max HP微減益"
+        "Max HP Action Debuff": "Max HP微減益",
+        "Strength Buff": "力量增益",
+        "Agility Buff": "敏捷增益",
+        "Intelligence Buff": "智力增益",
+        "MaxHP Buff": "體力上限增益",
+        "Strength Debuff": "減益力量",
+        "Agility Debuff": "減益敏捷",
+        "Intelligence Debuff": "減益智力",
+        "MaxHP Debuff": "體力上限減益",
+        "Burn": "燃燒",
+        "Overloaded": "超載",
+        "Gamble Token": "賭博令牌",
+        "Preparation": "預備",
+        "Pure Element": "原始元素",
+        "Focus Energy": "集中之力",
+        "Certain": "必然",
+        "Afterimage": "殘影"
       },
       "nameTemplates": {},
       "linkTemplates": {},
