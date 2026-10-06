@@ -227,8 +227,20 @@ async function init() {
     const main = document.getElementById('content');
     main.innerHTML = `<h1>🔥 Jobmania Wiki</h1><p>🔄 ${escapeHtml(ui('loading', 'Loading data...'))}</p>`;
     try {
-        for (const f of files) { const res = await fetch(`data/${f}.json`); if (res.ok) db[f] = await res.json(); }
-        for (const [cat, file] of Object.entries(localisationFiles)) { const res = await fetch(`data/${file}.json`); if (res.ok) localisation[cat] = await res.json(); buildLocalisationIndex(cat); }
+        const entityDataPromise = Promise.all(files.map(async f => {
+            const res = await fetch(`data/${f}.json`);
+            if (res.ok) db[f] = await res.json();
+        }));
+        const localisationPromise = Promise.all(Object.entries(localisationFiles).map(async ([cat, file]) => {
+            const res = await fetch(`data/${file}.json`);
+            if (res.ok) localisation[cat] = await res.json();
+            buildLocalisationIndex(cat);
+        }));
+        await Promise.all([
+            entityDataPromise,
+            localisationPromise,
+            window.JOBMANIA_PRELOAD_PROMISE || Promise.resolve()
+        ]);
         normalizeMonsterData(); normalizeMaterialData(); loadView('Home');
     } catch (e) { console.error(e); main.innerHTML = `<h1>⚠️ ${escapeHtml(ui('error', 'Error'))}</h1><p>${escapeHtml(ui('refresh', 'Please refresh the page.'))}</p>`; }
 }
