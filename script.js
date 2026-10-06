@@ -264,7 +264,8 @@ function loadView(view) {
         if (cat === 'abilities') html += renderAbilityIcon(item.IconImage, display, 'card-media-compact');
         if (cat === 'materials') html += renderMaterialImage(key, 'card-media-compact');
         html += '<div class="info-list">';
-        for (const [k,v] of Object.entries(item)) { if (!v || v === '') continue; if (cat === 'monsters' && monsterStructuredFields.has(k)) continue; if (cat === 'abilities' && k === 'IconImage') continue; if (cat === 'materials' && k === 'Combine List') continue; html += infoRow(getDisplayKey(cat,k), renderFieldValue(cat,k,v,false)); }
+        const hiddenListFields = new Set(window.JOBMANIA_HIDDEN_FIELDS?.[cat] || []);
+        for (const [k,v] of Object.entries(item)) { if (!v || v === '') continue; if (hiddenListFields.has(k)) continue; if (cat === 'monsters' && monsterStructuredFields.has(k)) continue; if (cat === 'abilities' && k === 'IconImage') continue; if (cat === 'materials' && k === 'Combine List') continue; html += infoRow(getDisplayKey(cat,k), renderFieldValue(cat,k,v,false)); }
         html += '</div></div>';
         const wrap = document.createElement('div'); wrap.innerHTML = html; fragment.appendChild(wrap.firstElementChild);
     });
