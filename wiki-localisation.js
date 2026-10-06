@@ -144,6 +144,12 @@
         if (cat === 'abilities' && key === 'AbilityKey') return window.JOBMANIA_UI?.ability || 'Ability';
         if (cat === 'passives' && key === 'PassiveKey') return window.JOBMANIA_UI?.passive || 'Passive';
         if (cat === 'relic' && key === 'RelicKey') return window.JOBMANIA_UI?.relic || 'Relic';
+        if (cat === 'relic') {
+            const t = window.JOBMANIA_T || ((value, fallback) => fallback || value);
+            if (key === 'SpecialType') return t('Special Type', 'Special Type');
+            if (key === 'Craft Material x1') return t('Craft Material', 'Craft Material');
+            if (key === 'Craft Ability x5') return t('Craft Ability', 'Craft Ability');
+        }
 
         const statMatch = String(key).match(/^(Lv\d+)\s+(HP|Str|Agi|Int)$/);
         if (statMatch && window.JOBMANIA_STAT_LABELS?.[statMatch[2]]) {
