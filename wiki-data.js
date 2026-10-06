@@ -106,8 +106,6 @@
     }
 
     await loadScript('script.js');
-    await loadScript('wiki-localisation.js');
-    await loadScript('job-media.js');
     await loadScript('skill-description-wiki.js');
     await loadScript('hash-routing.js');
 
