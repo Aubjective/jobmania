@@ -66,6 +66,15 @@
                     '<ul class="relic-passive-list">' + poolRows + '</ul>' +
                 '</details>' +
             '</div>';
+        const moreInfo = Array.from(stack.querySelectorAll('.detail-section')).find(card =>
+            card.querySelector('h2')?.textContent?.trim() === (window.JOBMANIA_UI?.moreInfo || 'More Info')
+        );
+        const moreInfoList = moreInfo?.querySelector('.info-list');
+        if (moreInfoList) {
+            const innateValue = innate ? passiveText(innate) : escapeHtml(t('None', 'None'));
+            moreInfoList.insertAdjacentHTML('beforeend', infoRow(t('Innate Passive', 'Innate Passive'), innateValue));
+        }
+
         stack.appendChild(section);
     }
 
