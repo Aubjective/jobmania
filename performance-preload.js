@@ -1,21 +1,12 @@
-// Warm the mechanics/description resources without blocking the wiki UI.
+// Preload mechanics/description resources before the wiki becomes interactive.
 (function () {
     'use strict';
 
-    const warm = (urls) => Promise.allSettled(urls.map(url =>
-        fetch(url, { cache: 'force-cache' }).catch(() => null)
-    ));
-
-    // These are on the critical path for the first English ability/passive description.
-    warm([
+    const urls = [
         'skillunit.js',
         'mechanics.js',
         'data/mechanics.json',
-        'data/mechanics_localisation.json'
-    ]);
-
-    // Warm the larger description/apply-tag datasets when the browser has breathing room.
-    const warmSecondary = () => warm([
+        'data/mechanics_localisation.json',
         'data/abilities_description.json',
         'data/passives_description.json',
         'data/abilities_description_localisation.json',
@@ -26,12 +17,24 @@
         'data/apply_tags_abilities_2.json',
         'data/apply_tags_abilities_3.json',
         'data/apply_tags_abilities_4.json',
-        'data/apply_tags_passives.json'
-    ]);
+        'data/apply_tags_passives.json',
+        'data/ability_costs.json',
+        'data/delivery_patterns.json',
+        'data/relic_passives.json',
+        'data/relic_passive_localisation.json'
+    ];
 
-    if ('requestIdleCallback' in window) {
-        requestIdleCallback(warmSecondary, { timeout: 1000 });
-    } else {
-        setTimeout(warmSecondary, 250);
-    }
+    window.JOBMANIA_PRELOAD_PROMISE = Promise.allSettled(
+        urls.map(url => fetch(url, { cache: 'force-cache' }))
+    ).then(results => {
+        const failed = results
+            .map((result, index) => ({ result, url: urls[index] }))
+            .filter(item => item.result.status === 'rejected' || !item.result.value?.ok);
+
+        if (failed.length) {
+            console.warn('Some Jobmania support resources could not be preloaded:', failed.map(item => item.url));
+        }
+
+        return { total: urls.length, failed: failed.map(item => item.url) };
+    });
 })();
