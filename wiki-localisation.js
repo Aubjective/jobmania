@@ -9,7 +9,7 @@
 
     // Relic passive wiki layer. Raw IDs and compatibility fields stay internal.
     window.JOBMANIA_HIDDEN_FIELDS = window.JOBMANIA_HIDDEN_FIELDS || {};
-    window.JOBMANIA_HIDDEN_FIELDS.relic = ['RelicId', 'InnatePassiveId', 'SpecialType'];
+    window.JOBMANIA_HIDDEN_FIELDS.relic = ['RelicId', 'InnatePassiveId'];
 
     let relicPassiveDataPromise = null;
     function ensureRelicPassiveData() {
@@ -59,30 +59,6 @@
         section.className = 'card detail-section relic-passives-section';
         section.innerHTML =
             '<h2>' + escapeHtml(t('Relic Passives', 'Relic Passives')) + '</h2>' +
-            '<div class="relic-passive-group">' +
-                '<h3>' + escapeHtml(t('Upgrade', 'Upgrade')) + '</h3>' +
-                '<div class="info-list">' +
-                    infoRow(t('Innate Passive', 'Innate Passive'), innate ? passiveText(innate) : '—') +
-                    infoRow(t('First Passive', 'First Passive'), innate ? t('Innate Passive (guaranteed)', 'Innate Passive (guaranteed)') : t('Random passive based on rarity', 'Random passive based on rarity')) +
-                    infoRow(t('Additional Passive', 'Additional Passive'), t('Random passive based on rarity', 'Random passive based on rarity')) +
-                    infoRow(t('Upgrade Material', 'Upgrade Material'), t('Max-level, not favourited, not in saved presets', 'Max-level, not favourited, not in saved presets')) +
-                '</div>' +
-            '</div>' +
-            '<div class="relic-passive-group">' +
-                '<h3>' + escapeHtml(t('Dungeon Loot', 'Dungeon Loot')) + '</h3>' +
-                '<div class="info-list">' +
-                    infoRow(t('First Passive', 'First Passive'), t('60% random from compatible pool', '60% random from compatible pool')) +
-                    infoRow(t('Empty Chance', 'Empty Chance'), '40%') +
-                    infoRow(t('Innate Passive', 'Innate Passive'), t('Not guaranteed', 'Not guaranteed')) +
-                '</div>' +
-            '</div>' +
-            '<div class="relic-passive-group">' +
-                '<h3>' + escapeHtml(t('Reforge', 'Reforge')) + '</h3>' +
-                '<div class="info-list">' +
-                    infoRow(t('Passive Source', 'Passive Source'), t('Compatible pool', 'Compatible pool')) +
-                    infoRow(t('Target Passive', 'Target Passive'), t('Chance-based', 'Chance-based')) +
-                '</div>' +
-            '</div>' +
             '<div class="relic-passive-group relic-passive-pool">' +
                 '<h3>' + escapeHtml(t('Compatible Passive Pool', 'Compatible Passive Pool')) + '</h3>' +
                 '<details>' +
