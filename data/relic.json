@@ -10,7 +10,9 @@
     "InnatePassiveId": 43,
     "SpecialType": "Strength",
     "Craft Material x1": "Magic Ring",
-    "Craft Ability x5": ""
+    "Craft Ability x5": "",
+    "Series": "",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 2,
@@ -23,7 +25,9 @@
     "InnatePassiveId": 46,
     "SpecialType": "Agility",
     "Craft Material x1": "Magic Ring",
-    "Craft Ability x5": ""
+    "Craft Ability x5": "",
+    "Series": "",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 3,
@@ -36,7 +40,9 @@
     "InnatePassiveId": 49,
     "SpecialType": "Intelligence",
     "Craft Material x1": "Magic Ring",
-    "Craft Ability x5": ""
+    "Craft Ability x5": "",
+    "Series": "",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 4,
@@ -49,7 +55,9 @@
     "InnatePassiveId": 52,
     "SpecialType": "MaxHP",
     "Craft Material x1": "Magic Ring",
-    "Craft Ability x5": ""
+    "Craft Ability x5": "",
+    "Series": "",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 5,
@@ -62,7 +70,9 @@
     "InnatePassiveId": 176,
     "SpecialType": "Fire",
     "Craft Material x1": "Magic Ring",
-    "Craft Ability x5": "Fire Element"
+    "Craft Ability x5": "Fire Element",
+    "Series": "TheTrialOfFire",
+    "SpecificChapter": "Blaze Dungeon"
   },
   {
     "RelicId": 6,
@@ -75,7 +85,9 @@
     "InnatePassiveId": 177,
     "SpecialType": "Water",
     "Craft Material x1": "Magic Ring",
-    "Craft Ability x5": "Water Element"
+    "Craft Ability x5": "Water Element",
+    "Series": "TheTrialOfWater",
+    "SpecificChapter": "Frost Dungeon"
   },
   {
     "RelicId": 7,
@@ -88,7 +100,9 @@
     "InnatePassiveId": 178,
     "SpecialType": "Thunder",
     "Craft Material x1": "Magic Ring",
-    "Craft Ability x5": "Thunder Element"
+    "Craft Ability x5": "Thunder Element",
+    "Series": "TheTrialOfThunder",
+    "SpecificChapter": "Lightning Dungeon"
   },
   {
     "RelicId": 8,
@@ -101,7 +115,9 @@
     "InnatePassiveId": 179,
     "SpecialType": "Earth",
     "Craft Material x1": "Magic Ring",
-    "Craft Ability x5": "Earth Element"
+    "Craft Ability x5": "Earth Element",
+    "Series": "TheTrialOfEarth",
+    "SpecificChapter": "Terra Dungeon"
   },
   {
     "RelicId": 9,
@@ -114,7 +130,9 @@
     "InnatePassiveId": 180,
     "SpecialType": "Wind",
     "Craft Material x1": "Magic Ring",
-    "Craft Ability x5": "Wind Element"
+    "Craft Ability x5": "Wind Element",
+    "Series": "TheTrialOfWind",
+    "SpecificChapter": "Gale Dungeon"
   },
   {
     "RelicId": 10,
@@ -127,7 +145,9 @@
     "InnatePassiveId": 181,
     "SpecialType": "Light",
     "Craft Material x1": "Magic Ring",
-    "Craft Ability x5": "Light Element"
+    "Craft Ability x5": "Light Element",
+    "Series": "TheTrialOfLight",
+    "SpecificChapter": "Archfiend Dungeon"
   },
   {
     "RelicId": 11,
@@ -140,7 +160,9 @@
     "InnatePassiveId": 182,
     "SpecialType": "Dark",
     "Craft Material x1": "Magic Ring",
-    "Craft Ability x5": "Dark Element"
+    "Craft Ability x5": "Dark Element",
+    "Series": "TheTrialOfDark",
+    "SpecificChapter": "Archfiend Dungeon"
   },
   {
     "RelicId": 12,
@@ -153,7 +175,9 @@
     "InnatePassiveId": 92,
     "SpecialType": "Strength",
     "Craft Material x1": "Fighting Gloves",
-    "Craft Ability x5": "Charge"
+    "Craft Ability x5": "Charge",
+    "Series": "",
+    "SpecificChapter": "The Champion"
   },
   {
     "RelicId": 13,
@@ -166,7 +190,9 @@
     "InnatePassiveId": 0,
     "SpecialType": "Agility",
     "Craft Material x1": "Dagger",
-    "Craft Ability x5": "Double Slash"
+    "Craft Ability x5": "Double Slash",
+    "Series": "",
+    "SpecificChapter": "Underground City"
   },
   {
     "RelicId": 14,
@@ -179,7 +205,9 @@
     "InnatePassiveId": 0,
     "SpecialType": "Intelligence",
     "Craft Material x1": "Rod",
-    "Craft Ability x5": "Cast Spell"
+    "Craft Ability x5": "Cast Spell",
+    "Series": "",
+    "SpecificChapter": "Magic Library"
   },
   {
     "RelicId": 15,
@@ -192,7 +220,9 @@
     "InnatePassiveId": 173,
     "SpecialType": "Curse",
     "Craft Material x1": "Fallen",
-    "Craft Ability x5": "Curse"
+    "Craft Ability x5": "Curse",
+    "Series": "TheLonelyQueen",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 16,
@@ -205,7 +235,9 @@
     "InnatePassiveId": 0,
     "SpecialType": "Strength",
     "Craft Material x1": "The Book Of Wisdom",
-    "Craft Ability x5": "Hammer Attack"
+    "Craft Ability x5": "Hammer Attack",
+    "Series": "",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 17,
@@ -218,7 +250,9 @@
     "InnatePassiveId": 0,
     "SpecialType": "Agility",
     "Craft Material x1": "Champion Belt",
-    "Craft Ability x5": "Swift"
+    "Craft Ability x5": "Swift",
+    "Series": "",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 18,
@@ -231,7 +265,9 @@
     "InnatePassiveId": 0,
     "SpecialType": "Intelligence",
     "Craft Material x1": "Stealth Sense",
-    "Craft Ability x5": "Magic Buff"
+    "Craft Ability x5": "Magic Buff",
+    "Series": "",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 19,
@@ -244,7 +280,9 @@
     "InnatePassiveId": 0,
     "SpecialType": "MaxHP",
     "Craft Material x1": "Vast Experience",
-    "Craft Ability x5": "Meat Shield"
+    "Craft Ability x5": "Meat Shield",
+    "Series": "",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 20,
@@ -257,7 +295,9 @@
     "InnatePassiveId": 93,
     "SpecialType": "Strength",
     "Craft Material x1": "Noble Mission",
-    "Craft Ability x5": "Headbutt"
+    "Craft Ability x5": "Headbutt",
+    "Series": "",
+    "SpecificChapter": "Meet The King"
   },
   {
     "RelicId": 21,
@@ -270,7 +310,9 @@
     "InnatePassiveId": 47,
     "SpecialType": "Agility",
     "Craft Material x1": "Medicine",
-    "Craft Ability x5": "High Potion"
+    "Craft Ability x5": "High Potion",
+    "Series": "",
+    "SpecificChapter": "Goblin Fortress"
   },
   {
     "RelicId": 22,
@@ -283,7 +325,9 @@
     "InnatePassiveId": 311,
     "SpecialType": "Intelligence",
     "Craft Material x1": "Staff",
-    "Craft Ability x5": "Element Fuse . Aurora"
+    "Craft Ability x5": "Element Fuse . Aurora",
+    "Series": "",
+    "SpecificChapter": "The Kingdom of Slimes"
   },
   {
     "RelicId": 23,
@@ -296,7 +340,9 @@
     "InnatePassiveId": 31,
     "SpecialType": "MaxHP",
     "Craft Material x1": "Guardian Necklace",
-    "Craft Ability x5": "Tackle"
+    "Craft Ability x5": "Tackle",
+    "Series": "",
+    "SpecificChapter": "Attack of Titans"
   },
   {
     "RelicId": 24,
@@ -309,7 +355,9 @@
     "InnatePassiveId": 113,
     "SpecialType": "Venom",
     "Craft Material x1": "Hero Medallion",
-    "Craft Ability x5": "Antidote"
+    "Craft Ability x5": "Antidote",
+    "Series": "",
+    "SpecificChapter": "Experimental Ground"
   },
   {
     "RelicId": 25,
@@ -322,7 +370,9 @@
     "InnatePassiveId": 174,
     "SpecialType": "Curse",
     "Craft Material x1": "Chief Necklace",
-    "Craft Ability x5": "Curse"
+    "Craft Ability x5": "Curse",
+    "Series": "",
+    "SpecificChapter": "Experimental Ground"
   },
   {
     "RelicId": 26,
@@ -335,7 +385,9 @@
     "InnatePassiveId": 187,
     "SpecialType": "Fire",
     "Craft Material x1": "Fire Spirit",
-    "Craft Ability x5": "Battle Shield"
+    "Craft Ability x5": "Battle Shield",
+    "Series": "TheTrialOfFire",
+    "SpecificChapter": "Blaze Dungeon"
   },
   {
     "RelicId": 27,
@@ -348,7 +400,9 @@
     "InnatePassiveId": 190,
     "SpecialType": "Water",
     "Craft Material x1": "Water Spirit",
-    "Craft Ability x5": "Magic Orbs"
+    "Craft Ability x5": "Magic Orbs",
+    "Series": "TheTrialOfWater",
+    "SpecificChapter": "Frost Dungeon"
   },
   {
     "RelicId": 28,
@@ -361,7 +415,9 @@
     "InnatePassiveId": 193,
     "SpecialType": "Thunder",
     "Craft Material x1": "Thunder Spirit",
-    "Craft Ability x5": "High Potion"
+    "Craft Ability x5": "High Potion",
+    "Series": "TheTrialOfThunder",
+    "SpecificChapter": "Lightning Dungeon"
   },
   {
     "RelicId": 29,
@@ -374,7 +430,9 @@
     "InnatePassiveId": 196,
     "SpecialType": "Earth",
     "Craft Material x1": "Earth Spirit",
-    "Craft Ability x5": "Swim"
+    "Craft Ability x5": "Swim",
+    "Series": "TheTrialOfEarth",
+    "SpecificChapter": "Terra Dungeon"
   },
   {
     "RelicId": 30,
@@ -387,7 +445,9 @@
     "InnatePassiveId": 199,
     "SpecialType": "Wind",
     "Craft Material x1": "Wind Spirit",
-    "Craft Ability x5": "Quick Step"
+    "Craft Ability x5": "Quick Step",
+    "Series": "TheTrialOfWind",
+    "SpecificChapter": "Gale Dungeon"
   },
   {
     "RelicId": 31,
@@ -400,7 +460,9 @@
     "InnatePassiveId": 202,
     "SpecialType": "Light",
     "Craft Material x1": "Light Spirit",
-    "Craft Ability x5": "Stealth"
+    "Craft Ability x5": "Stealth",
+    "Series": "TheTrialOfLight",
+    "SpecificChapter": "Archfiend Dungeon"
   },
   {
     "RelicId": 32,
@@ -413,7 +475,9 @@
     "InnatePassiveId": 205,
     "SpecialType": "Dark",
     "Craft Material x1": "Dark Spirit",
-    "Craft Ability x5": "Katana Blade"
+    "Craft Ability x5": "Katana Blade",
+    "Series": "TheTrialOfDark",
+    "SpecificChapter": "Archfiend Dungeon"
   },
   {
     "RelicId": 33,
@@ -426,7 +490,9 @@
     "InnatePassiveId": 214,
     "SpecialType": "",
     "Craft Material x1": "Coins",
-    "Craft Ability x5": "Midas Gold"
+    "Craft Ability x5": "Midas Gold",
+    "Series": "",
+    "SpecificChapter": "Skull Island"
   },
   {
     "RelicId": 34,
@@ -439,7 +505,9 @@
     "InnatePassiveId": 21,
     "SpecialType": "Strength",
     "Craft Material x1": "Fighting Gloves",
-    "Craft Ability x5": "Strength Absorb"
+    "Craft Ability x5": "Strength Absorb",
+    "Series": "",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 35,
@@ -452,7 +520,9 @@
     "InnatePassiveId": 84,
     "SpecialType": "Agility",
     "Craft Material x1": "Martial Arts Training",
-    "Craft Ability x5": "Agility Buff"
+    "Craft Ability x5": "Agility Buff",
+    "Series": "",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 36,
@@ -465,7 +535,9 @@
     "InnatePassiveId": 12,
     "SpecialType": "Intelligence",
     "Craft Material x1": "Staff",
-    "Craft Ability x5": "Gemstone Heal"
+    "Craft Ability x5": "Gemstone Heal",
+    "Series": "",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 37,
@@ -478,7 +550,9 @@
     "InnatePassiveId": 32,
     "SpecialType": "MaxHP",
     "Craft Material x1": "Dragon Heart",
-    "Craft Ability x5": "Healing Herb"
+    "Craft Ability x5": "Healing Herb",
+    "Series": "",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 38,
@@ -491,7 +565,9 @@
     "InnatePassiveId": 141,
     "SpecialType": "",
     "Craft Material x1": "Magic Ring",
-    "Craft Ability x5": "Pray"
+    "Craft Ability x5": "Pray",
+    "Series": "",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 39,
@@ -504,7 +580,9 @@
     "InnatePassiveId": 175,
     "SpecialType": "Curse",
     "Craft Material x1": "Demon Contract",
-    "Craft Ability x5": "Stare"
+    "Craft Ability x5": "Stare",
+    "Series": "",
+    "SpecificChapter": "Experimental Ground"
   },
   {
     "RelicId": 40,
@@ -517,7 +595,9 @@
     "InnatePassiveId": 217,
     "SpecialType": "Fire",
     "Craft Material x1": "Dagger",
-    "Craft Ability x5": "Flamethrower"
+    "Craft Ability x5": "Flamethrower",
+    "Series": "TheTrialOfFire",
+    "SpecificChapter": "Blaze Dungeon"
   },
   {
     "RelicId": 41,
@@ -530,7 +610,9 @@
     "InnatePassiveId": 59,
     "SpecialType": "Water",
     "Craft Material x1": "Guardian Necklace",
-    "Craft Ability x5": "Ice Shards"
+    "Craft Ability x5": "Ice Shards",
+    "Series": "TheTrialOfWater",
+    "SpecificChapter": "Frost Dungeon"
   },
   {
     "RelicId": 42,
@@ -543,7 +625,9 @@
     "InnatePassiveId": 194,
     "SpecialType": "Thunder",
     "Craft Material x1": "Staff",
-    "Craft Ability x5": "Element Fuse . Thunder Storm"
+    "Craft Ability x5": "Element Fuse . Thunder Storm",
+    "Series": "TheTrialOfThunder",
+    "SpecificChapter": "Lightning Dungeon"
   },
   {
     "RelicId": 43,
@@ -556,7 +640,9 @@
     "InnatePassiveId": 197,
     "SpecialType": "Earth",
     "Craft Material x1": "The Book Of Wisdom",
-    "Craft Ability x5": "Book Magic Earth"
+    "Craft Ability x5": "Book Magic Earth",
+    "Series": "TheTrialOfEarth",
+    "SpecificChapter": "Terra Dungeon"
   },
   {
     "RelicId": 44,
@@ -569,7 +655,9 @@
     "InnatePassiveId": 134,
     "SpecialType": "Wind",
     "Craft Material x1": "Wind Spirit",
-    "Craft Ability x5": "Magic Buff"
+    "Craft Ability x5": "Magic Buff",
+    "Series": "TheTrialOfWind",
+    "SpecificChapter": "Gale Dungeon"
   },
   {
     "RelicId": 45,
@@ -582,7 +670,9 @@
     "InnatePassiveId": 235,
     "SpecialType": "Dark",
     "Craft Material x1": "Axe",
-    "Craft Ability x5": "Exposed Dark"
+    "Craft Ability x5": "Exposed Dark",
+    "Series": "TheTrialOfDark",
+    "SpecificChapter": "Archfiend Dungeon"
   },
   {
     "RelicId": 46,
@@ -595,7 +685,9 @@
     "InnatePassiveId": 159,
     "SpecialType": "Light",
     "Craft Material x1": "Light Spirit",
-    "Craft Ability x5": "Focus"
+    "Craft Ability x5": "Focus",
+    "Series": "TheTrialOfLight",
+    "SpecificChapter": "Archfiend Dungeon"
   },
   {
     "RelicId": 47,
@@ -608,7 +700,9 @@
     "InnatePassiveId": 215,
     "SpecialType": "",
     "Craft Material x1": "Compass",
-    "Craft Ability x5": "Time Travel"
+    "Craft Ability x5": "Time Travel",
+    "Series": "",
+    "SpecificChapter": "Discord Group"
   },
   {
     "RelicId": 48,
@@ -621,7 +715,9 @@
     "InnatePassiveId": 144,
     "SpecialType": "Strength",
     "Craft Material x1": "Axe",
-    "Craft Ability x5": "Destroy"
+    "Craft Ability x5": "Destroy",
+    "Series": "",
+    "SpecificChapter": "Queen's Chamber"
   },
   {
     "RelicId": 49,
@@ -634,7 +730,9 @@
     "InnatePassiveId": 8,
     "SpecialType": "Agility",
     "Craft Material x1": "Bow",
-    "Craft Ability x5": "Amazon"
+    "Craft Ability x5": "Amazon",
+    "Series": "",
+    "SpecificChapter": "Attack of Titans"
   },
   {
     "RelicId": 50,
@@ -647,7 +745,9 @@
     "InnatePassiveId": 122,
     "SpecialType": "Intelligence",
     "Craft Material x1": "Rod",
-    "Craft Ability x5": "Providence Conquer"
+    "Craft Ability x5": "Providence Conquer",
+    "Series": "",
+    "SpecificChapter": "The Rebel Leader"
   },
   {
     "RelicId": 51,
@@ -660,7 +760,9 @@
     "InnatePassiveId": 103,
     "SpecialType": "MaxHP",
     "Craft Material x1": "Fighting Gloves",
-    "Craft Ability x5": "Titan Force"
+    "Craft Ability x5": "Titan Force",
+    "Series": "",
+    "SpecificChapter": "The Goblin King"
   },
   {
     "RelicId": 52,
@@ -673,7 +775,9 @@
     "InnatePassiveId": 169,
     "SpecialType": "Restrain",
     "Craft Material x1": "Beast Taming Skills",
-    "Craft Ability x5": ""
+    "Craft Ability x5": "",
+    "Series": "SevenSins",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 53,
@@ -686,7 +790,9 @@
     "InnatePassiveId": 220,
     "SpecialType": "Water",
     "Craft Material x1": "Magic Ring",
-    "Craft Ability x5": "Snowballs"
+    "Craft Ability x5": "Snowballs",
+    "Series": "",
+    "SpecificChapter": "Xmas Party"
   },
   {
     "RelicId": 54,
@@ -699,7 +805,9 @@
     "InnatePassiveId": 241,
     "SpecialType": "",
     "Craft Material x1": "The Holy Grail",
-    "Craft Ability x5": "Xmas Present"
+    "Craft Ability x5": "Xmas Present",
+    "Series": "",
+    "SpecificChapter": "Xmas Party"
   },
   {
     "RelicId": 55,
@@ -712,7 +820,9 @@
     "InnatePassiveId": 242,
     "SpecialType": "",
     "Craft Material x1": "Demon Contract",
-    "Craft Ability x5": "Charging Horn"
+    "Craft Ability x5": "Charging Horn",
+    "Series": "",
+    "SpecificChapter": "Xmas Party"
   },
   {
     "RelicId": 56,
@@ -725,7 +835,9 @@
     "InnatePassiveId": 108,
     "SpecialType": "",
     "Craft Material x1": "Medicine",
-    "Craft Ability x5": "Pill"
+    "Craft Ability x5": "Pill",
+    "Series": "TheTrialOfEarth",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 57,
@@ -738,7 +850,9 @@
     "InnatePassiveId": 172,
     "SpecialType": "",
     "Craft Material x1": "Coins",
-    "Craft Ability x5": "Chinese Lantern"
+    "Craft Ability x5": "Chinese Lantern",
+    "Series": "",
+    "SpecificChapter": "Treasure Land"
   },
   {
     "RelicId": 58,
@@ -751,7 +865,9 @@
     "InnatePassiveId": 189,
     "SpecialType": "Fire",
     "Craft Material x1": "Sword",
-    "Craft Ability x5": "Blast Burn"
+    "Craft Ability x5": "Blast Burn",
+    "Series": "TheTrialOfFire",
+    "SpecificChapter": "Blaze Dungeon"
   },
   {
     "RelicId": 59,
@@ -764,7 +880,9 @@
     "InnatePassiveId": 155,
     "SpecialType": "Water",
     "Craft Material x1": "Spear",
-    "Craft Ability x5": "Element Fuse . Thrill Cold"
+    "Craft Ability x5": "Element Fuse . Thrill Cold",
+    "Series": "TheTrialOfWater",
+    "SpecificChapter": "Frost Dungeon"
   },
   {
     "RelicId": 60,
@@ -777,7 +895,9 @@
     "InnatePassiveId": 63,
     "SpecialType": "Thunder",
     "Craft Material x1": "Thunder Spirit",
-    "Craft Ability x5": "Thunderbolt"
+    "Craft Ability x5": "Thunderbolt",
+    "Series": "TheTrialOfThunder",
+    "SpecificChapter": "Lightning Dungeon"
   },
   {
     "RelicId": 61,
@@ -790,7 +910,9 @@
     "InnatePassiveId": 227,
     "SpecialType": "Earth",
     "Craft Material x1": "Compass",
-    "Craft Ability x5": "Gaia Blessing"
+    "Craft Ability x5": "Gaia Blessing",
+    "Series": "TheTrialOfEarth",
+    "SpecificChapter": "Terra Dungeon"
   },
   {
     "RelicId": 62,
@@ -803,7 +925,9 @@
     "InnatePassiveId": 69,
     "SpecialType": "Wind",
     "Craft Material x1": "Axe",
-    "Craft Ability x5": "Miracle Wind"
+    "Craft Ability x5": "Miracle Wind",
+    "Series": "TheTrialOfWind",
+    "SpecificChapter": "Gale Dungeon"
   },
   {
     "RelicId": 63,
@@ -816,7 +940,9 @@
     "InnatePassiveId": 233,
     "SpecialType": "Light",
     "Craft Material x1": "Sword",
-    "Craft Ability x5": "Divine Finale"
+    "Craft Ability x5": "Divine Finale",
+    "Series": "TheTrialOfLight",
+    "SpecificChapter": "Archfiend Dungeon"
   },
   {
     "RelicId": 64,
@@ -829,7 +955,9 @@
     "InnatePassiveId": 256,
     "SpecialType": "Dark",
     "Craft Material x1": "Spear",
-    "Craft Ability x5": "Sinister Power"
+    "Craft Ability x5": "Sinister Power",
+    "Series": "TheTrialOfDark",
+    "SpecificChapter": "Archfiend Dungeon"
   },
   {
     "RelicId": 65,
@@ -842,7 +970,9 @@
     "InnatePassiveId": 161,
     "SpecialType": "Element",
     "Craft Material x1": "Elemental Runestones",
-    "Craft Ability x5": "Elemental Signs"
+    "Craft Ability x5": "Elemental Signs",
+    "Series": "",
+    "SpecificChapter": "The Kingdom of Slimes"
   },
   {
     "RelicId": 66,
@@ -855,7 +985,9 @@
     "InnatePassiveId": 328,
     "SpecialType": "Water",
     "Craft Material x1": "Water Spirit",
-    "Craft Ability x5": "Fire Balls"
+    "Craft Ability x5": "Fire Balls",
+    "Series": "",
+    "SpecificChapter": "Summer Beach"
   },
   {
     "RelicId": 67,
@@ -868,7 +1000,9 @@
     "InnatePassiveId": 302,
     "SpecialType": "Bleed",
     "Craft Material x1": "Stealth Sense",
-    "Craft Ability x5": "Blood Feast"
+    "Craft Ability x5": "Blood Feast",
+    "Series": "",
+    "SpecificChapter": "Evil Creatures"
   },
   {
     "RelicId": 68,
@@ -881,7 +1015,9 @@
     "InnatePassiveId": 162,
     "SpecialType": "Bleed",
     "Craft Material x1": "Demon Contract",
-    "Craft Ability x5": "Blood Offering"
+    "Craft Ability x5": "Blood Offering",
+    "Series": "",
+    "SpecificChapter": "Experimental Ground"
   },
   {
     "RelicId": 69,
@@ -894,7 +1030,9 @@
     "InnatePassiveId": 149,
     "SpecialType": "",
     "Craft Material x1": "Jobmania Crystal",
-    "Craft Ability x5": ""
+    "Craft Ability x5": "",
+    "Series": "",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 70,
@@ -907,7 +1045,9 @@
     "InnatePassiveId": 186,
     "SpecialType": "",
     "Craft Material x1": "Spanner",
-    "Craft Ability x5": ""
+    "Craft Ability x5": "",
+    "Series": "",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 71,
@@ -920,7 +1060,9 @@
     "InnatePassiveId": 86,
     "SpecialType": "Intelligence",
     "Craft Material x1": "The Book Of Wisdom",
-    "Craft Ability x5": ""
+    "Craft Ability x5": "",
+    "Series": "",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 72,
@@ -933,7 +1075,9 @@
     "InnatePassiveId": 240,
     "SpecialType": "Insane",
     "Craft Material x1": "Phantom Crystal",
-    "Craft Ability x5": "Curse"
+    "Craft Ability x5": "Curse",
+    "Series": "",
+    "SpecificChapter": "Halloween Party"
   },
   {
     "RelicId": 73,
@@ -946,7 +1090,9 @@
     "InnatePassiveId": 303,
     "SpecialType": "Strength",
     "Craft Material x1": "Aged Scrolls",
-    "Craft Ability x5": "Night Decapitate"
+    "Craft Ability x5": "Night Decapitate",
+    "Series": "",
+    "SpecificChapter": "Halloween Party"
   },
   {
     "RelicId": 74,
@@ -959,7 +1105,9 @@
     "InnatePassiveId": 213,
     "SpecialType": "MaxHP",
     "Craft Material x1": "Beast Taming Skills",
-    "Craft Ability x5": "Cover Guard"
+    "Craft Ability x5": "Cover Guard",
+    "Series": "",
+    "SpecificChapter": "Xmas Party"
   },
   {
     "RelicId": 75,
@@ -972,7 +1120,9 @@
     "InnatePassiveId": 306,
     "SpecialType": "Water",
     "Craft Material x1": "Legendary Crest",
-    "Craft Ability x5": "Ice Age"
+    "Craft Ability x5": "Ice Age",
+    "Series": "",
+    "SpecificChapter": "Xmas Party"
   },
   {
     "RelicId": 76,
@@ -985,7 +1135,9 @@
     "InnatePassiveId": 153,
     "SpecialType": "",
     "Craft Material x1": "Explosive Tools",
-    "Craft Ability x5": "Calculate"
+    "Craft Ability x5": "Calculate",
+    "Series": "",
+    "SpecificChapter": "Dwarves Hideout"
   },
   {
     "RelicId": 77,
@@ -998,7 +1150,9 @@
     "InnatePassiveId": 33,
     "SpecialType": "Light",
     "Craft Material x1": "Rod",
-    "Craft Ability x5": "Seduce"
+    "Craft Ability x5": "Seduce",
+    "Series": "",
+    "SpecificChapter": "Magica Dungeon"
   },
   {
     "RelicId": 78,
@@ -1011,7 +1165,9 @@
     "InnatePassiveId": 304,
     "SpecialType": "Intelligence",
     "Craft Material x1": "Legendary Crest",
-    "Craft Ability x5": "Gemstone Heal"
+    "Craft Ability x5": "Gemstone Heal",
+    "Series": "",
+    "SpecificChapter": "Villains Dungeon"
   },
   {
     "RelicId": 79,
@@ -1024,7 +1180,9 @@
     "InnatePassiveId": 210,
     "SpecialType": "Element",
     "Craft Material x1": "Beast Taming Skills",
-    "Craft Ability x5": "Easter Chocobomb"
+    "Craft Ability x5": "Easter Chocobomb",
+    "Series": "",
+    "SpecificChapter": "Easter Garden"
   },
   {
     "RelicId": 80,
@@ -1037,7 +1195,9 @@
     "InnatePassiveId": 90,
     "SpecialType": "",
     "Craft Material x1": "Aged Scrolls",
-    "Craft Ability x5": "Dragon Fang"
+    "Craft Ability x5": "Dragon Fang",
+    "Series": "",
+    "SpecificChapter": "Dragons Kingdom"
   },
   {
     "RelicId": 81,
@@ -1050,7 +1210,9 @@
     "InnatePassiveId": 330,
     "SpecialType": "",
     "Craft Material x1": "The Book Of Wisdom",
-    "Craft Ability x5": "Fate Swap"
+    "Craft Ability x5": "Fate Swap",
+    "Series": "ChallengeMode",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 82,
@@ -1063,7 +1225,9 @@
     "InnatePassiveId": 91,
     "SpecialType": "",
     "Craft Material x1": "The Book Of Wisdom",
-    "Craft Ability x5": "Unkillable Gift"
+    "Craft Ability x5": "Unkillable Gift",
+    "Series": "ChallengeMode",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 83,
@@ -1076,7 +1240,9 @@
     "InnatePassiveId": 331,
     "SpecialType": "",
     "Craft Material x1": "The Book Of Wisdom",
-    "Craft Ability x5": "Longing"
+    "Craft Ability x5": "Longing",
+    "Series": "ChallengeMode",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 84,
@@ -1089,7 +1255,9 @@
     "InnatePassiveId": 332,
     "SpecialType": "",
     "Craft Material x1": "The Book Of Wisdom",
-    "Craft Ability x5": "Auto Recovery Gift"
+    "Craft Ability x5": "Auto Recovery Gift",
+    "Series": "ChallengeMode",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 85,
@@ -1102,7 +1270,9 @@
     "InnatePassiveId": 83,
     "SpecialType": "Strength",
     "Craft Material x1": "Noble Mission",
-    "Craft Ability x5": "SadFace"
+    "Craft Ability x5": "SadFace",
+    "Series": "",
+    "SpecificChapter": "Halloween Party"
   },
   {
     "RelicId": 86,
@@ -1115,7 +1285,9 @@
     "InnatePassiveId": 30,
     "SpecialType": "Water",
     "Craft Material x1": "Water Spirit",
-    "Craft Ability x5": "Crystal Axe"
+    "Craft Ability x5": "Crystal Axe",
+    "Series": "",
+    "SpecificChapter": "Xmas Party"
   },
   {
     "RelicId": 87,
@@ -1128,7 +1300,9 @@
     "InnatePassiveId": 333,
     "SpecialType": "Intelligence",
     "Craft Material x1": "The Ring Of Lord",
-    "Craft Ability x5": "Carrot Juice"
+    "Craft Ability x5": "Carrot Juice",
+    "Series": "",
+    "SpecificChapter": "Easter Garden"
   },
   {
     "RelicId": 88,
@@ -1141,7 +1315,9 @@
     "InnatePassiveId": 154,
     "SpecialType": "Fire",
     "Craft Material x1": "Fire Spirit",
-    "Craft Ability x5": "Solar Flare"
+    "Craft Ability x5": "Solar Flare",
+    "Series": "",
+    "SpecificChapter": "Summer Beach"
   },
   {
     "RelicId": 89,
@@ -1154,7 +1330,9 @@
     "InnatePassiveId": 211,
     "SpecialType": "",
     "Craft Material x1": "Stealth Sense",
-    "Craft Ability x5": "Summon . Symbiotes"
+    "Craft Ability x5": "Summon . Symbiotes",
+    "Series": "",
+    "SpecificChapter": "Into Space"
   },
   {
     "RelicId": 90,
@@ -1167,7 +1345,9 @@
     "InnatePassiveId": 77,
     "SpecialType": "Agility",
     "Craft Material x1": "Gun",
-    "Craft Ability x5": "Villain's Journey"
+    "Craft Ability x5": "Villain's Journey",
+    "Series": "",
+    "SpecificChapter": "The Rebel Forces"
   },
   {
     "RelicId": 91,
@@ -1180,7 +1360,9 @@
     "InnatePassiveId": 143,
     "SpecialType": "",
     "Craft Material x1": "Space Stone",
-    "Craft Ability x5": "Arcane Power"
+    "Craft Ability x5": "Arcane Power",
+    "Series": "",
+    "SpecificChapter": "Zodiac War"
   },
   {
     "RelicId": 92,
@@ -1193,7 +1375,9 @@
     "InnatePassiveId": 119,
     "SpecialType": "Agility",
     "Craft Material x1": "Dagger",
-    "Craft Ability x5": "Soul Bond"
+    "Craft Ability x5": "Soul Bond",
+    "Series": "",
+    "SpecificChapter": "Queen's Chamber"
   },
   {
     "RelicId": 93,
@@ -1206,7 +1390,9 @@
     "InnatePassiveId": 128,
     "SpecialType": "Restrain",
     "Craft Material x1": "Secret Training",
-    "Craft Ability x5": "Spirit Seal"
+    "Craft Ability x5": "Spirit Seal",
+    "Series": "",
+    "SpecificChapter": "Master And Apprentices"
   },
   {
     "RelicId": 94,
@@ -1219,7 +1405,9 @@
     "InnatePassiveId": 335,
     "SpecialType": "",
     "Craft Material x1": "The Ring Of Lord",
-    "Craft Ability x5": "Dimension Leap"
+    "Craft Ability x5": "Dimension Leap",
+    "Series": "",
+    "SpecificChapter": "The Legendary Knights"
   },
   {
     "RelicId": 95,
@@ -1232,7 +1420,9 @@
     "InnatePassiveId": 340,
     "SpecialType": "",
     "Craft Material x1": "The Book Of Wisdom",
-    "Craft Ability x5": "Grudge Haunt"
+    "Craft Ability x5": "Grudge Haunt",
+    "Series": "ChallengeMode",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 96,
@@ -1245,7 +1435,9 @@
     "InnatePassiveId": 117,
     "SpecialType": "Strength",
     "Craft Material x1": "Fighting Gloves",
-    "Craft Ability x5": "Pierce Shield"
+    "Craft Ability x5": "Pierce Shield",
+    "Series": "",
+    "SpecificChapter": "The Castle"
   },
   {
     "RelicId": 97,
@@ -1258,7 +1450,9 @@
     "InnatePassiveId": 16,
     "SpecialType": "Curse",
     "Craft Material x1": "Dark Spirit",
-    "Craft Ability x5": "Iron Head"
+    "Craft Ability x5": "Iron Head",
+    "Series": "",
+    "SpecificChapter": "Whispering Fables"
   },
   {
     "RelicId": 98,
@@ -1271,7 +1465,9 @@
     "InnatePassiveId": 124,
     "SpecialType": "",
     "Craft Material x1": "Gun",
-    "Craft Ability x5": "Force Barrier"
+    "Craft Ability x5": "Force Barrier",
+    "Series": "",
+    "SpecificChapter": "Discord Group"
   },
   {
     "RelicId": 99,
@@ -1284,7 +1480,9 @@
     "InnatePassiveId": 32,
     "SpecialType": "Venom",
     "Craft Material x1": "Beast Taming Skills",
-    "Craft Ability x5": "Ooze Surge"
+    "Craft Ability x5": "Ooze Surge",
+    "Series": "",
+    "SpecificChapter": "Treasure Land"
   },
   {
     "RelicId": 100,
@@ -1297,7 +1495,9 @@
     "InnatePassiveId": 343,
     "SpecialType": "Dark",
     "Craft Material x1": "Fallen",
-    "Craft Ability x5": "Square Tackle"
+    "Craft Ability x5": "Square Tackle",
+    "Series": "",
+    "SpecificChapter": "Halloween Party"
   },
   {
     "RelicId": 101,
@@ -1310,7 +1510,9 @@
     "InnatePassiveId": 382,
     "SpecialType": "Dark",
     "Craft Material x1": "Fighting Gloves",
-    "Craft Ability x5": "Creation Magic"
+    "Craft Ability x5": "Creation Magic",
+    "Series": "",
+    "SpecificChapter": "Xmas Party"
   },
   {
     "RelicId": 102,
@@ -1323,7 +1525,9 @@
     "InnatePassiveId": 237,
     "SpecialType": "Curse",
     "Craft Material x1": "The Book Of Wisdom",
-    "Craft Ability x5": "Reverse Cursed Technique"
+    "Craft Ability x5": "Reverse Cursed Technique",
+    "Series": "ChallengeMode",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 103,
@@ -1336,7 +1540,9 @@
     "InnatePassiveId": 385,
     "SpecialType": "Dice",
     "Craft Material x1": "Space Stone",
-    "Craft Ability x5": "Gambler's Fallacy"
+    "Craft Ability x5": "Gambler's Fallacy",
+    "Series": "",
+    "SpecificChapter": "Discord Group"
   },
   {
     "RelicId": 104,
@@ -1349,7 +1555,9 @@
     "InnatePassiveId": 380,
     "SpecialType": "Earth",
     "Craft Material x1": "Easter Basket",
-    "Craft Ability x5": "Element Fuse . Rainbow"
+    "Craft Ability x5": "Element Fuse . Rainbow",
+    "Series": "",
+    "SpecificChapter": "Easter Garden"
   },
   {
     "RelicId": 105,
@@ -1362,7 +1570,9 @@
     "InnatePassiveId": 348,
     "SpecialType": "Light",
     "Craft Material x1": "Spanner",
-    "Craft Ability x5": "Solarburst Shot"
+    "Craft Ability x5": "Solarburst Shot",
+    "Series": "",
+    "SpecificChapter": "Summer Beach"
   },
   {
     "RelicId": 106,
@@ -1375,7 +1585,9 @@
     "InnatePassiveId": 388,
     "SpecialType": "Dice",
     "Craft Material x1": "The Book Of Wisdom",
-    "Craft Ability x5": "Gambler's Fallacy"
+    "Craft Ability x5": "Gambler's Fallacy",
+    "Series": "ChallengeMode",
+    "SpecificChapter": ""
   },
   {
     "RelicId": 107,
@@ -1388,7 +1600,9 @@
     "InnatePassiveId": 389,
     "SpecialType": "",
     "Craft Material x1": "Philosopher's Stone",
-    "Craft Ability x5": "Time Travel"
+    "Craft Ability x5": "Time Travel",
+    "Series": "",
+    "SpecificChapter": "Halloween Party"
   },
   {
     "RelicId": 108,
@@ -1401,7 +1615,9 @@
     "InnatePassiveId": 390,
     "SpecialType": "Venom",
     "Craft Material x1": "Aged Scrolls",
-    "Craft Ability x5": "Blighted Corruption"
+    "Craft Ability x5": "Blighted Corruption",
+    "Series": "",
+    "SpecificChapter": "Experimental Ground"
   },
   {
     "RelicId": 109,
@@ -1414,7 +1630,9 @@
     "InnatePassiveId": 221,
     "SpecialType": "MaxHP",
     "Craft Material x1": "Chief Necklace",
-    "Craft Ability x5": "Healing Horn"
+    "Craft Ability x5": "Healing Horn",
+    "Series": "",
+    "SpecificChapter": "Xmas Party"
   },
   {
     "RelicId": 110,
@@ -1427,7 +1645,9 @@
     "InnatePassiveId": 163,
     "SpecialType": "Curse",
     "Craft Material x1": "Earth Spirit",
-    "Craft Ability x5": "Death Blossom"
+    "Craft Ability x5": "Death Blossom",
+    "Series": "",
+    "SpecificChapter": "Easter Garden"
   },
   {
     "RelicId": 111,
@@ -1440,6 +1660,8 @@
     "InnatePassiveId": 305,
     "SpecialType": "MaxHP",
     "Craft Material x1": "Dragon Heart",
-    "Craft Ability x5": "Void Sphere"
+    "Craft Ability x5": "Void Sphere",
+    "Series": "",
+    "SpecificChapter": "Void Dungeon"
   }
 ]
