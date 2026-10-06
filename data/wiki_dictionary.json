@@ -664,5 +664,17 @@
     "English": "None",
     "Chinese": "无",
     "Chinese (Traditional)": "無"
+  },
+  {
+    "Key": "Series",
+    "English": "Series",
+    "Chinese": "系列",
+    "Chinese (Traditional)": "系列"
+  },
+  {
+    "Key": "Chapter",
+    "English": "Chapter",
+    "Chinese": "章节",
+    "Chinese (Traditional)": "章節"
   }
 ]
