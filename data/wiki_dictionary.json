@@ -640,5 +640,29 @@
     "English": "Chance-based",
     "Chinese": "按几率获得",
     "Chinese (Traditional)": "按機率獲得"
+  },
+  {
+    "Key": "Special Type",
+    "English": "Special Type",
+    "Chinese": "特殊类型",
+    "Chinese (Traditional)": "特殊類型"
+  },
+  {
+    "Key": "Craft Material",
+    "English": "Craft Material",
+    "Chinese": "合成素材",
+    "Chinese (Traditional)": "合成素材"
+  },
+  {
+    "Key": "Craft Ability",
+    "English": "Craft Ability",
+    "Chinese": "合成主动技能",
+    "Chinese (Traditional)": "合成主動技能"
+  },
+  {
+    "Key": "None",
+    "English": "None",
+    "Chinese": "无",
+    "Chinese (Traditional)": "無"
   }
 ]
