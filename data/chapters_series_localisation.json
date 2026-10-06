@@ -1,0 +1,702 @@
+[
+  {
+    "Key": "OrcArmy",
+    "English": "Orc Army",
+    "Chinese": "兽人军团",
+    "Chinese (Traditional)": "獸人軍團",
+    "Type": "series"
+  },
+  {
+    "Key": "KingdomQuest",
+    "English": "Kingdom Quest",
+    "Chinese": "王国任务",
+    "Chinese (Traditional)": "王國任務",
+    "Type": "series"
+  },
+  {
+    "Key": "TheLonelyQueen",
+    "English": "The Lonely Queen",
+    "Chinese": "孤独女王",
+    "Chinese (Traditional)": "孤獨女王",
+    "Type": "series"
+  },
+  {
+    "Key": "SlimySlimes",
+    "English": "Slimy Slimes",
+    "Chinese": "史莱史莱姆",
+    "Chinese (Traditional)": "史萊史萊姆",
+    "Type": "series"
+  },
+  {
+    "Key": "TheTrialOfFire",
+    "English": "The Trial Of Fire",
+    "Chinese": "火之试炼",
+    "Chinese (Traditional)": "火之試煉",
+    "Type": "series"
+  },
+  {
+    "Key": "TheTrialOfWater",
+    "English": "The Trial Of Water",
+    "Chinese": "水之试炼",
+    "Chinese (Traditional)": "水之試煉",
+    "Type": "series"
+  },
+  {
+    "Key": "TheTrialOfThunder",
+    "English": "The Trial Of Thunder",
+    "Chinese": "雷之试炼",
+    "Chinese (Traditional)": "雷之試煉",
+    "Type": "series"
+  },
+  {
+    "Key": "TheTrialOfEarth",
+    "English": "The Trial Of Earth",
+    "Chinese": "土之试炼",
+    "Chinese (Traditional)": "土之試煉",
+    "Type": "series"
+  },
+  {
+    "Key": "TheTrialOfWind",
+    "English": "The Trial Of Wind",
+    "Chinese": "风之试炼",
+    "Chinese (Traditional)": "風之試煉",
+    "Type": "series"
+  },
+  {
+    "Key": "TheTrialOfLight",
+    "English": "The Trial Of Light",
+    "Chinese": "光之试炼",
+    "Chinese (Traditional)": "光之試煉",
+    "Type": "series"
+  },
+  {
+    "Key": "TheTrialOfDark",
+    "English": "The Trial Of Dark",
+    "Chinese": "暗之试炼",
+    "Chinese (Traditional)": "暗之試煉",
+    "Type": "series"
+  },
+  {
+    "Key": "ElementalLords",
+    "English": "Elemental Lords",
+    "Chinese": "元素之主",
+    "Chinese (Traditional)": "元素之主",
+    "Type": "series"
+  },
+  {
+    "Key": "LegendaryKnights",
+    "English": "Legendary Knights",
+    "Chinese": "传说战士",
+    "Chinese (Traditional)": "傳說戰士",
+    "Type": "series"
+  },
+  {
+    "Key": "IntoSpace",
+    "English": "Into Space",
+    "Chinese": "太空之旅",
+    "Chinese (Traditional)": "太空之旅",
+    "Type": "series"
+  },
+  {
+    "Key": "SevenSins",
+    "English": "Seven Sins",
+    "Chinese": "七原罪",
+    "Chinese (Traditional)": "七原罪",
+    "Type": "series"
+  },
+  {
+    "Key": "WitchHunt",
+    "English": "Witch Hunt",
+    "Chinese": "女巫狩猎",
+    "Chinese (Traditional)": "女巫狩獵",
+    "Type": "series"
+  },
+  {
+    "Key": "WesternJourney",
+    "English": "Journey To The West",
+    "Chinese": "西遊记",
+    "Chinese (Traditional)": "西遊記",
+    "Type": "series"
+  },
+  {
+    "Key": "DungeonDragons",
+    "English": "Dungeon & Dragons",
+    "Chinese": "龙与地下城",
+    "Chinese (Traditional)": "龍與地下城",
+    "Type": "series"
+  },
+  {
+    "Key": "HeroesModeDungeon",
+    "English": "Heroes Mode Dungeons",
+    "Chinese": "英雄模式地牢",
+    "Chinese (Traditional)": "英雄模式地牢",
+    "Type": "series"
+  },
+  {
+    "Key": "SeasonalEvent",
+    "English": "Seasonal Event",
+    "Chinese": "季节性活动",
+    "Chinese (Traditional)": "季節性活動",
+    "Type": "series"
+  },
+  {
+    "Key": "PathsOfBelief",
+    "English": "Paths Of Belief",
+    "Chinese": "信仰之旅",
+    "Chinese (Traditional)": "信仰之旅",
+    "Type": "series"
+  },
+  {
+    "Key": "Beginner's Town",
+    "English": "Beginner's Town",
+    "Chinese": "新手村",
+    "Chinese (Traditional)": "新手村",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Magic Library",
+    "English": "Magical Library",
+    "Chinese": "魔法图书馆",
+    "Chinese (Traditional)": "魔法圖書館",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Elemental Cave",
+    "English": "Elemental Cave",
+    "Chinese": "元素洞穴",
+    "Chinese (Traditional)": "元素洞穴",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Skull Island",
+    "English": "Skull Island",
+    "Chinese": "骷髅岛",
+    "Chinese (Traditional)": "骷髏島",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Underground City",
+    "English": "Underground City",
+    "Chinese": "不法之城",
+    "Chinese (Traditional)": "不法之城",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Slime City",
+    "English": "Slime City",
+    "Chinese": "史莱姆城",
+    "Chinese (Traditional)": "史萊姆城",
+    "Type": "chapter"
+  },
+  {
+    "Key": "The Kingdom of Slimes",
+    "English": "Slime Kingdom",
+    "Chinese": "史莱姆王国",
+    "Chinese (Traditional)": "史萊姆王國",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Attack of Titans",
+    "English": "Attack Of Titans",
+    "Chinese": "进击的巨人们",
+    "Chinese (Traditional)": "進擊的巨人們",
+    "Type": "chapter"
+  },
+  {
+    "Key": "The Sanctuary of Summons",
+    "English": "The Sanctuary Of Summons",
+    "Chinese": "召唤兽的圣所",
+    "Chinese (Traditional)": "召喚獸的聖所",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Goblin Invasion",
+    "English": "Goblin Invasion",
+    "Chinese": "哥布林入侵",
+    "Chinese (Traditional)": "哥布林入侵",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Goblin Fortress",
+    "English": "Goblin Fortress",
+    "Chinese": "哥布林堡垒",
+    "Chinese (Traditional)": "哥布林堡壘",
+    "Type": "chapter"
+  },
+  {
+    "Key": "The Champion",
+    "English": "The Goblin Champion",
+    "Chinese": "哥布林冠军",
+    "Chinese (Traditional)": "哥布林冠軍",
+    "Type": "chapter"
+  },
+  {
+    "Key": "The King Of Orcs",
+    "English": "The King Of Orcs",
+    "Chinese": "兽人之王",
+    "Chinese (Traditional)": "獸人之王",
+    "Type": "chapter"
+  },
+  {
+    "Key": "The Goblin King",
+    "English": "The King of Goblins",
+    "Chinese": "哥布林之王",
+    "Chinese (Traditional)": "哥布林之王",
+    "Type": "chapter"
+  },
+  {
+    "Key": "The Castle",
+    "English": "The Castle",
+    "Chinese": "城堡",
+    "Chinese (Traditional)": "城堡",
+    "Type": "chapter"
+  },
+  {
+    "Key": "To The Sky",
+    "English": "To The Sky",
+    "Chinese": "向天空进发",
+    "Chinese (Traditional)": "向天空進發",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Meet The King",
+    "English": "Meeting the King",
+    "Chinese": "拜访国王",
+    "Chinese (Traditional)": "拜訪國王",
+    "Type": "chapter"
+  },
+  {
+    "Key": "The Rebel Forces",
+    "English": "The Rebel Forces",
+    "Chinese": "反抗军势力",
+    "Chinese (Traditional)": "反抗軍勢力",
+    "Type": "chapter"
+  },
+  {
+    "Key": "The Rebel Leader",
+    "English": "The Rebel Leader",
+    "Chinese": "反抗军首领",
+    "Chinese (Traditional)": "反抗軍首領",
+    "Type": "chapter"
+  },
+  {
+    "Key": "The Legendary Knights",
+    "English": "The Legendary Knights",
+    "Chinese": "传说战士",
+    "Chinese (Traditional)": "傳說戰士",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Talking Objects",
+    "English": "Talking Objects",
+    "Chinese": "说话物体",
+    "Chinese (Traditional)": "說話物體",
+    "Type": "chapter"
+  },
+  {
+    "Key": "The Queens",
+    "English": "The Queens",
+    "Chinese": "双女王",
+    "Chinese (Traditional)": "雙女王",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Queen's Chamber",
+    "English": "Queen's Chamber",
+    "Chinese": "女王之殿",
+    "Chinese (Traditional)": "女王之殿",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Blazing Forest",
+    "English": "Blazing Forest",
+    "Chinese": "燃烧森林",
+    "Chinese (Traditional)": "燃燒森林",
+    "Type": "chapter"
+  },
+  {
+    "Key": "The Guardian Of Hell",
+    "English": "The Guardian Of Hell",
+    "Chinese": "地狱守护者",
+    "Chinese (Traditional)": "地獄守護者",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Undying Flame",
+    "English": "Undying Flame",
+    "Chinese": "不灭之炎",
+    "Chinese (Traditional)": "不滅之炎",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Follow The Wind",
+    "English": "Follow The Wind",
+    "Chinese": "跟随着风",
+    "Chinese (Traditional)": "跟隨著風",
+    "Type": "chapter"
+  },
+  {
+    "Key": "The Sky Residents",
+    "English": "Shimmering Wings",
+    "Chinese": "天空居民",
+    "Chinese (Traditional)": "天空居民",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Hidden Livings",
+    "English": "Hidden Livings",
+    "Chinese": "隐藏的居民",
+    "Chinese (Traditional)": "隱藏的居民",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Magnetic Cave",
+    "English": "Magnetic Cave",
+    "Chinese": "磁铁洞穴",
+    "Chinese (Traditional)": "磁鐵洞穴",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Cybernetic Organism",
+    "English": "Cybernetic Creatures",
+    "Chinese": "赛博机体",
+    "Chinese (Traditional)": "賽博機體",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Lightning Monsters",
+    "English": "The Fulgurite Plains",
+    "Chinese": "角铁平原",
+    "Chinese (Traditional)": "角鐵平原",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Desert Ground",
+    "English": "The Harsh Desert",
+    "Chinese": "沙漠之地",
+    "Chinese (Traditional)": "沙漠之地",
+    "Type": "chapter"
+  },
+  {
+    "Key": "The Stone Gazer",
+    "English": "The Stone Gazer",
+    "Chinese": "石化之眼",
+    "Chinese (Traditional)": "石化之眼",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Forest Friends",
+    "English": "Forest Friends",
+    "Chinese": "森林朋友",
+    "Chinese (Traditional)": "森林朋友",
+    "Type": "chapter"
+  },
+  {
+    "Key": "By The Ocean",
+    "English": "By The Ocean",
+    "Chinese": "海的另一边",
+    "Chinese (Traditional)": "海的另一邊",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Deadly Snow Mountain",
+    "English": "Deadly Snow Mountain",
+    "Chinese": "致命雪山",
+    "Chinese (Traditional)": "致命雪山",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Under The Sea",
+    "English": "Under The Sea",
+    "Chinese": "海洋之心",
+    "Chinese (Traditional)": "海洋之心",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Above The Cloud",
+    "English": "Above the Clouds",
+    "Chinese": "云端之上",
+    "Chinese (Traditional)": "雲端之上",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Noble Race",
+    "English": "Noble Race",
+    "Chinese": "高贵一族",
+    "Chinese (Traditional)": "高貴一族",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Peace Messengers",
+    "English": "Messengers of Peace",
+    "Chinese": "和平使者",
+    "Chinese (Traditional)": "和平使者",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Shaded Woods",
+    "English": "Shaded Woods",
+    "Chinese": "阴森",
+    "Chinese (Traditional)": "陰森",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Evil Creatures",
+    "English": "Evil Creatures",
+    "Chinese": "邪恶之物",
+    "Chinese (Traditional)": "邪惡之物",
+    "Type": "chapter"
+  },
+  {
+    "Key": "The Ruler Of Undeads",
+    "English": "The Undead Ruler",
+    "Chinese": "不死的统治者",
+    "Chinese (Traditional)": "不死的統治者",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Xmas Party",
+    "English": "Xmas Party",
+    "Chinese": "圣诞派对",
+    "Chinese (Traditional)": "聖誕派對",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Into Space",
+    "English": "Into Space",
+    "Chinese": "太空之旅",
+    "Chinese (Traditional)": "太空之旅",
+    "Type": "chapter"
+  },
+  {
+    "Key": "The Federation Forces",
+    "English": "The Federation Forces",
+    "Chinese": "联邦部队",
+    "Chinese (Traditional)": "聯邦部隊",
+    "Type": "chapter"
+  },
+  {
+    "Key": "The Ultimate Rangers",
+    "English": "The Ultimate Rangers",
+    "Chinese": "超级战队",
+    "Chinese (Traditional)": "超級戰隊",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Seven Sins Pride",
+    "English": "Seven Sins Pride",
+    "Chinese": "七宗罪傲慢",
+    "Chinese (Traditional)": "七宗罪傲慢",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Seven Sins Greed",
+    "English": "Seven Sins Greed",
+    "Chinese": "七宗罪贪婪",
+    "Chinese (Traditional)": "七宗罪貪婪",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Seven Sins Envy",
+    "English": "Seven Sins Envy",
+    "Chinese": "七宗罪嫉妒",
+    "Chinese (Traditional)": "七宗罪嫉妒",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Seven Sins Lust",
+    "English": "Seven Sins Lust",
+    "Chinese": "七宗罪淫欲",
+    "Chinese (Traditional)": "七宗罪淫欲",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Seven Sins Sloth",
+    "English": "Seven Sins Sloth",
+    "Chinese": "七宗罪怠惰",
+    "Chinese (Traditional)": "七宗罪怠惰",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Seven Sins Gluttony",
+    "English": "Seven Sins Gluttony",
+    "Chinese": "七宗罪暴食",
+    "Chinese (Traditional)": "七宗罪暴食",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Seven Sins Wrath",
+    "English": "Seven Sins Wrath",
+    "Chinese": "七宗罪愤怒",
+    "Chinese (Traditional)": "七宗罪憤怒",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Discord Group",
+    "English": "Discord Group",
+    "Chinese": "Discord 群",
+    "Chinese (Traditional)": "Discord 群",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Experimental Ground",
+    "English": "Experimental Ground",
+    "Chinese": "实验场",
+    "Chinese (Traditional)": "實驗場",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Halloween Party",
+    "English": "Halloween Party",
+    "Chinese": "万圣节派对",
+    "Chinese (Traditional)": "萬聖節派對",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Plantae Cave",
+    "English": "Plantae Cave",
+    "Chinese": "芭蕉洞",
+    "Chinese (Traditional)": "芭蕉洞",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Zodiac War",
+    "English": "Zodiac War",
+    "Chinese": "星座战争",
+    "Chinese (Traditional)": "星座戰爭",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Blaze Dungeon",
+    "English": "Blaze Dungeon",
+    "Chinese": "烈焰地牢",
+    "Chinese (Traditional)": "烈焰地牢",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Frost Dungeon",
+    "English": "Frost Dungeon",
+    "Chinese": "冰霜地牢",
+    "Chinese (Traditional)": "冰霜地牢",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Lightning Dungeon",
+    "English": "Lightning Dungeon",
+    "Chinese": "闪电地牢",
+    "Chinese (Traditional)": "閃電地牢",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Terra Dungeon",
+    "English": "Terra Dungeon",
+    "Chinese": "大地地牢",
+    "Chinese (Traditional)": "大地地牢",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Gale Dungeon",
+    "English": "Gale Dungeon",
+    "Chinese": "暴风地牢",
+    "Chinese (Traditional)": "暴風地牢",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Archfiend Dungeon",
+    "English": "Archfiend Dungeon",
+    "Chinese": "魔王地牢",
+    "Chinese (Traditional)": "魔王地牢",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Dwarves Hideout",
+    "English": "Dwarves Hideout",
+    "Chinese": "矮人基地",
+    "Chinese (Traditional)": "矮人基地",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Magica Dungeon",
+    "English": "Magica Dungeon",
+    "Chinese": "魔法少女地牢",
+    "Chinese (Traditional)": "魔法少女地牢",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Easter Garden",
+    "English": "Easter Garden",
+    "Chinese": "复活节花园",
+    "Chinese (Traditional)": "復活節花園",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Dragons Kingdom",
+    "English": "Dragons Kingdom",
+    "Chinese": "龙之国度",
+    "Chinese (Traditional)": "龍之國度",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Villains Dungeon",
+    "English": "Evil Villains Dungeon",
+    "Chinese": "邪恶反派地牢",
+    "Chinese (Traditional)": "邪惡反派地牢",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Super Hero Dungeon",
+    "English": "Super Hero Dungeon",
+    "Chinese": "超级英雄地牢",
+    "Chinese (Traditional)": "超級英雄地牢",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Summer Beach",
+    "English": "Summer Beach",
+    "Chinese": "夏日海滩",
+    "Chinese (Traditional)": "夏日海灘",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Master And Apprentices",
+    "English": "Master & Apprentices",
+    "Chinese": "师徒4人",
+    "Chinese (Traditional)": "師徒4人",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Whispering Fables",
+    "English": "Whispering Fables",
+    "Chinese": "耳语寓言",
+    "Chinese (Traditional)": "耳語寓言",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Hyakki Yagyo",
+    "English": "Hyakki Yagyō",
+    "Chinese": "百鬼夜行",
+    "Chinese (Traditional)": "百鬼夜行",
+    "Type": "chapter"
+  },
+  {
+    "Key": "The Sins We Bear",
+    "English": "The Sins We Bear",
+    "Chinese": "我们所背负的罪",
+    "Chinese (Traditional)": "我們所背負的罪",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Goo Dungeon",
+    "English": "Goo Dungeon",
+    "Chinese": "黏液地牢",
+    "Chinese (Traditional)": "黏液地牢",
+    "Type": "chapter"
+  },
+  {
+    "Key": "Void Dungeon",
+    "English": "Void Dungeon",
+    "Chinese": "虚空地牢",
+    "Chinese (Traditional)": "虛空地牢",
+    "Type": "chapter"
+  }
+]
