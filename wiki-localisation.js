@@ -149,6 +149,8 @@
             if (key === 'SpecialType') return t('Special Type', 'Special Type');
             if (key === 'Craft Material x1') return t('Craft Material', 'Craft Material');
             if (key === 'Craft Ability x5') return t('Craft Ability', 'Craft Ability');
+            if (key === 'Series') return t('Series', 'Series');
+            if (key === 'SpecificChapter') return t('Chapter', 'Chapter');
         }
 
         const statMatch = String(key).match(/^(Lv\d+)\s+(HP|Str|Agi|Int)$/);
@@ -169,7 +171,13 @@
     function renderRelicReference(cat, key, value, clickable) {
         if (cat !== 'relic' || typeof value !== 'string' || !value) return null;
         const refCat = relicReferenceFields[key];
-        if (!refCat) return null;
+        if (!refCat) {
+            if (key !== 'Series' && key !== 'SpecificChapter') return null;
+            const localized = typeof window.getLocalizedName === 'function'
+                ? window.getLocalizedName('chaptersSeries', value)
+                : value;
+            return typeof window.escapeHtml === 'function' ? window.escapeHtml(localized) : String(localized);
+        }
 
         if (clickable && typeof window.detailLink === 'function') {
             return window.detailLink(refCat, value);
