@@ -197,6 +197,8 @@ function getRankEmoji(cat, key, value) {
 function getDisplayKey(cat, originalKey) {
     if (!originalKey) return '';
     if (window.JOBMANIA_FIELD_LABELS?.[originalKey]) return window.JOBMANIA_FIELD_LABELS[originalKey];
+    if (originalKey === 'JobKey') return ui('job', 'Job');
+    if (originalKey === 'PassiveKey') return ui('passive', 'Passive');
     if (cat === 'jobs') {
         if (originalKey === 'AbilityKey') return ui('switchSkill', 'Switch Skill');
         if (originalKey.includes('AbilityKey')) return `${ui('deckAbility', 'Deck Ability')} ${originalKey.replace('AbilityKey', '').trim()}`.trim();
