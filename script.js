@@ -32,6 +32,10 @@ const entityKeyFields = {
 
 let detailHistory = [];
 let currentDetail = null;
+const wikiInternalFields = new Set(['RelicId', 'InnatePassiveId', 'RelicPassiveId', 'AbilityId', 'PassiveId', 'MonsterId', 'JobId', 'MaterialId', 'SkillType', 'EffectType', 'Multiplier', 'SpecificChapterId']);
+function isWikiInternalField(cat, key) {
+    return wikiInternalFields.has(key) || /(?:^|_)(?:internalid|databaseid)$/i.test(key) || (window.JOBMANIA_HIDDEN_FIELDS?.[cat] || []).includes(key);
+}
 const monsterStructuredFields = new Set(['Random Passives', 'Random Abilities', 'Threshold Abilities', 'Special Case Abilities']);
 
 function ui(key, fallback = '') { return window.JOBMANIA_UI?.[key] ?? fallback; }
@@ -267,7 +271,7 @@ function loadView(view) {
         if (cat === 'materials') html += renderMaterialImage(key, 'card-media-compact');
         html += '<div class="info-list">';
         const hiddenListFields = new Set(window.JOBMANIA_HIDDEN_FIELDS?.[cat] || []);
-        for (const [k,v] of Object.entries(item)) { if (!v || v === '') continue; if (hiddenListFields.has(k)) continue; if (cat === 'monsters' && monsterStructuredFields.has(k)) continue; if (cat === 'abilities' && k === 'IconImage') continue; if (cat === 'materials' && k === 'Combine List') continue; html += infoRow(getDisplayKey(cat,k), renderFieldValue(cat,k,v,false)); }
+        for (const [k,v] of Object.entries(item)) { if (!v || v === '') continue; if (hiddenListFields.has(k) || isWikiInternalField(cat,k)) continue; if (cat === 'monsters' && monsterStructuredFields.has(k)) continue; if (cat === 'abilities' && k === 'IconImage') continue; if (cat === 'materials' && k === 'Combine List') continue; html += infoRow(getDisplayKey(cat,k), renderFieldValue(cat,k,v,false)); }
         html += '</div></div>';
         const wrap = document.createElement('div'); wrap.innerHTML = html; fragment.appendChild(wrap.firstElementChild);
     });
@@ -290,7 +294,7 @@ async function loadDetail(cat, key, fromHistory = false) {
     let html = `<button onclick="goBackToPreviousDetail()" class="back-btn">← ${escapeHtml(ui('back','Back'))}</button><div class="detail-stack"><div class="card detail-title-card">${media}<h3>${escapeHtml(title)}</h3></div>`;
     let basic = `<div class="card detail-section"><h2>${escapeHtml(ui('basicInfo','Basic Info'))}</h2><div class="info-list">`, extra = `<div class="card detail-section"><h2>${escapeHtml(ui('moreInfo','More Info'))}</h2><div class="info-list">`, hasExtra = false;
     const relicBasicFields = new Set(['RelicKey', 'Rarity', 'Lv10 HP', 'Lv10 Str', 'Lv10 Agi', 'Lv10 Int']);
-    Object.entries(data).forEach(([k,v],idx) => { if (cat === 'monsters' && monsterStructuredFields.has(k)) return; if (cat === 'abilities' && k === 'IconImage') return; if (cat === 'materials' && (k === 'MaterialKey' || k === 'Combine List')) return; if (!v || v === '') return; const row = infoRow(getDisplayKey(cat,k),renderFieldValue(cat,k,v,true)); const isBasic = cat === 'relic' ? relicBasicFields.has(k) : idx < 6; if (isBasic) basic += row; else { extra += row; hasExtra = true; } });
+    Object.entries(data).forEach(([k,v],idx) => { if (isWikiInternalField(cat,k)) return; if (cat === 'monsters' && monsterStructuredFields.has(k)) return; if (cat === 'abilities' && k === 'IconImage') return; if (cat === 'materials' && (k === 'MaterialKey' || k === 'Combine List')) return; if (!v || v === '') return; const row = infoRow(getDisplayKey(cat,k),renderFieldValue(cat,k,v,true)); const isBasic = cat === 'relic' ? relicBasicFields.has(k) : idx < 6; if (isBasic) basic += row; else { extra += row; hasExtra = true; } });
     basic += '</div></div>'; extra += '</div></div>'; html += basic; if (hasExtra) html += extra;
     if (cat === 'materials' && hasStructuredValue(data['Combine List'])) { const rows = renderMaterialCombineList(data['Combine List']); if (rows) html += `<div class="card detail-section"><h2>${escapeHtml(ui('combineList','Combine List'))}</h2><div class="material-combine-guide"><strong>${escapeHtml(title)} + ${escapeHtml(ui('job','Job'))} → ${escapeHtml(ui('craftedJob','Crafted Job'))}</strong></div><div class="material-combine-list">${rows}</div></div>`; }
     if (cat === 'monsters') { const pools = renderMonsterSkillPools(data); if (pools) html += `<div class="card detail-section skill-pools"><h2>${escapeHtml(ui('enemySkillPools','Enemy Skill Pools'))}</h2>${pools}</div>`; }
