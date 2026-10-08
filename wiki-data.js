@@ -58,12 +58,13 @@
 
     // Keep entity-key labels category-aware in script.js/wiki-localisation.js.
     window.JOBMANIA_FIELD_LABELS = {
-        Rarity: t('Rarity'), Difficulty: t('Difficulty'), Race: t('Race'), Gender: t('Gender'),
+        MaterialKey: t('Material'), Rarity: t('Rarity'), Difficulty: t('Difficulty'), Race: t('Race'), Gender: t('Gender'),
         'Acquire Type': t('Acquire Type'), 'Acquire Method': t('Acquire Method'),
         'Ability Tier': t('Ability Tier'), 'Skill Rank': t('Skill Rank')
     };
 
     window.JOBMANIA_VALUE_LABELS = {
+        Rarity: { Common: t('MaterialCommon'), Rare: t('MaterialRare'), Epic: t('MaterialEpic'), Legendary: t('MaterialLegendary') },
         Race: { Humanoid: t('Humanoid'), Creature: t('Creature'), Spirit: t('Spirit'), Matter: t('Matter') },
         Gender: { Male: t('Male'), Female: t('Female'), Other: t('Other') },
         'Acquire Type': { Gacha: t('Gacha'), EventGacha: t('EventGacha'), SpecialGacha: t('SpecialGacha'), Unobtainable: t('Unobtainable'), Normal: t('Normal'), Special: t('Special') },
