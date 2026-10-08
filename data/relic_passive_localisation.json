@@ -25,7 +25,9 @@
   },
   {
     "Key": "Agility",
-    "English": "Agility"
+    "English": "Agility",
+    "Chinese": "敏捷",
+    "Chinese (Traditional)": "敏捷"
   },
   {
     "Key": "AgilityM",
@@ -37,31 +39,45 @@
   },
   {
     "Key": "Bleed",
-    "English": "Bleed"
+    "English": "Bleed",
+    "Chinese": "出血",
+    "Chinese (Traditional)": "出血"
   },
   {
     "Key": "Buff",
-    "English": "Buff"
+    "English": "Buff",
+    "Chinese": "增益",
+    "Chinese (Traditional)": "增益"
   },
   {
     "Key": "Certain",
-    "English": "Certain"
+    "English": "Certain",
+    "Chinese": "必然",
+    "Chinese (Traditional)": "必然"
   },
   {
     "Key": "Charge",
-    "English": "Charge"
+    "English": "Charge",
+    "Chinese": "蓄力",
+    "Chinese (Traditional)": "蓄力"
   },
   {
     "Key": "Combo",
-    "English": "Combo"
+    "English": "Combo",
+    "Chinese": "连击",
+    "Chinese (Traditional)": "連擊"
   },
   {
     "Key": "Confuse",
-    "English": "Confuse"
+    "English": "Confuse",
+    "Chinese": "混乱",
+    "Chinese (Traditional)": "混亂"
   },
   {
     "Key": "Creature",
-    "English": "Creature"
+    "English": "Creature",
+    "Chinese": "兽族 ",
+    "Chinese (Traditional)": "獸族"
   },
   {
     "Key": "Crystal",
@@ -69,15 +85,21 @@
   },
   {
     "Key": "Curse",
-    "English": "Curse"
+    "English": "Curse",
+    "Chinese": "诅咒",
+    "Chinese (Traditional)": "詛咒"
   },
   {
     "Key": "Dark",
-    "English": "Dark"
+    "English": "Dark",
+    "Chinese": "暗",
+    "Chinese (Traditional)": "暗"
   },
   {
     "Key": "Debuff",
-    "English": "Debuff"
+    "English": "Debuff",
+    "Chinese": "减益",
+    "Chinese (Traditional)": "減益"
   },
   {
     "Key": "Delay",
@@ -85,7 +107,9 @@
   },
   {
     "Key": "Dice",
-    "English": "Dice"
+    "English": "Dice",
+    "Chinese": "赌博",
+    "Chinese (Traditional)": "賭博"
   },
   {
     "Key": "Discard",
@@ -101,23 +125,33 @@
   },
   {
     "Key": "Earth",
-    "English": "Earth"
+    "English": "Earth",
+    "Chinese": "土",
+    "Chinese (Traditional)": "土"
   },
   {
     "Key": "Element",
-    "English": "Element"
+    "English": "Element",
+    "Chinese": "元素",
+    "Chinese (Traditional)": "元素"
   },
   {
     "Key": "Exhaust",
-    "English": "Exhaust"
+    "English": "Exhaust",
+    "Chinese": "除外",
+    "Chinese (Traditional)": "除外"
   },
   {
     "Key": "Fire",
-    "English": "Fire"
+    "English": "Fire",
+    "Chinese": "火",
+    "Chinese (Traditional)": "火"
   },
   {
     "Key": "Food",
-    "English": "Food"
+    "English": "Food",
+    "Chinese": "食物",
+    "Chinese (Traditional)": "食物"
   },
   {
     "Key": "Full",
@@ -129,7 +163,9 @@
   },
   {
     "Key": "Guard",
-    "English": "Guard"
+    "English": "Guard",
+    "Chinese": "防守",
+    "Chinese (Traditional)": "防守"
   },
   {
     "Key": "Heal",
@@ -137,15 +173,21 @@
   },
   {
     "Key": "Humanoid",
-    "English": "Humanoid"
+    "English": "Humanoid",
+    "Chinese": "人族 ",
+    "Chinese (Traditional)": "人族"
   },
   {
     "Key": "Injury",
-    "English": "Injury"
+    "English": "Injury",
+    "Chinese": "负伤",
+    "Chinese (Traditional)": "負傷"
   },
   {
     "Key": "Insane",
-    "English": "Insane"
+    "English": "Insane",
+    "Chinese": "疯癫",
+    "Chinese (Traditional)": "瘋癲"
   },
   {
     "Key": "InstantBoost",
@@ -157,7 +199,9 @@
   },
   {
     "Key": "Intelligence",
-    "English": "Intelligence"
+    "English": "Intelligence",
+    "Chinese": "智力",
+    "Chinese (Traditional)": "智力"
   },
   {
     "Key": "IntelligenceM",
@@ -165,19 +209,27 @@
   },
   {
     "Key": "LifeSteal",
-    "English": "Life Steal"
+    "English": "Life Steal",
+    "Chinese": "吸血",
+    "Chinese (Traditional)": "吸血"
   },
   {
     "Key": "Light",
-    "English": "Light"
+    "English": "Light",
+    "Chinese": "光",
+    "Chinese (Traditional)": "光"
   },
   {
     "Key": "Matter",
-    "English": "Matter"
+    "English": "Matter",
+    "Chinese": "物族 ",
+    "Chinese (Traditional)": "物族"
   },
   {
     "Key": "MaxHP",
-    "English": "Max HP"
+    "English": "Max HP",
+    "Chinese": "体力上限",
+    "Chinese (Traditional)": "體力上限"
   },
   {
     "Key": "MaxHPM",
@@ -193,7 +245,9 @@
   },
   {
     "Key": "Protect",
-    "English": "Protect"
+    "English": "Protect",
+    "Chinese": "护甲",
+    "Chinese (Traditional)": "護甲"
   },
   {
     "Key": "Reflect",
@@ -201,7 +255,9 @@
   },
   {
     "Key": "Restrain",
-    "English": "Restrain"
+    "English": "Restrain",
+    "Chinese": "拘束",
+    "Chinese (Traditional)": "拘束"
   },
   {
     "Key": "Reverse",
@@ -213,15 +269,21 @@
   },
   {
     "Key": "Slack",
-    "English": "Slack"
+    "English": "Slack",
+    "Chinese": "懒散",
+    "Chinese (Traditional)": "懶散"
   },
   {
     "Key": "Spirit",
-    "English": "Spirit"
+    "English": "Spirit",
+    "Chinese": "魂族 ",
+    "Chinese (Traditional)": "魂族"
   },
   {
     "Key": "Strength",
-    "English": "Strength"
+    "English": "Strength",
+    "Chinese": "力量",
+    "Chinese (Traditional)": "力量"
   },
   {
     "Key": "StrengthM",
@@ -229,7 +291,9 @@
   },
   {
     "Key": "Thunder",
-    "English": "Thunder"
+    "English": "Thunder",
+    "Chinese": "雷",
+    "Chinese (Traditional)": "雷"
   },
   {
     "Key": "TurnBuff",
@@ -257,14 +321,20 @@
   },
   {
     "Key": "Venom",
-    "English": "Venom"
+    "English": "Venom",
+    "Chinese": "剧毒",
+    "Chinese (Traditional)": "劇毒"
   },
   {
     "Key": "Water",
-    "English": "Water"
+    "English": "Water",
+    "Chinese": "水",
+    "Chinese (Traditional)": "水"
   },
   {
     "Key": "Wind",
-    "English": "Wind"
+    "English": "Wind",
+    "Chinese": "风",
+    "Chinese (Traditional)": "風"
   }
 ]
