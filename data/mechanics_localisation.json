@@ -294,7 +294,15 @@
         "mechanic.protectiveHeal": "保护型恢复",
         "mechanic.offensiveHeal": "输出型恢复",
         "mechanic.overloaded": "超载",
-        "mechanic.chronocharge": "时能蓄力"
+        "mechanic.chronocharge": "时光累计",
+        "mechanic.preparation": "预备",
+        "mechanic.pureElement": "原始元素",
+        "mechanic.focusEnergy": "集中之力",
+        "mechanic.certain": "必然",
+        "mechanic.afterimage": "残影",
+        "mechanic.gambleToken": "赌博令牌",
+        "skill.charge": "蓄力",
+        "skill.guard": "防守"
       },
       "mechanicNames": {
         "Protect": "护甲",
@@ -467,7 +475,15 @@
         "mechanic.protectiveHeal": "保護型恢復",
         "mechanic.offensiveHeal": "輸出型恢復",
         "mechanic.overloaded": "超載",
-        "mechanic.chronocharge": "時能蓄力"
+        "mechanic.chronocharge": "時光累計",
+        "mechanic.preparation": "預備",
+        "mechanic.pureElement": "原始元素",
+        "mechanic.focusEnergy": "集中之力",
+        "mechanic.certain": "必然",
+        "mechanic.afterimage": "殘影",
+        "mechanic.gambleToken": "賭博令牌",
+        "skill.charge": "蓄力",
+        "skill.guard": "防守"
       },
       "mechanicNames": {
         "Protect": "護甲",
