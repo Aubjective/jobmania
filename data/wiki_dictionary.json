@@ -676,5 +676,35 @@
     "English": "Chapter",
     "Chinese": "章节",
     "Chinese (Traditional)": "章節"
+  },
+  {
+    "Key": "Material",
+    "English": "Material",
+    "Chinese": "素材",
+    "Chinese (Traditional)": "素材"
+  },
+  {
+    "Key": "MaterialCommon",
+    "English": "Common",
+    "Chinese": "普通",
+    "Chinese (Traditional)": "普通"
+  },
+  {
+    "Key": "MaterialRare",
+    "English": "Rare",
+    "Chinese": "稀有",
+    "Chinese (Traditional)": "稀有"
+  },
+  {
+    "Key": "MaterialEpic",
+    "English": "Epic",
+    "Chinese": "史诗",
+    "Chinese (Traditional)": "史詩"
+  },
+  {
+    "Key": "MaterialLegendary",
+    "English": "Legendary",
+    "Chinese": "传说",
+    "Chinese (Traditional)": "傳說"
   }
 ]
