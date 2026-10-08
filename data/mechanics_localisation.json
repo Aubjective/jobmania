@@ -302,7 +302,18 @@
         "mechanic.afterimage": "残影",
         "mechanic.gambleToken": "赌博令牌",
         "skill.charge": "蓄力",
-        "skill.guard": "防守"
+        "skill.guard": "防守",
+        "status.burn": "燃烧",
+        "mechanic.thunderSigil": "雷印记",
+        "mechanic.fireSigil": "火印记",
+        "mechanic.waterSigil": "水印记",
+        "mechanic.earthSigil": "土印记",
+        "mechanic.windSigil": "风印记",
+        "mechanic.lightSigil": "光印记",
+        "mechanic.darkSigil": "暗印记",
+        "mechanic.strengthSigil": "力量印记",
+        "mechanic.agilitySigil": "敏捷印记",
+        "mechanic.intelligenceSigil": "智力印记"
       },
       "mechanicNames": {
         "Protect": "护甲",
@@ -483,7 +494,18 @@
         "mechanic.afterimage": "殘影",
         "mechanic.gambleToken": "賭博令牌",
         "skill.charge": "蓄力",
-        "skill.guard": "防守"
+        "skill.guard": "防守",
+        "status.burn": "燃燒",
+        "mechanic.thunderSigil": "雷印記",
+        "mechanic.fireSigil": "火印記",
+        "mechanic.waterSigil": "水印記",
+        "mechanic.earthSigil": "土印記",
+        "mechanic.windSigil": "風印記",
+        "mechanic.lightSigil": "光印記",
+        "mechanic.darkSigil": "暗印記",
+        "mechanic.strengthSigil": "力量印記",
+        "mechanic.agilitySigil": "敏捷印記",
+        "mechanic.intelligenceSigil": "智力印記"
       },
       "mechanicNames": {
         "Protect": "護甲",
