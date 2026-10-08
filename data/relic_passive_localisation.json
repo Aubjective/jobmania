@@ -81,7 +81,9 @@
   },
   {
     "Key": "Crystal",
-    "English": "Crystal"
+    "English": "Crystal",
+    "Chinese": "水晶",
+    "Chinese (Traditional)": "水晶"
   },
   {
     "Key": "Curse",
@@ -113,7 +115,9 @@
   },
   {
     "Key": "Discard",
-    "English": "Discard"
+    "English": "Discard",
+    "Chinese": "丢弃",
+    "Chinese (Traditional)": "丟棄"
   },
   {
     "Key": "Drain",
@@ -155,11 +159,15 @@
   },
   {
     "Key": "Full",
-    "English": "Full"
+    "English": "Full",
+    "Chinese": "满",
+    "Chinese (Traditional)": "滿"
   },
   {
     "Key": "Gold",
-    "English": "Gold"
+    "English": "Gold",
+    "Chinese": "金",
+    "Chinese (Traditional)": "金"
   },
   {
     "Key": "Guard",
@@ -241,7 +249,9 @@
   },
   {
     "Key": "Null",
-    "English": "Null"
+    "English": "Null",
+    "Chinese": "无",
+    "Chinese (Traditional)": "無"
   },
   {
     "Key": "Protect",
@@ -313,11 +323,15 @@
   },
   {
     "Key": "Unique",
-    "English": "Unique"
+    "English": "Unique",
+    "Chinese": "独特",
+    "Chinese (Traditional)": "獨特"
   },
   {
     "Key": "Upgrade",
-    "English": "Upgrade"
+    "English": "Upgrade",
+    "Chinese": "强化",
+    "Chinese (Traditional)": "強化"
   },
   {
     "Key": "Venom",
