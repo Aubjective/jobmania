@@ -6483,6 +6483,11 @@
     "AbilityKey": "Powder Snow",
     "SkillUnits": [
       {
+        "SkillUnit": "React",
+        "Effect": "Wind",
+        "Multiplier": 1
+      },
+      {
         "SkillUnit": "Debuff",
         "Effect": "Water",
         "Multiplier": 1
@@ -6490,12 +6495,7 @@
       {
         "SkillUnit": "Debuff",
         "Effect": "Agility",
-        "Multiplier": 1
-      },
-      {
-        "SkillUnit": "Debuff",
-        "Effect": "Restrain",
-        "Multiplier": 6
+        "Multiplier": 2
       }
     ]
   },
@@ -9688,6 +9688,11 @@
     "AbilityKey": "Summon . Siren",
     "SkillUnits": [
       {
+        "SkillUnit": "React",
+        "Effect": "Water",
+        "Multiplier": 1
+      },
+      {
         "SkillUnit": "Debuff",
         "Effect": "Agility",
         "Multiplier": 3
@@ -9707,6 +9712,11 @@
   {
     "AbilityKey": "Siren Song",
     "SkillUnits": [
+      {
+        "SkillUnit": "React",
+        "Effect": "Water",
+        "Multiplier": 1
+      },
       {
         "SkillUnit": "Debuff",
         "Effect": "Strength",
@@ -10853,9 +10863,9 @@
         "Multiplier": 2
       },
       {
-        "SkillUnit": "Damage",
-        "Effect": "Intelligence",
-        "Multiplier": 2
+        "SkillUnit": "React",
+        "Effect": "Thunder",
+        "Multiplier": 1
       }
     ]
   },
@@ -12240,12 +12250,17 @@
       {
         "SkillUnit": "Heal",
         "Effect": "Agility",
-        "Multiplier": 5
+        "Multiplier": 4
       },
       {
         "SkillUnit": "Heal",
         "Effect": "Agility",
         "Multiplier": 4
+      },
+      {
+        "SkillUnit": "React",
+        "Effect": "Wind",
+        "Multiplier": 1
       }
     ]
   },
@@ -12783,14 +12798,14 @@
         "Multiplier": 4
       },
       {
-        "SkillUnit": "Damage",
-        "Effect": "Intelligence",
-        "Multiplier": 4
+        "SkillUnit": "Debuff",
+        "Effect": "Injury",
+        "Multiplier": 2
       },
       {
         "SkillUnit": "Debuff",
-        "Effect": "Wind",
-        "Multiplier": 2
+        "Effect": "Restrain",
+        "Multiplier": 3
       }
     ]
   },
@@ -13036,11 +13051,6 @@
         "SkillUnit": "Damage",
         "Effect": "MaxHP",
         "Multiplier": 2
-      },
-      {
-        "SkillUnit": "",
-        "Effect": "",
-        "Multiplier": "z"
       }
     ]
   },
@@ -13295,7 +13305,7 @@
       {
         "SkillUnit": "Debuff",
         "Effect": "Misfortune",
-        "Multiplier": 2
+        "Multiplier": 5
       },
       {
         "SkillUnit": "Sacrifice",
@@ -16288,14 +16298,14 @@
         "Multiplier": 3
       },
       {
-        "SkillUnit": "Debuff",
+        "SkillUnit": "React",
         "Effect": "Fire",
         "Multiplier": 1
       },
       {
         "SkillUnit": "Debuff",
-        "Effect": "Restrain",
-        "Multiplier": 6
+        "Effect": "Fire",
+        "Multiplier": 1
       }
     ]
   },
@@ -16528,14 +16538,14 @@
         "Multiplier": 0
       },
       {
-        "SkillUnit": "Debuff",
-        "Effect": "Restrain",
-        "Multiplier": 7
+        "SkillUnit": "React",
+        "Effect": "Light",
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Debuff",
-        "Effect": "Light",
-        "Multiplier": 1
+        "Effect": "Restrain",
+        "Multiplier": 6
       }
     ]
   },
@@ -21471,11 +21481,6 @@
         "SkillUnit": "Debuff",
         "Effect": "Bleed",
         "Multiplier": 1
-      },
-      {
-        "SkillUnit": "",
-        "Effect": "",
-        "Multiplier": " "
       }
     ]
   },
@@ -21558,14 +21563,14 @@
         "Multiplier": 4
       },
       {
-        "SkillUnit": "Debuff",
-        "Effect": "Restrain",
-        "Multiplier": 3
+        "SkillUnit": "React",
+        "Effect": "Thunder",
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Debuff",
-        "Effect": "Wind",
-        "Multiplier": 1
+        "Effect": "Restrain",
+        "Multiplier": 3
       }
     ]
   },
@@ -23663,9 +23668,9 @@
     "AbilityKey": "The Ring Curse",
     "SkillUnits": [
       {
-        "SkillUnit": "Sacrifice",
-        "Effect": "MaxHP",
-        "Multiplier": 2
+        "SkillUnit": "SpecialCurse",
+        "Effect": "Dark",
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Debuff",
@@ -24808,19 +24813,14 @@
     "AbilityKey": "Rapid Spin",
     "SkillUnits": [
       {
-        "SkillUnit": "Damage",
+        "SkillUnit": "InstantBoost",
         "Effect": "Agility",
-        "Multiplier": 2
+        "Multiplier": 15
       },
       {
         "SkillUnit": "Damage",
         "Effect": "Agility",
-        "Multiplier": 2
-      },
-      {
-        "SkillUnit": "Damage",
-        "Effect": "Agility",
-        "Multiplier": 2
+        "Multiplier": 5
       }
     ]
   },
@@ -26219,18 +26219,18 @@
     "SkillUnits": [
       {
         "SkillUnit": "Protect",
-        "Effect": "Dark",
-        "Multiplier": 0
-      },
-      {
-        "SkillUnit": "Protect",
         "Effect": "Intelligence",
         "Multiplier": 4
       },
       {
         "SkillUnit": "Heal",
         "Effect": "Null",
-        "Multiplier": 200
+        "Multiplier": 100
+      },
+      {
+        "SkillUnit": "React",
+        "Effect": "Water",
+        "Multiplier": 1
       }
     ]
   },
@@ -27313,7 +27313,7 @@
         "Multiplier": 4
       },
       {
-        "SkillUnit": "Debuff",
+        "SkillUnit": "React",
         "Effect": "Light",
         "Multiplier": 1
       }
@@ -29119,8 +29119,8 @@
       },
       {
         "SkillUnit": "InstantBoost",
-        "Effect": "Dice",
-        "Multiplier": 4
+        "Effect": "Food",
+        "Multiplier": 3
       }
     ]
   },
@@ -30858,9 +30858,9 @@
     "AbilityKey": "Firestorm Miscast",
     "SkillUnits": [
       {
-        "SkillUnit": "Vulnerable",
+        "SkillUnit": "Buff",
         "Effect": "Fire",
-        "Multiplier": 2
+        "Multiplier": 3
       },
       {
         "SkillUnit": "Mark",
@@ -30869,13 +30869,8 @@
       },
       {
         "SkillUnit": "Damage",
-        "Effect": "Intelligence",
-        "Multiplier": 4
-      },
-      {
-        "SkillUnit": "Damage",
-        "Effect": "Intelligence",
-        "Multiplier": 3
+        "Effect": "Fire",
+        "Multiplier": 2
       }
     ]
   },
@@ -31775,6 +31770,11 @@
       {
         "SkillUnit": "Mark",
         "Effect": "Fire",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "React",
+        "Effect": "Fire",
         "Multiplier": 2
       },
       {
@@ -32520,7 +32520,7 @@
       {
         "SkillUnit": "InstantBoost",
         "Effect": "Agility",
-        "Multiplier": 2
+        "Multiplier": 4
       }
     ]
   },
