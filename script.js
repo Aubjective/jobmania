@@ -139,11 +139,18 @@ function craftEntityLink(cat, key) {
     return exists ? detailLink(cat, key) : `<span>${escapeHtml(getLocalizedName(cat, key))}</span>`;
 }
 
+// Job Craft Chart contains legacy paths whose job targets are not numbered Jobs records.
+// Keep all source recipes in jobcraft.json but omit unresolved links from the wiki UI.
+function validJobCraftRecipes() {
+    const known = new Set((db.jobs || []).map(job => job.JobKey).filter(Boolean));
+    return (db.jobcraft || []).filter(recipe => known.has(recipe.FromJobKey) && known.has(recipe.ToJobKey));
+}
+
 function findCraftingPath(jobKey, visited = new Set()) {
     if (jobKey === 'Jobless') return [];
     if (visited.has(jobKey)) return null;
     const next = new Set(visited); next.add(jobKey);
-    for (const recipe of (db.jobcraft || []).filter(r => r.ToJobKey === jobKey)) {
+    for (const recipe of validJobCraftRecipes().filter(r => r.ToJobKey === jobKey)) {
         const parent = findCraftingPath(recipe.FromJobKey, next);
         if (parent !== null) return [...parent, recipe];
     }
@@ -152,7 +159,7 @@ function findCraftingPath(jobKey, visited = new Set()) {
 
 function renderCraftRecipe(recipe) { return `<div class="craft-row">${craftEntityLink('jobs', recipe.FromJobKey)}<span class="craft-plus">+</span>${craftEntityLink('materials', recipe.MaterialKey)}<span class="craft-arrow">→</span>${craftEntityLink('jobs', recipe.ToJobKey)}</div>`; }
 function renderCraftingPath(jobKey) { const path = findCraftingPath(jobKey); return Array.isArray(path) && path.length ? `<div class="craft-list">${path.map(renderCraftRecipe).join('')}</div>` : ''; }
-function renderCraftsInto(jobKey) { const rows = (db.jobcraft || []).filter(r => r.FromJobKey === jobKey); return rows.length ? `<div class="craft-list">${rows.map(renderCraftRecipe).join('')}</div>` : ''; }
+function renderCraftsInto(jobKey) { const rows = validJobCraftRecipes().filter(r => r.FromJobKey === jobKey); return rows.length ? `<div class="craft-list">${rows.map(renderCraftRecipe).join('')}</div>` : ''; }
 
 function splitKnownNames(raw, cat) {
     if (!raw) return [];
