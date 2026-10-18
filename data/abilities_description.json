@@ -33288,5 +33288,1440 @@
         "Multiplier": 4
       }
     ]
+  },
+  {
+    "AbilityKey": "Rubber Punch",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Agility",
+        "Multiplier": 4
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Strength",
+        "Multiplier": 4
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Gum Gum Barrage",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Agility",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Agility",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Agility",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Agility",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Power Of Nakama",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Slack",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Certain",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Draw",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Guard",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Sun God Finale",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Vulnerable",
+        "Effect": "Protect",
+        "Multiplier": 10
+      },
+      {
+        "SkillUnit": "Unique",
+        "Effect": "Strength",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Unique",
+        "Effect": "Agility",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Dice",
+        "Multiplier": 5
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Gearshift",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Strength",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Agility",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Action",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Sacrifice",
+        "Effect": "Slack",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Cook",
+    "SkillUnits": [
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Food",
+        "Multiplier": 2
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Seasoning",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Dice",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Food",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Prep Ingredients",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Dice",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Draw",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Open Grill",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Fire",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Food",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "React",
+        "Effect": "Fire",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "React",
+        "Effect": "Water",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Wok Toss",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Strength",
+        "Multiplier": 4
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Injury",
+        "Multiplier": 2
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Battle Apron",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Guard",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Charge",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Certain",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Charcoal Skewer",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Vulnerable",
+        "Effect": "Fire",
+        "Multiplier": 3
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Strength",
+        "Multiplier": 5
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Fire",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Marinade Splash",
+    "SkillUnits": [
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Food",
+        "Multiplier": 3
+      },
+      {
+        "SkillUnit": "Vulnerable",
+        "Effect": "Fire",
+        "Multiplier": 7
+      },
+      {
+        "SkillUnit": "Mark",
+        "Effect": "Fire",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Reverse",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Final BBQ Banquet",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Fire",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Fire",
+        "Multiplier": 5
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Fire",
+        "Multiplier": 3
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Chariot Pursuit",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Mark",
+        "Effect": "Strength",
+        "Multiplier": 4
+      },
+      {
+        "SkillUnit": "Mark",
+        "Effect": "Agility",
+        "Multiplier": 4
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Restrain",
+        "Multiplier": 5
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Brick And Burden",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Protect",
+        "Effect": "MaxHP",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Slack",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Restrain",
+        "Multiplier": 6
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Earth",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Sea Of Judgment",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Water",
+        "Multiplier": 3
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Dark",
+        "Multiplier": 5
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Hardened Decree",
+    "SkillUnits": [
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Guard",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Restrain",
+        "Multiplier": 6
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Aggro",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Sacrifice",
+        "Effect": "Restrain",
+        "Multiplier": 3
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Molted Step",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Sacrifice",
+        "Effect": "MaxHP",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Draw",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Sacrifice",
+        "Effect": "Multiply",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Agility",
+        "Multiplier": 2
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Cicada Drone",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Agility",
+        "Multiplier": 4
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Confuse",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Dark",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Light",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Swarm Massacre",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Unique",
+        "Effect": "Agility",
+        "Multiplier": 2
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Empty Shell",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Debuff",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Guard",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Sacrifice",
+        "Effect": "Multiply",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Guest Service",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Agility",
+        "Multiplier": 4
+      },
+      {
+        "SkillUnit": "Mark",
+        "Effect": "Agility",
+        "Multiplier": 6
+      },
+      {
+        "SkillUnit": "Mark",
+        "Effect": "Intelligence",
+        "Multiplier": 6
+      }
+    ]
+  },
+  {
+    "AbilityKey": "VIP Treatment",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Debuff",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Strength",
+        "Multiplier": 10
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Agility",
+        "Multiplier": 10
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Intelligence",
+        "Multiplier": 10
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Emergency Upgrade",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Sacrifice",
+        "Effect": "MaxHP",
+        "Multiplier": 4
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Multiply",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Multiply",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Direct",
+        "Multiplier": 0
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Splash Rescue",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Water",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Mark",
+        "Effect": "Water",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Heal",
+        "Effect": "Water",
+        "Multiplier": 2
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Tidal Patrol",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Buff",
+        "Effect": "MaxHP",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Action",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "MaxHP",
+        "Multiplier": 4
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Silver Sovereignty",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Light",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Guard",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Heal",
+        "Effect": "Intelligence",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Heal",
+        "Effect": "Intelligence",
+        "Multiplier": 3
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Moonlit Kiss",
+    "SkillUnits": [
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Light",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Wind",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Restrain",
+        "Multiplier": 6
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Confuse",
+        "Multiplier": 2
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Summon . Seven Thousand Pigeons",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Agility",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Agility",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Intelligence",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "VRI",
+        "Multiplier": 7
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Live Stream",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Vulnerable",
+        "Effect": "MaxHP",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Vulnerable",
+        "Effect": "Protect",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Restrain",
+        "Multiplier": 3
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Leaked Video",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Sacrifice",
+        "Effect": "MaxHP",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Sacrifice",
+        "Effect": "Insane",
+        "Multiplier": 5
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "MaxHP",
+        "Multiplier": 5
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Meet and Greet",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Sacrifice",
+        "Effect": "MaxHP",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Restrain",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Insane",
+        "Multiplier": 0
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Holier-than-thou",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Heal",
+        "Effect": "MaxHP",
+        "Multiplier": 8
+      },
+      {
+        "SkillUnit": "Sacrifice",
+        "Effect": "Strength",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Sacrifice",
+        "Effect": "Agility",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Sacrifice",
+        "Effect": "Intelligence",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Inflict Kindling",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Vulnerable",
+        "Effect": "Fire",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "React",
+        "Effect": "Fire",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Inflict Dehydration",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Vulnerable",
+        "Effect": "Water",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "React",
+        "Effect": "Water",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Inflict Polar Charge",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Vulnerable",
+        "Effect": "Thunder",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "React",
+        "Effect": "Thunder",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Inflict Rupture",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Vulnerable",
+        "Effect": "Earth",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "React",
+        "Effect": "Earth",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Inflict Dust",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Vulnerable",
+        "Effect": "Wind",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "React",
+        "Effect": "Wind",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Inflict Luminesce",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Vulnerable",
+        "Effect": "Light",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "React",
+        "Effect": "Light",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Inflict Dread",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Vulnerable",
+        "Effect": "Dark",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "React",
+        "Effect": "Dark",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Black Banner Command",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Strength",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Certain",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Guard",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Break Formation",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Vulnerable",
+        "Effect": "Strength",
+        "Multiplier": 4
+      },
+      {
+        "SkillUnit": "Vulnerable",
+        "Effect": "Protect",
+        "Multiplier": 5
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Injury",
+        "Multiplier": 3
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Crushing Grip",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Strength",
+        "Multiplier": 4
+      },
+      {
+        "SkillUnit": "Unique",
+        "Effect": "MaxHP",
+        "Multiplier": 2
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Siege Charge",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Buff",
+        "Effect": "MaxHP",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Charge",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Sacrifice",
+        "Effect": "Charge",
+        "Multiplier": 3
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Hit and Run",
+    "SkillUnits": [
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Action",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Agility",
+        "Multiplier": 4
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Element",
+        "Multiplier": 5
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Anonymous Masterpiece",
+    "SkillUnits": [
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Certain",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Vulnerable",
+        "Effect": "Protect",
+        "Multiplier": 5
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Intelligence",
+        "Multiplier": 7
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Confuse",
+        "Multiplier": 2
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Roll Initiative",
+    "SkillUnits": [
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Action",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Dice",
+        "Multiplier": 4
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Draw",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Agility",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Final Boss Encounter",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Strength",
+        "Multiplier": 7
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Agility",
+        "Multiplier": 7
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Intelligence",
+        "Multiplier": 7
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "VRI",
+        "Multiplier": 10
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Sell Me This Pen",
+    "SkillUnits": [
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Draw",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Vulnerable",
+        "Effect": "Intelligence",
+        "Multiplier": 3
+      },
+      {
+        "SkillUnit": "Mark",
+        "Effect": "Intelligence",
+        "Multiplier": 6
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Confuse",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Pump and Dump",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Dice",
+        "Multiplier": 3
+      },
+      {
+        "SkillUnit": "Vulnerable",
+        "Effect": "Protect",
+        "Multiplier": 4
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Intelligence",
+        "Multiplier": 5
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Misfortune",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Market Crash",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Sacrifice",
+        "Effect": "MaxHP",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Vulnerable",
+        "Effect": "Protect",
+        "Multiplier": 5
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "MaxHP",
+        "Multiplier": 4
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Dice",
+        "Multiplier": 7
+      }
+    ]
+  },
+  {
+    "AbilityKey": "One Take",
+    "SkillUnits": [
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Certain",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Action",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Agility",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Sacrifice",
+        "Effect": "Guard",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "No CGI",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Sacrifice",
+        "Effect": "MaxHP",
+        "Multiplier": 3
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Certain",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Action",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Agility",
+        "Multiplier": 8
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Brickwork",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Protect",
+        "Effect": "MaxHP",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Strength",
+        "Multiplier": 3
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Reinforce Structure",
+    "SkillUnits": [
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Guard",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "MaxHP",
+        "Multiplier": 2
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Set Cornerstone",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Buff",
+        "Effect": "MaxHP",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Earth",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "MaxHP",
+        "Multiplier": 2
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Secret Handshake",
+    "SkillUnits": [
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Draw",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Intelligence",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Sacrifice",
+        "Effect": "Guard",
+        "Multiplier": 2
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Grand Lodge",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Draw",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Intelligence",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "MaxHP",
+        "Multiplier": 3
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Hidden Symbol",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Mark",
+        "Effect": "Intelligence",
+        "Multiplier": 6
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Restrain",
+        "Multiplier": 4
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Closed Door Ritual",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Debuff",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Certain",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Action",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Intelligence",
+        "Multiplier": 6
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Eye In The Pyramid",
+    "SkillUnits": [
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Certain",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Draw",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Mark",
+        "Effect": "Intelligence",
+        "Multiplier": 5
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Confuse",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Pull The Strings",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Vulnerable",
+        "Effect": "Intelligence",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Mark",
+        "Effect": "Intelligence",
+        "Multiplier": 5
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Confuse",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Restrain",
+        "Multiplier": 5
+      }
+    ]
+  },
+  {
+    "AbilityKey": "False Flag Operation",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Vulnerable",
+        "Effect": "Intelligence",
+        "Multiplier": 4
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Intelligence",
+        "Multiplier": 7
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Confuse",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Misfortune",
+        "Multiplier": 5
+      }
+    ]
+  },
+  {
+    "AbilityKey": "New World Order",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Vulnerable",
+        "Effect": "Protect",
+        "Multiplier": 12
+      },
+      {
+        "SkillUnit": "Unique",
+        "Effect": "Intelligence",
+        "Multiplier": 3
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Restrain",
+        "Multiplier": 12
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Confuse",
+        "Multiplier": 3
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Moonfang Severance",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Discard",
+        "Effect": "Buff",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Strength",
+        "Multiplier": 6
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Crescent Guard",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Element",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Action",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Agility",
+        "Multiplier": 4
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Guard",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Parasite Tendril Crush",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Strength",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Strength",
+        "Multiplier": 3
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "Strength",
+        "Multiplier": 3
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Restrain",
+        "Multiplier": 4
+      }
+    ]
+  },
+  {
+    "AbilityKey": "Blightmaw Devour",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Vulnerable",
+        "Effect": "Bleed",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Damage",
+        "Effect": "MaxHP",
+        "Multiplier": 4
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Bleed",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Debuff",
+        "Effect": "Injury",
+        "Multiplier": 7
+      }
+    ]
   }
 ]
