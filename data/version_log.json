@@ -7702,6 +7702,27 @@
         "Live browser tests and exhaustive full-file JSON parsing not yet completed"
       ],
       "checkpointDecision": "Keep wikiVersion 0.0 and lastAuditedGameVersion / lastSyncedGameVersion null until all release blockers are resolved or explicitly approved as excluded. Ongoing mechanics description completion is not a release blocker."
+    },
+    {
+      "wikiVersion": "0.0",
+      "date": "2026-10-18",
+      "action": "phase_5_source_exception_remediation_and_json_audit",
+      "status": "source_exceptions_documented_browser_smoke_pending",
+      "sourceVersion": "2.48.1",
+      "verified": [
+        "All 65 repository JSON files parsed successfully from default branch after Phase 4",
+        "19 unresolved jobcraft endpoint references across 15 recipes; 14 unique missing jobs checked against numbered Jobs sheet (previous 13-key count corrected)",
+        "Jobcraft source 464 recipes preserved verbatim; UI excludes recipes with unnumbered job endpoints",
+        "Cycle Shift, Karmic Return and Sixfold Salvation are unnumbered Abilities source rows with blank Cost cells; null AP preserved",
+        "Treasure Land and ChallengeMode absent from Chapters & Series localization source; readable English fallback applied without fabricated translations"
+      ],
+      "exceptions": [
+        "Legacy jobcraft source rows require future canonical Jobs sheet reconciliation",
+        "Three source-blank unnumbered ability AP costs remain unknown, not release data errors",
+        "Two chapter/series source keys remain without translations",
+        "Live interactive browser smoke testing has not been completed"
+      ],
+      "checkpointDecision": "Keep wikiVersion 0.0 and audit/sync checkpoints null until live browser smoke tests and explicit release acceptance. Source exceptions are non-inventable and are safely handled in wiki UI."
     }
   ]
 }
