@@ -1847,6 +1847,48 @@
       "changedFields": [],
       "description": "Added from numbered database record; release mapping not yet verified",
       "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "abilities",
+      "changeType": "added",
+      "key": "Rubber Punch",
+      "sourceSheet": "Abilities",
+      "sourceId": 1693,
+      "sourceRow": 1694,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [],
+      "description": "Added from numbered database record; release mapping not yet verified",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "abilities",
+      "changeType": "added",
+      "key": "Gum Gum Barrage",
+      "sourceSheet": "Abilities",
+      "sourceId": 1694,
+      "sourceRow": 1695,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [],
+      "description": "Added from numbered database record; release mapping not yet verified",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "abilities",
+      "changeType": "added",
+      "key": "Power Of Nakama",
+      "sourceSheet": "Abilities",
+      "sourceId": 1695,
+      "sourceRow": 1696,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [],
+      "description": "Added from numbered database record; release mapping not yet verified",
+      "localizationRequired": true
     }
   ],
   "pendingContent": [
@@ -1897,7 +1939,7 @@
       "wikiVersion": "0.0",
       "date": "2026-10-18",
       "action": "phase_2_confirmed_additions",
-      "note": "Added 22 jobs, 7 characters, 69 abilities and 26 passive skills, their corresponding new localization records, structured ability/passive skill units, and extended AP cost alignment. Existing core records/stats/effect differences are not yet fully audited; wiki checkpoint remains 0.0.",
+      "note": "Added 22 jobs, 7 characters, 69 abilities and 26 passive skills, their corresponding new localization records, structured ability/passive skill units, and extended AP cost alignment. Existing core records/stats/effect differences are not yet fully audited; wiki checkpoint remains 0.0. Corrected version log to include all 69 new abilities.",
       "added": {
         "jobs": 22,
         "characters": 7,
