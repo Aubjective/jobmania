@@ -1889,6 +1889,105 @@
       "changedFields": [],
       "description": "Added from numbered database record; release mapping not yet verified",
       "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "jobs",
+      "changeType": "modified",
+      "key": "Pirate",
+      "sourceSheet": "Jobs",
+      "sourceId": 36,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "AbilityKey *3"
+      ],
+      "before": {
+        "AbilityKey *3": "Steal"
+      },
+      "after": {
+        "AbilityKey *3": "Sharp Cutlass"
+      },
+      "description": "Reconciled with current numbered Database record; precise release attribution pending",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobs",
+      "changeType": "modified",
+      "key": "Pirate Captain",
+      "sourceSheet": "Jobs",
+      "sourceId": 193,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "AbilityKey *5"
+      ],
+      "before": {
+        "AbilityKey *5": "Barrels & Cannons"
+      },
+      "after": {
+        "AbilityKey *5": "Sharp Cutlass"
+      },
+      "description": "Reconciled with current numbered Database record; precise release attribution pending",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobs",
+      "changeType": "modified",
+      "key": "Path Seeker",
+      "sourceSheet": "Jobs",
+      "sourceId": 421,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Lv10 Str",
+        "Lv10 Agi",
+        "Lv10 Int"
+      ],
+      "before": {
+        "Lv10 Str": "75",
+        "Lv10 Agi": "77",
+        "Lv10 Int": "82"
+      },
+      "after": {
+        "Lv10 Str": "92",
+        "Lv10 Agi": "95",
+        "Lv10 Int": "102"
+      },
+      "description": "Reconciled with current numbered Database record; precise release attribution pending",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "characters",
+      "changeType": "modified",
+      "key": "Magica Girl Shaggette",
+      "sourceSheet": "Characters",
+      "sourceId": 501,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Lv100 HP",
+        "Lv100 Str",
+        "Lv100 Agi",
+        "Lv100 Int"
+      ],
+      "before": {
+        "Lv100 HP": "10500",
+        "Lv100 Str": "650",
+        "Lv100 Agi": "570",
+        "Lv100 Int": "600"
+      },
+      "after": {
+        "Lv100 HP": "11250",
+        "Lv100 Str": "630",
+        "Lv100 Agi": "600",
+        "Lv100 Int": "530"
+      },
+      "description": "Reconciled with current numbered Database record; precise release attribution pending",
+      "localizationRequired": false
     }
   ],
   "pendingContent": [
