@@ -7723,6 +7723,38 @@
         "Live interactive browser smoke testing has not been completed"
       ],
       "checkpointDecision": "Keep wikiVersion 0.0 and audit/sync checkpoints null until live browser smoke tests and explicit release acceptance. Source exceptions are non-inventable and are safely handled in wiki UI."
+    },
+    {
+      "wikiVersion": "0.0",
+      "date": "2026-10-18",
+      "action": "wiki_public_version_log_status",
+      "status": "core_data_current_content_enrichment_ongoing",
+      "sourceVersion": "2.48.1",
+      "notes": [
+        "Wiki reported functioning by project owner; live-browser certification has not independently been completed",
+        "Core data up to date against latest reviewed source snapshot, subject to explicitly recorded exceptions",
+        "Abilities, passives, mechanics explanations, and delivery pattern documentation remain ongoing",
+        "Add a public footer entry to a concise version-status page; detailed audit history remains in version_log.json"
+      ],
+      "checkpointDecision": "Retain wikiVersion 0.0 as baseline and keep audited/synced version checkpoints unchanged until explicit promotion."
     }
-  ]
+  ],
+  "publicStatus": {
+    "asOf": "2026-10-18",
+    "sourceGameVersion": "2.48.1",
+    "dataStatus": "Current against last verified Database and Localization source snapshot, with recorded source exceptions",
+    "wikiStatus": "Working; release-readiness browser certification not recorded",
+    "ongoing": [
+      "Ability descriptions and skill mechanics explanations",
+      "Passive descriptions and mechanics explanations",
+      "Delivery patterns and related mechanics documentation",
+      "Further localization and description enrichment"
+    ],
+    "notes": [
+      "Core Jobs, Characters, Materials, Relics, abilities and passives source values synchronized to the latest checked source snapshot",
+      "Source-blank ability AP costs stay unknown; legacy jobcraft entries remain preserved but unresolved links are hidden",
+      "Missing chapter/series localization keys use fallback rather than invented translations"
+    ],
+    "lastReviewed": "2026-10-18"
+  }
 }
