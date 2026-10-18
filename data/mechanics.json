@@ -1,5 +1,5 @@
 {
-  "version": 27,
+  "version": 28,
   "source": "Jobmania Database Guides and Skill Unit sheets, Localization Skills Description sheet, plus confirmed in-game descriptions",
   "powerLv": {
     "stat": {
@@ -1056,10 +1056,10 @@
       "clickable": true,
       "templateKey": "gamble",
       "playerDiceOutcomes": {
-        "1-2": 0,
-        "3-4": 1,
         "5": 2,
-        "6": 3
+        "6": 3,
+        "1-2": 0,
+        "3-4": 1
       },
       "diceRollMayBeSkipped": true,
       "enemyRandomExecutionMin": 1,
@@ -2054,6 +2054,46 @@
           "upgradeMaxStacks": 10
         }
       }
+    },
+    "turnTriggered": {
+      "mechanicConfirmed": true,
+      "confirmationSource": "Jobmania Database Skill Unit numbered records, Ver Log 2.48.0",
+      "effectiveGameVersion": "2.48.0",
+      "startOfTurn": {
+        "TurnDebuff": [
+          "Bleed",
+          "Injury",
+          "Fire",
+          "Water",
+          "Thunder",
+          "Earth",
+          "Wind",
+          "Light",
+          "Dark",
+          "Strength",
+          "Agility",
+          "Intelligence",
+          "MaxHP",
+          "Confuse",
+          "Slack"
+        ],
+        "TurnBuff": [
+          "Strength",
+          "Agility",
+          "Intelligence",
+          "MaxHP",
+          "Dice",
+          "Multiply",
+          "Fire",
+          "Water",
+          "Thunder",
+          "Earth",
+          "Wind",
+          "Light",
+          "Dark"
+        ]
+      },
+      "notes": "Source labels Turn Start; use numeric Skill Unit rows and ActivateType=TurnStart. Some legacy description cells still say end of turn for Bleed/Injury; trigger column and Ver Log take precedence. TurnDamage/TurnHeal are still TurnEnd unless separately confirmed."
     }
   }
 }
