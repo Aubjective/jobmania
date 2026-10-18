@@ -10168,5 +10168,419 @@
     "Ability Tier": "Null",
     "IconImage": "",
     "Description": ""
+  },
+  {
+    "AbilityKey": "Rubber Punch",
+    "Ability Tier": "Null",
+    "IconImage": "Punch",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Gum Gum Barrage",
+    "Ability Tier": "Null",
+    "IconImage": "LaserSparks",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Power Of Nakama",
+    "Ability Tier": "Null",
+    "IconImage": "Backup",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Sun God Finale",
+    "Ability Tier": "Null",
+    "IconImage": "Sun",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Gearshift",
+    "Ability Tier": "Null",
+    "IconImage": "Charge",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Cook",
+    "Ability Tier": "Medium",
+    "IconImage": "DoughRoller",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Seasoning",
+    "Ability Tier": "Medium",
+    "IconImage": "SaltShaker",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Prep Ingredients",
+    "Ability Tier": "High",
+    "IconImage": "Charcuterie",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Open Grill",
+    "Ability Tier": "Null",
+    "IconImage": "Barbecue",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Wok Toss",
+    "Ability Tier": "Null",
+    "IconImage": "Wok",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Battle Apron",
+    "Ability Tier": "Null",
+    "IconImage": "Apron",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Charcoal Skewer",
+    "Ability Tier": "Null",
+    "IconImage": "Skewers",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Marinade Splash",
+    "Ability Tier": "Null",
+    "IconImage": "PaintSplash",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Final BBQ Banquet",
+    "Ability Tier": "Null",
+    "IconImage": "Barbecue",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Chariot Pursuit",
+    "Ability Tier": "Null",
+    "IconImage": "Chariot",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Brick And Burden",
+    "Ability Tier": "Null",
+    "IconImage": "BrickWall",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Sea Of Judgment",
+    "Ability Tier": "Null",
+    "IconImage": "BigWave",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Hardened Decree",
+    "Ability Tier": "Null",
+    "IconImage": "AngryEyes",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Molted Step",
+    "Ability Tier": "Null",
+    "IconImage": "TabiBoot",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Cicada Drone",
+    "Ability Tier": "Null",
+    "IconImage": "Dozen",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Swarm Massacre",
+    "Ability Tier": "Null",
+    "IconImage": "Dozen",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Empty Shell",
+    "Ability Tier": "Null",
+    "IconImage": "SpiralShell",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Guest Service",
+    "Ability Tier": "Null",
+    "IconImage": "Prayer",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "VIP Treatment",
+    "Ability Tier": "Null",
+    "IconImage": "Prayer",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Emergency Upgrade",
+    "Ability Tier": "Null",
+    "IconImage": "Surprised",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Splash Rescue",
+    "Ability Tier": "Null",
+    "IconImage": "WaterSplash",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Tidal Patrol",
+    "Ability Tier": "Null",
+    "IconImage": "Run",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Silver Sovereignty",
+    "Ability Tier": "Null",
+    "IconImage": "Power",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Moonlit Kiss",
+    "Ability Tier": "Null",
+    "IconImage": "Charm",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Summon . Seven Thousand Pigeons",
+    "Ability Tier": "Null",
+    "IconImage": "Bird",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Live Stream",
+    "Ability Tier": "Null",
+    "IconImage": "Charm",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Leaked Video",
+    "Ability Tier": "Null",
+    "IconImage": "Video",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Meet and Greet",
+    "Ability Tier": "Null",
+    "IconImage": "ShakeHand",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Holier-than-thou",
+    "Ability Tier": "Null",
+    "IconImage": "Power",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Inflict Kindling",
+    "Ability Tier": "High",
+    "IconImage": "VulnerableFire",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Inflict Dehydration",
+    "Ability Tier": "High",
+    "IconImage": "VulnerableWater",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Inflict Polar Charge",
+    "Ability Tier": "High",
+    "IconImage": "VulnerableThunder",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Inflict Rupture",
+    "Ability Tier": "High",
+    "IconImage": "VulnerableEarth",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Inflict Dust",
+    "Ability Tier": "High",
+    "IconImage": "VulnerableWind",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Inflict Luminesce",
+    "Ability Tier": "High",
+    "IconImage": "VulnerableLight",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Inflict Dread",
+    "Ability Tier": "High",
+    "IconImage": "VulnerableDark",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Black Banner Command",
+    "Ability Tier": "Null",
+    "IconImage": "Flag",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Break Formation",
+    "Ability Tier": "Null",
+    "IconImage": "CrackedShield",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Crushing Grip",
+    "Ability Tier": "Null",
+    "IconImage": "Grab",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Siege Charge",
+    "Ability Tier": "Null",
+    "IconImage": "Charge",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Hit and Run",
+    "Ability Tier": "Null",
+    "IconImage": "Run",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Anonymous Masterpiece",
+    "Ability Tier": "Null",
+    "IconImage": "MonaLisa",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Roll Initiative",
+    "Ability Tier": "Null",
+    "IconImage": "QuestionDice",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Final Boss Encounter",
+    "Ability Tier": "Null",
+    "IconImage": "SkyDragon",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Sell Me This Pen",
+    "Ability Tier": "Null",
+    "IconImage": "Silence",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Pump and Dump",
+    "Ability Tier": "Null",
+    "IconImage": "ManyCoins",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Market Crash",
+    "Ability Tier": "Null",
+    "IconImage": "ManyCoins",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "One Take",
+    "Ability Tier": "Null",
+    "IconImage": "Peforming",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "No CGI",
+    "Ability Tier": "Null",
+    "IconImage": "Run",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Brickwork",
+    "Ability Tier": "Null",
+    "IconImage": "BrickWall",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Reinforce Structure",
+    "Ability Tier": "Null",
+    "IconImage": "ConcreteBag",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Set Cornerstone",
+    "Ability Tier": "Null",
+    "IconImage": "GlowingHands",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Secret Handshake",
+    "Ability Tier": "Null",
+    "IconImage": "ShakeHand",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Grand Lodge",
+    "Ability Tier": "Null",
+    "IconImage": "FullFolder",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Hidden Symbol",
+    "Ability Tier": "Null",
+    "IconImage": "StarPupil",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Closed Door Ritual",
+    "Ability Tier": "Null",
+    "IconImage": "EvilBook",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Eye In The Pyramid",
+    "Ability Tier": "Null",
+    "IconImage": "AllSeeingEye",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Pull The Strings",
+    "Ability Tier": "Null",
+    "IconImage": "Silence",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "False Flag Operation",
+    "Ability Tier": "Null",
+    "IconImage": "Flag",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "New World Order",
+    "Ability Tier": "Null",
+    "IconImage": "World",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Moonfang Severance",
+    "Ability Tier": "Null",
+    "IconImage": "Katana",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Crescent Guard",
+    "Ability Tier": "Null",
+    "IconImage": "ShieldEchoes",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Parasite Tendril Crush",
+    "Ability Tier": "Null",
+    "IconImage": "Tentacles",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Blightmaw Devour",
+    "Ability Tier": "Null",
+    "IconImage": "Bite",
+    "Description": ""
   }
 ]
