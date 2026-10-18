@@ -53,5 +53,14 @@
     "Append dated results and GitHub commits to version_log.json",
     "Advance source audit/sync checkpoints only after scope is verified; public wiki version is independent"
   ],
-  "publicPolicy": "Public wiki-version.html shows only release status and ongoing documentation."
+  "publicPolicy": "Public wiki-version.html shows only release status and ongoing documentation.",
+  "sheetVersionLog": {
+    "sheet": "Jobmania Database / Ver Log",
+    "versionColumn": "A",
+    "version": "2.48.1",
+    "versionStartRow": 66,
+    "status": "Completed",
+    "checkedOn": "2026-10-18",
+    "interpretation": "This is the version identifier in the Database Ver Log sheet, distinct from Wiki version 1.0. On each audit identify the most recent version group, inspect its entries and statuses, and record the last checked group."
+  }
 }
