@@ -14,20 +14,20 @@
 .version-back{display:inline-block;margin:12px 0;color:#70e6ff}
 </style></head>
 <body><div class="version-page"><a class="version-back" href="index.html">← Back to Wiki</a>
-<h1>Wiki Version Log</h1><p class="version-muted">Source synchronization and documentation progress are tracked separately.</p>
+<h1>Wiki Version Log</h1><p class="version-muted">Wiki updates and ongoing improvements.</p>
 <div id="version-status" class="version-panel" aria-live="polite">Loading version status…</div>
-<div class="version-panel"><h2>Source data</h2><p id="source-status">Loading…</p><p class="version-muted">Current means checked against the latest reviewed source snapshot, not an assertion that every legacy source exception is resolved.</p></div>
+<div class="version-panel"><h2>Current version</h2><p id="source-status">Loading…</p></div>
 <div class="version-panel"><h2>Ongoing work</h2><ul id="ongoing-list"></ul></div>
-<div class="version-panel"><h2>Notes</h2><ul id="status-notes"></ul></div>
-<p class="version-muted">The full machine-readable history is available in <a class="version-link" href="data/version_log.json">version_log.json</a>.</p></div>
+
+</div>
 <script>
 (async()=>{const status=document.getElementById('version-status');try{
 const response=await fetch('data/version_log.json',{cache:'no-cache'});if(!response.ok)throw new Error('HTTP '+response.status);
 const data=await response.json(),pub=data.publicStatus||{};
-const header=document.createElement('h2');header.textContent='Wiki '+(data.wikiVersion||'—')+' · Source '+(pub.sourceGameVersion||data.checkpoints?.latestSourceGameVersionObserved||'—');
-const p=document.createElement('p');p.textContent='Last reviewed: '+(pub.lastReviewed||pub.asOf||'—')+'. '+(pub.wikiStatus||'');
+const header=document.createElement('h2');header.textContent='Wiki '+(data.wikiVersion||'—');
+const p=document.createElement('p');p.textContent='Updated: '+(pub.lastReviewed||pub.asOf||'—');
 status.replaceChildren(header,p);
-document.getElementById('source-status').textContent=pub.dataStatus||'No public source status recorded';
-for(const [id,values] of [['ongoing-list',pub.ongoing],['status-notes',pub.notes]]){const ul=document.getElementById(id);for(const str of (values||[])){const li=document.createElement('li');li.textContent=str;ul.appendChild(li)}}
-}catch(err){status.textContent='Version information is temporarily unavailable. Check the repository history for the latest updates.';document.getElementById('source-status').textContent='Unable to load source status.'}})();
+document.getElementById('source-status').textContent=pub.summary||'Version information unavailable.';
+for(const [id,values] of [['ongoing-list',pub.ongoing]]){const ul=document.getElementById(id);for(const str of (values||[])){const li=document.createElement('li');li.textContent=str;ul.appendChild(li)}}
+}catch(err){status.textContent='Version information is temporarily unavailable.';document.getElementById('source-status').textContent='Unable to load source status.'}})();
 </script></body></html>
