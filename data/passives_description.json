@@ -1325,7 +1325,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Spirit",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Protect",
@@ -1350,7 +1350,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Humanoid",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Buff",
@@ -1375,7 +1375,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Creature",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Buff",
@@ -2195,7 +2195,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Spirit",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Protect",
@@ -2725,7 +2725,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Matter",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Buff",
@@ -2795,7 +2795,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Creature",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Protect",
@@ -3010,7 +3010,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Matter",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Buff",
@@ -3250,12 +3250,12 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Humanoid",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Upgrade",
         "Effect": "Creature",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Buff",
@@ -3375,7 +3375,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Humanoid",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "InstantBoost",
@@ -3635,7 +3635,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Humanoid",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Buff",
@@ -3805,17 +3805,17 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Creature",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Upgrade",
         "Effect": "Spirit",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Upgrade",
         "Effect": "Matter",
-        "Multiplier": 0
+        "Multiplier": 1
       }
     ]
   },
@@ -3850,7 +3850,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Matter",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Protect",
@@ -4370,7 +4370,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Humanoid",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "InstantBoost",
@@ -4415,7 +4415,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Creature",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "TurnHeal",
@@ -4435,7 +4435,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Matter",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Buff",
@@ -5035,7 +5035,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Humanoid",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Reflect",
@@ -5175,7 +5175,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Matter",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "InstantBoost",
@@ -5430,7 +5430,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Spirit",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Sacrifice",
@@ -5480,7 +5480,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Humanoid",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Debuff",
@@ -5530,12 +5530,12 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Spirit",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Upgrade",
         "Effect": "Creature",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Sacrifice",
@@ -5675,7 +5675,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Creature",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Buff",
@@ -5790,7 +5790,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Humanoid",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Sacrifice",
@@ -5970,7 +5970,7 @@
       {
         "SkillUnit": "InstantBoost",
         "Effect": "Water",
-        "Multiplier": 1
+        "Multiplier": 3
       }
     ]
   },
@@ -5980,7 +5980,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Humanoid",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Protect",
@@ -6030,7 +6030,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Spirit",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Buff",
@@ -6080,7 +6080,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Creature",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Buff",
@@ -6220,7 +6220,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Humanoid",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Upgrade",
@@ -6560,7 +6560,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Humanoid",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Heal",
@@ -6610,7 +6610,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Creature",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Protect",
@@ -6685,7 +6685,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Spirit",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Upgrade",
@@ -6815,7 +6815,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Creature",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Reflect",
@@ -7040,7 +7040,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Humanoid",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Heal",
@@ -7155,7 +7155,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Humanoid",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Buff",
@@ -7230,7 +7230,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Spirit",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Upgrade",
@@ -7865,7 +7865,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Matter",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Protect",
@@ -8105,7 +8105,7 @@
       {
         "SkillUnit": "Protect",
         "Effect": "Direct",
-        "Multiplier": ""
+        "Multiplier": 0
       }
     ]
   },
@@ -8135,7 +8135,7 @@
       {
         "SkillUnit": "Protect",
         "Effect": "Direct",
-        "Multiplier": ""
+        "Multiplier": 0
       }
     ]
   },
@@ -8340,7 +8340,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Spirit",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Upgrade",
@@ -8365,7 +8365,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Spirit",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Buff",
@@ -9060,7 +9060,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Matter",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Buff",
@@ -9210,7 +9210,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Humanoid",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Buff",
@@ -9485,7 +9485,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Humanoid",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Mark",
@@ -9500,7 +9500,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Matter",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "ActionDebuff",
@@ -10550,7 +10550,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Matter",
-        "Multiplier": 0
+        "Multiplier": 1
       }
     ]
   },
@@ -10685,17 +10685,17 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Humanoid",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Upgrade",
         "Effect": "Creature",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Upgrade",
         "Effect": "Spirit",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Upgrade",
@@ -10710,7 +10710,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Spirit",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Protect",
@@ -10900,7 +10900,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Creature",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Sacrifice",
@@ -10925,7 +10925,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Spirit",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Heal",
@@ -11345,7 +11345,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Matter",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Buff",
@@ -11365,7 +11365,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Creature",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Buff",
@@ -11390,7 +11390,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Spirit",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Buff",
@@ -11415,7 +11415,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Humanoid",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Buff",
@@ -11950,12 +11950,12 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Creature",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Upgrade",
         "Effect": "Humanoid",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Buff",
@@ -12245,7 +12245,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Creature",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Reflect",
@@ -12415,7 +12415,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Food",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Upgrade",
@@ -12460,7 +12460,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Food",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Upgrade",
@@ -12535,7 +12535,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Matter",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Protect",
@@ -12710,7 +12710,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Matter",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Protect",
@@ -12735,7 +12735,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Spirit",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Upgrade",
@@ -12760,7 +12760,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Creature",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Unique",
@@ -13235,7 +13235,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Matter",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Buff",
@@ -14000,7 +14000,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Matter",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Buff",
@@ -14095,7 +14095,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Humanoid",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Protect",
@@ -14400,7 +14400,7 @@
       {
         "SkillUnit": "Upgrade",
         "Effect": "Spirit",
-        "Multiplier": 0
+        "Multiplier": 1
       },
       {
         "SkillUnit": "Protect",
@@ -14645,7 +14645,7 @@
       {
         "SkillUnit": "TurnDebuff",
         "Effect": "Fire",
-        "Multiplier": 0
+        "Multiplier": 1
       }
     ]
   },
