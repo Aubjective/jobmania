@@ -4442,7 +4442,7 @@
   {
     "AbilityKey": "Power Chords",
     "Ability Tier": "Null",
-    "IconImage": "Harp",
+    "IconImage": "Do",
     "Description": ""
   },
   {
@@ -7826,7 +7826,7 @@
   {
     "AbilityKey": "Rapid Spin",
     "Ability Tier": "Null",
-    "IconImage": "SpinningSword",
+    "IconImage": "ThrustBend",
     "Description": ""
   },
   {
