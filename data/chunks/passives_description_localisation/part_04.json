@@ -1,0 +1,2097 @@
+[
+  {
+    "PassiveKey": "Aztec Priest",
+    "English": [
+      "Boost Int by 20%.",
+      "Convert 25% of excess Heal into damage per stack 1.",
+      "Recover 2% Int health after every action.",
+      "Start combat with 2 Light element."
+    ],
+    "Chinese": [
+      "增加<sprite name=Int> 智力20%。(叠加上限5 )",
+      "25%的过度恢复将转换成对敌方的伤害。(叠加上限<sprite name=Hp> 体力上限, 不包括吸血类的恢复)",
+      "当装备着此职业, 每个行动之后恢复 2% <sprite name=Int> 智力 体力。",
+      "战斗开始时获得 2个光元素 效果。"
+    ],
+    "Chinese (Traditional)": [
+      "增加<sprite name=Int> 智力20%。 (疊加上限5 )",
+      "25%的過度恢復將轉換成對敵方的傷害。 (疊加上限<sprite name=Hp> 體力上限, 不包括吸血類的恢復)",
+      "當裝備著此職業, 每個行動之後恢復 2% <sprite name=Int> 智力 體力。",
+      "戰鬥開始時獲得 2個光元素 效果。"
+    ],
+    "Japanese": [
+      "<sprite name=Int> 知属性が20%増加する。（重ねがけ上限5）",
+      "過剰な回復の25%だけ敵にダメージを与える（重ねがけ上限<sprite name=Hp> 体力最大値、吸血の回復を除く）",
+      "この職業はメイン時、行動した後2% <sprite name=Int> 知だけ体力を回復する。",
+      "戦闘開始時、自身に2つの光 元素を付与する。"
+    ],
+    "French": [
+      "Boost la Intelligence <sprite name=Int> de 20% pour chaque stack (Max 5 stacks).",
+      "Pour chaque stack, 25% de l'excès du soin infligera des dégats à l'adversaire. (Max HP Max <sprite name=Hp> . Drain de soin exclu.)",
+      "Soigne 2% Intelligence <sprite name=Int> de vie à la fin de chaque action  pendant que le job est actif .",
+      "Commence le combat avec 2 Elément Lumière"
+    ],
+    "Italian": [
+      "Potenzia l'attributo di Intelligenza <sprite name=Int> in 20% per ogni carica. (Massimo 5.)",
+      "Ad ogni carica accumulata, 25% dell'eccesso di cura, infliggerà danno al nemico. (Massimo di PV Mas. <sprite name=Hp>. Non include la cura per drenaggio.)",
+      "Recupera 2% Intelligenza <sprite name=Int> di vita alla fine di ogni azionefinché il lavoro è attivo.",
+      "Inizia il combattimento con 2 Elemento di Luce."
+    ],
+    "Portuguese": [
+      "Impulsione o atributo de Inteligência <sprite name=Int> em 20% para cada carga. (Máx 5 .)",
+      "A cada carga acumulada, 25% do excesso de cura, causará dano ao inimigo. (Máximo de PV Máx <sprite name=Hp> . Não inclui cura por drenagem.)",
+      "Recupere 2% Inteligência <sprite name=Int> de vida ao final de cada ação enquanto o trabalho estiver ativo .",
+      "Comece o combate com 2 Elemento de Luz ."
+    ],
+    "Korean": [
+      "<sprite name=Int> 지능 속성이 20% 증가한다. (중첩 상한5)",
+      "적에게 과도한 회복량의 25%만큼만 피해를 입힌다(중첩 상한 <sprite name=Hp> 최대HP, 흡혈 회복 제외).",
+      "이 직업을 장착하고 있을 때, 행동 후 2% <sprite name=Int> 지능만 체력을 회복한다.",
+      "전투 시작 시 자신에게 2개의빛 원소을 부여한다."
+    ],
+    "Spanish": [
+      "Mejora Inteligencia <sprite name=Int> en un 20% . Max. 5 instancias.",
+      "Por cada instancia, 25% de la curación que exceda tu vida dañará al oponente. Max. V.Máx <sprite name=Hp> . No afectado por Robo de Vida",
+      "Recupera un 2% Inteligencia <sprite name=Int> de vida al final de cada acción.",
+      "Empieza el combate con 2 Elemento Luz ."
+    ],
+    "Russian": [
+      "Усиливает Интеллект <sprite name=Int> на 20% за каждый стек (Макс. 5 стека).",
+      "За каждый стек, 25% от избыточного лечения наносится в виде урона противнику. (Кроме исцеления вампиризмом. Макс. Макс ХП <sprite name=Hp>)",
+      "Исцеляет 2% Интеллект <sprite name=Int> в конце действия, если роль активна.",
+      "Бой начинается с 2 Стихия Свет ."
+    ],
+    "German": [
+      "Booste Intelligenz <sprite name=Int> um 20% pro Stack (Max 5 Stacks).",
+      "Pro Stack wird 25% der exzessiven Heilung als Schaden am Gegner ausgeteilt. (Max Max HP <sprite name=Hp> . Ignoriert Lebensraub)",
+      "Nach jeder Aktion wird dein Leben um 2% Intelligenz <sprite name=Int> geheilt während der Job aktiv ist .",
+      "Starte den Kampf mit 2 Licht Element ."
+    ],
+    "Vietnamese": [
+      "Tăng Cường Trí Tuệ <sprite name=Int> thêm 20% cho mỗi tầng (Tối đa 5 tầng).",
+      "Với mỗi tầng, 25% của lượng hồi phục dư thừa sẽ chuyển thành sát thương lên Kẻ Địch. (Tối đa Max HP <sprite name=Hp> . Ngoại trừ Hút Máu)",
+      "Phục hồi HP tương đương 2% Trí Tuệ <sprite name=Int> cuối mỗi hành động  khi Chức Nghiệp được kích hoạt .",
+      "Bắt đầu trận chiến với 2 Nguyên Tố Ánh Sáng ."
+    ],
+    "Indonesian": [
+      "Boost <sprite name=Int> Intelligence sebesar 20% untuk tiap stack (Maks 5 stack).",
+      "Untuk tiap stack, 25% dari kelebihan heal akan memberi damage pada lawan. (Maks <sprite name=Hp> Max HP . Kecuali drain healing).",
+      "Pulihkan 2% <sprite name=Int> Intelligence health setiap akhir aksi  saat job aktif .",
+      "Mulai pertarungan dengan 2 Light Element ."
+    ],
+    "Arabic": [
+      "زيادة الذكاء بمقدار 20% لكل مكدس (الحد الأقصى 5 مكدسات).",
+      "لكل مكدس، 25% من الشفاء الزائد بدلاً من ذلك سيتلف العدو. (الحد الأقصى نقاط الصحة . باستثناء التئام استنزاف)",
+      "استرداد 2% الذكاء الصحة في نهاية كل تصرف  بينما تكون المهنة في الوسط .",
+      "ابدأ القتال مع 2 عنصر نور ."
+    ],
+    "Turkish": [
+      "Her yığın için <sprite name=Int> Zeka değeri 20% kadar yükseltilir (Maks istifleme 5).",
+      "Her yığında, fazladan iyileştirmenin 25% kadarı düşmana hasara dönüşür. (Maks <sprite name=Hp> Maks CP . Vampirik iyileştirme hariç)",
+      "Rol aktifken her aksiyonun sonunda 2% <sprite name=Int> Zeka can kazanılır.",
+      "Mücadeleyi 2 Aydınlık Elementi ile başlatır."
+    ]
+  },
+  {
+    "PassiveKey": "Aztec Warrior",
+    "English": [
+      "Boost Str by 20%.",
+      "For every direct damage received, gain Instinct; its reduction scales with 2.",
+      "Deal 2% Str damage to the enemy after every action.",
+      "Start combat with 2 Earth element."
+    ],
+    "Chinese": [
+      "增加<sprite name=Str> 力量20%。(叠加上限5 )",
+      "每当你受到直接伤害时, 获得并叠加此增益效果：减低自身2%所受到的伤害。(回合开始时去除。伤害减低可达到15% )",
+      "当装备着此职业, 每个行动之后对敌方造成 2% <sprite name=Str> 力量 伤害。",
+      "战斗开始时获得 2个土元素 效果。"
+    ],
+    "Chinese (Traditional)": [
+      "增加<sprite name=Str> 力量20%。 (疊加上限5 )",
+      "每當你受到直接傷害時, 獲得並疊加此增益效果：減低自身2%所受到的傷害。(回合開始時去除。傷害減低可達到15% )",
+      "當裝備著此職業, 每個行動之後對敵方造成 2% <sprite name=Str> 力量 傷害。",
+      "戰鬥開始時獲得 2個土元素 效果。"
+    ],
+    "Japanese": [
+      "<sprite name=Str> 力属性が20%増加する。（重ねがけ上限5）",
+      "攻撃されるたび、バフを1つ獲得：受ける直接攻撃ダメージを2%軽減（ターン終了時リムーブ。最大軽減15%）",
+      "この職業はメイン時、行動した後2% <sprite name=Str> 力だけ敵にダメージを与える。",
+      "戦闘開始時、自身に2つの土 元素を付与する。"
+    ],
+    "French": [
+      "Boost la Force <sprite name=Str> de 20% pour chaque stack (Max 5 stacks).",
+      "Pour chaque instance directe de dégats subie, gagnez un buff : Réduit les dégats reçus de 2% . (Retirées au début du tour. La réduction de dégats à une limite de 15% )",
+      "Inflige 2% Force <sprite name=Str> dégat à l'adversaire à la fin de chaque action  pendant que le job est actif .",
+      "Commence le combat avec 2 Elément Terre"
+    ],
+    "Italian": [
+      "Potenzia l'attributo di Forza <sprite name=Str> in 20% per ogni carica. (Massimo 5.)",
+      "Ogni volta che subisci danni, guadagni il seguente potenziamento: Ad ogni carica accumulata, riduci il danno ricevuto di 2%. (Rimosso alla fine del turno. La riduzione del danno è limitata a 15%.)",
+      "Causa 2% Forza <sprite name=Str> di danno al tuo avversario alla fine di ogni azionefinché il lavoro è attivo.",
+      "Inizia il combattimento con 2 Elemento di Terra."
+    ],
+    "Portuguese": [
+      "Impulsione o atributo de Força <sprite name=Str> em 20% para cada carga. (Máx 5 .)",
+      "A cada instância de dano recebida, ganhe o seguinte buff: A cada carga acumulada, reduza o dano recebido em 2% . (Removido ao final do turno. A redução de dano é limitada à 15% .)",
+      "Cause 2% Força <sprite name=Str> de dano em seu oponente ao final de cada ação enquanto o trabalho estiver ativo .",
+      "Comece o combate com 2 Elemento de Terra ."
+    ],
+    "Korean": [
+      "<sprite name=Str> 힘 속성이 20% 증가한다. (중첩 상한5)",
+      "공격을 받을 때마다 버프 1개 획득: 받는 직접 공격 피해 2% 감소(턴이 끝날 때마다 제거됨. 최대 감소량 15%)",
+      "이 직업을 장착하고 있을 때, 행동 후 2% <sprite name=Str> 힘만큼만 적에게 피해를 입힙니다.",
+      "전투 시작 시 자신에게 2개의대지 원소을 부여한다."
+    ],
+    "Spanish": [
+      "Mejora Fuerza <sprite name=Str> en un 20% . Max. 5 instancias.",
+      " Por cada vez que recibes daño, recibe una mejora aditiva. Reduce daño recibido en un 2% . (Removido al principio del turno. El daño se reduce hasta un máximo de 15% .)",
+      "Inflinge un 2% Fuerza <sprite name=Str> de daño al oponente al final de cada acción mientras el Trabajo está activo .",
+      "Empieza el combate con 2 Elemento Tierra ."
+    ],
+    "Russian": [
+      "Усиливает Сила <sprite name=Str> на 20% за каждый стек (Макс. 5 стека).",
+      "Даёт стек бафф за каждый полученный урон от атак. Уменьшает урон на 2% . (Действует до конца хода. Предел уменьшения урона - 15% ).",
+      "Наносит 2% Сила <sprite name=Str> урона противнику в конце действия, если роль активна.",
+      "Бой начинается с 2 Стихия Земля ."
+    ],
+    "German": [
+      "Booste Stärke <sprite name=Str> um 20% pro Stack (Max 5 Stacks).",
+      "Für jede Instanz des erlittenen Schadens, erhalte einen stackenden Buff: Verringert den erhaltenen Schaden um 2% . (Entfernt zu Rundenbeginn. Schadensreduktion maximiert ab 15% )",
+      "Nach jeder Aktion wird dem Gegner 2% Stärke <sprite name=Str> ausgeteilt während der Job aktiv ist .",
+      "Starte den Kampf mit 2 Erde Element ."
+    ],
+    "Vietnamese": [
+      "Tăng Cường Sức Mạnh <sprite name=Str> thêm 20% cho mỗi tầng (Tối đa 5 tầng).",
+      "Với mỗi đòn đánh bạn nhận vào, nhận một buff cộng dồn: Đối với mỗi tầng cộng dồn, giảm 2% sát thương trực tiếp nhận vào. (Loại bỏ vào cuối lượt. Giới hạn giảm sát thương 15% )",
+      "Gây sát thương tương đương 2% Sức Mạnh <sprite name=Str> cho đối thủ cuối mỗi hành động khi Chức Nghiệp được kích hoạt .",
+      "Bắt đầu trận chiến với 2 Nguyên Tố Đất ."
+    ],
+    "Indonesian": [
+      "Boost <sprite name=Str> Strength sebesar 20% untuk tiap stack (Maks 5 stack).",
+      "Untuk setiap jumlah damage yang diterima hero, dapat satu stack buff: Mengurangi damage yang diterima sebesar 2% . (Dihapus pada akhir giliran. Pengurangan damage maks 15% )",
+      "Berikan 2% <sprite name=Str> Strength damage pada lawan tiap akhir aksi  saat job aktif .",
+      "Mulai pertarungan dengan 2 Earth Element ."
+    ],
+    "Arabic": [
+      "زيادة القوة بمقدار 20% لكل مكدس (الحد الأقصى 5 مكدسات).",
+      "لكل حالة مباشرة من الضرر الذي تتلقاه، احصل على مكدس بوف: قلل الضرر المباشر الذي تلقاه بـ 2% . (إزالته في بداية الدور. توقف تقليل الضرر عند 15% )",
+      "يسبب الضرر 2% القوة بالعدو في نهاية كل تصرف  بينما تكون المهنة في الوسط .",
+      "ابدأ القتال مع 2 عنصر ارض ."
+    ],
+    "Turkish": [
+      "Her yığın için <sprite name=Str> Kuvvet değeri 20% kadar yükseltilir (Maks istifleme 5).",
+      "Düşmana verilen her hasar için şu yığın güçlendirmesini kazanırsın: Doğrudan alınan hasar 2% azalır. (Tur sonunda kaldırılır. Alınan hasar azalımı en fazla 15% olabilir)",
+      "Rol aktifken her aksiyonun sonunda düşmana 2% <sprite name=Str> Kuvvet hasar verir.",
+      "Mücadeleyi 2 Toprak Elementi ile başlatır."
+    ]
+  },
+  {
+    "PassiveKey": "Nagual Warrior",
+    "English": [
+      "AlwaysActive",
+      "For every direct damage received, gain Instinct; its reduction scales with 3.",
+      "Reduce damage received by 10% while the job is active.",
+      "When attacked, gain Protect equal to 10% of damage received."
+    ]
+  },
+  {
+    "PassiveKey": "Nagual Beast Mode",
+    "English": [
+      "AlwaysActive",
+      "For every damage dealt, gain Rage; its damage bonus scales with 4.",
+      "Deal 1% Str damage to the enemy after every action.",
+      "Gain 1 Second Chance at the start of combat."
+    ]
+  },
+  {
+    "PassiveKey": "Evil Burning Head",
+    "English": [
+      "For every damage dealt, gain Rage; its damage bonus scales with 2.",
+      "When attacked, reflect 2% Int damage to the enemy.",
+      "Give 2 Fire Action Buff whenever Fire Combo triggers.",
+      "Start combat with 3 Fire element."
+    ],
+    "Chinese": [
+      "每当你攻击时, 获得并叠加此增益效果：提升自身1%对敌方造成的伤害。(回合结束时去除。伤害提升可达到15% )",
+      "当承受敌方攻击时, 对敌方造成2%<sprite name=Int> 智力的反击伤害。",
+      "在火连击启动时, 附加2个火微增益。",
+      "战斗开始时获得 3个火元素 效果。"
+    ],
+    "Chinese (Traditional)": [
+      "每當你攻擊時, 獲得並疊加此增益效果：提升自身1%對敵方造成的傷害。(回合结束時去除。傷害提升可達到15% )",
+      "當承受敵方攻擊時, 對敵方造成2%<sprite name=Int> 智力的反擊傷害。",
+      "在火連擊啟動時, 附加2個火微增益。",
+      "戰鬥開始時獲得 3個火元素 效果。"
+    ],
+    "Japanese": [
+      "攻撃するたび、バフを1つ獲得：相手に与えるダメージが1%アップ（ターン終了時リムーブ。アップ上限15%）",
+      "ダメージを受けると、<sprite name=Int> 知属性の2%だけ相手にダメージを与える",
+      "火元素のコンボを発動する時、火 行動バフを2つ獲得する。",
+      "戦闘開始時、自身に3つの火 元素を付与する。"
+    ],
+    "French": [
+      "Pour chaque instance de dégats infligée à l'ennemi, gagnez un buff : Boost les dégats infligés de 1% . (Retirées à la fin du tour. Le boost de dégats à une limite de 15% )",
+      "Lorsque vous subissez des dégats de l'adversaire, infligé 2% Intelligence <sprite name=Int> dégats à l'adversaire.",
+      "Sur une activation de combo de Feu, donne 2 Buff Action Feu .",
+      "Commence le combat avec 3 Elément Feu"
+    ],
+    "Italian": [
+      "Ogni volta che infliggi danni al tuo avversario, guadagni il seguente potenziamento: Ad ogni carica accumulata, aumenta il tuo danno di 1%. (Rimosso alla fine del turno. L'aumento del danno è limitato a 15%.)",
+      "Quando attaccato dal nemico con una o più istanze di danno, riflette 2%Intelligenza <sprite name=Int> di danno indietro a lui.",
+      "Attivando un combo di Fuoco, guadagna 2 di Miglioria dell'Azione di Fuoco.",
+      "Inizia il combattimento con 3 Elemento di Fuoco."
+    ],
+    "Portuguese": [
+      "A cada instância de dano causado ao seu oponente, ganhe o seguinte buff: A cada carga acumulada, impulsione o seu dano em 1% . (Removido ao final do turno. O impulso de dano é limitado à 15% .)",
+      "Quando atacado pelo inimigo com uma ou mais instâncias de dano, reflete 2%Inteligência <sprite name=Int> de dano de volta a ele.",
+      "Ao ativar um combo de Fogo, ganhe 2 de Buff de Ação de Fogo .",
+      "Comece o combate com 3 Elemento de Fogo ."
+    ],
+    "Korean": [
+      "공격할 때마다 버프 1개 획득: 상대에게 주는 대미지가 1% 증가(턴 종료 시 제거. 증가 상한 15%)",
+      "피해를 받으면 상대에게 <sprite name=Int> 지능 속성의 2%만큼의 피해를 입힙니다.",
+      "화염원소 콤보 발동 시 화염마이크로 이득을 2개 획득한다.",
+      "전투 시작 시 자신에게 3개의화염 원소을 부여한다."
+    ],
+    "Spanish": [
+      "Cada vez que dañas al oponente, gana una mejora aditiva:Aumenta el daño infligido en un 1% . (Removido al final del turno. Este daño deja de aumentar al 15% ).",
+      "Cuendo eres atacado por el oponente, reflejas un 2% de Inteligencia <sprite name=Int> de daño al oponente.",
+      "Al alcanzar combo de Fuego, ganas 2 de Mejorar Acción Fuego .",
+      "Empieza el combate con 3 Elemento Fuego ."
+    ],
+    "Russian": [
+      "Даёт стек бафф за каждый урон по противнику. Увеличивает урон на 1% . (Действует до конца хода. Предел увеличения урона - 15% ).",
+      "При получении урона от противника наносит 2% Интеллект <sprite name=Int> обратно.",
+      "При активации комбо Огонь, даёт 2 Огонь Бафф Действия.",
+      "Бой начинается с 3 Стихия Огонь ."
+    ],
+    "German": [
+      "Für jede Instanz des ausgeteilten Schadens, erhalte einen stackenden Buff: Erhöht den ausgeteilten Schaden um 1% . (Entfernt zu Rundenende. Schadensbonus maximiert ab 15% )",
+      "Wenn von Gegner Schaden erlitten wird, kontere mit 2% Intelligenz <sprite name=Int> .",
+      "Bei Feuer Combo-Aktivierung, erhalte 2 Feuer Aktionsbuff .",
+      "Starte den Kampf mit 3 Feuer Element ."
+    ],
+    "Vietnamese": [
+      "Với mỗi đòn đánh gây ra cho kẻ thù, nhận một buff cộng dồn: Đối với mỗi tầng cộng dồn, tăng 1% sát thương gây ra . (Loại bỏ vào cuối lượt. Giới hạn tăng sát thương 15% )",
+      "Khi bị đối thủ gây sát thương, gây 2% sát thương theo Trí Tuệ <sprite name=Int> trả lại đối thủ.",
+      "Khi combo Lửa được kích hoạt, nhận 2 Buff Hành Động Lửa .",
+      "Bắt đầu trận chiến với 3 Nguyên Tố Lửa ."
+    ],
+    "Indonesian": [
+      "Untuk setiap jumlah damage yang diberikan pada lawan, dapat satu stack buff: Boost damage yang diberikan sebesar 1% . (Dihapus pada akhir giliran. Damage boost maks 15% )",
+      "Ketika menerima damage dari lawan, berikan 2% <sprite name=Int> Intelligence damage pada lawan.",
+      "Pada pemicu combo Fire, mendapat 2 Fire Action Buff . ",
+      "Mulai pertarungan dengan 3 Fire Element ."
+    ],
+    "Arabic": [
+      "لكل حالة من حالات الضرر التي لحقت بالعدو، احصل على مكدس بوف: زيادة الضرر الذي تم إلحاق بـ 1% . (إزالته في نهاية الدور. توقف زيادة الضرر عند 15% )",
+      "عندما يضر من قبل العدو، تسبب 2% الذكاء في الضرر للعدو.",
+      "على نار زناد كومبو، كسب 2 بوف التصرف نار .",
+      "ابدأ القتال مع 3 عنصر نار ."
+    ],
+    "Turkish": [
+      "Düşmana verilen her hasar için şu yığın güçlendirmesini kazanırsın: Verilen hasar 1% artar. (Tur sonunda kaldırılır. Hasar artırımı en fazla 15% olabilir)",
+      "Düşmandan hasar alındığında düşmana 2% <sprite name=Int> Zeka hasarı verilir.",
+      "Ateş kombosunda 2 Ateş Aksiyon Güçlendirmesi kazanılır.",
+      "Mücadeleyi 3 Ateş Elementi ile başlatır."
+    ]
+  },
+  {
+    "PassiveKey": "Hair Snatcher",
+    "English": [
+      "AlwaysActive",
+      "Deal 1% Protect damage to the enemy after every action.",
+      "Deal 1% Agi damage to the enemy after every action."
+    ]
+  },
+  {
+    "PassiveKey": "Swamp Monster",
+    "English": [
+      "Half damage-over-time effects received.",
+      "Recover 4% Str health at the end of turn.",
+      "Start combat with 3 Water element."
+    ]
+  },
+  {
+    "PassiveKey": "Blood Terror",
+    "English": [
+      "When the enemy suffers Bleed damage, heal for half of that damage.",
+      "Deal 1% MaxHP damage to the enemy at the end of turn.",
+      "Inflict 1 Bleed on the opponent at the end of turn.",
+      "Start combat with 4 Dark element."
+    ]
+  },
+  {
+    "PassiveKey": "Tupi Supreme Deity",
+    "English": [
+      "AlwaysActive",
+      "AlwaysActive",
+      "Reduce damage received by 20% while the job is active.",
+      "Inflict 1 Paralysis on the opponent at the end of turn."
+    ]
+  },
+  {
+    "PassiveKey": "The Extroverted Oni",
+    "English": [
+      "AlwaysActive",
+      "Boost Str by 10%.",
+      "Deal 5% Str damage to the enemy at the end of turn.",
+      "Gain 2 Str Buff at the start of combat."
+    ]
+  },
+  {
+    "PassiveKey": "Hothead's Determination",
+    "English": [
+      "Grind",
+      "JobOn",
+      "For every damage dealt, gain Rage; its damage bonus scales with 5."
+    ]
+  },
+  {
+    "PassiveKey": "The Introverted Oni",
+    "English": [
+      "AlwaysActive",
+      "Gain 2 Int Action Buff after every action.",
+      "JobOn",
+      "Gain 2 Int Buff at the start of combat."
+    ]
+  },
+  {
+    "PassiveKey": "Deceptive Appearance",
+    "English": [
+      "Grind",
+      "For every direct damage received, gain Instinct; its reduction scales with 2.",
+      "Inflict 1 Confuse on the opponent at the end of turn."
+    ]
+  },
+  {
+    "PassiveKey": "Magma Caller",
+    "English": [
+      "AlwaysActive",
+      "Convert 25% of excess Heal into Protect per stack 2.",
+      "When attacked, reflect 1% MaxHP damage to the enemy.",
+      "Inflict 1 Burn on the opponent at the end of turn."
+    ]
+  },
+  {
+    "PassiveKey": "Tideweaver",
+    "English": [
+      "AlwaysActive",
+      "Boost Int by 10%.",
+      "Give 3 Water Action Buff whenever Water Combo triggers.",
+      "JobOn"
+    ]
+  },
+  {
+    "PassiveKey": "Land Carver",
+    "English": [
+      "AlwaysActive",
+      "Inflict 1 Protect Pierce after every action.",
+      "Deal 1% MaxHP damage to the enemy at the end of turn.",
+      "JobOn"
+    ]
+  },
+  {
+    "PassiveKey": "Tempest Knight",
+    "English": [
+      "AlwaysActive",
+      "AlwaysActive",
+      "Give 2 Wind Action Buff whenever Wind Combo triggers.",
+      "Recover 1% MaxHP health after every action."
+    ]
+  },
+  {
+    "PassiveKey": "Legendary Shield Wielder",
+    "English": [
+      "AlwaysActive",
+      "Reduce damage received by 10% while the job is active.",
+      "For every damage dealt, gain Rage; its damage bonus scales with 3.",
+      "Start combat with 3% MaxHP Protect."
+    ]
+  },
+  {
+    "PassiveKey": "Annihilation Protocol",
+    "English": [
+      "AlwaysActive",
+      "AlwaysActive",
+      "Immune to Venom.",
+      "Start combat with Charge/Stack Charge according to multiplier 3."
+    ]
+  },
+  {
+    "PassiveKey": "Eternal Sludge",
+    "English": [
+      "AlwaysActive",
+      "On receiving Venom, heal based on Str and gain Str Instant Boost per stack.",
+      "Recover 1% MaxHP health at the end of turn."
+    ]
+  },
+  {
+    "PassiveKey": "Carrier Of Decay",
+    "English": [
+      "AlwaysActive",
+      "AlwaysActive",
+      "Enemy gains 2 Venom for damaging you.",
+      "When attacked, reflect 2% Str damage to the enemy."
+    ]
+  },
+  {
+    "PassiveKey": "The Entertainer",
+    "English": [
+      "Increase raw damage, healing and Protect values based on level.",
+      "Immune to Injury.",
+      "Enemy gains 1 Insane for damaging you.",
+      "For every direct damage received, gain Instinct; its reduction scales with 3."
+    ],
+    "Chinese": [
+      "增加15%【固定】的输出伤害, 恢复与护甲获得量。(不包括使用属性值计算的技能)",
+      "当装备着此职业, 对 负伤 免疫。",
+      "当承受敌方攻击时, 对敌方施加1个疯癫。",
+      "每当你受到直接伤害时, 获得并叠加此增益效果：减低自身3%所受到的伤害。(回合开始时去除。伤害减低可达到15% )"
+    ],
+    "Chinese (Traditional)": [
+      "增加15%【固定】的輸出傷害, 恢復與護甲獲得量。 (不包括使用屬性值計算的技能)",
+      "當裝備著此職業, 對 負傷 免疫。",
+      "當承受敵方攻擊時, 對敵方施加1個瘋癲。",
+      "每當你受到直接傷害時, 獲得並疊加此增益效果：減低自身3%所受到的傷害。(回合開始時去除。傷害減低可達到15% )"
+    ],
+    "Japanese": [
+      "【基本】ダメージ、回復量とシールド量（属性倍率なし）が15%アップ",
+      "この職業はメイン時、負傷に免疫する。",
+      "ダメージを受けると、相手に狂気状態を1つ付与",
+      "攻撃されるたび、バフを1つ獲得：受ける直接攻撃ダメージを3%軽減（ターン終了時リムーブ。最大軽減15%）"
+    ],
+    "French": [
+      "Augmente les valeurs de dégats [Brut], soins, et Protection (sans les multiplicateurs de stat) de 15% .",
+      "Immunité à Blessure  pendant que le job est actif",
+      "Lorsque vous subissez des dégats de l'adversaire, appliquez 1 Folie à l'adversaire.",
+      "Pour chaque instance directe de dégats subie, gagnez un buff : Réduit les dégats reçus de 3% . (Retirées au début du tour. La réduction de dégats à une limite de 15% )"
+    ],
+    "Italian": [
+      "Aumenta i valori di danno, cura e Protezione lordi (senza moltiplicatori di attributo) di 15%.",
+      "Immune a Feritafinché il lavoro è attivo.",
+      "Quando attaccato dal tuo avversario, contrattacca con 1 caricamento(i) di Insania.",
+      "Ogni volta che subisci danni, guadagni il seguente potenziamento: Ad ogni carica accumulata, riduci il danno ricevuto di 3%. (Rimosso alla fine del turno. La riduzione del danno è limitata a 15%.)"
+    ],
+    "Portuguese": [
+      "Aumenta os valores de dano, cura e Proteção brutos (sem multiplicadores de atributo) em 15% .",
+      "Imune a Ferimento enquanto o trabalho estiver ativo .",
+      "Quando atacado pelo seu oponente, contra-ataca com 1 carga(s) de Insanidade .",
+      "A cada instância de dano recebida, ganhe o seguinte buff: A cada carga acumulada, reduza o dano recebido em 3% . (Removido ao final do turno. A redução de dano é limitada à 15% .)"
+    ],
+    "Korean": [
+      "[기본]대미지, 회복량 및 갑옷량(속성 배율 없음)이 15% 증가",
+      "이 직업을 장착하고 있을 때,부상에 면역이 된다.",
+      "피해를 받으면 상대에게 미친 상태 이상 1개 부여",
+      "공격을 받을 때마다 버프 1개 획득: 받는 직접 공격 피해 3% 감소(턴이 끝날 때마다 제거됨. 최대 감소량 15%)"
+    ],
+    "Spanish": [
+      "Aumenta el daño, curación, y Escudo de las habilidades [Planas] (Sin multiplicador de Estadística) en un 15% .",
+      "Inmune a Herida mientras el Trabajo está activo .",
+      "Cuando eres atacado, aplica 1 Insanía al oponente.",
+      " Por cada vez que recibes daño, recibe una mejora aditiva. Reduce daño recibido en un 3% . (Removido al principio del turno. El daño se reduce hasta un máximo de 15% .)"
+    ],
+    "Russian": [
+      "Увеличивает [Чистый] урон, исцеление и Броня . (Без множителей атрибутов) на 15% .",
+      "Иммунитет к Рана, если роль активна.",
+      "При получении урона от противника, накладывает на него 1 Безумие .",
+      "Даёт стек бафф за каждый полученный урон от атак. Уменьшает урон на 3% . (Действует до конца хода. Предел уменьшения урона - 15% )."
+    ],
+    "German": [
+      "Erhöht [Roh] Schaden, Heilung und Schild-Erhalt (ohne Stat-Multiplikator) um 15% .",
+      "Immun zu Wunde während der Job aktiv ist .",
+      "Wenn von Gegner Schaden erlitten wird, füge dem Gegner 1 Wahnsinn zu.",
+      "Für jede Instanz des erlittenen Schadens, erhalte einen stackenden Buff: Verringert den erhaltenen Schaden um 3% . (Entfernt zu Rundenbeginn. Schadensreduktion maximiert ab 15% )"
+    ],
+    "Vietnamese": [
+      "Tăng giá trị sát thương, hồi phục và Giáp [Chuẩn] (không có phần trăm chỉ số) lên 15% .",
+      "Miễn nhiễm với Thương Tích khi Chức Nghiệp được kích hoạt .",
+      "Khi bị đối thủ gây sát thương, gây 1 Điên Loạn lên đối thủ.",
+      "Với mỗi đòn đánh bạn nhận vào, nhận một buff cộng dồn: Đối với mỗi tầng cộng dồn, giảm 3% sát thương trực tiếp nhận vào. (Loại bỏ vào cuối lượt. Giới hạn giảm sát thương 15% )"
+    ],
+    "Indonesian": [
+      "Meningkatkan [Base] damage, healing dan Protect (tanpa stat multiplier) sebesar 15%",
+      "Kebal terhadap Injury saat job aktif .",
+      "Ketika menerima damage dari lawan, berikan 1 Insane pada lawan.",
+      "Untuk setiap jumlah damage yang diterima hero, dapat satu stack buff: Mengurangi damage yang diterima sebesar 3% . (Dihapus pada akhir giliran. Pengurangan damage maks 15% )"
+    ],
+    "Arabic": [
+      "زيادة الضرر [الخام]، الشفاء و الدرع قيم (بدون مضاعفات الإحصائيات) بمقدار 15% .",
+      "محصن ضد اصابة  بينما تكون المهنة في الوسط .",
+      "عندما يضر من قبل العدو، ضع 1 جنون على العدو.",
+      "لكل حالة مباشرة من الضرر الذي تتلقاه، احصل على مكدس بوف: قلل الضرر المباشر الذي تلقاه بـ 3% . (إزالته في بداية الدور. توقف تقليل الضرر عند 15% )"
+    ],
+    "Turkish": [
+      "[Temel] hasar, iyileştirme ve Zırh değerleri 15% artar (özellik çarpanı yoksa).",
+      "Rol aktifken Yaralanma etkisine karşı bağışıklık sağlar.",
+      "Düşmandan hasar alındığında düşmana 1 Delilik uygulanır.",
+      "Düşmana verilen her hasar için şu yığın güçlendirmesini kazanırsın: Doğrudan alınan hasar 3% azalır. (Tur sonunda kaldırılır. Alınan hasar azalımı en fazla 15% olabilir)"
+    ]
+  },
+  {
+    "PassiveKey": "Emperors Court Mage",
+    "English": [
+      "AlwaysActive",
+      "AlwaysActive",
+      "Gain 1 Second Chance at the start of combat.",
+      "Start combat with Charge/Stack Charge according to multiplier 1."
+    ]
+  },
+  {
+    "PassiveKey": "The Big M",
+    "English": [
+      "AlwaysActive",
+      "Grind",
+      "Reduce damage received by 10% while the job is active.",
+      "Gain 1 Slack at the start of combat."
+    ]
+  },
+  {
+    "PassiveKey": "Perfect Cube Of Flesh",
+    "English": [
+      "AlwaysActive",
+      "Gain 3 Gamble Token at the end of turn.",
+      "Gain 1 Second Chance at the start of combat.",
+      "AsBuff"
+    ]
+  },
+  {
+    "PassiveKey": "Autumn Affinity",
+    "English": [
+      "AlwaysActive",
+      "JobOn",
+      "Recover 4% Int health at the end of turn.",
+      "Inflict 1 Depress on the opponent at the end of turn."
+    ]
+  },
+  {
+    "PassiveKey": "Candle Of Prophecy",
+    "English": [
+      "Reroll low dice results and reduce the effectiveness of certain status effects.",
+      "AlwaysActive",
+      "Gain 2 Int Action Buff after every action.",
+      "Gain 3 Gamble Token at the end of turn."
+    ]
+  },
+  {
+    "PassiveKey": "The Gourmet Chef",
+    "English": [
+      "AlwaysActive",
+      "Gain a random Action Buff/Gamble Token when abilities are exhausted or effect-discarded.",
+      "Convert 25% of excess Heal into damage per stack 2.",
+      "Convert 25% of excess Heal into Protect per stack 2."
+    ]
+  },
+  {
+    "PassiveKey": "Emergency Food",
+    "English": [
+      "Half damage-over-time effects received.",
+      "Gain 1 MaxHP Buff at the start of combat."
+    ]
+  },
+  {
+    "PassiveKey": "Infinity Candy Magic",
+    "English": [
+      "AlwaysActive",
+      "Gain a random Action Buff/Gamble Token when abilities are exhausted or effect-discarded.",
+      "AlwaysActive",
+      "Start combat with 2 Pure element."
+    ]
+  },
+  {
+    "PassiveKey": "Corrupted Radiance Elf",
+    "English": [
+      "Add 2 to default Draw.",
+      "Reflect elemental status effects back to the enemy.",
+      "For every damage dealt, gain Rage; its damage bonus scales with 4.",
+      "Start combat with 3 Light element."
+    ],
+    "Chinese": [
+      "获得 手牌 2。",
+      "当对方对自身施加烧伤, 寒意, 麻痹, 种子, 眩晕, 盲目以及抑郁, 敌方也会被施加相等数量的异常状态。",
+      "每当你攻击时, 获得并叠加此增益效果：提升自身2%对敌方造成的伤害。(回合结束时去除。伤害提升可达到15% )",
+      "战斗开始时获得 3个光元素 效果。"
+    ],
+    "Chinese (Traditional)": [
+      "獲得 手牌 2。",
+      "當對方對自身施加燒傷, 寒意, 麻痺, 種子, 眩暈, 盲目以及抑鬱, 敵方也會被施加相等數量的異常狀態。",
+      "每當你攻擊時, 獲得並疊加此增益效果：提升自身2%對敵方造成的傷害。(回合结束時去除。傷害提升可達到15% )",
+      "戰鬥開始時獲得 3個光元素 效果。"
+    ],
+    "Japanese": [
+      "手札 2を獲得する。",
+      "火傷、凍結、麻痺、種子、眩暈、盲目または抑鬱状態を付与されると、相手に同じ数のその状態異常を付与する。",
+      "攻撃するたび、バフを1つ獲得：相手に与えるダメージが2%アップ（ターン終了時リムーブ。アップ上限15%）",
+      "戦闘開始時、自身に3つの光 元素を付与する。"
+    ],
+    "French": [
+      "Gagnez Piocher 2 .",
+      "Lorsque vous subissez Brulure, Gel, Paralysie, Graîne, Etourdissement, Aveuglement ou Dépression de l'adversaire, appliquez les mêmes stacks de ces effets de status élémentaire à l'adversaire.",
+      "Pour chaque instance de dégats infligée à l'ennemi, gagnez un buff : Boost les dégats infligés de 2% . (Retirées à la fin du tour. Le boost de dégats à une limite de 15% )",
+      "Commence le combat avec 3 Elément Lumière"
+    ],
+    "Italian": [
+      "Guadagna Pesca 2.",
+      "Quando riceve Scottatura, Brivido, Paralisi, Radici, Stordimento, Cecità o Depressione dal suo avversario, riflette lo stesso numero di cariche di Afiliazione Elementale al suo avversario.",
+      "Ogni volta che infliggi danni al tuo avversario, guadagni il seguente potenziamento: Ad ogni carica accumulata, aumenta il tuo danno di 2%. (Rimosso alla fine del turno. L'aumento del danno è limitato a 15%.)",
+      "Inizia il combattimento con 3 Elemento di Luce."
+    ],
+    "Portuguese": [
+      "Ganha Saque 2 .",
+      "Quando receber Queimadura, Calafrio, Paralisia, Enraizamento, Tontura, Cegueira ou Depressão de seu oponente, reflita o mesmo número de cargas de Aflição Elemental ao seu oponente.",
+      "A cada instância de dano causado ao seu oponente, ganhe o seguinte buff: A cada carga acumulada, impulsione o seu dano em 2% . (Removido ao final do turno. O impulso de dano é limitado à 15% .)",
+      "Comece o combate com 3 Elemento de Luz ."
+    ],
+    "Korean": [
+      "핸드 2을 획득한다.",
+      "화상, 오한, 마비, 씨앗, 현기증, 실명, 우울증 상태를 부여받으면 상대에게 같은 수의 해당 상태 이상을 부여한다.",
+      "공격할 때마다 버프 1개 획득: 상대에게 주는 대미지가 2% 증가(턴 종료 시 제거. 증가 상한 15%)",
+      "전투 시작 시 자신에게 3개의빛 원소을 부여한다."
+    ],
+    "Spanish": [
+      "Gana Robar 2 .",
+      "Cuando recibes Quemadura, Congelar, Parálisis, Semilla, Marear, Cegar o Deprimir, aplica la misma cantidad de esos efectos al oponente. ",
+      "Cada vez que dañas al oponente, gana una mejora aditiva:Aumenta el daño infligido en un 2% . (Removido al final del turno. Este daño deja de aumentar al 15% ).",
+      "Empieza el combate con 3 Elemento Luz ."
+    ],
+    "Russian": [
+      "Даёт Добор 2.",
+      "При получении Горение, Озноб, Паралич, Семя, Оглушение, Слепота или Депрессия от действий противника, накладывет столько же Эффектов Стихии на него.",
+      "Даёт стек бафф за каждый урон по противнику. Увеличивает урон на 2% . (Действует до конца хода. Предел увеличения урона - 15% ).",
+      "Бой начинается с 3 Стихия Свет ."
+    ],
+    "German": [
+      "Erhalte Ziehe 2 .",
+      "Wenn durch den Gegner Verbrennung, Frieren, Paralyse, Samen, Schwindel, Blind oder Depression zugefügt wird, füge die selbe Anzahl des Statuseffekts dem Gegner zu.",
+      "Für jede Instanz des ausgeteilten Schadens, erhalte einen stackenden Buff: Erhöht den ausgeteilten Schaden um 2% . (Entfernt zu Rundenende. Schadensbonus maximiert ab 15% )",
+      "Starte den Kampf mit 3 Licht Element ."
+    ],
+    "Vietnamese": [
+      "Nhận được Rút 2 .",
+      "Khi nhận được Thiêu Đốt, Ớn Lạnh, Tê Liệt, Hạt Mầm, Chóng Mặt, Mù Lòa hoặc Trầm Cảm từ đối thủ, trả lại cùng số tầng Hiệu Ứng Xấu đó cho đối thủ.",
+      "Với mỗi đòn đánh gây ra cho kẻ thù, nhận một buff cộng dồn: Đối với mỗi tầng cộng dồn, tăng 2% sát thương gây ra . (Loại bỏ vào cuối lượt. Giới hạn tăng sát thương 15% )",
+      "Bắt đầu trận chiến với 3 Nguyên Tố Ánh Sáng ."
+    ],
+    "Indonesian": [
+      "Mendapat Draw 2 .",
+      "Ketika menerima Burn, Chill, Paralysis, Seed, Dizzy, Blind atau Depress dari lawan, berikan stack yang sama berdasarkan status efek pada lawan.",
+      "Untuk setiap jumlah damage yang diberikan pada lawan, dapat satu stack buff: Boost damage yang diberikan sebesar 2% . (Dihapus pada akhir giliran. Damage boost maks 15% )",
+      "Mulai pertarungan dengan 3 Light Element ."
+    ],
+    "Arabic": [
+      "كسب اسحب 2 .",
+      "عند تلقي حرق ، تجمد ، شلل ، بذور ، دوار ، عما أو اكتئاب من العدو، طبق نفس مكدسات من تأثيرات الحالة هذه على العدو.",
+      "لكل حالة من حالات الضرر التي لحقت بالعدو، احصل على مكدس بوف: زيادة الضرر الذي تم إلحاق بـ 2% . (إزالته في نهاية الدور. توقف زيادة الضرر عند 15% )",
+      "ابدأ القتال مع 3 عنصر نور ."
+    ],
+    "Turkish": [
+      "2 Çek kazan.",
+      "Düşman Yanık, Üşüme, Felç, Tohum, Baş Dönmesi, Körlük veya Depresyon uyguladığında aynı Durum Etkisi yığınıyla karşılık verilir.",
+      "Düşmana verilen her hasar için şu yığın güçlendirmesini kazanırsın: Verilen hasar 2% artar. (Tur sonunda kaldırılır. Hasar artırımı en fazla 15% olabilir)",
+      "Mücadeleyi 3 Aydınlık Elementi ile başlatır."
+    ]
+  },
+  {
+    "PassiveKey": "Super Alloy Z",
+    "English": [
+      "AlwaysActive",
+      "Reduce damage received by 20% while the job is active.",
+      "AlwaysActive",
+      "Gain 2 Str Action Buff after every action."
+    ]
+  },
+  {
+    "PassiveKey": "Carnival Carnage",
+    "English": [
+      "AlwaysActive",
+      "Half damage-over-time effects received.",
+      "Deal 1% MaxHP damage to the enemy at the end of turn.",
+      "Gain 2 Int Action Buff after every action."
+    ]
+  },
+  {
+    "PassiveKey": "Harmony Of Hope",
+    "English": [
+      "AlwaysActive",
+      "AlwaysActive",
+      "Convert 25% of excess Heal into Protect per stack 1.",
+      "Start combat with 2 Light element."
+    ]
+  },
+  {
+    "PassiveKey": "The Scaled Boogeyman",
+    "English": [
+      "Reduce damage received by 20% while the job is active.",
+      "Immune to elemental status effects (multiplier 1 controls scope).",
+      "Inflict 1 MaxHP Debuff on the opponent at the end of turn.",
+      "Inflict 1 Depress on the opponent at the end of turn."
+    ],
+    "Chinese": [
+      "当装备着此职业, 减轻 20% 伤害。",
+      "当装备着此职业, 对 元素异常状态 免疫。",
+      "当装备着此职业, 回合结束时对敌方附加 1个<sprite name=Hp> 体力上限。",
+      "当装备着此职业, 回合结束时对敌方附加 1个抑郁。"
+    ],
+    "Chinese (Traditional)": [
+      "當裝備著此職業, 減輕 20% 傷害。",
+      "當裝備著此職業, 對 元素異常狀態 免疫。",
+      "當裝備著此職業, 回合結束時對敵方附加 1個<sprite name=Hp> 體力上限。",
+      "當裝備著此職業, 回合結束時對敵方附加 1個抑鬱。"
+    ],
+    "Japanese": [
+      "この職業はメイン時、受けるダメージを20%軽減する。",
+      "この職業はメイン時、元素状態異常に免疫する。",
+      "この職業はメイン時、ターン終了時敵に1つの<sprite name=Hp> 体力最大値状態を付与する。",
+      "この職業はメイン時、ターン終了時敵に1つの抑鬱状態を付与する。"
+    ],
+    "French": [
+      "Réduit les dégats subits de 20% pendant que le job est actif .",
+      "Immunité à Effet de Status Elémentaire  pendant que le job est actif",
+      "Inflige 1 HP Max <sprite name=Hp> à l'adversaire à la fin de chaque tour  pendant que le job est actif .",
+      "Inflige 1 Dépression à l'adversaire à la fin de chaque tour  pendant que le job est actif ."
+    ],
+    "Italian": [
+      "Riduce il danno ricevuto di 20%finché il lavoro è attivo.",
+      "Immune a Afflizione Elementalefinché il lavoro è attivo.",
+      "Causa 1 PV Mas. <sprite name=Hp> al tuo avversario alla fine di ogni turnofinché il lavoro è attivo.",
+      "Causa 1 Depressione al tuo avversario alla fine di ogni turnofinché il lavoro è attivo."
+    ],
+    "Portuguese": [
+      "Reduz o dano recebido em 20% enquanto o trabalho estiver ativo .",
+      "Imune a Aflição Elemental enquanto o trabalho estiver ativo .",
+      "Cause 1 PV Máx <sprite name=Hp> em seu oponente ao final de cada turno enquanto o trabalho estiver ativo .",
+      "Cause 1 Depressão em seu oponente ao final de cada turno enquanto o trabalho estiver ativo ."
+    ],
+    "Korean": [
+      "이 직업을 장착하고 있을 때, 받는 피해가 20% 감소한다.",
+      "이 직업을 장착하고 있을 때,원소 상태 효과에 면역이 된다.",
+      "이 직업을 장착하고 있을 때, 턴 종료 시 적에게 1개의<sprite name=Hp> 최대HP 상태를 부여한다.",
+      "이 직업을 장착하고 있을 때, 턴 종료 시 적에게 1개의우울증 상태를 부여한다."
+    ],
+    "Spanish": [
+      "Reduce el daño recibido en un 20% mientras el Trabajo está activo .",
+      "Inmune a Efecto de Estado Elemental mientras el Trabajo está activo .",
+      "Inflinge 1 V.Máx <sprite name=Hp> al oponente al final de tu turno mientras el Trabajo está activo .",
+      "Inflinge 1 Deprimir al oponente al final de tu turno mientras el Trabajo está activo ."
+    ],
+    "Russian": [
+      "Уменьшает получаемый урон на 20%, если роль активна.",
+      "Иммунитет к Эффект Стихии, если роль активна.",
+      "Наносит 1 Макс ХП <sprite name=Hp> противнику в конце хода, если роль активна.",
+      "Наносит 1 Депрессия противнику в конце хода, если роль активна."
+    ],
+    "German": [
+      "Reduziere den erlittenen Schaden um 20% während der Job aktiv ist .",
+      "Immun zu Elementarer Statuseffekt während der Job aktiv ist .",
+      "Füge dem Gegner zu Rundenende 1 Max HP <sprite name=Hp> zu während der Job aktiv ist .",
+      "Füge dem Gegner zu Rundenende 1 Depression zu während der Job aktiv ist ."
+    ],
+    "Vietnamese": [
+      "Giảm 20% sát thương khi Chức Nghiệp được kích hoạt.",
+      "Miễn nhiễm với Hiệu Ứng Nguyên Tố Xấu khi Chức Nghiệp được kích hoạt .",
+      "Gây 1 Max HP <sprite name=Hp> cho đối thủ vào cuối mỗi lượt khi Chức Nghiệp được kích hoạt .",
+      "Gây 1 Trầm Cảm cho đối thủ vào cuối mỗi lượt khi Chức Nghiệp được kích hoạt ."
+    ],
+    "Indonesian": [
+      "Mengurangi damage diterima sebesar 20% saat job aktif .",
+      "Kebal terhadap Elemental Status Effect saat job aktif .",
+      "Berikan 1 <sprite name=Hp> Max HP pada lawan tiap akhir giliran  saat job aktif .",
+      "Berikan 1 Depress pada lawan tiap akhir giliran  saat job aktif ."
+    ],
+    "Arabic": [
+      "تقليل الضرر المكتسب بـ 20%  بينما تكون المهنة في الوسط .",
+      "محصن ضد موعرقلات متعلقة بالعناصر  بينما تكون المهنة في الوسط .",
+      "ضع 1 نقاط الصحة على العدو في نهاية كل دور  بينما تكون المهنة في الوسط .",
+      "ضع 1 اكتئاب على العدو في نهاية كل دور  بينما تكون المهنة في الوسط ."
+    ],
+    "Turkish": [
+      "Rol aktifken alınan hasar 20% azalır.",
+      "Rol aktifken Elemental Durum Etkisi etkisine karşı bağışıklık sağlar.",
+      "Rol aktifken her turun sonunda düşmana 1 <sprite name=Hp> Maks CP uygulanır.",
+      "Rol aktifken her turun sonunda düşmana 1 Depresyon uygulanır."
+    ]
+  },
+  {
+    "PassiveKey": "Eater Of Unruly Souls",
+    "English": [
+      "AlwaysActive",
+      "Gain Invulnerable according to multiplier 1.",
+      "For every damage dealt, gain Rage; its damage bonus scales with 2.",
+      "Deal 4% Int damage to the enemy at the end of turn."
+    ]
+  },
+  {
+    "PassiveKey": "Snake Year",
+    "English": [
+      "AlwaysActive",
+      "Give 2 Dark Action Buff whenever Dark Combo triggers.",
+      "When attacked, gain Protect equal to 30% of damage received.",
+      "When attacked, reflect 3% Int damage to the enemy."
+    ]
+  },
+  {
+    "PassiveKey": "Lunar Warmth",
+    "English": [
+      "AlwaysActive",
+      "Convert 25% of excess Heal into Protect per stack 3.",
+      "Immune to Chill.",
+      "Gain 2 Protect Enhance after every action."
+    ]
+  },
+  {
+    "PassiveKey": "Guiding Lantern",
+    "English": [
+      "AlwaysActive",
+      "AlwaysActive",
+      "Add 1 to default Action.",
+      "Gain 2 Light Action Buff after every action."
+    ]
+  },
+  {
+    "PassiveKey": "Power Armored Soldier",
+    "English": [
+      "AlwaysActive",
+      "Half damage-over-time effects received.",
+      "Boost Agi by 10%.",
+      "Deal 2% Agi damage to the enemy after every action."
+    ]
+  },
+  {
+    "PassiveKey": "Veteran Psionic Warrior",
+    "English": [
+      "AlwaysActive",
+      "AlwaysActive",
+      "Boost Int by 20%.",
+      "Start combat with 3% MaxHP Protect."
+    ]
+  },
+  {
+    "PassiveKey": "Arthropod Mutation",
+    "English": [
+      "AlwaysActive",
+      "AlwaysActive",
+      "For every damage dealt, gain Rage; its damage bonus scales with 4.",
+      "Recover 3% MaxHP health at the end of turn."
+    ]
+  },
+  {
+    "PassiveKey": "Four Fisted Brute",
+    "English": [
+      "For every damage dealt, gain Rage; its damage bonus scales with 5.",
+      "Deal 4% Str damage to the enemy at the end of turn.",
+      "Deal 3% Str damage to the enemy after every action.",
+      "Deal 2% Str damage to the enemy after every action."
+    ],
+    "Chinese": [
+      "每当你攻击时, 获得并叠加此增益效果：提升自身2.5%对敌方造成的伤害。(回合结束时去除。伤害提升可达到15% )",
+      "当装备着此职业, 回合结束时对敌方造成 4% <sprite name=Str> 力量 伤害。",
+      "当装备着此职业, 每个行动之后对敌方造成 3% <sprite name=Str> 力量 伤害。",
+      "当装备着此职业, 每个行动之后对敌方造成 2% <sprite name=Str> 力量 伤害。"
+    ],
+    "Chinese (Traditional)": [
+      "每當你攻擊時, 獲得並疊加此增益效果：提升自身2.5%對敵方造成的傷害。(回合结束時去除。傷害提升可達到15% )",
+      "當裝備著此職業, 回合结束時對敵方造成 4% <sprite name=Str> 力量 傷害。",
+      "當裝備著此職業, 每個行動之後對敵方造成 3% <sprite name=Str> 力量 傷害。",
+      "當裝備著此職業, 每個行動之後對敵方造成 2% <sprite name=Str> 力量 傷害。"
+    ],
+    "Japanese": [
+      "攻撃するたび、バフを1つ獲得：相手に与えるダメージが2.5%アップ（ターン終了時リムーブ。アップ上限15%）",
+      "この職業はメイン時、ターン終了時4% <sprite name=Str> 力だけ敵にダメージを与える。",
+      "この職業はメイン時、行動した後3% <sprite name=Str> 力だけ敵にダメージを与える。",
+      "この職業はメイン時、行動した後2% <sprite name=Str> 力だけ敵にダメージを与える。"
+    ],
+    "French": [
+      "Pour chaque instance de dégats infligée à l'ennemi, gagnez un buff : Boost les dégats infligés de 2.5% . (Retirées à la fin du tour. Le boost de dégats à une limite de 15% )",
+      "Inflige 4% Force <sprite name=Str> dégats à l'adversaire à la fin de chaque tour  pendant que le job est actif .",
+      "Inflige 3% Force <sprite name=Str> dégat à l'adversaire à la fin de chaque action  pendant que le job est actif .",
+      "Inflige 2% Force <sprite name=Str> dégat à l'adversaire à la fin de chaque action  pendant que le job est actif ."
+    ],
+    "Italian": [
+      "Ogni volta che infliggi danni al tuo avversario, guadagni il seguente potenziamento: Ad ogni carica accumulata, aumenta il tuo danno di 2.5%. (Rimosso alla fine del turno. L'aumento del danno è limitato a 15%.)",
+      "Causa 4% Forza <sprite name=Str> di danno al tuo avversario alla fine di ogni turnofinché il lavoro è attivo.",
+      "Causa 3% Forza <sprite name=Str> di danno al tuo avversario alla fine di ogni azionefinché il lavoro è attivo.",
+      "Causa 2% Forza <sprite name=Str> di danno al tuo avversario alla fine di ogni azionefinché il lavoro è attivo."
+    ],
+    "Portuguese": [
+      "A cada instância de dano causado ao seu oponente, ganhe o seguinte buff: A cada carga acumulada, impulsione o seu dano em 2.5% . (Removido ao final do turno. O impulso de dano é limitado à 15% .)",
+      "Cause 4% Força <sprite name=Str> de dano em seu oponente ao final de cada turno enquanto o trabalho estiver ativo .",
+      "Cause 3% Força <sprite name=Str> de dano em seu oponente ao final de cada ação enquanto o trabalho estiver ativo .",
+      "Cause 2% Força <sprite name=Str> de dano em seu oponente ao final de cada ação enquanto o trabalho estiver ativo ."
+    ],
+    "Korean": [
+      "공격할 때마다 버프 1개 획득: 상대에게 주는 대미지가 2.5% 증가(턴 종료 시 제거. 증가 상한 15%)",
+      "이 직업을 장착하고 있을 때, 턴 종료 시 4% <sprite name=Str> 힘만큼만 적에게 피해를 입힙니다.",
+      "이 직업을 장착하고 있을 때, 행동 후 3% <sprite name=Str> 힘만큼만 적에게 피해를 입힙니다.",
+      "이 직업을 장착하고 있을 때, 행동 후 2% <sprite name=Str> 힘만큼만 적에게 피해를 입힙니다."
+    ],
+    "Spanish": [
+      "Cada vez que dañas al oponente, gana una mejora aditiva:Aumenta el daño infligido en un 2.5% . (Removido al final del turno. Este daño deja de aumentar al 15% ).",
+      "Haz un 4% Fuerza <sprite name=Str> de daño al oponente al final de tu turno mientras el Trabajo está activo .",
+      "Inflinge un 3% Fuerza <sprite name=Str> de daño al oponente al final de cada acción mientras el Trabajo está activo .",
+      "Inflinge un 2% Fuerza <sprite name=Str> de daño al oponente al final de cada acción mientras el Trabajo está activo ."
+    ],
+    "Russian": [
+      "Даёт стек бафф за каждый урон по противнику. Увеличивает урон на 2.5% . (Действует до конца хода. Предел увеличения урона - 15% ).",
+      "Наносит 4% Сила <sprite name=Str> урона противнику в конце хода, если роль активна.",
+      "Наносит 3% Сила <sprite name=Str> урона противнику в конце действия, если роль активна.",
+      "Наносит 2% Сила <sprite name=Str> урона противнику в конце действия, если роль активна."
+    ],
+    "German": [
+      "Für jede Instanz des ausgeteilten Schadens, erhalte einen stackenden Buff: Erhöht den ausgeteilten Schaden um 2.5% . (Entfernt zu Rundenende. Schadensbonus maximiert ab 15% )",
+      "Teile zu Rundenende am Gegner 4% Stärke <sprite name=Str> Schaden aus während der Job aktiv ist .",
+      "Nach jeder Aktion wird dem Gegner 3% Stärke <sprite name=Str> ausgeteilt während der Job aktiv ist .",
+      "Nach jeder Aktion wird dem Gegner 2% Stärke <sprite name=Str> ausgeteilt während der Job aktiv ist ."
+    ],
+    "Vietnamese": [
+      "Với mỗi đòn đánh gây ra cho kẻ thù, nhận một buff cộng dồn: Đối với mỗi tầng cộng dồn, tăng 2.5% sát thương gây ra . (Loại bỏ vào cuối lượt. Giới hạn tăng sát thương 15% )",
+      "Gây sát thương tương đương 4% Sức Mạnh <sprite name=Str> cho đối thủ vào cuối mỗi lượt khi Chức Nghiệp được kích hoạt .",
+      "Gây sát thương tương đương 3% Sức Mạnh <sprite name=Str> cho đối thủ cuối mỗi hành động khi Chức Nghiệp được kích hoạt .",
+      "Gây sát thương tương đương 2% Sức Mạnh <sprite name=Str> cho đối thủ cuối mỗi hành động khi Chức Nghiệp được kích hoạt ."
+    ],
+    "Indonesian": [
+      "Untuk setiap jumlah damage yang diberikan pada lawan, dapat satu stack buff: Boost damage yang diberikan sebesar 2.5% . (Dihapus pada akhir giliran. Damage boost maks 15% )",
+      "Berikan 4% <sprite name=Str> Strength damage pada lawan tiap akhir giliran  saat job aktif .",
+      "Berikan 3% <sprite name=Str> Strength damage pada lawan tiap akhir aksi  saat job aktif .",
+      "Berikan 2% <sprite name=Str> Strength damage pada lawan tiap akhir aksi  saat job aktif ."
+    ],
+    "Arabic": [
+      "لكل حالة من حالات الضرر التي لحقت بالعدو، احصل على مكدس بوف: زيادة الضرر الذي تم إلحاق بـ 2.5% . (إزالته في نهاية الدور. توقف زيادة الضرر عند 15% )",
+      "يسبب الضرر 4% القوة بالعدو في نهاية كل دور  بينما تكون المهنة في الوسط .",
+      "يسبب الضرر 3% القوة بالعدو في نهاية كل تصرف  بينما تكون المهنة في الوسط .",
+      "يسبب الضرر 2% القوة بالعدو في نهاية كل تصرف  بينما تكون المهنة في الوسط ."
+    ],
+    "Turkish": [
+      "Düşmana verilen her hasar için şu yığın güçlendirmesini kazanırsın: Verilen hasar 2.5% artar. (Tur sonunda kaldırılır. Hasar artırımı en fazla 15% olabilir)",
+      "Rol aktifken her turun sonunda düşmana 4% <sprite name=Str> Kuvvet hasar verir.",
+      "Rol aktifken her aksiyonun sonunda düşmana 3% <sprite name=Str> Kuvvet hasar verir.",
+      "Rol aktifken her aksiyonun sonunda düşmana 2% <sprite name=Str> Kuvvet hasar verir."
+    ]
+  },
+  {
+    "PassiveKey": "Mindbending Specialist",
+    "English": [
+      "Add 1 to default Draw.",
+      "Boost Int by 30%.",
+      "Inflict 1 Confuse on the opponent at the end of turn.",
+      "Apply 1 Insane to the enemy after every action."
+    ],
+    "Chinese": [
+      "获得 手牌 1。",
+      "增加<sprite name=Int> 智力30%。(叠加上限5 )",
+      "当装备着此职业, 回合结束时对敌方附加 1个混乱。",
+      "当装备着此职业, 每个行动之后对敌方施加 1个疯癫。"
+    ],
+    "Chinese (Traditional)": [
+      "獲得 手牌 1。",
+      "增加<sprite name=Int> 智力30%。 (疊加上限5 )",
+      "當裝備著此職業, 回合結束時對敵方附加 1個混亂。",
+      "當裝備著此職業, 每個行動之後對敵方施加 1個瘋癲。"
+    ],
+    "Japanese": [
+      "手札 1を獲得する。",
+      "<sprite name=Int> 知属性が30%増加する。（重ねがけ上限5）",
+      "この職業はメイン時、ターン終了時敵に1つの混乱状態を付与する。",
+      "この職業はメイン時、行動した後敵に1つの狂気状態を付与する。"
+    ],
+    "French": [
+      "Gagnez Piocher 1 .",
+      "Boost la Intelligence <sprite name=Int> de 30% pour chaque stack (Max 5 stacks).",
+      "Inflige 1 Confusion à l'adversaire à la fin de chaque tour  pendant que le job est actif .",
+      "Inflige 1 Folie à l'adversaire à la fin de chaque action  pendant que le job est actif ."
+    ],
+    "Italian": [
+      "Guadagna Pesca 1.",
+      "Potenzia l'attributo di Intelligenza <sprite name=Int> in 30% per ogni carica. (Massimo 5.)",
+      "Causa 1 Confusione al tuo avversario alla fine di ogni turnofinché il lavoro è attivo.",
+      "Causa 1 Insania al tuo avversario alla fine di ogni azionefinché il lavoro è attivo."
+    ],
+    "Portuguese": [
+      "Ganha Saque 1 .",
+      "Impulsione o atributo de Inteligência <sprite name=Int> em 30% para cada carga. (Máx 5 .)",
+      "Cause 1 Confusão em seu oponente ao final de cada turno enquanto o trabalho estiver ativo .",
+      "Cause 1 Insanidade em seu oponente ao final de cada ação enquanto o trabalho estiver ativo ."
+    ],
+    "Korean": [
+      "핸드 1을 획득한다.",
+      "<sprite name=Int> 지능 속성이 30% 증가한다. (중첩 상한5)",
+      "이 직업을 장착하고 있을 때, 턴 종료 시 적에게 1개의혼동 상태를 부여한다.",
+      "이 직업을 장착하고 있을 때, 행동 후 적에게 1개의미친 상태를 부여한다."
+    ],
+    "Spanish": [
+      "Gana Robar 1 .",
+      "Mejora Inteligencia <sprite name=Int> en un 30% . Max. 5 instancias.",
+      "Inflinge 1 Confundir al oponente al final de tu turno mientras el Trabajo está activo .",
+      "Inflinge 1 Insanía al oponente al final de cada acción mientras el Trabajo está activo ."
+    ],
+    "Russian": [
+      "Даёт Добор 1.",
+      "Усиливает Интеллект <sprite name=Int> на 30% за каждый стек (Макс. 5 стека).",
+      "Наносит 1 Замешательство противнику в конце хода, если роль активна.",
+      "Наносит 1 Безумие противнику в конце действия, если роль активна."
+    ],
+    "German": [
+      "Erhalte Ziehe 1 .",
+      "Booste Intelligenz <sprite name=Int> um 30% pro Stack (Max 5 Stacks).",
+      "Füge dem Gegner zu Rundenende 1 Verwirrung zu während der Job aktiv ist .",
+      "Füge dem Gegner nach jeder Aktion 1 Wahnsinn zu während der Job aktiv ist ."
+    ],
+    "Vietnamese": [
+      "Nhận được Rút 1 .",
+      "Tăng Cường Trí Tuệ <sprite name=Int> thêm 30% cho mỗi tầng (Tối đa 5 tầng).",
+      "Gây 1 Bối Rối cho đối thủ vào cuối mỗi lượt khi Chức Nghiệp được kích hoạt .",
+      "Gây 1 Điên Loạn cho đối thủ cuối mỗi hành động khi Chức Nghiệp được kích hoạt ."
+    ],
+    "Indonesian": [
+      "Mendapat Draw 1 .",
+      "Boost <sprite name=Int> Intelligence sebesar 30% untuk tiap stack (Maks 5 stack).",
+      "Berikan 1 Confuse pada lawan tiap akhir giliran  saat job aktif .",
+      "Berikan 1 Insane pada lawan tiap akhir aksi  saat job aktif ."
+    ],
+    "Arabic": [
+      "كسب اسحب 1 .",
+      "زيادة الذكاء بمقدار 30% لكل مكدس (الحد الأقصى 5 مكدسات).",
+      "ضع 1 ارباك على العدو في نهاية كل دور  بينما تكون المهنة في الوسط .",
+      "ضع 1 جنون على العدو في نهاية كل تصرف  بينما تكون المهنة في الوسط ."
+    ],
+    "Turkish": [
+      "1 Çek kazan.",
+      "Her yığın için <sprite name=Int> Zeka değeri 30% kadar yükseltilir (Maks istifleme 5).",
+      "Rol aktifken her turun sonunda düşmana 1 Kargaşa uygulanır.",
+      "Rol aktifken her aksiyonun sonunda düşmana 1 Delilik uygulanır."
+    ]
+  },
+  {
+    "PassiveKey": "The Withering Skeletons",
+    "English": [
+      "AlwaysActive",
+      "When attacked, reflect 1% Str damage to the enemy.",
+      "When attacked, reflect 1% Str damage to the enemy.",
+      "When attacked, reflect 2% Int damage to the enemy."
+    ]
+  },
+  {
+    "PassiveKey": "Bunny Girl Sisters",
+    "English": [
+      "AlwaysActive",
+      "Immune to stat Debuffs.",
+      "Inflict 1 Protect Pierce after every action.",
+      "Start combat with Charge/Stack Charge according to multiplier 3."
+    ]
+  },
+  {
+    "PassiveKey": "Katana Maiden",
+    "English": [
+      "Half damage-over-time effects received.",
+      "When attacked, reflect 2% Agi damage to the enemy.",
+      "Deal 6% Str damage to the enemy at the end of turn."
+    ]
+  },
+  {
+    "PassiveKey": "Dagger Mistress",
+    "English": [
+      "On receiving Restrain, heal based on Agi and gain Agi Instant Boost per stack.",
+      "When attacked, reflect 2% Int damage to the enemy.",
+      "JobOn"
+    ]
+  },
+  {
+    "PassiveKey": "Spring Affinity",
+    "English": [
+      "AlwaysActive",
+      "JobOn",
+      "Recover 4% Str health at the end of turn.",
+      "Inflict 1 Seed on the opponent at the end of turn."
+    ]
+  },
+  {
+    "PassiveKey": "White Fangs Legacy",
+    "English": [
+      "Increase raw damage, healing and Protect values based on level.",
+      "AlwaysActive",
+      "Boost Agi by 20%.",
+      "Gain 6 Agi Action Buff at the end of turn."
+    ]
+  },
+  {
+    "PassiveKey": "Attack Titan",
+    "English": [
+      "Boost Str by 20%.",
+      "Boost MaxHP by 20%.",
+      "Recover 1% MaxHP health at the end of turn.",
+      "Gain 1 Second Chance at the start of combat."
+    ],
+    "Chinese": [
+      "增加<sprite name=Str> 力量20%。(叠加上限5 )",
+      "增加<sprite name=Hp> 体力上限20%。(叠加上限5 )",
+      "当装备着此职业, 回合结束时恢复 1% <sprite name=Hp> 体力上限 体力。",
+      "战斗开始时获得 1个二次机会 效果。"
+    ],
+    "Chinese (Traditional)": [
+      "增加<sprite name=Str> 力量20%。 (疊加上限5 )",
+      "增加<sprite name=Hp> 體力上限20%。 (疊加上限5 )",
+      "當裝備著此職業, 回合结束時恢復 1% <sprite name=Hp> 體力上限 體力。",
+      "戰鬥開始時獲得 1個二次機會 效果。"
+    ],
+    "Japanese": [
+      "<sprite name=Str> 力属性が20%増加する。（重ねがけ上限5）",
+      "<sprite name=Hp> 体力最大値属性が20%増加する。（重ねがけ上限5）",
+      "この職業はメイン時、ターン終了時1% <sprite name=Hp> 体力最大値だけ体力を回復する。",
+      "戦闘開始時、自身に1つのセカンドチャンスを付与する。"
+    ],
+    "French": [
+      "Boost la Force <sprite name=Str> de 20% pour chaque stack (Max 5 stacks).",
+      "Boost la HP Max <sprite name=Hp> de 20% pour chaque stack (Max 5 stacks).",
+      "Soigne 1% HP Max <sprite name=Hp> de vie à la fin de chaque tour  pendant que le job est actif .",
+      "Commence le combat avec 1 Seconde Chance"
+    ],
+    "Italian": [
+      "Potenzia l'attributo di Forza <sprite name=Str> in 20% per ogni carica. (Massimo 5.)",
+      "Potenzia l'attributo di PV Mas. <sprite name=Hp> in 20% per ogni carica. (Massimo 5.)",
+      "Recupera 1% PV Mas. <sprite name=Hp> di vita alla fine di ogni turnofinché il lavoro è attivo.",
+      "Inizia il combattimento con 1 Seconda Possibilità."
+    ],
+    "Portuguese": [
+      "Impulsione o atributo de Força <sprite name=Str> em 20% para cada carga. (Máx 5 .)",
+      "Impulsione o atributo de PV Máx <sprite name=Hp> em 20% para cada carga. (Máx 5 .)",
+      "Recupere 1% PV Máx <sprite name=Hp> de vida ao final de cada turno enquanto o trabalho estiver ativo .",
+      "Comece o combate com 1 Segunda Chance ."
+    ],
+    "Korean": [
+      "<sprite name=Str> 힘 속성이 20% 증가한다. (중첩 상한5)",
+      "<sprite name=Hp> 최대HP 속성이 20% 증가한다. (중첩 상한5)",
+      "이 직업을 장착하고 있을 때,턴 종료 시 1% <sprite name=Hp> 최대HP만 체력을 회복한다.",
+      "전투 시작 시 자신에게 1개의두 번째 기회을 부여한다."
+    ],
+    "Spanish": [
+      "Mejora Fuerza <sprite name=Str> en un 20% . Max. 5 instancias.",
+      "Mejora V.Máx <sprite name=Hp> en un 20% . Max. 5 instancias.",
+      "Recupera un 1% V.Máx <sprite name=Hp> de vida al final de tu turno mientras el Trabajo está activo .",
+      "Empieza el combate con 1 Segunda Oportunidad ."
+    ],
+    "Russian": [
+      "Усиливает Сила <sprite name=Str> на 20% за каждый стек (Макс. 5 стека).",
+      "Усиливает Макс ХП <sprite name=Hp> на 20% за каждый стек (Макс. 5 стека).",
+      "Исцеляет 1% Макс ХП <sprite name=Hp> в конце хода, если роль активна.",
+      "Бой начинается с 1 Второй Шанс ."
+    ],
+    "German": [
+      "Booste Stärke <sprite name=Str> um 20% pro Stack (Max 5 Stacks).",
+      "Booste Max HP <sprite name=Hp> um 20% pro Stack (Max 5 Stacks).",
+      "Heile zu Rundenende 1% Max HP <sprite name=Hp> deines Lebens während der Job aktiv ist .",
+      "Starte den Kampf mit 1 Zweite Chance ."
+    ],
+    "Vietnamese": [
+      "Tăng Cường Sức Mạnh <sprite name=Str> thêm 20% cho mỗi tầng (Tối đa 5 tầng).",
+      "Tăng Cường Max HP <sprite name=Hp> thêm 20% cho mỗi tầng (Tối đa 5 tầng).",
+      "Phục hồi HP tương đương 1% Max HP <sprite name=Hp> vào cuối mỗi lượt khi Chức Nghiệp được kích hoạt .",
+      "Bắt đầu trận chiến với 1 Cơ Hội Thứ Hai ."
+    ],
+    "Indonesian": [
+      "Boost <sprite name=Str> Strength sebesar 20% untuk tiap stack (Maks 5 stack).",
+      "Boost <sprite name=Hp> Max HP sebesar 20% untuk tiap stack (Maks 5 stack).",
+      "Pulihkan 1% <sprite name=Hp> Max HP health setiap akhir giliran  saat job aktif .",
+      "Mulai pertarungan dengan 1 Second Chance ."
+    ],
+    "Arabic": [
+      "زيادة القوة بمقدار 20% لكل مكدس (الحد الأقصى 5 مكدسات).",
+      "زيادة نقاط الصحة بمقدار 20% لكل مكدس (الحد الأقصى 5 مكدسات).",
+      "استرداد 1% نقاط الصحة الصحة في نهاية كل دور  بينما تكون المهنة في الوسط .",
+      "ابدأ القتال مع 1 فرصة ثانية ."
+    ],
+    "Turkish": [
+      "Her yığın için <sprite name=Str> Kuvvet değeri 20% kadar yükseltilir (Maks istifleme 5).",
+      "Her yığın için <sprite name=Hp> Maks CP değeri 20% kadar yükseltilir (Maks istifleme 5).",
+      "Rol aktifken her turun sonunda 1% <sprite name=Hp> Maks CP can kazanılır.",
+      "Mücadeleyi 1 İkinci Şans ile başlatır."
+    ]
+  },
+  {
+    "PassiveKey": "Achievement Hunter",
+    "English": [
+      "Increase raw damage, healing and Protect values based on level.",
+      "AlwaysActive",
+      "AlwaysActive",
+      "AlwaysActive"
+    ]
+  },
+  {
+    "PassiveKey": "Miracle Survivor",
+    "English": [
+      "AlwaysActive",
+      "Half damage-over-time effects received.",
+      "Gain Invulnerable according to multiplier 3.",
+      "Start combat with 2 Pure element."
+    ]
+  },
+  {
+    "PassiveKey": "Spring Scramble Contestant",
+    "English": [
+      "AsBuff",
+      "Inflict 1 Str Debuff on the opponent at the end of turn.",
+      "Inflict 1 Agi Debuff on the opponent at the end of turn.",
+      "Inflict 1 Int Debuff on the opponent at the end of turn."
+    ]
+  },
+  {
+    "PassiveKey": "Identity Thief",
+    "English": [
+      "AlwaysActive",
+      "For every direct damage received, gain Instinct; its reduction scales with 3.",
+      "Gain 1 Second Chance at the start of combat."
+    ]
+  },
+  {
+    "PassiveKey": "Ooze Of Filth",
+    "English": [
+      "AlwaysActive",
+      "On receiving Venom, heal based on Str and gain Str Instant Boost per stack.",
+      "Recover 1% MaxHP health at the end of turn.",
+      "Apply 1 Insane to the enemy after every action."
+    ]
+  },
+  {
+    "PassiveKey": "Super Goo Body",
+    "English": [
+      "Reduce damage received by 20% while the job is active.",
+      "Enemy gains 2 Venom for damaging you.",
+      "Enemy gains 2 Restrain for damaging you."
+    ]
+  },
+  {
+    "PassiveKey": "Purest Bug",
+    "English": [
+      "AlwaysActive",
+      "Immune to elemental status effects (multiplier 2 controls scope).",
+      "Half damage-over-time effects received.",
+      "Convert 25% of excess Heal into Protect per stack 2."
+    ]
+  },
+  {
+    "PassiveKey": "Cursed Parasite",
+    "English": [
+      "AlwaysActive",
+      "AlwaysActive",
+      "AlwaysActive",
+      "Gain 1 Second Chance at the start of combat."
+    ]
+  },
+  {
+    "PassiveKey": "Shaded Barkskin",
+    "English": [
+      "Reduce damage received by 20% while the job is active.",
+      "Gain 2 Earth Action Buff after every action.",
+      "Start combat with 2 Dark element."
+    ],
+    "Chinese": [
+      "当装备着此职业, 减轻 20% 伤害。",
+      "当装备着此职业, 每个行动之后获得 2个土。",
+      "战斗开始时获得 2个暗元素 效果。"
+    ],
+    "Chinese (Traditional)": [
+      "當裝備著此職業, 減輕 20% 傷害。",
+      "當裝備著此職業, 每個行動之後獲得 2個土。",
+      "戰鬥開始時獲得 2個暗元素 效果。"
+    ],
+    "Japanese": [
+      "この職業はメイン時、受けるダメージを20%軽減する。",
+      "この職業はメイン時、行動した後2つの土状態を受ける。",
+      "戦闘開始時、自身に2つの闇 元素を付与する。"
+    ],
+    "French": [
+      "Réduit les dégats subits de 20% pendant que le job est actif .",
+      "Gagne 2 Terre à la fin de chaque action  pendant que le job est actif .",
+      "Commence le combat avec 2 Elément Ténèbres"
+    ],
+    "Italian": [
+      "Riduce il danno ricevuto di 20%finché il lavoro è attivo.",
+      "Guadagna 2 Terra alla fine di ogni azionefinché il lavoro è attivo.",
+      "Inizia il combattimento con 2 Elemento di Oscurità."
+    ],
+    "Portuguese": [
+      "Reduz o dano recebido em 20% enquanto o trabalho estiver ativo .",
+      "Ganhe 2 Terra ao final de cada ação enquanto o trabalho estiver ativo .",
+      "Comece o combate com 2 Elemento de Escuridão ."
+    ],
+    "Korean": [
+      "이 직업을 장착하고 있을 때, 받는 피해가 20% 감소한다.",
+      "이 직업을 장착하고 있을 때, 행동 후 2개의대지 상태를 받는다.",
+      "전투 시작 시 자신에게 2개의어둠 원소을 부여한다."
+    ],
+    "Spanish": [
+      "Reduce el daño recibido en un 20% mientras el Trabajo está activo .",
+      "Gana 2 Tierra al final de cada acción.",
+      "Empieza el combate con 2 Elemento Oscuridad ."
+    ],
+    "Russian": [
+      "Уменьшает получаемый урон на 20%, если роль активна.",
+      "Даёт 2 Земля в конце действия, если роль активна .",
+      "Бой начинается с 2 Стихия Тьма ."
+    ],
+    "German": [
+      "Reduziere den erlittenen Schaden um 20% während der Job aktiv ist .",
+      "Erhalte 2 Erde nach jeder Aktion während der Job aktiv ist .",
+      "Starte den Kampf mit 2 Finsternis Element ."
+    ],
+    "Vietnamese": [
+      "Giảm 20% sát thương khi Chức Nghiệp được kích hoạt.",
+      "Nhận 2 Đất cuối mỗi hành động khi Chức Nghiệp được kích hoạt .",
+      "Bắt đầu trận chiến với 2 Nguyên Tố Bóng Tối ."
+    ],
+    "Indonesian": [
+      "Mengurangi damage diterima sebesar 20% saat job aktif .",
+      "Mendapat 2 Earth pada tiap akhir aksi  saat job aktif .",
+      "Mulai pertarungan dengan 2 Dark Element ."
+    ],
+    "Arabic": [
+      "تقليل الضرر المكتسب بـ 20%  بينما تكون المهنة في الوسط .",
+      "كسب 2 ارض في نهاية كل تصرف  بينما تكون المهنة في الوسط .",
+      "ابدأ القتال مع 2 عنصر ظلمات ."
+    ],
+    "Turkish": [
+      "Rol aktifken alınan hasar 20% azalır.",
+      "Rol aktifken her aksiyonun sonunda 2 Toprak kazanılır.",
+      "Mücadeleyi 2 Karanlık Elementi ile başlatır."
+    ]
+  },
+  {
+    "PassiveKey": "Record Keeper",
+    "English": [
+      "AlwaysActive",
+      "Add 1 to default Action.",
+      "Half damage-over-time effects received."
+    ]
+  },
+  {
+    "PassiveKey": "Galactic Arsenal",
+    "English": [
+      "AlwaysActive",
+      "Add 2 to default Draw.",
+      "Reduce default Action by 1.",
+      "Gain 3 Gamble Token at the end of turn."
+    ]
+  },
+  {
+    "PassiveKey": "Spacejunk Scavenger",
+    "English": [
+      "Increase raw damage, healing and Protect values based on level.",
+      "Grind",
+      "Add 1 to default Action.",
+      "Recover 3% Protect health after every action."
+    ]
+  },
+  {
+    "PassiveKey": "Terrifying Vocabulary",
+    "English": [
+      "AlwaysActive",
+      "Boost Str by 10%.",
+      "Deal 2% Str damage to the enemy after every action.",
+      "Apply 2 Insane to the enemy after every action."
+    ]
+  },
+  {
+    "PassiveKey": "Arcane Instability",
+    "English": [
+      "AlwaysActive",
+      "Deal 2% Int damage to the enemy after every action.",
+      "Gain 2 Int Buff at the start of combat.",
+      "For every damage dealt, gain Rage; its damage bonus scales with 2."
+    ]
+  },
+  {
+    "PassiveKey": "Fourth Wall Mastery",
+    "English": [
+      "AlwaysActive",
+      "AlwaysActive",
+      "Gain 1 Certain at the start of combat."
+    ]
+  },
+  {
+    "PassiveKey": "Eye Of The Solarian",
+    "English": [
+      "AlwaysActive",
+      "Increase raw damage, healing and Protect values based on level.",
+      "AlwaysActive",
+      "Convert 25% of excess Heal into Protect per stack 2."
+    ]
+  },
+  {
+    "PassiveKey": "Photovoltaic Pulse",
+    "English": [
+      "AlwaysActive",
+      "JobOn",
+      "When attacked, reflect 1% MaxHP damage to the enemy.",
+      "Recover 1% MaxHP health at the end of turn."
+    ]
+  },
+  {
+    "PassiveKey": "Shark Aura",
+    "English": [
+      "AlwaysActive",
+      "AlwaysActive",
+      "Boost MaxHP by 20%.",
+      "When the enemy suffers Bleed damage, heal for half of that damage."
+    ]
+  },
+  {
+    "PassiveKey": "Perfect Beach Body",
+    "English": [
+      "AlwaysActive",
+      "JobOn",
+      "Immune to elemental status effects (multiplier 0 controls scope).",
+      "When attacked, reflect 2% Str damage to the enemy."
+    ]
+  },
+  {
+    "PassiveKey": "Wave Resonance",
+    "English": [
+      "AlwaysActive",
+      "AlwaysActive",
+      "AlwaysActive",
+      "Deal 2% Agi damage to the enemy after every action."
+    ]
+  },
+  {
+    "PassiveKey": "Tengen Toppa",
+    "English": [
+      "AlwaysActive",
+      "AlwaysActive",
+      "Half damage-over-time effects received.",
+      "Inflict 2 Protect Pierce after every action."
+    ]
+  },
+  {
+    "PassiveKey": "Sacrificial Directive",
+    "English": [
+      "Apply 1 Restrain to the enemy after every action.",
+      "Apply 2 Venom to the enemy after every action.",
+      "Gain 1 Certain at the start of combat.",
+      "Gain 3 Int Buff at the start of combat."
+    ],
+    "Chinese": [
+      "当装备着此职业, 每个行动之后对敌方施加 1个拘束。",
+      "当装备着此职业, 每个行动之后对敌方施加 2个剧毒。",
+      "战斗开始时获得 1个必然 效果。",
+      "战斗开始时获得 3 <sprite name=Int> 智力增益 效果。"
+    ],
+    "Chinese (Traditional)": [
+      "當裝備著此職業, 每個行動之後對敵方施加 1個拘束。",
+      "當裝備著此職業, 每個行動之後對敵方施加 2個劇毒。",
+      "戰鬥開始時獲得 1個必然 效果。",
+      "戰鬥開始時獲得 3 <sprite name=Int> 智力增益 效果。"
+    ],
+    "Japanese": [
+      "この職業はメイン時、行動した後敵に1つの拘束状態を付与する。",
+      "この職業はメイン時、行動した後敵に2つの毒状態を付与する。",
+      "戦闘開始時、自身に1つの必然を付与する。",
+      "戦闘開始時、自身に3 <sprite name=Int> 知バフを付与する。"
+    ],
+    "French": [
+      "Inflige 1 Chaîne à l'adversaire à la fin de chaque action  pendant que le job est actif .",
+      "Inflige 2 Poison à l'adversaire à la fin de chaque action  pendant que le job est actif .",
+      "Commence le combat avec 1 Certitude",
+      "Commence le combat avec 3 Buff Intelligence <sprite name=Int>"
+    ],
+    "Italian": [
+      "Causa 1 Restrizione al tuo avversario alla fine di ogni azionefinché il lavoro è attivo.",
+      "Causa 2 Veleno al tuo avversario alla fine di ogni azionefinché il lavoro è attivo.",
+      "Inizia il combattimento con 1 Determinazione.",
+      "Inizia il combattimento con 3 Miglioramento Intelligenza <sprite name=Int>."
+    ],
+    "Portuguese": [
+      "Cause 1 Restrição em seu oponente ao final de cada ação enquanto o trabalho estiver ativo .",
+      "Cause 2 Veneno em seu oponente ao final de cada ação enquanto o trabalho estiver ativo .",
+      "Comece o combate com 1 Determinação .",
+      "Comece o combate com 3 Buff Inteligência <sprite name=Int> ."
+    ],
+    "Korean": [
+      "이 직업을 장착하고 있을 때, 행동 후 적에게 1개의구속 상태를 부여한다.",
+      "이 직업을 장착하고 있을 때, 행동 후 적에게 2개의독 상태를 부여한다.",
+      "전투 시작 시 자신에게 1개의불가피하게을 부여한다.",
+      "전투 시작 시 자신에게 3 <sprite name=Int> 지능 이득을 부여한다."
+    ],
+    "Spanish": [
+      "Inflinge 1 Restricción  al oponente al final de cada acción mientras el Trabajo está activo .",
+      "Inflinge 2 Veneno al oponente al final de cada acción mientras el Trabajo está activo .",
+      "Empieza el combate con 1 Certeza .",
+      "Empieza el combate con 3 Inteligencia <sprite name=Int> Mejora ."
+    ],
+    "Russian": [
+      "Наносит 1 Оковы противнику в конце действия, если роль активна.",
+      "Наносит 2 Яд противнику в конце действия, если роль активна.",
+      "Бой начинается с 1 Неудержимость .",
+      "Бой начинается с 3 Интеллект <sprite name=Int> Баффа ."
+    ],
+    "German": [
+      "Füge dem Gegner nach jeder Aktion 1 Fessel zu während der Job aktiv ist .",
+      "Füge dem Gegner nach jeder Aktion 2 Gift zu während der Job aktiv ist .",
+      "Starte den Kampf mit 1 Selbstsicher .",
+      "Starte den Kampf mit 3 Intelligenz <sprite name=Int> Buff ."
+    ],
+    "Vietnamese": [
+      "Gây 1 Xiềng Xích cho đối thủ cuối mỗi hành động khi Chức Nghiệp được kích hoạt .",
+      "Gây 2 Độc Tố cho đối thủ cuối mỗi hành động khi Chức Nghiệp được kích hoạt .",
+      "Bắt đầu trận chiến với 1 Chắc Chắn .",
+      "Bắt đầu trận chiến với 3 Buff Trí Tuệ <sprite name=Int> ."
+    ],
+    "Indonesian": [
+      "Berikan 1 Restrain pada lawan tiap akhir aksi  saat job aktif .",
+      "Berikan 2 Venom pada lawan tiap akhir aksi  saat job aktif .",
+      "Mulai pertarungan dengan 1 Certain .",
+      "Mulai pertarungan dengan 3 <sprite name=Int> Intelligence Buff ."
+    ],
+    "Arabic": [
+      "ضع 1 كبح على العدو في نهاية كل تصرف  بينما تكون المهنة في الوسط .",
+      "ضع 2 السم على العدو في نهاية كل تصرف  بينما تكون المهنة في الوسط .",
+      "ابدأ القتال مع 1 مؤكد .",
+      "ابدأ القتال مع  3 الذكاء بوف ."
+    ],
+    "Turkish": [
+      "Rol aktifken her aksiyonun sonunda düşmana 1 Kısıtlama uygulanır.",
+      "Rol aktifken her aksiyonun sonunda düşmana 2 Zehir uygulanır.",
+      "Mücadeleyi 1 Kaçınılmazlık ile başlatır.",
+      "Mücadeleyi 3 <sprite name=Int> Zeka Güçlendirmesi ile başlatır."
+    ]
+  },
+  {
+    "PassiveKey": "The Overbearing Oni",
+    "English": [
+      "AlwaysActive",
+      "Gain 6 MaxHP Action Buff at the end of turn.",
+      "Gain 2 MaxHP Buff at the start of combat.",
+      "AsBuff"
+    ]
+  },
+  {
+    "PassiveKey": "Mad Enlightenment",
+    "English": [
+      "Add 1 to default Draw.",
+      "For every damage dealt, gain Rage; its damage bonus scales with 4.",
+      "JobOn",
+      "Gain 2 Dark Action Buff after every action."
+    ]
+  },
+  {
+    "PassiveKey": "The Mire Hag",
+    "English": [
+      "AlwaysActive",
+      "JobOn",
+      "Gain 2 Int Buff at the start of combat.",
+      "Start combat with 3 Dark element."
+    ]
+  },
+  {
+    "PassiveKey": "Wielder Of The Magic Pipe",
+    "English": [
+      "Trigger special effects when using abilities with the Summon tag.",
+      "AlwaysActive",
+      "Apply 2 Insane to the enemy after every action.",
+      "AsBuff"
+    ]
+  },
+  {
+    "PassiveKey": "Urban Phantom",
+    "English": [
+      "Boost Agi by 20%.",
+      "When attacked, gain Protect equal to 30% of damage received."
+    ]
+  },
+  {
+    "PassiveKey": "Queen Of The Night",
+    "English": [
+      "AlwaysActive",
+      "AlwaysActive",
+      "When the enemy suffers Bleed damage, heal for half of that damage.",
+      "Inflict 1 Bleed on the opponent at the end of turn."
+    ]
+  },
+  {
+    "PassiveKey": "Ideologic Patrol",
+    "English": [
+      "For every damage dealt, gain Rage; its damage bonus scales with 5.",
+      "Reduce Int by 20%.",
+      "Deal 4% Protect damage to the enemy after every action.",
+      "Gain 1 Confuse at the start of combat."
+    ],
+    "Chinese": [
+      "每当你攻击时, 获得并叠加此增益效果：提升自身2.5%对敌方造成的伤害。(回合结束时去除。伤害提升可达到15% )",
+      "降低<sprite name=Int> 智力20%。",
+      "当装备着此职业, 每个行动之后对敌方造成 4% 护甲 伤害。",
+      "战斗开始时获得 1个混乱 效果。"
+    ],
+    "Chinese (Traditional)": [
+      "每當你攻擊時, 獲得並疊加此增益效果：提升自身2.5%對敵方造成的傷害。(回合结束時去除。傷害提升可達到15% )",
+      "降低<sprite name=Int> 智力20%。",
+      "當裝備著此職業, 每個行動之後對敵方造成 4% 護甲 傷害。",
+      "戰鬥開始時獲得 1個混亂 效果。"
+    ],
+    "Japanese": [
+      "攻撃するたび、バフを1つ獲得：相手に与えるダメージが2.5%アップ（ターン終了時リムーブ。アップ上限15%）",
+      "<sprite name=Int> 知属性が20%弱化",
+      "この職業はメイン時、行動した後4% シールドだけ敵にダメージを与える。",
+      "戦闘開始時、自身に1つの混乱を付与する。"
+    ],
+    "French": [
+      "Pour chaque instance de dégats infligée à l'ennemi, gagnez un buff : Boost les dégats infligés de 2.5% . (Retirées à la fin du tour. Le boost de dégats à une limite de 15% )",
+      "Réduit Intelligence <sprite name=Int> de 20% .",
+      "Inflige 4% Protection dégat à l'adversaire à la fin de chaque action  pendant que le job est actif .",
+      "Commence le combat avec 1 Confusion"
+    ],
+    "Italian": [
+      "Ogni volta che infliggi danni al tuo avversario, guadagni il seguente potenziamento: Ad ogni carica accumulata, aumenta il tuo danno di 2.5%. (Rimosso alla fine del turno. L'aumento del danno è limitato a 15%.)",
+      "Riduce l'attributo di Intelligenza <sprite name=Int> di 20%.",
+      "Causa 4% Protezione di danno al tuo avversario alla fine di ogni azionefinché il lavoro è attivo.",
+      "Inizia il combattimento con 1 Confusione."
+    ],
+    "Portuguese": [
+      "A cada instância de dano causado ao seu oponente, ganhe o seguinte buff: A cada carga acumulada, impulsione o seu dano em 2.5% . (Removido ao final do turno. O impulso de dano é limitado à 15% .)",
+      "Te curas un Inteligência <sprite name=Int> de 20% basado en tu atributo más alto cuando te daña el oponente. (Removido al principio del turno.)",
+      "Cause 4% Proteção de dano em seu oponente ao final de cada ação enquanto o trabalho estiver ativo .",
+      "Comece o combate com 1 Confusão ."
+    ],
+    "Korean": [
+      "공격할 때마다 버프 1개 획득: 상대에게 주는 대미지가 2.5% 증가(턴 종료 시 제거. 증가 상한 15%)",
+      "<sprite name=Int> 지능 속성이 20% 약해짐",
+      "이 직업을 장착하고 있을 때, 행동 후 4% 갑옷만큼만 적에게 피해를 입힙니다.",
+      "전투 시작 시 자신에게 1개의혼동을 부여한다."
+    ],
+    "Spanish": [
+      "Cada vez que dañas al oponente, gana una mejora aditiva:Aumenta el daño infligido en un 2.5% . (Removido al final del turno. Este daño deja de aumentar al 15% ).",
+      "Reduce Inteligencia <sprite name=Int> en un 20% .",
+      "Inflinge un 4% Escudo de daño al oponente al final de cada acción mientras el Trabajo está activo .",
+      "Empieza el combate con 1 Confundir ."
+    ],
+    "Russian": [
+      "Даёт стек бафф за каждый урон по противнику. Увеличивает урон на 2.5% . (Действует до конца хода. Предел увеличения урона - 15% ).",
+      "Уменьшает Интеллект <sprite name=Int> на 20% .",
+      "Наносит 4% Броня урона противнику в конце действия, если роль активна.",
+      "Бой начинается с 1 Замешательство ."
+    ],
+    "German": [
+      "Für jede Instanz des ausgeteilten Schadens, erhalte einen stackenden Buff: Erhöht den ausgeteilten Schaden um 2.5% . (Entfernt zu Rundenende. Schadensbonus maximiert ab 15% )",
+      "Reduziere Intelligenz <sprite name=Int> um 20% .",
+      "Nach jeder Aktion wird dem Gegner 4% Schild ausgeteilt während der Job aktiv ist .",
+      "Starte den Kampf mit 1 Verwirrung ."
+    ],
+    "Vietnamese": [
+      "Với mỗi đòn đánh gây ra cho kẻ thù, nhận một buff cộng dồn: Đối với mỗi tầng cộng dồn, tăng 2.5% sát thương gây ra . (Loại bỏ vào cuối lượt. Giới hạn tăng sát thương 15% )",
+      "Giảm Trí Tuệ <sprite name=Int> xuống 20% .",
+      "Gây sát thương tương đương 4% Giáp cho đối thủ cuối mỗi hành động khi Chức Nghiệp được kích hoạt .",
+      "Bắt đầu trận chiến với 1 Bối Rối ."
+    ],
+    "Indonesian": [
+      "Untuk setiap jumlah damage yang diberikan pada lawan, dapat satu stack buff: Boost damage yang diberikan sebesar 2.5% . (Dihapus pada akhir giliran. Damage boost maks 15% )",
+      "Mengurangi <sprite name=Int> Intelligence sebesar 20% .",
+      "Berikan 4% Protect damage pada lawan tiap akhir aksi  saat job aktif .",
+      "Mulai pertarungan dengan 1 Confuse ."
+    ],
+    "Arabic": [
+      "لكل حالة من حالات الضرر التي لحقت بالعدو، احصل على مكدس بوف: زيادة الضرر الذي تم إلحاق بـ 2.5% . (إزالته في نهاية الدور. توقف زيادة الضرر عند 15% )",
+      "خفض الذكاء بـ 20% .",
+      "يسبب الضرر 4% الدرع بالعدو في نهاية كل تصرف  بينما تكون المهنة في الوسط .",
+      "ابدأ القتال مع 1 ارباك ."
+    ],
+    "Turkish": [
+      "Düşmana verilen her hasar için şu yığın güçlendirmesini kazanırsın: Verilen hasar 2.5% artar. (Tur sonunda kaldırılır. Hasar artırımı en fazla 15% olabilir)",
+      "<sprite name=Int> Zeka özelliği 20% azalır.",
+      "Rol aktifken her aksiyonun sonunda düşmana 4% Zırh hasar verir.",
+      "Mücadeleyi 1 Kargaşa ile başlatır."
+    ]
+  },
+  {
+    "PassiveKey": "The Supreme Sorcerer",
+    "English": [
+      "AlwaysActive",
+      "AlwaysActive",
+      "Gain Invulnerable according to multiplier 0.",
+      "Gain 1 Certain at the start of combat."
+    ]
+  },
+  {
+    "PassiveKey": "Keeper Of The Eye",
+    "English": [
+      "AlwaysActive",
+      "AlwaysActive",
+      "Add 1 to default Draw.",
+      "Recover 5% Int health at the end of turn."
+    ]
+  },
+  {
+    "PassiveKey": "The Backward Mistress",
+    "English": [
+      "AlwaysActive",
+      "Boost Int by 20%.",
+      "Reduce default Action by 1.",
+      "JobOn"
+    ]
+  },
+  {
+    "PassiveKey": "Legacy Of The Magus",
+    "English": [
+      "AlwaysActive",
+      "AlwaysActive",
+      "AlwaysActive",
+      "Deal 2% Int damage to the enemy after every action."
+    ]
+  },
+  {
+    "PassiveKey": "Sacred Sarcophagus",
+    "English": [
+      "AlwaysActive",
+      "Deal 2% Int damage to the enemy after every action.",
+      "JobOn",
+      "Start combat with 4 Dark element."
+    ]
+  },
+  {
+    "PassiveKey": "Hardened Heart",
+    "English": [
+      "AlwaysActive",
+      "Reduce damage received by 20% while the job is active.",
+      "When attacked, reflect the Protect removed back as damage.",
+      "Gain 1 Certain at the start of combat."
+    ]
+  },
+  {
+    "PassiveKey": "A Quiet Welcome",
+    "English": [
+      "Recover 5% Int health at the end of turn.",
+      "Gain 1 Afterimage at the end of turn.",
+      "Start combat with 3% MaxHP Protect.",
+      "Gain 2 Int Buff at the start of combat."
+    ],
+    "Chinese": [
+      "当装备着此职业, 回合结束时恢复 5% <sprite name=Int> 智力 体力。",
+      "当装备着此职业, 回合结束时获得 1个残影。",
+      "战斗开始时获得 3% <sprite name=Hp> 体力上限 护甲 效果。",
+      "战斗开始时获得 2 <sprite name=Int> 智力增益 效果。"
+    ],
+    "Chinese (Traditional)": [
+      "當裝備著此職業, 回合结束時恢復 5% <sprite name=Int> 智力 體力。",
+      "當裝備著此職業, 回合結束時獲得 1個殘影。",
+      "戰鬥開始時獲得 3% <sprite name=Hp> 體力上限 護甲 效果。",
+      "戰鬥開始時獲得 2 <sprite name=Int> 智力增益 效果。"
+    ],
+    "Japanese": [
+      "この職業はメイン時、ターン終了時5% <sprite name=Int> 知だけ体力を回復する。",
+      "この職業はメイン時、ターンごとに、ターン終了時1つの残像をもらう .",
+      "戦闘開始時、自身に3% <sprite name=Hp> 体力最大値 シールドを付与する。",
+      "戦闘開始時、自身に2 <sprite name=Int> 知バフを付与する。"
+    ],
+    "French": [
+      "Soigne 5% Intelligence <sprite name=Int> de vie à la fin de chaque tour  pendant que le job est actif .",
+      "Gagne 1 Image Rémanente à la fin de chaque tour  pendant que le job est actif .",
+      "Commence le combat avec 3% HP Max <sprite name=Hp> Protection",
+      "Commence le combat avec 2 Buff Intelligence <sprite name=Int>"
+    ],
+    "Italian": [
+      "Recupera 5% Intelligenza <sprite name=Int> di vita alla fine di ogni turnofinché il lavoro è attivo.",
+      "Guadagna 1 Immagine persistente alla fine di ogni turnofinché il lavoro è attivo.",
+      "Inizia il combattimento con 3% PV Mas. <sprite name=Hp> Protezione.",
+      "Inizia il combattimento con 2 Miglioramento Intelligenza <sprite name=Int>."
+    ],
+    "Portuguese": [
+      "Recupere 5% Inteligência <sprite name=Int> de vida ao final de cada turno enquanto o trabalho estiver ativo .",
+      "Ganhe 1 Pós-Imagem ao final de cada turno enquanto o trabalho estiver ativo.",
+      "Comece o combate com 3% PV Máx <sprite name=Hp> Proteção .",
+      "Comece o combate com 2 Buff Inteligência <sprite name=Int> ."
+    ],
+    "Korean": [
+      "이 직업을 장착하고 있을 때,턴 종료 시 5% <sprite name=Int> 지능만 체력을 회복한다.",
+      "이 직업을 장착하고 있을 때, 턴마다 턴이 끝날 때 1개의그림자을 얻는다 .",
+      "전투 시작 시 자신에게 3% <sprite name=Hp> 최대HP 갑옷을 부여한다.",
+      "전투 시작 시 자신에게 2 <sprite name=Int> 지능 이득을 부여한다."
+    ],
+    "Spanish": [
+      "Recupera un 5% Inteligencia <sprite name=Int> de vida al final de tu turno mientras el Trabajo está activo .",
+      "Ganas 1 Imagen Persistente al final de cada turno.",
+      "Empieza el combate con 3% V.Máx <sprite name=Hp> Escudo .",
+      "Empieza el combate con 2 Inteligencia <sprite name=Int> Mejora ."
+    ],
+    "Russian": [
+      "Исцеляет 5% Интеллект <sprite name=Int> в конце хода, если роль активна.",
+      "Даёт 1 Эхо в конце хода, если роль активна.",
+      "Бой начинается с 3% Макс ХП <sprite name=Hp> Броня .",
+      "Бой начинается с 2 Интеллект <sprite name=Int> Баффа ."
+    ],
+    "German": [
+      "Heile zu Rundenende 5% Intelligenz <sprite name=Int> deines Lebens während der Job aktiv ist .",
+      "Erhalte 1 Zweitbild am Ende jeder Runde  während der Job aktiv ist .",
+      "Starte den Kampf mit 3% Max HP <sprite name=Hp> Schild .",
+      "Starte den Kampf mit 2 Intelligenz <sprite name=Int> Buff ."
+    ],
+    "Vietnamese": [
+      "Phục hồi HP tương đương 5% Trí Tuệ <sprite name=Int> vào cuối mỗi lượt khi Chức Nghiệp được kích hoạt .",
+      "Nhận 1 Dư Ảnh vào cuối mỗi lượt khi Chức Nghiệp được kích hoạt .",
+      "Bắt đầu trận chiến với 3% Max HP <sprite name=Hp> Giáp .",
+      "Bắt đầu trận chiến với 2 Buff Trí Tuệ <sprite name=Int> ."
+    ],
+    "Indonesian": [
+      "Pulihkan 5% <sprite name=Int> Intelligence health setiap akhir giliran  saat job aktif .",
+      "Mendapat 1 Afterimage setiap akhir giliran  saat job aktif.",
+      "Mulai pertarungan dengan 3% <sprite name=Hp> Max HP Protect .",
+      "Mulai pertarungan dengan 2 <sprite name=Int> Intelligence Buff ."
+    ],
+    "Arabic": [
+      "استرداد 5% الذكاء الصحة في نهاية كل دور  بينما تكون المهنة في الوسط .",
+      "حصول 1 بعد الصورة في نهاية كل دور  بينما تكون المهنة في الوسط .",
+      "ابدأ القتال مع 3% نقاط الصحة الدرع .",
+      "ابدأ القتال مع  2 الذكاء بوف ."
+    ],
+    "Turkish": [
+      "Rol aktifken her turun sonunda 5% <sprite name=Int> Zeka can kazanılır.",
+      "Rol aktifken her turun sonunda 1 Ardıl Görüntü kazanılır.",
+      "Mücadeleyi 3% <sprite name=Hp> Maks CP Zırh ile başlatır.",
+      "Mücadeleyi 2 <sprite name=Int> Zeka Güçlendirmesi ile başlatır."
+    ]
+  },
+  {
+    "PassiveKey": "Hero Of Ishval",
+    "English": [
+      "AlwaysActive",
+      "JobOn",
+      "JobOn",
+      "Inflict 1 Burn on the opponent at the end of turn."
+    ]
+  },
+  {
+    "PassiveKey": "Team Player",
+    "English": [
+      "For every direct damage received, gain Instinct; its reduction scales with 3.",
+      "Recover 3% Protect health at the end of turn.",
+      "JobOn"
+    ]
+  },
+  {
+    "PassiveKey": "Natural Athlete",
+    "English": [
+      "Boost Str by 10%.",
+      "Boost Agi by 20%.",
+      "Half damage-over-time effects received."
+    ]
+  },
+  {
+    "PassiveKey": "Double Three Peat",
+    "English": [
+      "AlwaysActive",
+      "Boost Agi by 20%.",
+      "Gain 2 Agi Buff at the start of combat.",
+      "Gain 1 Certain at the start of combat."
+    ]
+  },
+  {
+    "PassiveKey": "The Akron Hammer",
+    "English": [
+      "Increase raw damage, healing and Protect values based on level.",
+      "Boost Str by 20%.",
+      "Boost Agi by 20%.",
+      "Half damage-over-time effects received."
+    ]
+  },
+  {
+    "PassiveKey": "Master Tinkerer",
+    "English": [
+      "Increase raw damage, healing and Protect values based on level.",
+      "AlwaysActive",
+      "Grind",
+      "Boost Int by 20%."
+    ]
+  },
+  {
+    "PassiveKey": "Let It Go",
+    "English": [
+      "AlwaysActive",
+      "Immune to Restrain.",
+      "Convert 25% of excess Heal into damage per stack 2.",
+      "Gain 3 Water Action Buff after every action."
+    ]
+  },
+  {
+    "PassiveKey": "Old-Man Winter",
+    "English": [
+      "AlwaysActive",
+      "Buff Water damage and healing by 10%.",
+      "JobOn",
+      "Deal 2% Int damage to the enemy after every action."
+    ]
+  },
+  {
+    "PassiveKey": "Warden Of The Herd",
+    "English": [
+      "AlwaysActive",
+      "Reduce damage received by 20% while the job is active.",
+      "For every direct damage received, gain Instinct; its reduction scales with 2.",
+      "Gain 1 Certain at the start of combat."
+    ]
+  },
+  {
+    "PassiveKey": "The Last Stag",
+    "English": [
+      "AlwaysActive",
+      "Half damage-over-time effects received.",
+      "Inflict 1 Chill on the opponent at the end of turn.",
+      "Gain 3 Water Action Buff after every action."
+    ]
+  },
+  {
+    "PassiveKey": "Horse Year",
+    "English": [
+      "AlwaysActive",
+      "Give 2 Earth Action Buff whenever Earth Combo triggers.",
+      "Boost Agi by 20%.",
+      "Start combat with Charge/Stack Charge according to multiplier 2."
+    ]
+  },
+  {
+    "PassiveKey": "Ox Year",
+    "English": [
+      "AlwaysActive",
+      "Give 2 Earth Action Buff whenever Earth Combo triggers.",
+      "Convert 25% of excess Heal into damage per stack 2.",
+      "Recover 4% Str health at the end of turn."
+    ]
+  },
+  {
+    "PassiveKey": "One Handed Grace",
+    "English": [
+      "Allow reflecting while Protect is active; Protect Reflect deals double damage.",
+      "When attacked, reflect 2% Agi damage to the enemy.",
+      "JobOn",
+      "Start combat with Charge/Stack Charge according to multiplier 2."
+    ]
+  },
+  {
+    "PassiveKey": "Badminton Rock Star",
+    "English": [
+      "AlwaysActive",
+      "Gain 6 Agi Action Buff at the end of turn.",
+      "Start combat with Guard/Stack Guard according to multiplier 2.",
+      "Gain 2 Str Buff at the start of combat."
+    ]
+  },
+  {
+    "PassiveKey": "The Crownless King",
+    "English": [
+      "AlwaysActive",
+      "Half damage-over-time effects received.",
+      "Boost Agi by 20%.",
+      "Recover 4% Agi health at the end of turn."
+    ]
+  },
+  {
+    "PassiveKey": "Evergreen Tree",
+    "English": [
+      "Gain a random Action Buff/Gamble Token when abilities are exhausted or effect-discarded.",
+      "AlwaysActive",
+      "JobOn",
+      "Gain 2 Agi Buff at the start of combat."
+    ]
+  },
+  {
+    "PassiveKey": "Captain Long",
+    "English": [
+      "Increase raw damage, healing and Protect values based on level.",
+      "AlwaysActive",
+      "Boost Agi by 10%.",
+      "JobOn"
+    ]
+  },
+  {
+    "PassiveKey": "Queen Of Underworld",
+    "English": [
+      "AlwaysActive",
+      "AlwaysActive",
+      "JobOn",
+      "Gain 1 Second Chance at the start of combat."
+    ]
+  },
+  {
+    "PassiveKey": "Veil of Withered Spring",
+    "English": [
+      "JobOn",
+      "Reflect Seed effects back to the enemy.",
+      "Inflict 1 Seed on the opponent at the end of turn.",
+      "Gain 2 Seed at the start of combat."
+    ]
+  },
+  {
+    "PassiveKey": "Gate Of Inferno",
+    "English": [
+      "AlwaysActive",
+      "Buff Dark damage and healing by 10%.",
+      "Buff Fire damage and healing by 10%.",
+      "Gain 1 Second Chance at the start of combat."
+    ]
+  },
+  {
+    "PassiveKey": "Steady Path",
+    "English": [
+      "Half damage-over-time effects received.",
+      "Immune to Dizzy.",
+      "For every direct damage received, gain Instinct; its reduction scales with 2."
+    ]
+  },
+  {
+    "PassiveKey": "Preta Path",
+    "English": [
+      "AlwaysActive",
+      "AlwaysActive",
+      "Half damage-over-time effects received.",
+      "JobOn"
+    ]
+  },
+  {
+    "PassiveKey": "Clutch Legend",
+    "English": [
+      "AlwaysActive",
+      "Boost Agi by 10%.",
+      "When attacked, reflect 2% Int damage to the enemy.",
+      "Gain 1 Second Chance at the start of combat."
+    ]
+  },
+  {
+    "PassiveKey": "Shadow Die Twice",
+    "English": [
+      "AlwaysActive",
+      "Reduce MaxHP by 10%.",
+      "On receiving Restrain, heal based on Agi and gain Agi Instant Boost per stack.",
+      "Gain 1 Second Chance at the start of combat."
+    ]
+  },
+  {
+    "PassiveKey": "Return By Death",
+    "English": [
+      "Half damage-over-time effects received.",
+      "On receiving Insane, heal based on Int and gain Int Instant Boost per stack.",
+      "AsBuff",
+      "Gain 6 Insane at the start of combat."
+    ]
+  },
+  {
+    "PassiveKey": "Hollow Heart",
+    "English": [
+      "AlwaysActive",
+      "JobOn",
+      "Apply 3 Insane to the enemy after every action.",
+      "Inflict 1 Depress on the opponent at the end of turn."
+    ]
+  },
+  {
+    "PassiveKey": "Master Of The Stolen Gate",
+    "English": [
+      "AlwaysActive",
+      "JobOn",
+      "Immune to elemental status effects (multiplier 1 controls scope).",
+      "JobOn",
+      "Start combat with Charge/Stack Charge according to multiplier 1."
+    ]
+  },
+  {
+    "PassiveKey": "Void Positioning",
+    "English": [
+      "AlwaysActive",
+      "Add 1 to default Action.",
+      "Inflict 1 Protect Pierce after every action.",
+      "Gain 2 Agi Buff at the start of combat."
+    ]
+  }
+]
