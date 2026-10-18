@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jobmania Wiki — Version Log</title><link rel="stylesheet" href="style.css">
+<style>
+.version-page{max-width:850px;margin:34px auto;padding:0 18px 35px;line-height:1.65}
+.version-page h1{color:#fff;margin-bottom:4px}
+.version-muted{color:#b0d0ff}
+.version-panel{background:var(--card);border:1px solid #344c83;border-radius:14px;padding:18px 22px;margin:18px 0}
+.version-panel h2{font-size:1.15rem;color:var(--accent);margin:0 0 8px}
+.version-panel ul{padding-left:21px;margin:7px 0}
+.version-panel li{margin-bottom:7px}
+.version-link{color:#70e6ff}
+.version-back{display:inline-block;margin:12px 0;color:#70e6ff}
+</style></head>
+<body><div class="version-page"><a class="version-back" href="index.html">← Back to Wiki</a>
+<h1>Wiki Version Log</h1><p class="version-muted">Source synchronization and documentation progress are tracked separately.</p>
+<div id="version-status" class="version-panel" aria-live="polite">Loading version status…</div>
+<div class="version-panel"><h2>Source data</h2><p id="source-status">Loading…</p><p class="version-muted">Current means checked against the latest reviewed source snapshot, not an assertion that every legacy source exception is resolved.</p></div>
+<div class="version-panel"><h2>Ongoing work</h2><ul id="ongoing-list"></ul></div>
+<div class="version-panel"><h2>Notes</h2><ul id="status-notes"></ul></div>
+<p class="version-muted">The full machine-readable history is available in <a class="version-link" href="data/version_log.json">version_log.json</a>.</p></div>
+<script>
+(async()=>{const status=document.getElementById('version-status');try{
+const response=await fetch('data/version_log.json',{cache:'no-cache'});if(!response.ok)throw new Error('HTTP '+response.status);
+const data=await response.json(),pub=data.publicStatus||{};
+const header=document.createElement('h2');header.textContent='Wiki '+(data.wikiVersion||'—')+' · Source '+(pub.sourceGameVersion||data.checkpoints?.latestSourceGameVersionObserved||'—');
+const p=document.createElement('p');p.textContent='Last reviewed: '+(pub.lastReviewed||pub.asOf||'—')+'. '+(pub.wikiStatus||'');
+status.replaceChildren(header,p);
+document.getElementById('source-status').textContent=pub.dataStatus||'No public source status recorded';
+for(const [id,values] of [['ongoing-list',pub.ongoing],['status-notes',pub.notes]]){const ul=document.getElementById(id);for(const str of (values||[])){const li=document.createElement('li');li.textContent=str;ul.appendChild(li)}}
+}catch(err){status.textContent='Version information is temporarily unavailable. Check the repository history for the latest updates.';document.getElementById('source-status').textContent='Unable to load source status.'}})();
+</script></body></html>
