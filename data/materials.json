@@ -4,10 +4,22 @@
     "Rarity": "Common",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Jobless", "Result": "Warrior" },
-      { "Job": "Rogue", "Result": "Dual Wielder" },
-      { "Job": "Mage", "Result": "Magic Swordsman" },
-      { "Job": "Craftsman", "Result": "Blacksmith" }
+      {
+        "Job": "Jobless",
+        "Result": "Warrior"
+      },
+      {
+        "Job": "Rogue",
+        "Result": "Dual Wielder"
+      },
+      {
+        "Job": "Mage",
+        "Result": "Magic Swordsman"
+      },
+      {
+        "Job": "Craftsman",
+        "Result": "Blacksmith"
+      }
     ]
   },
   {
@@ -15,8 +27,14 @@
     "Rarity": "Common",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Jobless", "Result": "Brawler" },
-      { "Job": "Martial Artist", "Result": "Boxer" }
+      {
+        "Job": "Jobless",
+        "Result": "Brawler"
+      },
+      {
+        "Job": "Martial Artist",
+        "Result": "Boxer"
+      }
     ]
   },
   {
@@ -24,7 +42,10 @@
     "Rarity": "Common",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Jobless", "Result": "Mage" }
+      {
+        "Job": "Jobless",
+        "Result": "Mage"
+      }
     ]
   },
   {
@@ -32,10 +53,22 @@
     "Rarity": "Common",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Jobless", "Result": "Rogue" },
-      { "Job": "Thief", "Result": "Marauder" },
-      { "Job": "Ranger", "Result": "Hunter" },
-      { "Job": "Craftsman", "Result": "Whitesmith" }
+      {
+        "Job": "Jobless",
+        "Result": "Rogue"
+      },
+      {
+        "Job": "Thief",
+        "Result": "Marauder"
+      },
+      {
+        "Job": "Ranger",
+        "Result": "Hunter"
+      },
+      {
+        "Job": "Craftsman",
+        "Result": "Whitesmith"
+      }
     ]
   },
   {
@@ -43,8 +76,14 @@
     "Rarity": "Common",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Jobless", "Result": "Ranger" },
-      { "Job": "Rogue", "Result": "Ninja Genin" }
+      {
+        "Job": "Jobless",
+        "Result": "Ranger"
+      },
+      {
+        "Job": "Rogue",
+        "Result": "Ninja Genin"
+      }
     ]
   },
   {
@@ -52,7 +91,10 @@
     "Rarity": "Common",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Jobless", "Result": "Healer" }
+      {
+        "Job": "Jobless",
+        "Result": "Healer"
+      }
     ]
   },
   {
@@ -60,11 +102,26 @@
     "Rarity": "Common",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Warrior", "Result": "Knight" },
-      { "Job": "Barbarian", "Result": "Gladiator" },
-      { "Job": "Cleric", "Result": "Cleric Knight" },
-      { "Job": "Craftsman", "Result": "Brownsmith" },
-      { "Job": "Vigilante", "Result": "Cursed Shield Hero" }
+      {
+        "Job": "Warrior",
+        "Result": "Knight"
+      },
+      {
+        "Job": "Barbarian",
+        "Result": "Gladiator"
+      },
+      {
+        "Job": "Cleric",
+        "Result": "Cleric Knight"
+      },
+      {
+        "Job": "Craftsman",
+        "Result": "Brownsmith"
+      },
+      {
+        "Job": "Vigilante",
+        "Result": "Cursed Shield Hero"
+      }
     ]
   },
   {
@@ -72,8 +129,18 @@
     "Rarity": "Common",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Brawler", "Result": "Martial Artist" },
-      { "Job": "Street Fighter", "Result": "MMA Fighter" }
+      {
+        "Job": "Brawler",
+        "Result": "Martial Artist"
+      },
+      {
+        "Job": "Street Fighter",
+        "Result": "MMA Fighter"
+      },
+      {
+        "Job": "Performer",
+        "Result": "Stunt Performer"
+      }
     ]
   },
   {
@@ -81,7 +148,10 @@
     "Rarity": "Common",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Ranger", "Result": "Bowman" }
+      {
+        "Job": "Ranger",
+        "Result": "Bowman"
+      }
     ]
   },
   {
@@ -89,12 +159,38 @@
     "Rarity": "Common",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Rogue", "Result": "Thief" },
-      { "Job": "Watcher", "Result": "Detective" },
-      { "Job": "Jobless", "Result": "Piker" },
-      { "Job": "Piker", "Result": "Gamester" },
-      { "Job": "Artist", "Result": "Performer" },
-      { "Job": "Joker", "Result": "Party Clown" }
+      {
+        "Job": "Rogue",
+        "Result": "Thief"
+      },
+      {
+        "Job": "Watcher",
+        "Result": "Detective"
+      },
+      {
+        "Job": "Jobless",
+        "Result": "Piker"
+      },
+      {
+        "Job": "Piker",
+        "Result": "Gamester"
+      },
+      {
+        "Job": "Artist",
+        "Result": "Performer"
+      },
+      {
+        "Job": "Joker",
+        "Result": "Party Clown"
+      },
+      {
+        "Job": "Scholar",
+        "Result": "Accountant"
+      },
+      {
+        "Job": "Influencer",
+        "Result": "Onlyfriend"
+      }
     ]
   },
   {
@@ -102,13 +198,34 @@
     "Rarity": "Common",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Thief", "Result": "Pirate" },
-      { "Job": "Barbarian", "Result": "Viking" },
-      { "Job": "Rogue", "Result": "Watcher" },
-      { "Job": "Healer", "Result": "Scholar" },
-      { "Job": "Otaku", "Result": "Gamer" },
-      { "Job": "Craftsman", "Result": "Inventor" },
-      { "Job": "Skilled Painter", "Result": "Established Artist" }
+      {
+        "Job": "Thief",
+        "Result": "Pirate"
+      },
+      {
+        "Job": "Barbarian",
+        "Result": "Viking"
+      },
+      {
+        "Job": "Rogue",
+        "Result": "Watcher"
+      },
+      {
+        "Job": "Healer",
+        "Result": "Scholar"
+      },
+      {
+        "Job": "Otaku",
+        "Result": "Gamer"
+      },
+      {
+        "Job": "Craftsman",
+        "Result": "Inventor"
+      },
+      {
+        "Job": "Skilled Painter",
+        "Result": "Established Artist"
+      }
     ]
   },
   {
@@ -116,9 +233,18 @@
     "Rarity": "Common",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Healer", "Result": "Medic" },
-      { "Job": "Medic", "Result": "Nurse" },
-      { "Job": "Rogue", "Result": "Maniac" }
+      {
+        "Job": "Healer",
+        "Result": "Medic"
+      },
+      {
+        "Job": "Medic",
+        "Result": "Nurse"
+      },
+      {
+        "Job": "Rogue",
+        "Result": "Maniac"
+      }
     ]
   },
   {
@@ -126,8 +252,14 @@
     "Rarity": "Common",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Warrior", "Result": "Barbarian" },
-      { "Job": "Priest", "Result": "Cleric" }
+      {
+        "Job": "Warrior",
+        "Result": "Barbarian"
+      },
+      {
+        "Job": "Priest",
+        "Result": "Cleric"
+      }
     ]
   },
   {
@@ -135,11 +267,26 @@
     "Rarity": "Common",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Warrior", "Result": "Soldier" },
-      { "Job": "Ranger", "Result": "Gunner" },
-      { "Job": "Criminal", "Result": "Mafia" },
-      { "Job": "Dual Wielder", "Result": "Dual Gunner" },
-      { "Job": "Space Soldier", "Result": "Space Marine" }
+      {
+        "Job": "Warrior",
+        "Result": "Soldier"
+      },
+      {
+        "Job": "Ranger",
+        "Result": "Gunner"
+      },
+      {
+        "Job": "Criminal",
+        "Result": "Mafia"
+      },
+      {
+        "Job": "Dual Wielder",
+        "Result": "Dual Gunner"
+      },
+      {
+        "Job": "Space Soldier",
+        "Result": "Space Marine"
+      }
     ]
   },
   {
@@ -147,9 +294,18 @@
     "Rarity": "Common",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Warrior", "Result": "Lancer" },
-      { "Job": "Thief", "Result": "Sky Bandit" },
-      { "Job": "Wild Hunter", "Result": "Amazon Hunter" }
+      {
+        "Job": "Warrior",
+        "Result": "Lancer"
+      },
+      {
+        "Job": "Thief",
+        "Result": "Sky Bandit"
+      },
+      {
+        "Job": "Wild Hunter",
+        "Result": "Amazon Hunter"
+      }
     ]
   },
   {
@@ -157,10 +313,22 @@
     "Rarity": "Rare",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Mage", "Result": "Wizard" },
-      { "Job": "Wizard", "Result": "Sorcerer" },
-      { "Job": "Blasphemer", "Result": "Witch" },
-      { "Job": "Dragoon", "Result": "Arcane Lancer" }
+      {
+        "Job": "Mage",
+        "Result": "Wizard"
+      },
+      {
+        "Job": "Wizard",
+        "Result": "Sorcerer"
+      },
+      {
+        "Job": "Blasphemer",
+        "Result": "Witch"
+      },
+      {
+        "Job": "Dragoon",
+        "Result": "Arcane Lancer"
+      }
     ]
   },
   {
@@ -168,15 +336,50 @@
     "Rarity": "Rare",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Knight", "Result": "Paladin" },
-      { "Job": "Lancer", "Result": "Royal Knight" },
-      { "Job": "Soldier", "Result": "Lieutenant" },
-      { "Job": "Magic Swordsman", "Result": "Magic Knight" },
-      { "Job": "Healer", "Result": "Priest" },
-      { "Job": "Priest", "Result": "High Priest" },
-      { "Job": "Marksman", "Result": "Musketeer" },
-      { "Job": "Thief", "Result": "Villain" },
-      { "Job": "Warrior", "Result": "Samurai" }
+      {
+        "Job": "Knight",
+        "Result": "Paladin"
+      },
+      {
+        "Job": "Lancer",
+        "Result": "Royal Knight"
+      },
+      {
+        "Job": "Soldier",
+        "Result": "Lieutenant"
+      },
+      {
+        "Job": "Magic Swordsman",
+        "Result": "Magic Knight"
+      },
+      {
+        "Job": "Healer",
+        "Result": "Priest"
+      },
+      {
+        "Job": "Priest",
+        "Result": "High Priest"
+      },
+      {
+        "Job": "Marksman",
+        "Result": "Musketeer"
+      },
+      {
+        "Job": "Thief",
+        "Result": "Villain"
+      },
+      {
+        "Job": "Warrior",
+        "Result": "Samurai"
+      },
+      {
+        "Job": "Street Artist",
+        "Result": "Guerrilla Artist"
+      },
+      {
+        "Job": "Mason",
+        "Result": "Freemason"
+      }
     ]
   },
   {
@@ -184,15 +387,42 @@
     "Rarity": "Rare",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Knight", "Result": "Dark Knight" },
-      { "Job": "Soldier", "Result": "Mercenary" },
-      { "Job": "Brawler", "Result": "Street Fighter" },
-      { "Job": "Maniac", "Result": "Psychopath" },
-      { "Job": "Rogue", "Result": "Criminal" },
-      { "Job": "Gladiator", "Result": "Berserker" },
-      { "Job": "Madao", "Result": "Creepy Madao" },
-      { "Job": "Guardian", "Result": "The Tower" },
-      { "Job": "Samurai Master", "Result": "Afro Samurai" }
+      {
+        "Job": "Knight",
+        "Result": "Dark Knight"
+      },
+      {
+        "Job": "Soldier",
+        "Result": "Mercenary"
+      },
+      {
+        "Job": "Brawler",
+        "Result": "Street Fighter"
+      },
+      {
+        "Job": "Maniac",
+        "Result": "Psychopath"
+      },
+      {
+        "Job": "Rogue",
+        "Result": "Criminal"
+      },
+      {
+        "Job": "Gladiator",
+        "Result": "Berserker"
+      },
+      {
+        "Job": "Madao",
+        "Result": "Creepy Madao"
+      },
+      {
+        "Job": "Guardian",
+        "Result": "The Tower"
+      },
+      {
+        "Job": "Samurai Master",
+        "Result": "Afro Samurai"
+      }
     ]
   },
   {
@@ -200,13 +430,38 @@
     "Rarity": "Rare",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Martial Artist", "Result": "Monk" },
-      { "Job": "Dual Blades", "Result": "Trinity Blades" },
-      { "Job": "Blasphemer", "Result": "Cultist" },
-      { "Job": "Wild Hunter", "Result": "Myth Hunter" },
-      { "Job": "Performer", "Result": "Musician" },
-      { "Job": "Scholar", "Result": "Historian" },
-      { "Job": "Monk", "Result": "Path Seeker" }
+      {
+        "Job": "Martial Artist",
+        "Result": "Monk"
+      },
+      {
+        "Job": "Dual Blades",
+        "Result": "Trinity Blades"
+      },
+      {
+        "Job": "Blasphemer",
+        "Result": "Cultist"
+      },
+      {
+        "Job": "Wild Hunter",
+        "Result": "Myth Hunter"
+      },
+      {
+        "Job": "Performer",
+        "Result": "Musician"
+      },
+      {
+        "Job": "Scholar",
+        "Result": "Historian"
+      },
+      {
+        "Job": "Monk",
+        "Result": "Path Seeker"
+      },
+      {
+        "Job": "Craftsman",
+        "Result": "Mason"
+      }
     ]
   },
   {
@@ -214,11 +469,26 @@
     "Rarity": "Rare",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Wizard", "Result": "Elementalist" },
-      { "Job": "Dual Blades", "Result": "Spell Fencer" },
-      { "Job": "Guardian", "Result": "Elemental Guardian" },
-      { "Job": "Magic Knight", "Result": "Runes Knight" },
-      { "Job": "MMA Fighter", "Result": "Mystic Fighter" }
+      {
+        "Job": "Wizard",
+        "Result": "Elementalist"
+      },
+      {
+        "Job": "Dual Blades",
+        "Result": "Spell Fencer"
+      },
+      {
+        "Job": "Guardian",
+        "Result": "Elemental Guardian"
+      },
+      {
+        "Job": "Magic Knight",
+        "Result": "Runes Knight"
+      },
+      {
+        "Job": "MMA Fighter",
+        "Result": "Mystic Fighter"
+      }
     ]
   },
   {
@@ -226,10 +496,22 @@
     "Rarity": "Rare",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Dragon Tamer", "Result": "Dragon Rider" },
-      { "Job": "Wild Hunter", "Result": "Beast Tamer" },
-      { "Job": "Scholar", "Result": "Summoner" },
-      { "Job": "Ninja Jonin", "Result": "Puppeteer" }
+      {
+        "Job": "Dragon Tamer",
+        "Result": "Dragon Rider"
+      },
+      {
+        "Job": "Wild Hunter",
+        "Result": "Beast Tamer"
+      },
+      {
+        "Job": "Scholar",
+        "Result": "Summoner"
+      },
+      {
+        "Job": "Ninja Jonin",
+        "Result": "Puppeteer"
+      }
     ]
   },
   {
@@ -237,13 +519,38 @@
     "Rarity": "Rare",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Marksman", "Result": "Job Sniper" },
-      { "Job": "Bowman", "Result": "Archer" },
-      { "Job": "Mafia", "Result": "Hitman" },
-      { "Job": "Watcher", "Result": "Spy" },
-      { "Job": "Ninja Genin", "Result": "Ninja" },
-      { "Job": "Serial Killer", "Result": "Mafia Player" },
-      { "Job": "Joker", "Result": "Trickster" }
+      {
+        "Job": "Marksman",
+        "Result": "Job Sniper"
+      },
+      {
+        "Job": "Bowman",
+        "Result": "Archer"
+      },
+      {
+        "Job": "Mafia",
+        "Result": "Hitman"
+      },
+      {
+        "Job": "Watcher",
+        "Result": "Spy"
+      },
+      {
+        "Job": "Ninja Genin",
+        "Result": "Ninja"
+      },
+      {
+        "Job": "Serial Killer",
+        "Result": "Mafia Player"
+      },
+      {
+        "Job": "Joker",
+        "Result": "Trickster"
+      },
+      {
+        "Job": "Painter",
+        "Result": "Street Artist"
+      }
     ]
   },
   {
@@ -251,14 +558,38 @@
     "Rarity": "Rare",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Marksman", "Result": "Cannoneer" },
-      { "Job": "Terrorist", "Result": "Suicide Bomber" },
-      { "Job": "Psychopath", "Result": "Bomberman" },
-      { "Job": "Secret Agent", "Result": "Trap Master" },
-      { "Job": "Berserker", "Result": "Branded Swordsman" },
-      { "Job": "Licensed Engineer", "Result": "Nuclear Engineer" },
-      { "Job": "Inventor", "Result": "Mad Scientist" },
-      { "Job": "Grand Sorcerer", "Result": "Explosive Enchanter" }
+      {
+        "Job": "Marksman",
+        "Result": "Cannoneer"
+      },
+      {
+        "Job": "Terrorist",
+        "Result": "Suicide Bomber"
+      },
+      {
+        "Job": "Psychopath",
+        "Result": "Bomberman"
+      },
+      {
+        "Job": "Secret Agent",
+        "Result": "Trap Master"
+      },
+      {
+        "Job": "Berserker",
+        "Result": "Branded Swordsman"
+      },
+      {
+        "Job": "Licensed Engineer",
+        "Result": "Nuclear Engineer"
+      },
+      {
+        "Job": "Inventor",
+        "Result": "Mad Scientist"
+      },
+      {
+        "Job": "Grand Sorcerer",
+        "Result": "Explosive Enchanter"
+      }
     ]
   },
   {
@@ -266,16 +597,50 @@
     "Rarity": "Epic",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Archer", "Result": "Flame Archer" },
-      { "Job": "Arcane Lancer", "Result": "Inferno Lancer" },
-      { "Job": "Elementalist", "Result": "Pyromancer" },
-      { "Job": "Pyromancer", "Result": "Flaremancer" },
-      { "Job": "Ninja Jonin", "Result": "Hokage" },
-      { "Job": "Flame Archer", "Result": "Exploding Ranger" },
-      { "Job": "Abyss Knight", "Result": "Ghost Rider" },
-      { "Job": "Licensed Engineer", "Result": "Petroleum Engineer" },
-      { "Job": "Mystic Fighter", "Result": "Volcanofist" },
-      { "Job": "Racket Player", "Result": "Tennis Player" }
+      {
+        "Job": "Archer",
+        "Result": "Flame Archer"
+      },
+      {
+        "Job": "Arcane Lancer",
+        "Result": "Inferno Lancer"
+      },
+      {
+        "Job": "Elementalist",
+        "Result": "Pyromancer"
+      },
+      {
+        "Job": "Pyromancer",
+        "Result": "Flaremancer"
+      },
+      {
+        "Job": "Ninja Jonin",
+        "Result": "Hokage"
+      },
+      {
+        "Job": "Flame Archer",
+        "Result": "Exploding Ranger"
+      },
+      {
+        "Job": "Abyss Knight",
+        "Result": "Ghost Rider"
+      },
+      {
+        "Job": "Licensed Engineer",
+        "Result": "Petroleum Engineer"
+      },
+      {
+        "Job": "Mystic Fighter",
+        "Result": "Volcanofist"
+      },
+      {
+        "Job": "Racket Player",
+        "Result": "Tennis Player"
+      },
+      {
+        "Job": "Craftsman",
+        "Result": "Chef"
+      }
     ]
   },
   {
@@ -283,18 +648,54 @@
     "Rarity": "Epic",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Archer", "Result": "Ice Archer" },
-      { "Job": "Royal Knight", "Result": "Atlantian" },
-      { "Job": "Colonel", "Result": "Marine General" },
-      { "Job": "Elementalist", "Result": "Hydromancer" },
-      { "Job": "Hydromancer", "Result": "Cryomancer" },
-      { "Job": "Pirate", "Result": "Pirate Quartermaster" },
-      { "Job": "Ninja Jonin", "Result": "Mizukage" },
-      { "Job": "Ice Archer", "Result": "Hail Ranger" },
-      { "Job": "Licensed Engineer", "Result": "Marine Engineer" },
-      { "Job": "Wild Hunter", "Result": "Great Sea Angler" },
-      { "Job": "Mystic Fighter", "Result": "Aquafist" },
-      { "Job": "Witch", "Result": "Sea Witch" }
+      {
+        "Job": "Archer",
+        "Result": "Ice Archer"
+      },
+      {
+        "Job": "Royal Knight",
+        "Result": "Atlantian"
+      },
+      {
+        "Job": "Colonel",
+        "Result": "Marine General"
+      },
+      {
+        "Job": "Elementalist",
+        "Result": "Hydromancer"
+      },
+      {
+        "Job": "Hydromancer",
+        "Result": "Cryomancer"
+      },
+      {
+        "Job": "Pirate",
+        "Result": "Pirate Quartermaster"
+      },
+      {
+        "Job": "Ninja Jonin",
+        "Result": "Mizukage"
+      },
+      {
+        "Job": "Ice Archer",
+        "Result": "Hail Ranger"
+      },
+      {
+        "Job": "Licensed Engineer",
+        "Result": "Marine Engineer"
+      },
+      {
+        "Job": "Wild Hunter",
+        "Result": "Great Sea Angler"
+      },
+      {
+        "Job": "Mystic Fighter",
+        "Result": "Aquafist"
+      },
+      {
+        "Job": "Witch",
+        "Result": "Sea Witch"
+      }
     ]
   },
   {
@@ -302,17 +703,50 @@
     "Rarity": "Epic",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Archer", "Result": "Lightning Archer" },
-      { "Job": "Elementalist", "Result": "Electromancer" },
-      { "Job": "Electromancer", "Result": "Fulgurmancer" },
-      { "Job": "Famous Detective", "Result": "Lightning Detective" },
-      { "Job": "Ninja Jonin", "Result": "Raikage" },
-      { "Job": "Lightning Archer", "Result": "Volt Ranger" },
-      { "Job": "Licensed Engineer", "Result": "Electrical Engineer" },
-      { "Job": "Inventor", "Result": "Cyborg" },
-      { "Job": "Mystic Fighter", "Result": "Thunderfist" },
-      { "Job": "Club Baller", "Result": "NBA Shooting Guard" },
-      { "Job": "Racket Player", "Result": "Ping Pong Player" }
+      {
+        "Job": "Archer",
+        "Result": "Lightning Archer"
+      },
+      {
+        "Job": "Elementalist",
+        "Result": "Electromancer"
+      },
+      {
+        "Job": "Electromancer",
+        "Result": "Fulgurmancer"
+      },
+      {
+        "Job": "Famous Detective",
+        "Result": "Lightning Detective"
+      },
+      {
+        "Job": "Ninja Jonin",
+        "Result": "Raikage"
+      },
+      {
+        "Job": "Lightning Archer",
+        "Result": "Volt Ranger"
+      },
+      {
+        "Job": "Licensed Engineer",
+        "Result": "Electrical Engineer"
+      },
+      {
+        "Job": "Inventor",
+        "Result": "Cyborg"
+      },
+      {
+        "Job": "Mystic Fighter",
+        "Result": "Thunderfist"
+      },
+      {
+        "Job": "Club Baller",
+        "Result": "NBA Shooting Guard"
+      },
+      {
+        "Job": "Racket Player",
+        "Result": "Ping Pong Player"
+      }
     ]
   },
   {
@@ -320,20 +754,62 @@
     "Rarity": "Epic",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Archer", "Result": "Forest Archer" },
-      { "Job": "Elementalist", "Result": "Geomancer" },
-      { "Job": "Geomancer", "Result": "Terramancer" },
-      { "Job": "Medic", "Result": "Herbalist" },
-      { "Job": "Marauder", "Result": "Ground Ravager" },
-      { "Job": "Colonel", "Result": "Army General" },
-      { "Job": "Ninja Jonin", "Result": "Tsuchikage" },
-      { "Job": "Forest Archer", "Result": "Mountain Ranger" },
-      { "Job": "Beast Tamer", "Result": "Druid" },
-      { "Job": "Licensed Engineer", "Result": "Civil Engineer" },
-      { "Job": "Mystic Fighter", "Result": "Quakefist" },
-      { "Job": "Pyromancer", "Result": "Volcanomancer" },
-      { "Job": "Dark Knight", "Result": "Shadewood Knight" },
-      { "Job": "Club Baller", "Result": "NBA Small Forward" }
+      {
+        "Job": "Archer",
+        "Result": "Forest Archer"
+      },
+      {
+        "Job": "Elementalist",
+        "Result": "Geomancer"
+      },
+      {
+        "Job": "Geomancer",
+        "Result": "Terramancer"
+      },
+      {
+        "Job": "Medic",
+        "Result": "Herbalist"
+      },
+      {
+        "Job": "Marauder",
+        "Result": "Ground Ravager"
+      },
+      {
+        "Job": "Colonel",
+        "Result": "Army General"
+      },
+      {
+        "Job": "Ninja Jonin",
+        "Result": "Tsuchikage"
+      },
+      {
+        "Job": "Forest Archer",
+        "Result": "Mountain Ranger"
+      },
+      {
+        "Job": "Beast Tamer",
+        "Result": "Druid"
+      },
+      {
+        "Job": "Licensed Engineer",
+        "Result": "Civil Engineer"
+      },
+      {
+        "Job": "Mystic Fighter",
+        "Result": "Quakefist"
+      },
+      {
+        "Job": "Pyromancer",
+        "Result": "Volcanomancer"
+      },
+      {
+        "Job": "Dark Knight",
+        "Result": "Shadewood Knight"
+      },
+      {
+        "Job": "Club Baller",
+        "Result": "NBA Small Forward"
+      }
     ]
   },
   {
@@ -341,18 +817,54 @@
     "Rarity": "Epic",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Archer", "Result": "Gale Archer" },
-      { "Job": "Royal Knight", "Result": "Valkyrie" },
-      { "Job": "Colonel", "Result": "Air Force General" },
-      { "Job": "Elementalist", "Result": "Aeromancer" },
-      { "Job": "Aeromancer", "Result": "Stormancer" },
-      { "Job": "Sky Bandit", "Result": "Storm Raider" },
-      { "Job": "Ninja Jonin", "Result": "Kazekage" },
-      { "Job": "Gale Archer", "Result": "Sonic Ranger" },
-      { "Job": "Licensed Engineer", "Result": "Aerospace Engineer" },
-      { "Job": "Mystic Fighter", "Result": "Tornadofist" },
-      { "Job": "Underground Fighter", "Result": "Air Force Pilot" },
-      { "Job": "Racket Player", "Result": "Badminton Player" }
+      {
+        "Job": "Archer",
+        "Result": "Gale Archer"
+      },
+      {
+        "Job": "Royal Knight",
+        "Result": "Valkyrie"
+      },
+      {
+        "Job": "Colonel",
+        "Result": "Air Force General"
+      },
+      {
+        "Job": "Elementalist",
+        "Result": "Aeromancer"
+      },
+      {
+        "Job": "Aeromancer",
+        "Result": "Stormancer"
+      },
+      {
+        "Job": "Sky Bandit",
+        "Result": "Storm Raider"
+      },
+      {
+        "Job": "Ninja Jonin",
+        "Result": "Kazekage"
+      },
+      {
+        "Job": "Gale Archer",
+        "Result": "Sonic Ranger"
+      },
+      {
+        "Job": "Licensed Engineer",
+        "Result": "Aerospace Engineer"
+      },
+      {
+        "Job": "Mystic Fighter",
+        "Result": "Tornadofist"
+      },
+      {
+        "Job": "Underground Fighter",
+        "Result": "Air Force Pilot"
+      },
+      {
+        "Job": "Racket Player",
+        "Result": "Badminton Player"
+      }
     ]
   },
   {
@@ -360,11 +872,26 @@
     "Rarity": "Epic",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Paladin", "Result": "High Paladin" },
-      { "Job": "Elementalist", "Result": "Luxmancer" },
-      { "Job": "Luxmancer", "Result": "Solimancer" },
-      { "Job": "High Priest", "Result": "Prophet" },
-      { "Job": "Whitesmith", "Result": "Silversmith" }
+      {
+        "Job": "Paladin",
+        "Result": "High Paladin"
+      },
+      {
+        "Job": "Elementalist",
+        "Result": "Luxmancer"
+      },
+      {
+        "Job": "Luxmancer",
+        "Result": "Solimancer"
+      },
+      {
+        "Job": "High Priest",
+        "Result": "Prophet"
+      },
+      {
+        "Job": "Whitesmith",
+        "Result": "Silversmith"
+      }
     ]
   },
   {
@@ -372,14 +899,38 @@
     "Rarity": "Epic",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Dark Knight", "Result": "Grand Dark Knight" },
-      { "Job": "Elementalist", "Result": "Umbramancer" },
-      { "Job": "Umbramancer", "Result": "Lunamancer" },
-      { "Job": "Maniac", "Result": "Blasphemer" },
-      { "Job": "Criminal", "Result": "Terrorist" },
-      { "Job": "Summoner", "Result": "Warlock" },
-      { "Job": "Doctor", "Result": "Plague Doctor" },
-      { "Job": "Creepy Madao", "Result": "Dark Matter Parasite" }
+      {
+        "Job": "Dark Knight",
+        "Result": "Grand Dark Knight"
+      },
+      {
+        "Job": "Elementalist",
+        "Result": "Umbramancer"
+      },
+      {
+        "Job": "Umbramancer",
+        "Result": "Lunamancer"
+      },
+      {
+        "Job": "Maniac",
+        "Result": "Blasphemer"
+      },
+      {
+        "Job": "Criminal",
+        "Result": "Terrorist"
+      },
+      {
+        "Job": "Summoner",
+        "Result": "Warlock"
+      },
+      {
+        "Job": "Doctor",
+        "Result": "Plague Doctor"
+      },
+      {
+        "Job": "Creepy Madao",
+        "Result": "Dark Matter Parasite"
+      }
     ]
   },
   {
@@ -387,25 +938,94 @@
     "Rarity": "Epic",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Elementalist", "Result": "Elemancer" },
-      { "Job": "Magus", "Result": "Star Magus" },
-      { "Job": "MMA Fighter", "Result": "Underground Fighter" },
-      { "Job": "Mercenary", "Result": "Mercenary Leader" },
-      { "Job": "Gladiator", "Result": "Thracian" },
-      { "Job": "Detective", "Result": "Famous Detective" },
-      { "Job": "Mafia", "Result": "Mafia Elite" },
-      { "Job": "Villain", "Result": "Super Villain" },
-      { "Job": "Psychopath", "Result": "Serial Killer" },
-      { "Job": "Berserker", "Result": "War Berserker" },
-      { "Job": "Spy", "Result": "Secret Agent" },
-      { "Job": "Jobless", "Result": "Otaku" },
-      { "Job": "Otaku", "Result": "Madao" },
-      { "Job": "Cultist", "Result": "Voodoo Lord" },
-      { "Job": "Suicide Bomber", "Result": "The Survivor" },
-      { "Job": "Pro Gamer", "Result": "Solo King" },
-      { "Job": "Painter", "Result": "Skilled Painter" },
-      { "Job": "Brownsmith", "Result": "Goldsmith" },
-      { "Job": "Badminton Player", "Result": "Speed Striker" }
+      {
+        "Job": "Elementalist",
+        "Result": "Elemancer"
+      },
+      {
+        "Job": "Magus",
+        "Result": "Star Magus"
+      },
+      {
+        "Job": "MMA Fighter",
+        "Result": "Underground Fighter"
+      },
+      {
+        "Job": "Mercenary",
+        "Result": "Mercenary Leader"
+      },
+      {
+        "Job": "Gladiator",
+        "Result": "Thracian"
+      },
+      {
+        "Job": "Detective",
+        "Result": "Famous Detective"
+      },
+      {
+        "Job": "Mafia",
+        "Result": "Mafia Elite"
+      },
+      {
+        "Job": "Villain",
+        "Result": "Super Villain"
+      },
+      {
+        "Job": "Psychopath",
+        "Result": "Serial Killer"
+      },
+      {
+        "Job": "Berserker",
+        "Result": "War Berserker"
+      },
+      {
+        "Job": "Spy",
+        "Result": "Secret Agent"
+      },
+      {
+        "Job": "Jobless",
+        "Result": "Otaku"
+      },
+      {
+        "Job": "Otaku",
+        "Result": "Madao"
+      },
+      {
+        "Job": "Cultist",
+        "Result": "Voodoo Lord"
+      },
+      {
+        "Job": "Suicide Bomber",
+        "Result": "The Survivor"
+      },
+      {
+        "Job": "Pro Gamer",
+        "Result": "Solo King"
+      },
+      {
+        "Job": "Painter",
+        "Result": "Skilled Painter"
+      },
+      {
+        "Job": "Brownsmith",
+        "Result": "Goldsmith"
+      },
+      {
+        "Job": "Badminton Player",
+        "Result": "Speed Striker"
+      },
+      {
+        "Job": "Accountant",
+        "Result": "Fund Manager"
+      },
+      {
+        "Job": "Stunt Performer",
+        "Result": "Action Star"
+      },
+      {
+        "Job": "Content Creator",
+        "Result": "Influencer"
+      }
     ]
   },
   {
@@ -413,26 +1033,86 @@
     "Rarity": "Epic",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Dark Knight", "Result": "Abyss Knight" },
-      { "Job": "Warrior", "Result": "Hero" },
-      { "Job": "Hero", "Result": "Super Hero" },
-      { "Job": "Viking", "Result": "Viking Hero" },
-      { "Job": "Bulleyes", "Result": "Hawkeyes" },
-      { "Job": "Myth Hunter", "Result": "Monster Hunter" },
-      { "Job": "Villain", "Result": "Vigilante" },
-      { "Job": "Summoner", "Result": "Grand Summoner" },
-      { "Job": "Valkyrie", "Result": "Grand Valkyrie" },
-      { "Job": "Atlantian", "Result": "Ancient Atlantian" },
-      { "Job": "Amazon Hunter", "Result": "Amazon Wonder" },
-      { "Job": "Pure Madao", "Result": "Reincarnated Hero" },
-      { "Job": "Musician", "Result": "Bard" },
-      { "Job": "Music Conductor", "Result": "The Grand Maestro" },
-      { "Job": "Blacksmith", "Result": "Warsmith" },
-      { "Job": "Witch", "Result": "Karen" },
-      { "Job": "Storm Raider", "Result": "Storm Herald" },
-      { "Job": "Historian", "Result": "Storyteller" },
-      { "Job": "Ping Pong Player", "Result": "Hexagon Warrior" },
-      { "Job": "Speed Striker", "Result": "Datuk LCW" }
+      {
+        "Job": "Dark Knight",
+        "Result": "Abyss Knight"
+      },
+      {
+        "Job": "Warrior",
+        "Result": "Hero"
+      },
+      {
+        "Job": "Hero",
+        "Result": "Super Hero"
+      },
+      {
+        "Job": "Viking",
+        "Result": "Viking Hero"
+      },
+      {
+        "Job": "Bulleyes",
+        "Result": "Hawkeyes"
+      },
+      {
+        "Job": "Myth Hunter",
+        "Result": "Monster Hunter"
+      },
+      {
+        "Job": "Villain",
+        "Result": "Vigilante"
+      },
+      {
+        "Job": "Summoner",
+        "Result": "Grand Summoner"
+      },
+      {
+        "Job": "Valkyrie",
+        "Result": "Grand Valkyrie"
+      },
+      {
+        "Job": "Atlantian",
+        "Result": "Ancient Atlantian"
+      },
+      {
+        "Job": "Amazon Hunter",
+        "Result": "Amazon Wonder"
+      },
+      {
+        "Job": "Pure Madao",
+        "Result": "Reincarnated Hero"
+      },
+      {
+        "Job": "Musician",
+        "Result": "Bard"
+      },
+      {
+        "Job": "Music Conductor",
+        "Result": "The Grand Maestro"
+      },
+      {
+        "Job": "Blacksmith",
+        "Result": "Warsmith"
+      },
+      {
+        "Job": "Witch",
+        "Result": "Karen"
+      },
+      {
+        "Job": "Storm Raider",
+        "Result": "Storm Herald"
+      },
+      {
+        "Job": "Historian",
+        "Result": "Storyteller"
+      },
+      {
+        "Job": "Ping Pong Player",
+        "Result": "Hexagon Warrior"
+      },
+      {
+        "Job": "Speed Striker",
+        "Result": "Datuk LCW"
+      }
     ]
   },
   {
@@ -440,14 +1120,46 @@
     "Rarity": "Epic",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Mage", "Result": "Magus" },
-      { "Job": "Summoner", "Result": "Zomancer" },
-      { "Job": "Nurse", "Result": "Doctor" },
-      { "Job": "Sorcerer", "Result": "Grand Sorcerer" },
-      { "Job": "High Priest", "Result": "Bishop" },
-      { "Job": "Established Artist", "Result": "The Polymath Artist" },
-      { "Job": "Party Clown", "Result": "Happy Meals Clown" },
-      { "Job": "Spin Master", "Result": "Mozart Of Table Tennis" }
+      {
+        "Job": "Mage",
+        "Result": "Magus"
+      },
+      {
+        "Job": "Summoner",
+        "Result": "Zomancer"
+      },
+      {
+        "Job": "Nurse",
+        "Result": "Doctor"
+      },
+      {
+        "Job": "Sorcerer",
+        "Result": "Grand Sorcerer"
+      },
+      {
+        "Job": "High Priest",
+        "Result": "Bishop"
+      },
+      {
+        "Job": "Established Artist",
+        "Result": "The Polymath Artist"
+      },
+      {
+        "Job": "Party Clown",
+        "Result": "Happy Meals Clown"
+      },
+      {
+        "Job": "Spin Master",
+        "Result": "Mozart Of Table Tennis"
+      },
+      {
+        "Job": "Storyteller",
+        "Result": "Dungeon Master"
+      },
+      {
+        "Job": "Performer",
+        "Result": "Content Creator"
+      }
     ]
   },
   {
@@ -455,25 +1167,82 @@
     "Rarity": "Epic",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Ninja", "Result": "Anbu" },
-      { "Job": "Dual Wielder", "Result": "Dual Blades" },
-      { "Job": "Lancer", "Result": "Dragoon" },
-      { "Job": "Boxer", "Result": "Pro Boxer" },
-      { "Job": "Monk", "Result": "Warrior Monk" },
-      { "Job": "Cleric", "Result": "Exorcist" },
-      { "Job": "Archer", "Result": "Archer Elite" },
-      { "Job": "Gunner", "Result": "Marksman" },
-      { "Job": "Hunter", "Result": "Wild Hunter" },
-      { "Job": "Spy", "Result": "Assassin" },
-      { "Job": "Madao", "Result": "Pure Madao" },
-      { "Job": "Witch", "Result": "Sultry Temptress" },
-      { "Job": "Myth Hunter", "Result": "Witcher" },
-      { "Job": "Dual Gunner", "Result": "Guns Akimbo" },
-      { "Job": "Space Soldier", "Result": "High Templar" },
-      { "Job": "Street Baller", "Result": "Club Baller" },
-      { "Job": "Tennis Player", "Result": "All Court Player" },
-      { "Job": "Badminton Player", "Result": "Power Smasher" },
-      { "Job": "Ping Pong Player", "Result": "Spin Master" }
+      {
+        "Job": "Ninja",
+        "Result": "Anbu"
+      },
+      {
+        "Job": "Dual Wielder",
+        "Result": "Dual Blades"
+      },
+      {
+        "Job": "Lancer",
+        "Result": "Dragoon"
+      },
+      {
+        "Job": "Boxer",
+        "Result": "Pro Boxer"
+      },
+      {
+        "Job": "Monk",
+        "Result": "Warrior Monk"
+      },
+      {
+        "Job": "Cleric",
+        "Result": "Exorcist"
+      },
+      {
+        "Job": "Archer",
+        "Result": "Archer Elite"
+      },
+      {
+        "Job": "Gunner",
+        "Result": "Marksman"
+      },
+      {
+        "Job": "Hunter",
+        "Result": "Wild Hunter"
+      },
+      {
+        "Job": "Spy",
+        "Result": "Assassin"
+      },
+      {
+        "Job": "Madao",
+        "Result": "Pure Madao"
+      },
+      {
+        "Job": "Witch",
+        "Result": "Sultry Temptress"
+      },
+      {
+        "Job": "Myth Hunter",
+        "Result": "Witcher"
+      },
+      {
+        "Job": "Dual Gunner",
+        "Result": "Guns Akimbo"
+      },
+      {
+        "Job": "Space Soldier",
+        "Result": "High Templar"
+      },
+      {
+        "Job": "Street Baller",
+        "Result": "Club Baller"
+      },
+      {
+        "Job": "Tennis Player",
+        "Result": "All Court Player"
+      },
+      {
+        "Job": "Badminton Player",
+        "Result": "Power Smasher"
+      },
+      {
+        "Job": "Ping Pong Player",
+        "Result": "Spin Master"
+      }
     ]
   },
   {
@@ -481,14 +1250,38 @@
     "Rarity": "Legendary",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Knight", "Result": "Dragon Knight" },
-      { "Job": "Dragoon", "Result": "Dragon Lancer" },
-      { "Job": "Viking", "Result": "Dragon Tamer" },
-      { "Job": "Warrior Monk", "Result": "Dragon Descendant" },
-      { "Job": "Zomancer", "Result": "Dracomancer" },
-      { "Job": "Myth Hunter", "Result": "Dragon Hunter" },
-      { "Job": "Underground Fighter", "Result": "Badguy Bounty Hunter" },
-      { "Job": "Warsmith", "Result": "Doomsmith" }
+      {
+        "Job": "Knight",
+        "Result": "Dragon Knight"
+      },
+      {
+        "Job": "Dragoon",
+        "Result": "Dragon Lancer"
+      },
+      {
+        "Job": "Viking",
+        "Result": "Dragon Tamer"
+      },
+      {
+        "Job": "Warrior Monk",
+        "Result": "Dragon Descendant"
+      },
+      {
+        "Job": "Zomancer",
+        "Result": "Dracomancer"
+      },
+      {
+        "Job": "Myth Hunter",
+        "Result": "Dragon Hunter"
+      },
+      {
+        "Job": "Underground Fighter",
+        "Result": "Badguy Bounty Hunter"
+      },
+      {
+        "Job": "Warsmith",
+        "Result": "Doomsmith"
+      }
     ]
   },
   {
@@ -496,17 +1289,54 @@
     "Rarity": "Legendary",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Warlock", "Result": "Necromancer" },
-      { "Job": "Cultist", "Result": "Demon Possessor" },
-      { "Job": "Grand Dark Knight", "Result": "Demon Knight" },
-      { "Job": "Sky Walker", "Result": "Dark Vader" },
-      { "Job": "Exorcist", "Result": "Crazed Exorcist" },
-      { "Job": "Creepy Madao", "Result": "Reincarnated Demon King" },
-      { "Job": "Serial Killer", "Result": "Gore Lover" },
-      { "Job": "Mercenary Leader", "Result": "Devil Hunter" },
-      { "Job": "Great Sea Angler", "Result": "Abyssal Hunter" },
-      { "Job": "Prophet", "Result": "Doomsayer" },
-      { "Job": "Psionic Agent", "Result": "Queen Of Blades" }
+      {
+        "Job": "Warlock",
+        "Result": "Necromancer"
+      },
+      {
+        "Job": "Cultist",
+        "Result": "Demon Possessor"
+      },
+      {
+        "Job": "Grand Dark Knight",
+        "Result": "Demon Knight"
+      },
+      {
+        "Job": "Sky Walker",
+        "Result": "Dark Vader"
+      },
+      {
+        "Job": "Exorcist",
+        "Result": "Crazed Exorcist"
+      },
+      {
+        "Job": "Creepy Madao",
+        "Result": "Reincarnated Demon King"
+      },
+      {
+        "Job": "Serial Killer",
+        "Result": "Gore Lover"
+      },
+      {
+        "Job": "Mercenary Leader",
+        "Result": "Devil Hunter"
+      },
+      {
+        "Job": "Great Sea Angler",
+        "Result": "Abyssal Hunter"
+      },
+      {
+        "Job": "Prophet",
+        "Result": "Doomsayer"
+      },
+      {
+        "Job": "Psionic Agent",
+        "Result": "Queen Of Blades"
+      },
+      {
+        "Job": "Freemason",
+        "Result": "Illuminati"
+      }
     ]
   },
   {
@@ -514,14 +1344,38 @@
     "Rarity": "Legendary",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "High Paladin", "Result": "Sacred Knight" },
-      { "Job": "Prophet", "Result": "Seer" },
-      { "Job": "Bishop", "Result": "Pope" },
-      { "Job": "Cleric Knight", "Result": "Cleric Saint" },
-      { "Job": "Chief Nurse", "Result": "Pacifist" },
-      { "Job": "Guardian", "Result": "Titan" },
-      { "Job": "Runes Knight", "Result": "Sacred Order Captain" },
-      { "Job": "Bard", "Result": "Maven Of The Strings" }
+      {
+        "Job": "High Paladin",
+        "Result": "Sacred Knight"
+      },
+      {
+        "Job": "Prophet",
+        "Result": "Seer"
+      },
+      {
+        "Job": "Bishop",
+        "Result": "Pope"
+      },
+      {
+        "Job": "Cleric Knight",
+        "Result": "Cleric Saint"
+      },
+      {
+        "Job": "Chief Nurse",
+        "Result": "Pacifist"
+      },
+      {
+        "Job": "Guardian",
+        "Result": "Titan"
+      },
+      {
+        "Job": "Runes Knight",
+        "Result": "Sacred Order Captain"
+      },
+      {
+        "Job": "Bard",
+        "Result": "Maven Of The Strings"
+      }
     ]
   },
   {
@@ -529,19 +1383,62 @@
     "Rarity": "Legendary",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Hitman", "Result": "One Shot" },
-      { "Job": "Vigilante", "Result": "Dark Hero" },
-      { "Job": "Dragon Knight", "Result": "Dragon Slayer" },
-      { "Job": "Samurai Master", "Result": "Zantetsuken" },
-      { "Job": "Mercenary Leader", "Result": "One Man Army" },
-      { "Job": "Grand Summoner", "Result": "Legendary Summoner" },
-      { "Job": "Archer Elite", "Result": "Sagittarius" },
-      { "Job": "Bowman", "Result": "Bulleyes" },
-      { "Job": "Viking Hero", "Result": "Viking Legend" },
-      { "Job": "Warrior Monk", "Result": "Great Sage" },
-      { "Job": "Guardian", "Result": "Onion Knight" },
-      { "Job": "Great Sea Angler", "Result": "Legendary Fisherman" },
-      { "Job": "Hexagon Warrior", "Result": "The Dragon Of China" }
+      {
+        "Job": "Hitman",
+        "Result": "One Shot"
+      },
+      {
+        "Job": "Vigilante",
+        "Result": "Dark Hero"
+      },
+      {
+        "Job": "Dragon Knight",
+        "Result": "Dragon Slayer"
+      },
+      {
+        "Job": "Samurai Master",
+        "Result": "Zantetsuken"
+      },
+      {
+        "Job": "Mercenary Leader",
+        "Result": "One Man Army"
+      },
+      {
+        "Job": "Grand Summoner",
+        "Result": "Legendary Summoner"
+      },
+      {
+        "Job": "Archer Elite",
+        "Result": "Sagittarius"
+      },
+      {
+        "Job": "Bowman",
+        "Result": "Bulleyes"
+      },
+      {
+        "Job": "Viking Hero",
+        "Result": "Viking Legend"
+      },
+      {
+        "Job": "Warrior Monk",
+        "Result": "Great Sage"
+      },
+      {
+        "Job": "Guardian",
+        "Result": "Onion Knight"
+      },
+      {
+        "Job": "Great Sea Angler",
+        "Result": "Legendary Fisherman"
+      },
+      {
+        "Job": "Hexagon Warrior",
+        "Result": "The Dragon Of China"
+      },
+      {
+        "Job": "Action Star",
+        "Result": "Impossible Stunt Legend"
+      }
     ]
   },
   {
@@ -549,17 +1446,54 @@
     "Rarity": "Legendary",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Dragon Lancer", "Result": "Dragon Lord" },
-      { "Job": "Runes Knight", "Result": "Runes Emperor" },
-      { "Job": "Archer Elite", "Result": "Archerlord" },
-      { "Job": "Storm Raider", "Result": "Sky Ruler" },
-      { "Job": "Beast Tamer", "Result": "Beast Lord" },
-      { "Job": "Terrorist", "Result": "Tyrant" },
-      { "Job": "Professional Gambler", "Result": "Lord Of Gamblers" },
-      { "Job": "Goldsmith", "Result": "Kingsmith" },
-      { "Job": "Geomancer", "Result": "Seismic Lord" },
-      { "Job": "Trickster", "Result": "The Mad Jester" },
-      { "Job": "NBA Small Forward", "Result": "King James" }
+      {
+        "Job": "Dragon Lancer",
+        "Result": "Dragon Lord"
+      },
+      {
+        "Job": "Runes Knight",
+        "Result": "Runes Emperor"
+      },
+      {
+        "Job": "Archer Elite",
+        "Result": "Archerlord"
+      },
+      {
+        "Job": "Storm Raider",
+        "Result": "Sky Ruler"
+      },
+      {
+        "Job": "Beast Tamer",
+        "Result": "Beast Lord"
+      },
+      {
+        "Job": "Terrorist",
+        "Result": "Tyrant"
+      },
+      {
+        "Job": "Professional Gambler",
+        "Result": "Lord Of Gamblers"
+      },
+      {
+        "Job": "Goldsmith",
+        "Result": "Kingsmith"
+      },
+      {
+        "Job": "Geomancer",
+        "Result": "Seismic Lord"
+      },
+      {
+        "Job": "Trickster",
+        "Result": "The Mad Jester"
+      },
+      {
+        "Job": "NBA Small Forward",
+        "Result": "King James"
+      },
+      {
+        "Job": "Fund Manager",
+        "Result": "Wall Street Wolf"
+      }
     ]
   },
   {
@@ -567,14 +1501,38 @@
     "Rarity": "Legendary",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Paladin", "Result": "Guardian" },
-      { "Job": "Space Soldier", "Result": "Guardian Of The Galaxy" },
-      { "Job": "Grand Sorcerer", "Result": "Barrier Master" },
-      { "Job": "Musketeer", "Result": "King's Musketeer" },
-      { "Job": "Amazon Hunter", "Result": "Amazon Prime" },
-      { "Job": "Cyborg", "Result": "Big Daddy" },
-      { "Job": "Silversmith", "Result": "Soulsmith" },
-      { "Job": "Shadewood Knight", "Result": "Knight Of Ni" }
+      {
+        "Job": "Paladin",
+        "Result": "Guardian"
+      },
+      {
+        "Job": "Space Soldier",
+        "Result": "Guardian Of The Galaxy"
+      },
+      {
+        "Job": "Grand Sorcerer",
+        "Result": "Barrier Master"
+      },
+      {
+        "Job": "Musketeer",
+        "Result": "King's Musketeer"
+      },
+      {
+        "Job": "Amazon Hunter",
+        "Result": "Amazon Prime"
+      },
+      {
+        "Job": "Cyborg",
+        "Result": "Big Daddy"
+      },
+      {
+        "Job": "Silversmith",
+        "Result": "Soulsmith"
+      },
+      {
+        "Job": "Shadewood Knight",
+        "Result": "Knight Of Ni"
+      }
     ]
   },
   {
@@ -582,14 +1540,42 @@
     "Rarity": "Legendary",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Thracian", "Result": "Arena Champion" },
-      { "Job": "Pro Boxer", "Result": "Boxing Champion" },
-      { "Job": "Underground Fighter", "Result": "The King Of Fighters" },
-      { "Job": "Bomberman", "Result": "Super Bomberman" },
-      { "Job": "Berserker", "Result": "Megalomaniac" },
-      { "Job": "Musketeer", "Result": "Grand Duelist" },
-      { "Job": "NBA Shooting Guard", "Result": "Air Jordan" },
-      { "Job": "Power Smasher", "Result": "Super Dan" }
+      {
+        "Job": "Thracian",
+        "Result": "Arena Champion"
+      },
+      {
+        "Job": "Pro Boxer",
+        "Result": "Boxing Champion"
+      },
+      {
+        "Job": "Underground Fighter",
+        "Result": "The King Of Fighters"
+      },
+      {
+        "Job": "Bomberman",
+        "Result": "Super Bomberman"
+      },
+      {
+        "Job": "Berserker",
+        "Result": "Megalomaniac"
+      },
+      {
+        "Job": "Musketeer",
+        "Result": "Grand Duelist"
+      },
+      {
+        "Job": "NBA Shooting Guard",
+        "Result": "Air Jordan"
+      },
+      {
+        "Job": "Power Smasher",
+        "Result": "Super Dan"
+      },
+      {
+        "Job": "Chef",
+        "Result": "Iron Chef"
+      }
     ]
   },
   {
@@ -597,16 +1583,46 @@
     "Rarity": "Legendary",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Witch", "Result": "Grand High Witch" },
-      { "Job": "Super Hero", "Result": "The Chosen One" },
-      { "Job": "Elemancer", "Result": "Omnimancer" },
-      { "Job": "Prophet", "Result": "Oracle" },
-      { "Job": "Exorcist", "Result": "Witch Hunter" },
-      { "Job": "Warrior Monk", "Result": "Tai Chi Master" },
-      { "Job": "Mercenary", "Result": "Ex Soldier 1st Class" },
-      { "Job": "Cyborg", "Result": "Ultimate Gear Justice" },
-      { "Job": "Spy", "Result": "Psionic Agent" },
-      { "Job": "Pyromancer", "Result": "Flame Colonel" }
+      {
+        "Job": "Witch",
+        "Result": "Grand High Witch"
+      },
+      {
+        "Job": "Super Hero",
+        "Result": "The Chosen One"
+      },
+      {
+        "Job": "Elemancer",
+        "Result": "Omnimancer"
+      },
+      {
+        "Job": "Prophet",
+        "Result": "Oracle"
+      },
+      {
+        "Job": "Exorcist",
+        "Result": "Witch Hunter"
+      },
+      {
+        "Job": "Warrior Monk",
+        "Result": "Tai Chi Master"
+      },
+      {
+        "Job": "Mercenary",
+        "Result": "Ex Soldier 1st Class"
+      },
+      {
+        "Job": "Cyborg",
+        "Result": "Ultimate Gear Justice"
+      },
+      {
+        "Job": "Spy",
+        "Result": "Psionic Agent"
+      },
+      {
+        "Job": "Pyromancer",
+        "Result": "Flame Colonel"
+      }
     ]
   },
   {
@@ -614,16 +1630,46 @@
     "Rarity": "Legendary",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Super Villain", "Result": "The Big Boss" },
-      { "Job": "Anbu", "Result": "Anbu Leader" },
-      { "Job": "Mafia Elite", "Result": "Mafia Boss" },
-      { "Job": "Terrorist", "Result": "Terrorist Leader" },
-      { "Job": "Samurai Master", "Result": "Shogun" },
-      { "Job": "Nurse", "Result": "Chief Nurse" },
-      { "Job": "Pirate Quartermaster", "Result": "Pirate Captain" },
-      { "Job": "Lieutenant", "Result": "Colonel" },
-      { "Job": "Musician", "Result": "Music Conductor" },
-      { "Job": "Psionic Agent", "Result": "Professor X" }
+      {
+        "Job": "Super Villain",
+        "Result": "The Big Boss"
+      },
+      {
+        "Job": "Anbu",
+        "Result": "Anbu Leader"
+      },
+      {
+        "Job": "Mafia Elite",
+        "Result": "Mafia Boss"
+      },
+      {
+        "Job": "Terrorist",
+        "Result": "Terrorist Leader"
+      },
+      {
+        "Job": "Samurai Master",
+        "Result": "Shogun"
+      },
+      {
+        "Job": "Nurse",
+        "Result": "Chief Nurse"
+      },
+      {
+        "Job": "Pirate Quartermaster",
+        "Result": "Pirate Captain"
+      },
+      {
+        "Job": "Lieutenant",
+        "Result": "Colonel"
+      },
+      {
+        "Job": "Musician",
+        "Result": "Music Conductor"
+      },
+      {
+        "Job": "Psionic Agent",
+        "Result": "Professor X"
+      }
     ]
   },
   {
@@ -631,18 +1677,54 @@
     "Rarity": "Legendary",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Samurai", "Result": "Samurai Master" },
-      { "Job": "Grand Sorcerer", "Result": "Sorcerer Master" },
-      { "Job": "Herbalist", "Result": "Herb Sage" },
-      { "Job": "Cannoneer", "Result": "Mega Cannoneer" },
-      { "Job": "Ninja", "Result": "Ninja Jonin" },
-      { "Job": "Ground Ravager", "Result": "Bandit Prime" },
-      { "Job": "Warrior Monk", "Result": "Shaolin Master" },
-      { "Job": "Doctor", "Result": "Surgeon" },
-      { "Job": "Gamester", "Result": "Professional Gambler" },
-      { "Job": "Engineering Intern", "Result": "Licensed Engineer" },
-      { "Job": "Gamer", "Result": "Pro Gamer" },
-      { "Job": "All Court Player", "Result": "Swiss Maestro" }
+      {
+        "Job": "Samurai",
+        "Result": "Samurai Master"
+      },
+      {
+        "Job": "Grand Sorcerer",
+        "Result": "Sorcerer Master"
+      },
+      {
+        "Job": "Herbalist",
+        "Result": "Herb Sage"
+      },
+      {
+        "Job": "Cannoneer",
+        "Result": "Mega Cannoneer"
+      },
+      {
+        "Job": "Ninja",
+        "Result": "Ninja Jonin"
+      },
+      {
+        "Job": "Ground Ravager",
+        "Result": "Bandit Prime"
+      },
+      {
+        "Job": "Warrior Monk",
+        "Result": "Shaolin Master"
+      },
+      {
+        "Job": "Doctor",
+        "Result": "Surgeon"
+      },
+      {
+        "Job": "Gamester",
+        "Result": "Professional Gambler"
+      },
+      {
+        "Job": "Engineering Intern",
+        "Result": "Licensed Engineer"
+      },
+      {
+        "Job": "Gamer",
+        "Result": "Pro Gamer"
+      },
+      {
+        "Job": "All Court Player",
+        "Result": "Swiss Maestro"
+      }
     ]
   },
   {
@@ -650,18 +1732,58 @@
     "Rarity": "Legendary",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Vigilante", "Result": "Phantom Thief" },
-      { "Job": "Serial Killer", "Result": "Reaper" },
-      { "Job": "Assassin", "Result": "Phantom" },
-      { "Job": "Trinity Blades", "Result": "Infinity Blades" },
-      { "Job": "Spell Fencer", "Result": "Omni Fencer" },
-      { "Job": "Abyss Knight", "Result": "Oblivion Knight" },
-      { "Job": "Arcane Lancer", "Result": "Phantom Lancer" },
-      { "Job": "Job Sniper", "Result": "Deadshot" },
-      { "Job": "Secret Agent", "Result": "Double Agent" },
-      { "Job": "Myth Hunter", "Result": "Demon Slayer" },
-      { "Job": "Samurai Master", "Result": "Shinigami" },
-      { "Job": "Creepy Madao", "Result": "Stand User" }
+      {
+        "Job": "Vigilante",
+        "Result": "Phantom Thief"
+      },
+      {
+        "Job": "Serial Killer",
+        "Result": "Reaper"
+      },
+      {
+        "Job": "Assassin",
+        "Result": "Phantom"
+      },
+      {
+        "Job": "Trinity Blades",
+        "Result": "Infinity Blades"
+      },
+      {
+        "Job": "Spell Fencer",
+        "Result": "Omni Fencer"
+      },
+      {
+        "Job": "Abyss Knight",
+        "Result": "Oblivion Knight"
+      },
+      {
+        "Job": "Arcane Lancer",
+        "Result": "Phantom Lancer"
+      },
+      {
+        "Job": "Job Sniper",
+        "Result": "Deadshot"
+      },
+      {
+        "Job": "Secret Agent",
+        "Result": "Double Agent"
+      },
+      {
+        "Job": "Myth Hunter",
+        "Result": "Demon Slayer"
+      },
+      {
+        "Job": "Samurai Master",
+        "Result": "Shinigami"
+      },
+      {
+        "Job": "Creepy Madao",
+        "Result": "Stand User"
+      },
+      {
+        "Job": "Guerrilla Artist",
+        "Result": "Anonymous Muralist"
+      }
     ]
   },
   {
@@ -669,20 +1791,62 @@
     "Rarity": "Legendary",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Cannoneer", "Result": "Planet Destroyer" },
-      { "Job": "Star Magus", "Result": "Celestial Magus" },
-      { "Job": "Soldier", "Result": "Space Soldier" },
-      { "Job": "Detective", "Result": "Space Detective" },
-      { "Job": "Dual Wielder", "Result": "Sky Walker" },
-      { "Job": "Assassin", "Result": "Starkiller" },
-      { "Job": "Suicide Bomber", "Result": "World Ender" },
-      { "Job": "Grand Sorcerer", "Result": "Chronomancer" },
-      { "Job": "Cultist", "Result": "Eldritch Child" },
-      { "Job": "Mad Scientist", "Result": "The Rickest Scientist" },
-      { "Job": "Music Composer", "Result": "Musical Prodigy" },
-      { "Job": "Storyteller", "Result": "Interdimensional Narrator" },
-      { "Job": "Guns Akimbo", "Result": "Galactic Arms Dealer" },
-      { "Job": "Pure Madao", "Result": "Cosmic Hobo" }
+      {
+        "Job": "Cannoneer",
+        "Result": "Planet Destroyer"
+      },
+      {
+        "Job": "Star Magus",
+        "Result": "Celestial Magus"
+      },
+      {
+        "Job": "Soldier",
+        "Result": "Space Soldier"
+      },
+      {
+        "Job": "Detective",
+        "Result": "Space Detective"
+      },
+      {
+        "Job": "Dual Wielder",
+        "Result": "Sky Walker"
+      },
+      {
+        "Job": "Assassin",
+        "Result": "Starkiller"
+      },
+      {
+        "Job": "Suicide Bomber",
+        "Result": "World Ender"
+      },
+      {
+        "Job": "Grand Sorcerer",
+        "Result": "Chronomancer"
+      },
+      {
+        "Job": "Cultist",
+        "Result": "Eldritch Child"
+      },
+      {
+        "Job": "Mad Scientist",
+        "Result": "The Rickest Scientist"
+      },
+      {
+        "Job": "Music Composer",
+        "Result": "Musical Prodigy"
+      },
+      {
+        "Job": "Storyteller",
+        "Result": "Interdimensional Narrator"
+      },
+      {
+        "Job": "Guns Akimbo",
+        "Result": "Galactic Arms Dealer"
+      },
+      {
+        "Job": "Pure Madao",
+        "Result": "Cosmic Hobo"
+      }
     ]
   },
   {
@@ -696,9 +1860,18 @@
     "Rarity": "Rare",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Scholar", "Result": "Engineering Intern" },
-      { "Job": "Pro Gamer", "Result": "Beater" },
-      { "Job": "Jobless", "Result": "Craftsman" }
+      {
+        "Job": "Scholar",
+        "Result": "Engineering Intern"
+      },
+      {
+        "Job": "Pro Gamer",
+        "Result": "Beater"
+      },
+      {
+        "Job": "Jobless",
+        "Result": "Craftsman"
+      }
     ]
   },
   {
@@ -706,20 +1879,62 @@
     "Rarity": "Epic",
     "Acquire Method": "Event",
     "Combine List": [
-      { "Job": "Berserker", "Result": "Chainsaw Man" },
-      { "Job": "Exorcist", "Result": "Ghostbuster" },
-      { "Job": "Assassin", "Result": "Shadow Weapon Meister" },
-      { "Job": "Detective", "Result": "Creepypasta Detective" },
-      { "Job": "Guns Akimbo", "Result": "Gun Type Meister" },
-      { "Job": "Warlock", "Result": "Dream Eater" },
-      { "Job": "Cleric Knight", "Result": "Hollowed Protector" },
-      { "Job": "Bard", "Result": "Haunting Melodist" },
-      { "Job": "Performer", "Result": "Joker" },
-      { "Job": "Chief Nurse", "Result": "Plague Mistress" },
-      { "Job": "Storyteller", "Result": "Pied Piper" },
-      { "Job": "Trickster", "Result": "Vampire Queen" },
-      { "Job": "Vigilante", "Result": "Social Justice Warrior" },
-      { "Job": "Party Clown", "Result": "Spring Heeled Jester" }
+      {
+        "Job": "Berserker",
+        "Result": "Chainsaw Man"
+      },
+      {
+        "Job": "Exorcist",
+        "Result": "Ghostbuster"
+      },
+      {
+        "Job": "Assassin",
+        "Result": "Shadow Weapon Meister"
+      },
+      {
+        "Job": "Detective",
+        "Result": "Creepypasta Detective"
+      },
+      {
+        "Job": "Guns Akimbo",
+        "Result": "Gun Type Meister"
+      },
+      {
+        "Job": "Warlock",
+        "Result": "Dream Eater"
+      },
+      {
+        "Job": "Cleric Knight",
+        "Result": "Hollowed Protector"
+      },
+      {
+        "Job": "Bard",
+        "Result": "Haunting Melodist"
+      },
+      {
+        "Job": "Performer",
+        "Result": "Joker"
+      },
+      {
+        "Job": "Chief Nurse",
+        "Result": "Plague Mistress"
+      },
+      {
+        "Job": "Storyteller",
+        "Result": "Pied Piper"
+      },
+      {
+        "Job": "Trickster",
+        "Result": "Vampire Queen"
+      },
+      {
+        "Job": "Vigilante",
+        "Result": "Social Justice Warrior"
+      },
+      {
+        "Job": "Party Clown",
+        "Result": "Spring Heeled Jester"
+      }
     ]
   },
   {
@@ -727,20 +1942,62 @@
     "Rarity": "Epic",
     "Acquire Method": "Event",
     "Combine List": [
-      { "Job": "Mad Scientist", "Result": "Santa" },
-      { "Job": "Bulleyes", "Result": "Cupid" },
-      { "Job": "Prophet", "Result": "The Forerunner" },
-      { "Job": "Star Magus", "Result": "Magus From The East" },
-      { "Job": "Hydromancer", "Result": "Snowmancer" },
-      { "Job": "High Paladin", "Result": "Frost Paladin" },
-      { "Job": "Colonel", "Result": "Nutcracker Soldier" },
-      { "Job": "Geomancer", "Result": "Gingerbread Enchanter" },
-      { "Job": "Cyborg", "Result": "Toy Robot Z" },
-      { "Job": "Bomberman", "Result": "Carnival Demolisher" },
-      { "Job": "Music Conductor", "Result": "Carol Virtuoso" },
-      { "Job": "Licensed Engineer", "Result": "Gnome Engineer" },
-      { "Job": "Witch", "Result": "The Snow Queen" },
-      { "Job": "Trickster", "Result": "Father Frost" }
+      {
+        "Job": "Mad Scientist",
+        "Result": "Santa"
+      },
+      {
+        "Job": "Bulleyes",
+        "Result": "Cupid"
+      },
+      {
+        "Job": "Prophet",
+        "Result": "The Forerunner"
+      },
+      {
+        "Job": "Star Magus",
+        "Result": "Magus From The East"
+      },
+      {
+        "Job": "Hydromancer",
+        "Result": "Snowmancer"
+      },
+      {
+        "Job": "High Paladin",
+        "Result": "Frost Paladin"
+      },
+      {
+        "Job": "Colonel",
+        "Result": "Nutcracker Soldier"
+      },
+      {
+        "Job": "Geomancer",
+        "Result": "Gingerbread Enchanter"
+      },
+      {
+        "Job": "Cyborg",
+        "Result": "Toy Robot Z"
+      },
+      {
+        "Job": "Bomberman",
+        "Result": "Carnival Demolisher"
+      },
+      {
+        "Job": "Music Conductor",
+        "Result": "Carol Virtuoso"
+      },
+      {
+        "Job": "Licensed Engineer",
+        "Result": "Gnome Engineer"
+      },
+      {
+        "Job": "Witch",
+        "Result": "The Snow Queen"
+      },
+      {
+        "Job": "Trickster",
+        "Result": "Father Frost"
+      }
     ]
   },
   {
@@ -748,9 +2005,18 @@
     "Rarity": "Rare",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Jobless", "Result": "Artist" },
-      { "Job": "Artist", "Result": "Painter" },
-      { "Job": "Musician", "Result": "Music Composer" }
+      {
+        "Job": "Jobless",
+        "Result": "Artist"
+      },
+      {
+        "Job": "Artist",
+        "Result": "Painter"
+      },
+      {
+        "Job": "Musician",
+        "Result": "Music Composer"
+      }
     ]
   },
   {
@@ -758,20 +2024,62 @@
     "Rarity": "Epic",
     "Acquire Method": "Event",
     "Combine List": [
-      { "Job": "Mad Scientist", "Result": "Egg Alchemist" },
-      { "Job": "Ninja Jonin", "Result": "Easter Shinobi" },
-      { "Job": "Valkyrie", "Result": "Springs Harbinger" },
-      { "Job": "Warrior Monk", "Result": "Chestnut Monk" },
-      { "Job": "Grand Sorcerer", "Result": "Special Grade Sorcerer" },
-      { "Job": "Dragon Knight", "Result": "Lazarus Blade" },
-      { "Job": "Ground Ravager", "Result": "Eggblade Scavenger" },
-      { "Job": "Anbu", "Result": "The Copy Ninja" },
-      { "Job": "Pro Gamer", "Result": "Completionist" },
-      { "Job": "Berserker", "Result": "Titan Shifter" },
-      { "Job": "All Court Player", "Result": "The Serbinator" },
-      { "Job": "Path Seeker", "Result": "Sage Of Six Paths" },
-      { "Job": "Pure Madao", "Result": "Zero Returner" },
-      { "Job": "Assassin", "Result": "Shadow Lone Wolf" }
+      {
+        "Job": "Mad Scientist",
+        "Result": "Egg Alchemist"
+      },
+      {
+        "Job": "Ninja Jonin",
+        "Result": "Easter Shinobi"
+      },
+      {
+        "Job": "Valkyrie",
+        "Result": "Springs Harbinger"
+      },
+      {
+        "Job": "Warrior Monk",
+        "Result": "Chestnut Monk"
+      },
+      {
+        "Job": "Grand Sorcerer",
+        "Result": "Special Grade Sorcerer"
+      },
+      {
+        "Job": "Dragon Knight",
+        "Result": "Lazarus Blade"
+      },
+      {
+        "Job": "Ground Ravager",
+        "Result": "Eggblade Scavenger"
+      },
+      {
+        "Job": "Anbu",
+        "Result": "The Copy Ninja"
+      },
+      {
+        "Job": "Pro Gamer",
+        "Result": "Completionist"
+      },
+      {
+        "Job": "Berserker",
+        "Result": "Titan Shifter"
+      },
+      {
+        "Job": "All Court Player",
+        "Result": "The Serbinator"
+      },
+      {
+        "Job": "Path Seeker",
+        "Result": "Sage Of Six Paths"
+      },
+      {
+        "Job": "Pure Madao",
+        "Result": "Zero Returner"
+      },
+      {
+        "Job": "Assassin",
+        "Result": "Shadow Lone Wolf"
+      }
     ]
   },
   {
@@ -779,16 +2087,62 @@
     "Rarity": "Epic",
     "Acquire Method": "Event",
     "Combine List": [
-      { "Job": "High Paladin", "Result": "Chromatic Knight" },
-      { "Job": "Guardian", "Result": "Coastal Lifeguard" },
-      { "Job": "Licensed Engineer", "Result": "Beach Sand Sculptor" },
-      { "Job": "Super Villain", "Result": "Flamingo Villain" },
-      { "Job": "Professional Gambler", "Result": "Card Shark" },
-      { "Job": "Pro Boxer", "Result": "Coconut Brawler" },
-      { "Job": "Colonel", "Result": "NERV Commander" },
-      { "Job": "Mystic Fighter", "Result": "Sharkfist" },
-      { "Job": "Vigilante", "Result": "The Last Spiral" },
-      { "Job": "Music Composer", "Result": "Tidal Rockstar" }
+      {
+        "Job": "High Paladin",
+        "Result": "Chromatic Knight"
+      },
+      {
+        "Job": "Guardian",
+        "Result": "Coastal Lifeguard"
+      },
+      {
+        "Job": "Licensed Engineer",
+        "Result": "Beach Sand Sculptor"
+      },
+      {
+        "Job": "Super Villain",
+        "Result": "Flamingo Villain"
+      },
+      {
+        "Job": "Professional Gambler",
+        "Result": "Card Shark"
+      },
+      {
+        "Job": "Pro Boxer",
+        "Result": "Coconut Brawler"
+      },
+      {
+        "Job": "Colonel",
+        "Result": "NERV Commander"
+      },
+      {
+        "Job": "Mystic Fighter",
+        "Result": "Sharkfist"
+      },
+      {
+        "Job": "Vigilante",
+        "Result": "The Last Spiral"
+      },
+      {
+        "Job": "Music Composer",
+        "Result": "Tidal Rockstar"
+      },
+      {
+        "Job": "Iron Chef",
+        "Result": "Beach Grillmaster"
+      },
+      {
+        "Job": "Goldsmith",
+        "Result": "Drowned Pharaoh"
+      },
+      {
+        "Job": "Serial Killer",
+        "Result": "Cicada Reaper"
+      },
+      {
+        "Job": "Pirate Quartermaster",
+        "Result": "Strawhat Corsair"
+      }
     ]
   },
   {
@@ -796,8 +2150,14 @@
     "Rarity": "Rare",
     "Acquire Method": "Normal",
     "Combine List": [
-      { "Job": "Brawler", "Result": "Street Baller" },
-      { "Job": "Ranger", "Result": "Racket Player" }
+      {
+        "Job": "Brawler",
+        "Result": "Street Baller"
+      },
+      {
+        "Job": "Ranger",
+        "Result": "Racket Player"
+      }
     ]
   }
 ]
