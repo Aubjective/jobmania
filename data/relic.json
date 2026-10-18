@@ -1477,7 +1477,7 @@
     "Lv10 Str": "250",
     "Lv10 Agi": "270",
     "Lv10 Int": "270",
-    "InnatePassiveId": 32,
+    "InnatePassiveId": 147,
     "SpecialType": "Venom",
     "Craft Material x1": "Beast Taming Skills",
     "Craft Ability x5": "Ooze Surge",
@@ -1663,5 +1663,35 @@
     "Craft Ability x5": "Void Sphere",
     "Series": "",
     "SpecificChapter": "Void Dungeon"
+  },
+  {
+    "RelicId": 112,
+    "RelicKey": "Black Banner",
+    "Rarity": "Legendary",
+    "Lv10 HP": "450",
+    "Lv10 Str": "360",
+    "Lv10 Agi": "200",
+    "Lv10 Int": "200",
+    "InnatePassiveId": 148,
+    "SpecialType": "Strength",
+    "Craft Material x1": "Chief Necklace",
+    "Craft Ability x5": "Battle Roar",
+    "Series": "",
+    "SpecificChapter": "The King Of Orcs"
+  },
+  {
+    "RelicId": 113,
+    "RelicKey": "Moonblight Fang",
+    "Rarity": "Legendary",
+    "Lv10 HP": "400",
+    "Lv10 Str": "320",
+    "Lv10 Agi": "300",
+    "Lv10 Int": "230",
+    "InnatePassiveId": 322,
+    "SpecialType": "Intelligence",
+    "Craft Material x1": "Dragon Heart",
+    "Craft Ability x5": "Essence Leech",
+    "Series": "",
+    "SpecificChapter": "Dragons Kingdom"
   }
 ]
