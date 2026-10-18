@@ -7680,6 +7680,28 @@
         "empty abilities_description_localisation.json and passives_description_localisation.json legacy placeholders"
       ],
       "checkpointPolicy": "Remain wiki 0.0, lastAuditedGameVersion and lastSyncedGameVersion null until final validation"
+    },
+    {
+      "wikiVersion": "0.0",
+      "date": "2026-10-18",
+      "action": "phase_5_final_verification_in_progress",
+      "status": "blocked_pending_reference_review",
+      "sourceVersion": "2.48.1",
+      "verified": [
+        "8 chunk manifests have matching declared record totals and all referenced chunk paths exist",
+        "1,761 populated AP costs match live Database sheet",
+        "113 relic records and Series/SpecificChapter fields match Database; 390 relic passive IDs checked previously",
+        "617 character acquisition values matched Database; 2 unnumbered excluded",
+        "No missing character equipped skill/passive references found"
+      ],
+      "exceptions": [
+        "19 jobcraft reference fields target 13 job keys absent from numbered Jobs source records and jobs.json; preserve legacy rows until adjudicated",
+        "Ability keys Power Chords and Rapid Spin are duplicated in the source and repository; AP costs were aligned by key occurrence",
+        "Three unnumbered ability keys have null AP costs and stay pending",
+        "Two relic chapter/series values Treasure Land and ChallengeMode have no localization keys; fallback renders raw values",
+        "Live browser tests and exhaustive full-file JSON parsing not yet completed"
+      ],
+      "checkpointDecision": "Keep wikiVersion 0.0 and lastAuditedGameVersion / lastSyncedGameVersion null until all release blockers are resolved or explicitly approved as excluded. Ongoing mechanics description completion is not a release blocker."
     }
   ]
 }
