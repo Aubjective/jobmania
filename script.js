@@ -619,7 +619,11 @@ if (!window.JOBMANIA_DEFER_INIT) init();
             const localized = typeof window.getLocalizedName === 'function'
                 ? window.getLocalizedName('chaptersSeries', value)
                 : value;
-            return typeof window.escapeHtml === 'function' ? window.escapeHtml(localized) : String(localized);
+            // Readable English fallback for source keys not present in Chapters & Series localization.
+            // Do not invent translations or change the original JSON source key.
+            const fallback = { ChallengeMode: 'Challenge Mode', 'Treasure Land': 'Treasure Land' };
+            const display = localized === value && currentLang === 'English' ? (fallback[value] || value) : localized;
+            return typeof window.escapeHtml === 'function' ? window.escapeHtml(display) : String(display);
         }
 
         if (clickable && typeof window.detailLink === 'function') {
