@@ -107,7 +107,7 @@
         if (cat === 'abilities') {
             if (abilitySkillUnitMap) return abilitySkillUnitMap;
             if (abilitySkillUnitPromise) return abilitySkillUnitPromise;
-            abilitySkillUnitPromise = fetch('data/abilities_description.json')
+            abilitySkillUnitPromise = fetchJobmaniaJson('data/abilities_description.json')
                 .then(res => {
                     if (!res.ok) throw new Error(`HTTP ${res.status}`);
                     return res.json();
@@ -127,7 +127,7 @@
         if (cat === 'passives') {
             if (passiveSkillUnitMap) return passiveSkillUnitMap;
             if (passiveSkillUnitPromise) return passiveSkillUnitPromise;
-            passiveSkillUnitPromise = fetch('data/passives_description.json')
+            passiveSkillUnitPromise = fetchJobmaniaJson('data/passives_description.json')
                 .then(res => {
                     if (!res.ok) throw new Error(`HTTP ${res.status}`);
                     return res.json();
@@ -152,7 +152,7 @@
         if (abilityDescriptionPromise) return abilityDescriptionPromise;
         abilityDescriptionPromise = (async function () {
             try {
-                const res = await fetch('data/abilities_description_localisation.json');
+                const res = await fetchJobmaniaJson('data/abilities_description_localisation.json');
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
                 const rows = await res.json();
                 abilityDescriptionMap = new Map((Array.isArray(rows) ? rows : []).map(item => [item.AbilityKey, item]));
@@ -171,7 +171,7 @@
         if (passiveDescriptionPromise) return passiveDescriptionPromise;
         passiveDescriptionPromise = (async function () {
             try {
-                const res = await fetch('data/passives_description_localisation.json');
+                const res = await fetchJobmaniaJson('data/passives_description_localisation.json');
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
                 const rows = await res.json();
                 passiveDescriptionMap = new Map((Array.isArray(rows) ? rows : []).map(item => [item.PassiveKey, item]));

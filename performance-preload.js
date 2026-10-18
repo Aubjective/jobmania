@@ -7,7 +7,7 @@
         'mechanics.js',
         'data/mechanics.json',
         'data/mechanics_localisation.json',
-        'data/abilities_description.json',
+        'data/chunks/abilities_description/manifest.json',
         'data/passives_description.json',
         'data/abilities_description_localisation.json',
         'data/passives_description_localisation.json',

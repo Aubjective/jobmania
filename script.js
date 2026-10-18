@@ -1,3 +1,25 @@
+// Load arrays split into record-preserving JSON chunks, falling back to regular JSON.
+async function fetchJobmaniaJson(path) {
+    const match = /^data\/([^/]+)\.json$/.exec(path);
+    if (!match) return fetch(path);
+    const base = 'data/chunks/' + match[1] + '/';
+    const index = await fetch(base + 'manifest.json');
+    if (index.status === 404) return fetch(path);
+    if (!index.ok) throw new Error('Chunk manifest failed: ' + path);
+    const manifest = await index.json();
+    if (manifest.type !== 'array' || !Array.isArray(manifest.parts)) throw new Error('Invalid chunk manifest: ' + path);
+    const chunks = await Promise.all(manifest.parts.map(async part => {
+        const response = await fetch(base + part.file);
+        if (!response.ok) throw new Error('Chunk fetch failed: ' + base + part.file);
+        const records = await response.json();
+        if (!Array.isArray(records) || records.length !== part.records) throw new Error('Chunk validation failed: ' + part.file);
+        return records;
+    }));
+    const records = chunks.flat();
+    if (records.length !== manifest.totalRecords) throw new Error('Chunk total mismatch: ' + path);
+    return { ok: true, status: 200, json: async () => records };
+}
+
 const db = {};
 const localisation = {};
 const localisationIndex = {};
@@ -236,11 +258,11 @@ async function init() {
     main.innerHTML = `<h1>🔥 Jobmania Wiki</h1><p>🔄 ${escapeHtml(ui('loading', 'Loading data...'))}</p>`;
     try {
         const entityDataPromise = Promise.all(files.map(async f => {
-            const res = await fetch(`data/${f}.json`);
+            const res = await fetchJobmaniaJson(`data/${f}.json`);
             if (res.ok) db[f] = await res.json();
         }));
         const localisationPromise = Promise.all(Object.entries(localisationFiles).map(async ([cat, file]) => {
-            const res = await fetch(`data/${file}.json`);
+            const res = await fetchJobmaniaJson(`data/${file}.json`);
             if (res.ok) localisation[cat] = await res.json();
             buildLocalisationIndex(cat);
         }));
