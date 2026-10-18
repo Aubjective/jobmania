@@ -6989,6 +6989,526 @@
       },
       "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
       "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "relics",
+      "changeType": "added",
+      "key": "Black Banner",
+      "sourceSheet": "Relics",
+      "sourceId": 112,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [],
+      "description": "Confirmed numbered relic",
+      "localizationRequired": true
+    },
+    {
+      "version": "2.48.0",
+      "category": "relics",
+      "changeType": "added",
+      "key": "Moonblight Fang",
+      "sourceSheet": "Relics",
+      "sourceId": 113,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [],
+      "description": "Confirmed numbered relic",
+      "localizationRequired": true
+    },
+    {
+      "version": "2.48.0",
+      "category": "relics",
+      "changeType": "modified",
+      "key": "Quolot's Eye",
+      "sourceSheet": "Relics",
+      "sourceId": 99,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "InnatePassiveId"
+      ],
+      "before": {
+        "InnatePassiveId": 32
+      },
+      "after": {
+        "InnatePassiveId": 147
+      },
+      "description": "Revised innate passive ID",
+      "localizationRequired": false
+    },
+    {
+      "version": "2.47.0",
+      "category": "relicPassives",
+      "changeType": "modified",
+      "key": "UpgradeHumanoid1",
+      "sourceSheet": "RelicPassives",
+      "sourceId": 150,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "RelicPassiveKey",
+        "Multiplier"
+      ],
+      "before": {
+        "RelicPassiveKey": "UpgradeHumanoid0",
+        "Multiplier": 0
+      },
+      "after": {
+        "RelicPassiveKey": "UpgradeHumanoid1",
+        "Multiplier": 1
+      },
+      "description": "Confirmed numbered relic passive upgraded from 0 to 1",
+      "localizationRequired": false
+    },
+    {
+      "version": "2.47.0",
+      "category": "relicPassives",
+      "changeType": "modified",
+      "key": "UpgradeSpirit1",
+      "sourceSheet": "RelicPassives",
+      "sourceId": 151,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "RelicPassiveKey",
+        "Multiplier"
+      ],
+      "before": {
+        "RelicPassiveKey": "UpgradeSpirit0",
+        "Multiplier": 0
+      },
+      "after": {
+        "RelicPassiveKey": "UpgradeSpirit1",
+        "Multiplier": 1
+      },
+      "description": "Confirmed numbered relic passive upgraded from 0 to 1",
+      "localizationRequired": false
+    },
+    {
+      "version": "2.47.0",
+      "category": "relicPassives",
+      "changeType": "modified",
+      "key": "UpgradeCreature1",
+      "sourceSheet": "RelicPassives",
+      "sourceId": 152,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "RelicPassiveKey",
+        "Multiplier"
+      ],
+      "before": {
+        "RelicPassiveKey": "UpgradeCreature0",
+        "Multiplier": 0
+      },
+      "after": {
+        "RelicPassiveKey": "UpgradeCreature1",
+        "Multiplier": 1
+      },
+      "description": "Confirmed numbered relic passive upgraded from 0 to 1",
+      "localizationRequired": false
+    },
+    {
+      "version": "2.47.0",
+      "category": "relicPassives",
+      "changeType": "modified",
+      "key": "UpgradeMatter1",
+      "sourceSheet": "RelicPassives",
+      "sourceId": 153,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "RelicPassiveKey",
+        "Multiplier"
+      ],
+      "before": {
+        "RelicPassiveKey": "UpgradeMatter0",
+        "Multiplier": 0
+      },
+      "after": {
+        "RelicPassiveKey": "UpgradeMatter1",
+        "Multiplier": 1
+      },
+      "description": "Confirmed numbered relic passive upgraded from 0 to 1",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Performer|Martial Arts Training|Stunt Performer",
+      "sourceSheet": "Materials",
+      "sourceId": 8,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Scholar|Coins|Accountant",
+      "sourceSheet": "Materials",
+      "sourceId": 10,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Influencer|Coins|Onlyfriend",
+      "sourceSheet": "Materials",
+      "sourceId": 10,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Street Artist|Noble Mission|Guerrilla Artist",
+      "sourceSheet": "Materials",
+      "sourceId": 17,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Painter|Stealth Sense|Street Artist",
+      "sourceSheet": "Materials",
+      "sourceId": 22,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Craftsman|Fire Spirit|Chef",
+      "sourceSheet": "Materials",
+      "sourceId": 24,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Archer|Wind Spirit|Gale Archer",
+      "sourceSheet": "Materials",
+      "sourceId": 28,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Gale Archer|Wind Spirit|Sonic Ranger",
+      "sourceSheet": "Materials",
+      "sourceId": 28,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Cultist|Vast Experience|Voodoo Lord",
+      "sourceSheet": "Materials",
+      "sourceId": 31,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Accountant|Vast Experience|Fund Manager",
+      "sourceSheet": "Materials",
+      "sourceId": 31,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Stunt Performer|Vast Experience|Action Star",
+      "sourceSheet": "Materials",
+      "sourceId": 31,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Content Creator|Vast Experience|Influencer",
+      "sourceSheet": "Materials",
+      "sourceId": 31,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Storyteller|The Book Of Wisdom|Dungeon Master",
+      "sourceSheet": "Materials",
+      "sourceId": 33,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Performer|The Book Of Wisdom|Content Creator",
+      "sourceSheet": "Materials",
+      "sourceId": 33,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Action Star|Legendary Crest|Impossible Stunt Legend",
+      "sourceSheet": "Materials",
+      "sourceId": 38,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Fund Manager|The Ring Of Lord|Wall Street Wolf",
+      "sourceSheet": "Materials",
+      "sourceId": 39,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Chef|Champion Belt|Iron Chef",
+      "sourceSheet": "Materials",
+      "sourceId": 41,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Guerrilla Artist|Phantom Crystal|Anonymous Muralist",
+      "sourceSheet": "Materials",
+      "sourceId": 45,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Detective|Space Stone|Space Detective",
+      "sourceSheet": "Materials",
+      "sourceId": 46,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Assassin|Easter Basket|Shadow Lone Wolf",
+      "sourceSheet": "Materials",
+      "sourceId": 52,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Iron Chef|Tropical Sunglasses|Beach Grillmaster",
+      "sourceSheet": "Materials",
+      "sourceId": 53,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Goldsmith|Tropical Sunglasses|Drowned Pharaoh",
+      "sourceSheet": "Materials",
+      "sourceId": 53,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Serial Killer|Tropical Sunglasses|Cicada Reaper",
+      "sourceSheet": "Materials",
+      "sourceId": 53,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "jobCrafting",
+      "changeType": "added",
+      "key": "Pirate Quartermaster|Tropical Sunglasses|Strawhat Corsair",
+      "sourceSheet": "Materials",
+      "sourceId": 53,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "Combine List"
+      ],
+      "description": "Verified recipe from numbered Materials record; both source and target jobs exist",
+      "localizationRequired": false
+    },
+    {
+      "version": "2.48.0",
+      "category": "mechanics",
+      "changeType": "mechanic_changed",
+      "key": "TurnBuff/TurnDebuff timing",
+      "sourceSheet": "Skill Unit",
+      "sourceId": null,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "triggerAt",
+        "deliveryTemplate"
+      ],
+      "description": "TurnBuff and TurnDebuff occur at TurnStart for affected numbered Skill Unit rows; TurnDamage and TurnHeal retain their own triggers",
+      "localizationRequired": true,
+      "notes": "Multiple numbered Skill Unit rows; see data/mechanics.json mechanicFamilies.turnTriggered for specific effects"
     }
   ],
   "pendingContent": [
@@ -7058,6 +7578,28 @@
       "date": "2026-10-18",
       "action": "phase_2_existing_fields_reconciled",
       "note": "Confirmed changes: 5 job field values, 4 character stat values, 2 ability icons, 20 ability skill-unit definitions and 65 passive skill-unit definitions. Existing ability-cost mismatches and prior localization differences remain for separate review."
+    },
+    {
+      "wikiVersion": "0.0",
+      "date": "2026-10-18",
+      "action": "phase_3_equipment_rules_sync",
+      "note": "Added 2 numbered relics and localization, changed Quolot's Eye passive, revised confirmed relic-passive IDs 150-153, added 24 recipes tied to numbered materials (22 corresponding material combine-list links), and documented 2.48.0 turn-start behavior. Preserved unnumbered Combo relic-passives and pre-existing conflicting craft recipes. No automatic release checkpoint advance.",
+      "added": {
+        "relics": 2,
+        "craftRecipes": 24
+      },
+      "modified": {
+        "relics": 1,
+        "relicPassives": 4,
+        "mechanics": 1
+      },
+      "excluded": "RelicPassives bottom unnumbered Combo rows",
+      "remaining": [
+        "relic passive rules full mechanic audit",
+        "conflicting legacy crafting recipes",
+        "mechanics coverage outside verified turn-start change",
+        "phase 4 supporting content"
+      ]
     }
   ]
 }
