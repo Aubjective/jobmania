@@ -1352,7 +1352,7 @@
     2,
     2,
     1,
-    1,
+    0,
     1,
     2,
     3,
@@ -1377,6 +1377,7 @@
     2,
     1,
     1,
+    1,
     2,
     1,
     1,
@@ -1470,7 +1471,7 @@
     1,
     1,
     1,
-    0,
+    1,
     1,
     0,
     1,
@@ -1713,6 +1714,7 @@
     1,
     1,
     1,
+    1,
     2,
     1,
     1,
@@ -1738,8 +1740,6 @@
     2,
     1,
     3,
-    null,
-    null,
     null,
     null,
     null,
@@ -1813,5 +1813,5 @@
     1,
     2
   ],
-  "syncNote": "Existing indexed costs preserved. Newly appended costs taken from numbered Abilities sheet; null where the sheet has no numeric cost. Pre-existing source-vs-index discrepancies require a separate audit."
+  "syncNote": "2026-10-18 Phase 4 live Database Abilities reconciliation: match by AbilityKey and occurrence to account for source row reordering and duplicate keys. Blank sheet costs preserved as unknown."
 }
