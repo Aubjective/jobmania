@@ -8,7 +8,7 @@
         'data/mechanics.json',
         'data/mechanics_localisation.json',
         'data/chunks/abilities_description/manifest.json',
-        'data/passives_description.json',
+        'data/chunks/passives_description/manifest.json',
         'data/abilities_description_localisation.json',
         'data/passives_description_localisation.json',
         'data/apply_tags.json',
