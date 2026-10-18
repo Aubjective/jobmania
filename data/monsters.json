@@ -29140,5 +29140,357 @@
       "Powerslave",
       "Last Instinct"
     ]
+  },
+  {
+    "MonsterKey": "Summer Concierge Caelans",
+    "Difficulty": "Boss",
+    "Lv100 HP": "10500",
+    "Lv100 Str": "590",
+    "Lv100 Agi": "620",
+    "Lv100 Int": "650",
+    "PassiveKey": "Always Under Control",
+    "PassiveKey_2": "Resort Protocol",
+    "AbilityKey": "VIP Treatment",
+    "AbilityKey_2": "Emergency Upgrade",
+    "Race": "Humanoid",
+    "Gender": "Male",
+    "Acquire Type": "SpecialGacha",
+    "Random Abilities": {
+      "100%": [
+        "Guest Service",
+        "Risk Management",
+        "Observation & Inference",
+        "Bribe Or Eliminate",
+        "High Jump"
+      ],
+      "99% to 50%": [],
+      "49% to 30%": [],
+      "29% to 1%": []
+    },
+    "Threshold Abilities": {
+      "Enemy act first": [
+        "VIP Treatment"
+      ],
+      "Below 50%": [
+        "Emergency Upgrade"
+      ],
+      "Below 30%": []
+    },
+    "Special Case Abilities": [],
+    "Random Passives": [
+      "Summer Lover",
+      "Always Under Control",
+      "Resort Protocol",
+      "Leadership",
+      "Well Prepared"
+    ]
+  },
+  {
+    "MonsterKey": "Summer Tidewatch Roka",
+    "Difficulty": "Boss",
+    "Lv100 HP": "11250",
+    "Lv100 Str": "600",
+    "Lv100 Agi": "640",
+    "Lv100 Int": "570",
+    "PassiveKey": "No One Drowns Today",
+    "PassiveKey_2": "Rescue Instinct",
+    "AbilityKey": "Tidal Patrol",
+    "AbilityKey_2": "Splash Rescue",
+    "Race": "Humanoid",
+    "Gender": "Female",
+    "Acquire Type": "SpecialGacha",
+    "Random Abilities": {
+      "100%": [
+        "Splash Rescue",
+        "Lifebuoy",
+        "CPR",
+        "Swim",
+        "Dive"
+      ],
+      "99% to 50%": [],
+      "49% to 30%": [],
+      "29% to 1%": []
+    },
+    "Threshold Abilities": {
+      "Enemy act first": [
+        "Tidal Patrol",
+        "Whistle Blow"
+      ],
+      "Below 50%": [
+        "Tidal Patrol",
+        "Whistle Blow"
+      ],
+      "Below 30%": [
+        "The Flood",
+        "All Out Rescue"
+      ]
+    },
+    "Special Case Abilities": [],
+    "Random Passives": [
+      "Summer Lover",
+      "No One Drowns Today",
+      "Rescue Instinct",
+      "Beach Sentinel",
+      "Bravery"
+    ]
+  },
+  {
+    "MonsterKey": "Silver Dragon Altera",
+    "Difficulty": "Boss",
+    "Lv100 HP": "12000",
+    "Lv100 Str": "590",
+    "Lv100 Agi": "600",
+    "Lv100 Int": "660",
+    "PassiveKey": "Silver Dragons Grace",
+    "PassiveKey_2": "Alteras Eternal Legacy",
+    "AbilityKey": "Silver Sovereignty",
+    "AbilityKey_2": "Moonlit Kiss",
+    "Race": "Humanoid",
+    "Gender": "Female",
+    "Acquire Type": "SpecialGacha",
+    "Random Abilities": {
+      "100%": [
+        "Hardcore Grind",
+        "Silver Sovereignty",
+        "Moonlit Kiss",
+        "Dragon Breath",
+        "Dragon Dive",
+        "Moon Stealer"
+      ],
+      "99% to 50%": [],
+      "49% to 30%": [],
+      "29% to 1%": []
+    },
+    "Threshold Abilities": {
+      "Enemy act first": [
+        "Silver Sovereignty"
+      ],
+      "Below 50%": [
+        "Platinum Trophy"
+      ],
+      "Below 30%": [
+        "100 Clear"
+      ]
+    },
+    "Special Case Abilities": [],
+    "Random Passives": [
+      "Silver Dragons Grace",
+      "Alteras Eternal Legacy",
+      "Achievement Hunter",
+      "10000 Hour Rule"
+    ]
+  },
+  {
+    "MonsterKey": "Gharzak The Black Banner",
+    "Difficulty": "Boss",
+    "Lv100 HP": "13200",
+    "Lv100 Str": "650",
+    "Lv100 Agi": "540",
+    "Lv100 Int": "530",
+    "PassiveKey": "Black Banner Marshal",
+    "PassiveKey_2": "Orc Leader",
+    "AbilityKey": "Black Banner Command",
+    "AbilityKey_2": "Break Formation",
+    "Race": "Humanoid",
+    "Gender": "Male",
+    "Acquire Type": "SpecialGacha",
+    "Random Abilities": {
+      "100%": [
+        "Battle Roar",
+        "Cover Guard",
+        "Smash"
+      ],
+      "99% to 50%": [
+        "Smash",
+        "Break Formation",
+        "Smash",
+        "Great Axe Sweep"
+      ],
+      "49% to 30%": [
+        "Break Formation",
+        "Great Axe Sweep"
+      ],
+      "29% to 1%": []
+    },
+    "Threshold Abilities": {
+      "Enemy act first": [
+        "Black Banner Command",
+        "Cover Guard"
+      ],
+      "Below 50%": [
+        "Black Banner Command",
+        "Break Formation"
+      ],
+      "Below 30%": []
+    },
+    "Special Case Abilities": [],
+    "Random Passives": [
+      "Black Banner Marshal",
+      "Orc Leader",
+      "Royal Guard",
+      "Determined"
+    ]
+  },
+  {
+    "MonsterKey": "Mogrum The Siege Beast",
+    "Difficulty": "Boss",
+    "Lv100 HP": "13800",
+    "Lv100 Str": "680",
+    "Lv100 Agi": "450",
+    "Lv100 Int": "450",
+    "PassiveKey": "Living Siege Engine",
+    "PassiveKey_2": "Unstoppable Bulk",
+    "AbilityKey": "Crushing Grip",
+    "AbilityKey_2": "Siege Charge",
+    "Race": "Humanoid",
+    "Gender": "Male",
+    "Acquire Type": "SpecialGacha",
+    "Random Abilities": {
+      "100%": [
+        "Bulk",
+        "Smash",
+        "Protect Ripped"
+      ],
+      "99% to 50%": [
+        "Bulk",
+        "Smash",
+        "Mega Punch",
+        "Crushing Grip"
+      ],
+      "49% to 30%": [
+        "Protect Ripped",
+        "Ruthless Beat Up",
+        "Mega Punch"
+      ],
+      "29% to 1%": []
+    },
+    "Threshold Abilities": {
+      "Enemy act first": [
+        "Siege Charge"
+      ],
+      "Below 50%": [],
+      "Below 30%": []
+    },
+    "Special Case Abilities": [],
+    "Random Passives": [
+      "Living Siege Engine",
+      "Unstoppable Bulk",
+      "Brutal Power",
+      "Heavy Armor"
+    ]
+  },
+  {
+    "MonsterKey": "Moonbound Dragon Slayer Lunexis",
+    "Difficulty": "Boss",
+    "Lv100 HP": "12000",
+    "Lv100 Str": "630",
+    "Lv100 Agi": "660",
+    "Lv100 Int": "600",
+    "PassiveKey": "Moonbound Blood",
+    "PassiveKey_2": "Dragon Slayer's Discipline",
+    "AbilityKey": "Moonfang Severance",
+    "AbilityKey_2": "Crescent Guard",
+    "Race": "Humanoid",
+    "Gender": "Male",
+    "Acquire Type": "EventGacha",
+    "Random Abilities": {
+      "100%": [
+        "Dragon Shield",
+        "Dragon Slash",
+        "Dragon Claw",
+        "Cover Guard"
+      ],
+      "99% to 50%": [
+        "Dragon Leap",
+        "Dragon Smash",
+        "Dead Focus",
+        "Crescent Guard"
+      ],
+      "49% to 30%": [
+        "Dragon Seal",
+        "Iai Strike",
+        "Drakeblood Greatsword",
+        "Moonfang Severance"
+      ],
+      "29% to 1%": []
+    },
+    "Threshold Abilities": {
+      "Enemy act first": [
+        "Crescent Guard"
+      ],
+      "Below 50%": [
+        "Dragon Roar",
+        "Crescent Guard"
+      ],
+      "Below 30%": [
+        "Moonfang Severance",
+        "Drakeblood Greatsword"
+      ]
+    },
+    "Special Case Abilities": [],
+    "Random Passives": [
+      "Moonbound Blood",
+      "Dragon Slayer's Discipline",
+      "Dragon Scale",
+      "Blade Master",
+      "Determined"
+    ]
+  },
+  {
+    "MonsterKey": "Blightbound Dragon Vharax",
+    "Difficulty": "Boss",
+    "Lv100 HP": "13800",
+    "Lv100 Str": "680",
+    "Lv100 Agi": "560",
+    "Lv100 Int": "620",
+    "PassiveKey": "Blightbound Host",
+    "PassiveKey_2": "Parasite Hunger",
+    "AbilityKey": "Parasite Tendril Crush",
+    "AbilityKey_2": "Blightmaw Devour",
+    "Race": "Creature",
+    "Gender": "Male",
+    "Acquire Type": "EventGacha",
+    "Random Abilities": {
+      "100%": [
+        "Dragon Claw",
+        "Dragon Fang",
+        "Dragon Roar",
+        "Bite"
+      ],
+      "99% to 50%": [
+        "Dragon Breath",
+        "Essence Leech",
+        "Dragon Smash",
+        "Parasite Tendril Crush"
+      ],
+      "49% to 30%": [
+        "Black Engulf",
+        "Rip And Tear",
+        "Essence Leech",
+        "Blightmaw Devour"
+      ],
+      "29% to 1%": []
+    },
+    "Threshold Abilities": {
+      "Enemy act first": [
+        "Dragon Roar"
+      ],
+      "Below 50%": [
+        "Parasite Tendril Crush",
+        "Essence Leech"
+      ],
+      "Below 30%": [
+        "Blightmaw Devour",
+        "Purest Dimension"
+      ]
+    },
+    "Special Case Abilities": [],
+    "Random Passives": [
+      "Blightbound Host",
+      "Parasite Hunger",
+      "Cursed Parasite",
+      "Dragon Blood",
+      "Dragon Scale"
+    ]
   }
 ]
