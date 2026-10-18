@@ -1996,5 +1996,41 @@
     "Indonesian": "Perfect Cube Of Flesh",
     "Arabic": "مكعب اللحم المثالي",
     "Turkish": "Mükemmel Et Küpü"
+  },
+  {
+    "RelicKey": "Black Banner",
+    "English": "Black Banner",
+    "Chinese": "黑旗",
+    "Chinese (Traditional)": "黑旗",
+    "Japanese": "黒旗",
+    "Russian": "Чёрное Знамя",
+    "French": "Bannière Noire",
+    "Italian": "Stendardo Nero",
+    "Portuguese": "Estandarte Negro",
+    "Korean": "검은 깃발",
+    "Spanish": "Estandarte Negro",
+    "German": "Schwarzes Banner",
+    "Vietnamese": "Lá Cờ Đen",
+    "Indonesian": "Panji Hitam",
+    "Arabic": "الراية السوداء",
+    "Turkish": "Kara Sancak"
+  },
+  {
+    "RelicKey": "Moonblight Fang",
+    "English": "Moonblight Fang",
+    "Chinese": "月疫之牙",
+    "Chinese (Traditional)": "月疫之牙",
+    "Japanese": "月疫の牙",
+    "Russian": "Клык Лунной Скверны",
+    "French": "Croc du Fléau Lunaire",
+    "Italian": "Zanna del Flagello Lunare",
+    "Portuguese": "Presa da Praga Lunar",
+    "Korean": "달빛 역병의 송곳니",
+    "Spanish": "Colmillo de la Plaga Lunar",
+    "German": "Mondseuchen-Fangzahn",
+    "Vietnamese": "Nanh Nguyệt Dịch",
+    "Indonesian": "Taring Wabah Bulan",
+    "Arabic": "ناب الوباء القمري",
+    "Turkish": "Ay Salgını Dişi"
   }
 ]
