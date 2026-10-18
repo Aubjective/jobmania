@@ -7600,6 +7600,86 @@
         "mechanics coverage outside verified turn-start change",
         "phase 4 supporting content"
       ]
+    },
+    {
+      "wikiVersion": "0.0",
+      "date": "2026-10-18",
+      "action": "phase_4_existing_json_localization_reconciliation",
+      "scope": "Existing wiki JSONs only; no skins, gacha pool, objectives or chapter gameplay modules created",
+      "source": "Jobmania Localization and numeric-ID verified Jobmania Database",
+      "changes": [
+        {
+          "category": "chapters_series",
+          "file": "data/chapters_series_localisation.json",
+          "records": 100,
+          "fields": 1200,
+          "commit": "2a4a065d5d9974038f493ea1a4dcee3da57dcfe2"
+        },
+        {
+          "category": "jobs",
+          "file": "data/jobs_localisation.json",
+          "records": 76,
+          "fields": 107,
+          "commit": "add7de9c9cea553d5363a0ebe24ff31b7d432a78"
+        },
+        {
+          "category": "characters",
+          "file": "data/monsters_localisation.json",
+          "records": 272,
+          "fields": 484,
+          "commit": "13eb326d5a90a5cd3e7dda4ba4a8e39f2ede1fcb"
+        },
+        {
+          "category": "passives",
+          "file": "data/passives_localisation.json",
+          "records": 103,
+          "fields": 114,
+          "commit": "d30499909853b9c1622eb18e98811b856332f5cd"
+        },
+        {
+          "category": "abilities",
+          "file": "data/abilities_localisation.json",
+          "records": 202,
+          "fields": 254,
+          "commit": "ed4286157aa77a50bea6e62410dee5cd6c15c139"
+        },
+        {
+          "category": "materials",
+          "file": "data/materials_localisation.json",
+          "records": 5,
+          "fields": 5,
+          "commit": "9a512c923e396897bf09def18346d2e705a92f0b"
+        },
+        {
+          "category": "relics",
+          "file": "data/relic_localisation.json",
+          "records": 33,
+          "fields": 37,
+          "commit": "2ea42c45811404b14b6133f84d10e9fbc878e216"
+        }
+      ],
+      "totals": {
+        "localizedRecords": 791,
+        "languageFields": 2201
+      },
+      "characterAcquisition": {
+        "checkedNumberedRecords": 617,
+        "differences": 0,
+        "location": "data/monsters.json Acquire Type"
+      },
+      "excluded": [
+        "Chapters & Series None placeholder",
+        "Unnumbered characters Peace Orixa Ogum and Meme Stand User Pepe Crinch",
+        "Localization-only keys without verified numbered gameplay identity"
+      ],
+      "openChecks": [
+        "ability_costs.json existing historical source/index differences",
+        "source-vs-wiki field changes outside scoped localization",
+        "identical duplicate ability localization keys: Power Chords, Brain Harvest, Rapid Spin",
+        "prior manually preserved unnumbered game assets require separate removal decision",
+        "empty abilities_description_localisation.json and passives_description_localisation.json legacy placeholders"
+      ],
+      "checkpointPolicy": "Remain wiki 0.0, lastAuditedGameVersion and lastSyncedGameVersion null until final validation"
     }
   ]
 }
