@@ -14573,5 +14573,645 @@
         "Multiplier": 2
       }
     ]
+  },
+  {
+    "PassiveKey": "Cooking Skill",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Food",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Heal",
+        "Effect": "Guard",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Heal",
+        "Effect": "Charge",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Will Of The Dawn Captain",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Charge",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Strength",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Element",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Guard",
+        "Multiplier": 2
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Summer BBQ Party",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Food",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Heal",
+        "Effect": "Charge",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Combo",
+        "Effect": "Fire",
+        "Multiplier": 3
+      },
+      {
+        "SkillUnit": "Drain",
+        "Effect": "Fire",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "TurnDebuff",
+        "Effect": "Fire",
+        "Multiplier": 0
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Endless Summer Cry",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Agility",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Wind",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "TurnDamage",
+        "Effect": "Agility",
+        "Multiplier": 5
+      },
+      {
+        "SkillUnit": "ActionDebuff",
+        "Effect": "AgilityM",
+        "Multiplier": 2
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Always Under Control",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Combo",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Null",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Gold",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Certain",
+        "Multiplier": 2
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Resort Protocol",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Multiply",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Humanoid",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Draw",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Guard",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "PassiveKey": "No One Drowns Today",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Water",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Heal",
+        "Effect": "Direct",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "MaxHP",
+        "Multiplier": 4
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Water",
+        "Multiplier": 3
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Rescue Instinct",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Action",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Heal",
+        "Effect": "Guard",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Sacrifice",
+        "Effect": "Guard",
+        "Multiplier": 3
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Guard",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Silver Dragons Grace",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Insane",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Sacrifice",
+        "Effect": "Charge",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Sacrifice",
+        "Effect": "Guard",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Intelligence",
+        "Multiplier": 3
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Alteras Eternal Legacy",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Draw",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Action",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Intelligence",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Reflect",
+        "Effect": "IntelligenceM",
+        "Multiplier": 2
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Parasocial Entrepreneur",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Reverse",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Gold",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "TurnDebuff",
+        "Effect": "Confuse",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "InstantNerf",
+        "Effect": "Confuse",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Black Banner Marshal",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Strength",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Debuff",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "TurnBuff",
+        "Effect": "Strength",
+        "Multiplier": 7
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Strength",
+        "Multiplier": 6
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Living Siege Engine",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Strength",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "MaxHP",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Protect",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "ActionDamage",
+        "Effect": "MaxHP",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Unstoppable Bulk",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Strength",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Protect",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Guard",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Untraceable Signature",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Combo",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Restrain",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Agility",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Reflect",
+        "Effect": "Intelligence",
+        "Multiplier": 2
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Rule Zero",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Dice",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Draw",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Action",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "TurnBuff",
+        "Effect": "Dice",
+        "Multiplier": 3
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Greed Is Good",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Multiply",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Gold",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Action",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Certain",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "PassiveKey": "No Safety Net",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Buff",
+        "Effect": "MaxHP",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Delay",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Injury",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Agility",
+        "Multiplier": 2
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Guerrilla Method",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Debuff",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Restrain",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Agility",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Stonecraft",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Matter",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Protect",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "MaxHP",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Injury",
+        "Multiplier": 0
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Brotherhood Oath",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Draw",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Action",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Intelligence",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Debuff",
+        "Multiplier": 0
+      }
+    ]
+  },
+  {
+    "PassiveKey": "All-Seeing Eye",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Intelligence",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Humanoid",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Draw",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "TurnDebuff",
+        "Effect": "Confuse",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Moonbound Blood",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Charge",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Agility",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Protect",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Strength",
+        "Multiplier": 2
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Dragon Slayer's Discipline",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Creature",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Mark",
+        "Effect": "Reverse",
+        "Multiplier": 3
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Debuff",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Direct",
+        "Multiplier": 0
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Blightbound Host",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Curse",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "MaxHP",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Reflect",
+        "Effect": "MaxHPM",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Guard",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Parasite Hunger",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "LifeSteal",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Drain",
+        "Effect": "MaxHP",
+        "Multiplier": 3
+      },
+      {
+        "SkillUnit": "ActionHeal",
+        "Effect": "MaxHP",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Sacrifice",
+        "Effect": "Charge",
+        "Multiplier": 3
+      }
+    ]
   }
 ]
