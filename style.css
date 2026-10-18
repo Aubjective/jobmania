@@ -100,3 +100,11 @@ h1 { text-align: center; color: #ffd700; margin: 10px 0 25px; font-size: 2.2rem;
 @media (max-width: 768px) {
     .relic-passive-list { grid-template-columns: 1fr; }
 }
+
+/* Persistent, understated version log footer across wiki locales. */
+.wiki-main-column { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.wiki-main-column > main { flex: 1; min-width: 0; }
+.wiki-footer { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; padding: 15px 40px 20px; border-top: 1px solid #334477; color: #adc1e2; font-size: 0.8rem; }
+.wiki-footer a { color: #7bdfff; text-decoration: none; }
+.wiki-footer a:hover, .wiki-footer a:focus-visible { text-decoration: underline; }
+@media (max-width: 768px) { .wiki-footer { padding: 15px 20px 24px; } }
