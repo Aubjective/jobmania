@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "wikiVersion": "0.0",
+  "wikiVersion": "1.0",
   "baseline": {
     "label": "Wiki baseline 0.0 — before source synchronization",
     "capturedDate": "2026-10-18",
@@ -7737,23 +7737,31 @@
         "Add a public footer entry to a concise version-status page; detailed audit history remains in version_log.json"
       ],
       "checkpointDecision": "Retain wikiVersion 0.0 as baseline and keep audited/synced version checkpoints unchanged until explicit promotion."
+    },
+    {
+      "wikiVersion": "1.0",
+      "date": "2026-10-18",
+      "action": "publish_wiki_1_0",
+      "status": "published_core_data_current_ongoing_explanations",
+      "sourceVersion": "2.48.1",
+      "notes": [
+        "Wiki 1.0 public release label approved by project owner",
+        "Public version page simplified; internal source details and raw version log link removed from display",
+        "Descriptions, passives, abilities, mechanics and delivery explanations remain ongoing",
+        "Prior source exceptions remain recorded in audit history, not silently marked resolved"
+      ],
+      "checkpointDecision": "Public wiki version is 1.0; audited/synced game checkpoints are retained unchanged rather than implying missing source information has been filled."
     }
   ],
   "publicStatus": {
     "asOf": "2026-10-18",
-    "sourceGameVersion": "2.48.1",
-    "dataStatus": "Current against last verified Database and Localization source snapshot, with recorded source exceptions",
-    "wikiStatus": "Working; release-readiness browser certification not recorded",
+    "gameVersion": "2.48.1",
+    "summary": "Core wiki data is up to date with the reviewed game version.",
     "ongoing": [
       "Ability descriptions and skill mechanics explanations",
       "Passive descriptions and mechanics explanations",
       "Delivery patterns and related mechanics documentation",
       "Further localization and description enrichment"
-    ],
-    "notes": [
-      "Core Jobs, Characters, Materials, Relics, abilities and passives source values synchronized to the latest checked source snapshot",
-      "Source-blank ability AP costs stay unknown; legacy jobcraft entries remain preserved but unresolved links are hidden",
-      "Missing chapter/series localization keys use fallback rather than invented translations"
     ],
     "lastReviewed": "2026-10-18"
   }
