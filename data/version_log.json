@@ -1988,6 +1988,5007 @@
       },
       "description": "Reconciled with current numbered Database record; precise release attribution pending",
       "localizationRequired": false
+    },
+    {
+      "version": null,
+      "category": "abilities",
+      "changeType": "modified",
+      "key": "Powder Snow",
+      "sourceSheet": "Abilities",
+      "sourceId": 423,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Water",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Agility",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Restrain",
+            "Multiplier": 6
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "React",
+            "Effect": "Wind",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Water",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Agility",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "abilities",
+      "changeType": "modified",
+      "key": "Summon . Siren",
+      "sourceSheet": "Abilities",
+      "sourceId": 595,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Agility",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Intelligence",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Wind",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "React",
+            "Effect": "Water",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Agility",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Intelligence",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Wind",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "abilities",
+      "changeType": "modified",
+      "key": "Siren Song",
+      "sourceSheet": "Abilities",
+      "sourceId": 596,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Strength",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Intelligence",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Wind",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "React",
+            "Effect": "Water",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Strength",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Intelligence",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Wind",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "abilities",
+      "changeType": "modified",
+      "key": "Space Gun",
+      "sourceSheet": "Abilities",
+      "sourceId": 648,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Damage",
+            "Effect": "Agility",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Damage",
+            "Effect": "Intelligence",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Damage",
+            "Effect": "Agility",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Damage",
+            "Effect": "Intelligence",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Damage",
+            "Effect": "Agility",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Damage",
+            "Effect": "Intelligence",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Damage",
+            "Effect": "Agility",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "React",
+            "Effect": "Thunder",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "abilities",
+      "changeType": "modified",
+      "key": "Fairy Heal",
+      "sourceSheet": "Abilities",
+      "sourceId": 716,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Heal",
+            "Effect": "Agility",
+            "Multiplier": 5
+          },
+          {
+            "SkillUnit": "Heal",
+            "Effect": "Agility",
+            "Multiplier": 4
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Heal",
+            "Effect": "Agility",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "Heal",
+            "Effect": "Agility",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "React",
+            "Effect": "Wind",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "abilities",
+      "changeType": "modified",
+      "key": "Hadouken",
+      "sourceSheet": "Abilities",
+      "sourceId": 755,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Vulnerable",
+            "Effect": "MaxHP",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "MaxHP",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Damage",
+            "Effect": "MaxHP",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "",
+            "Effect": "",
+            "Multiplier": "z"
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Vulnerable",
+            "Effect": "MaxHP",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "MaxHP",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Damage",
+            "Effect": "MaxHP",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "abilities",
+      "changeType": "modified",
+      "key": "Voodoo Life",
+      "sourceSheet": "Abilities",
+      "sourceId": 767,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Null",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Damage",
+            "Effect": "Null",
+            "Multiplier": 2500
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Misfortune",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Bleed",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Null",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Damage",
+            "Effect": "Null",
+            "Multiplier": 2500
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Misfortune",
+            "Multiplier": 5
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Bleed",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "abilities",
+      "changeType": "modified",
+      "key": "Burning Stake",
+      "sourceSheet": "Abilities",
+      "sourceId": 910,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Vulnerable",
+            "Effect": "Protect",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Fire",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Restrain",
+            "Multiplier": 6
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Vulnerable",
+            "Effect": "Protect",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "React",
+            "Effect": "Fire",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Fire",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "abilities",
+      "changeType": "modified",
+      "key": "Dimension Seal",
+      "sourceSheet": "Abilities",
+      "sourceId": 922,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "MaxHP",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Vulnerable",
+            "Effect": "Restrain",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Restrain",
+            "Multiplier": 7
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Light",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "MaxHP",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Vulnerable",
+            "Effect": "Restrain",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "React",
+            "Effect": "Light",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Restrain",
+            "Multiplier": 6
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "abilities",
+      "changeType": "modified",
+      "key": "Chainsaw Frenzy",
+      "sourceSheet": "Abilities",
+      "sourceId": 1152,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Damage",
+            "Effect": "Agility",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "Damage",
+            "Effect": "Agility",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Bleed",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "",
+            "Effect": "",
+            "Multiplier": " "
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Damage",
+            "Effect": "Agility",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "Damage",
+            "Effect": "Agility",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Bleed",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "abilities",
+      "changeType": "modified",
+      "key": "Proton Pack & Gun",
+      "sourceSheet": "Abilities",
+      "sourceId": 1156,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Damage",
+            "Effect": "Intelligence",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "Damage",
+            "Effect": "Intelligence",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Restrain",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Wind",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Damage",
+            "Effect": "Intelligence",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "Damage",
+            "Effect": "Intelligence",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "React",
+            "Effect": "Thunder",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Restrain",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "abilities",
+      "changeType": "modified",
+      "key": "The Ring Curse",
+      "sourceSheet": "Abilities",
+      "sourceId": 1253,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "MaxHP",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Insane",
+            "Multiplier": 14
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Insane",
+            "Multiplier": 7
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Dark",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "SpecialCurse",
+            "Effect": "Dark",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Insane",
+            "Multiplier": 14
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Insane",
+            "Multiplier": 7
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Dark",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "abilities",
+      "changeType": "modified",
+      "key": "Candy Wall",
+      "sourceSheet": "Abilities",
+      "sourceId": 1371,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Dark",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Intelligence",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "Heal",
+            "Effect": "Null",
+            "Multiplier": 200
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Intelligence",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "Heal",
+            "Effect": "Null",
+            "Multiplier": 100
+          },
+          {
+            "SkillUnit": "React",
+            "Effect": "Water",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "abilities",
+      "changeType": "modified",
+      "key": "Luminescence",
+      "sourceSheet": "Abilities",
+      "sourceId": 1424,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Vulnerable",
+            "Effect": "Light",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Light",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Vulnerable",
+            "Effect": "Light",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "React",
+            "Effect": "Light",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "abilities",
+      "changeType": "modified",
+      "key": "Secret Recipe",
+      "sourceSheet": "Abilities",
+      "sourceId": 1505,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Dice",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Action",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Element",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Dice",
+            "Multiplier": 4
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Dice",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Action",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Element",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Food",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "abilities",
+      "changeType": "modified",
+      "key": "Firestorm Miscast",
+      "sourceSheet": "Abilities",
+      "sourceId": 1583,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Vulnerable",
+            "Effect": "Fire",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Mark",
+            "Effect": "Fire",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Damage",
+            "Effect": "Intelligence",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "Damage",
+            "Effect": "Intelligence",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Fire",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "Mark",
+            "Effect": "Fire",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Damage",
+            "Effect": "Fire",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "abilities",
+      "changeType": "modified",
+      "key": "Inferno Command Seal",
+      "sourceSheet": "Abilities",
+      "sourceId": 1623,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Vulnerable",
+            "Effect": "Restrain",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Mark",
+            "Effect": "Fire",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Restrain",
+            "Multiplier": 8
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Vulnerable",
+            "Effect": "Restrain",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Mark",
+            "Effect": "Fire",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "React",
+            "Effect": "Fire",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Restrain",
+            "Multiplier": 8
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "abilities",
+      "changeType": "modified",
+      "key": "Malay Step",
+      "sourceSheet": "Abilities",
+      "sourceId": 1657,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "MaxHP",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Draw",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Charge",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Agility",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "MaxHP",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Draw",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Charge",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Agility",
+            "Multiplier": 4
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Phantom Power",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 81,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Restrain",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Light",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Agility",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Restrain",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Light",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Agility",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Paragon Killer",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 82,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Draw",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Guard",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "TurnDebuff",
+            "Effect": "Bleed",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Draw",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Guard",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "TurnDebuff",
+            "Effect": "Bleed",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Monster Buster",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 83,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "MaxHP",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Protect",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "MaxHP",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Protect",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Resident Of Hell",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 120,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Fire",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Dark",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Fire",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Fire",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Dark",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Fire",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "The Force",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 143,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Strength",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Delay",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Certain",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Strength",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Delay",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Certain",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Wildlife Friend",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 146,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Wind",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "TurnHeal",
+            "Effect": "Intelligence",
+            "Multiplier": 5
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Direct",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Wind",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "TurnHeal",
+            "Effect": "Intelligence",
+            "Multiplier": 5
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Direct",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Mechanic Adept",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 155,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Agility",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Intelligence",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "ActionHeal",
+            "Effect": "Intelligence",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Agility",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Intelligence",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "ActionHeal",
+            "Effect": "Intelligence",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Sleipnir Mount",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 165,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Strength",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "TurnDamage",
+            "Effect": "Strength",
+            "Multiplier": 4
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Strength",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "TurnDamage",
+            "Effect": "Strength",
+            "Multiplier": 4
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Goblin Lord",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 170,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Strength",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Reflect",
+            "Effect": "Intelligence",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Water",
+            "Multiplier": 0
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Strength",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Reflect",
+            "Effect": "Intelligence",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Water",
+            "Multiplier": 0
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "The Supreme Samurai",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 181,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "MaxHP",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Strength",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Strength",
+            "Multiplier": 4
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "MaxHP",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Strength",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Strength",
+            "Multiplier": 4
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "The Lord Of Knights",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 188,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 0
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Mega Fusion Tech",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 190,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Element",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Guard",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Element",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Guard",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Apex Predator",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 219,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Buff",
+            "Effect": "MaxHP",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Strength",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Agility",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Buff",
+            "Effect": "MaxHP",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Strength",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Agility",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Operator",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 221,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "TurnHeal",
+            "Effect": "MaxHP",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Guard",
+            "Multiplier": 0
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "TurnHeal",
+            "Effect": "MaxHP",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Guard",
+            "Multiplier": 0
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Embodiment",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 222,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "MaxHP",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Reflect",
+            "Effect": "Injury",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Reflect",
+            "Effect": "Protect",
+            "Multiplier": 0
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "MaxHP",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Reflect",
+            "Effect": "Injury",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Reflect",
+            "Effect": "Protect",
+            "Multiplier": 0
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Information Manipulator",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 248,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Reflect",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Reflect",
+            "Effect": "Agility",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Intelligence",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Reflect",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Reflect",
+            "Effect": "Agility",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Intelligence",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Eternal Engine",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 254,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Fire",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Guard",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Fire",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Guard",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Total Concentration: Constant",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 265,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Guard",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Protect",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "TurnHeal",
+            "Effect": "MaxHP",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Guard",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Protect",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "TurnHeal",
+            "Effect": "MaxHP",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Unquestionable Justice",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 267,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "MaxHP",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "ActionBuff",
+            "Effect": "MaxHP",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Charge",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "MaxHP",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "ActionBuff",
+            "Effect": "MaxHP",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Charge",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "White Wolf",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 269,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Charge",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Guard",
+            "Multiplier": 4
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Charge",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Guard",
+            "Multiplier": 4
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Blessing Of All Mother",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 276,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Intelligence",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Draw",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Intelligence",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Draw",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Puppet Technique",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 281,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Guard",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "ActionDamage",
+            "Effect": "Agility",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "ActionDebuff",
+            "Effect": "Restrain",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Guard",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "ActionDamage",
+            "Effect": "Agility",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "ActionDebuff",
+            "Effect": "Restrain",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Sea Drake King Armor",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 288,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Buff",
+            "Effect": "MaxHP",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Protect",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Drain",
+            "Effect": "Intelligence",
+            "Multiplier": 5
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Water",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Buff",
+            "Effect": "MaxHP",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Protect",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Drain",
+            "Effect": "Intelligence",
+            "Multiplier": 5
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Water",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Eye Of Heaven",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 289,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Light",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Charge",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "TurnDamage",
+            "Effect": "Strength",
+            "Multiplier": 6
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Light",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Charge",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "TurnDamage",
+            "Effect": "Strength",
+            "Multiplier": 6
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Phantom Blade",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 291,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Action",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Agility",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Agility",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Action",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Agility",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Agility",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Machi No Dorufin",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 293,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Intelligence",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "ActionHeal",
+            "Effect": "Intelligence",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Intelligence",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "ActionHeal",
+            "Effect": "Intelligence",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Magical Murdering Weapon",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 299,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Bleed",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "TurnDebuff",
+            "Effect": "Bleed",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "TurnDamage",
+            "Effect": "Strength",
+            "Multiplier": 6
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Bleed",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "TurnDebuff",
+            "Effect": "Bleed",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "TurnDamage",
+            "Effect": "Strength",
+            "Multiplier": 6
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Adorable Witch",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 313,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Heal",
+            "Effect": "Charge",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "ActionHeal",
+            "Effect": "Intelligence",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "ActionDebuff",
+            "Effect": "Insane",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Heal",
+            "Effect": "Charge",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "ActionHeal",
+            "Effect": "Intelligence",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "ActionDebuff",
+            "Effect": "Insane",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Meow Meow Mahou",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 315,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Insane",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Draw",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Guard",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Insane",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Draw",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Guard",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Cambion",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 318,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Multiply",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "MaxHP",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "ActionDamage",
+            "Effect": "Strength",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Multiply",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "MaxHP",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "ActionDamage",
+            "Effect": "Strength",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Perfect Designer",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 323,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Trap",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Reflect",
+            "Effect": "Restrain",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "TurnDamage",
+            "Effect": "Intelligence",
+            "Multiplier": 5
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Trap",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Reflect",
+            "Effect": "Restrain",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "TurnDamage",
+            "Effect": "Intelligence",
+            "Multiplier": 5
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Midnight Santa",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 333,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Heal",
+            "Effect": "Charge",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Guard",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Agility",
+            "Multiplier": 5
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Heal",
+            "Effect": "Charge",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Guard",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Agility",
+            "Multiplier": 5
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Age Reminder",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 338,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Draw",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "LifeSteal",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "InstantNerf",
+            "Effect": "Element",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Draw",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "LifeSteal",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "InstantNerf",
+            "Effect": "Element",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Soul Regulator",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 341,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Light",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Dark",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Guard",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Light",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Dark",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Guard",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Nuclear Power Expert",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 367,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Venom",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Charge",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "ActionDebuff",
+            "Effect": "Venom",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Venom",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Charge",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "ActionDebuff",
+            "Effect": "Venom",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "God Of Mischief",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 376,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Null",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Exhaust",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Mark",
+            "Effect": "Direct",
+            "Multiplier": 468
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Dice",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Direct",
+            "Multiplier": ""
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Null",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Exhaust",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Mark",
+            "Effect": "Direct",
+            "Multiplier": 468
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Dice",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Direct",
+            "Multiplier": 0
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "God Of Discord",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 377,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Intelligence",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Exhaust",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Mark",
+            "Effect": "Direct",
+            "Multiplier": 467
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Exhaust",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Direct",
+            "Multiplier": ""
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Intelligence",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Exhaust",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Mark",
+            "Effect": "Direct",
+            "Multiplier": 467
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Exhaust",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Direct",
+            "Multiplier": 0
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Chainsaw Devil Contract",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 388,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Dice",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Charge",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Guard",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Dice",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Charge",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Guard",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Who You Gonna Call",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 389,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Intelligence",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Guard",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Guard",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Intelligence",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Guard",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Guard",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Drilling Expert",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 417,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Protect",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "ActionDamage",
+            "Effect": "Protect",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Earth",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Protect",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "ActionDamage",
+            "Effect": "Protect",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Earth",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Perverted Person",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 423,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Draw",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "ActionDebuff",
+            "Effect": "Insane",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "InstantNerf",
+            "Effect": "Insane",
+            "Multiplier": 4
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Draw",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "ActionDebuff",
+            "Effect": "Insane",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "InstantNerf",
+            "Effect": "Insane",
+            "Multiplier": 4
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Elemental Maid Assassin",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 434,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Element",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Mark",
+            "Effect": "Reverse",
+            "Multiplier": 8
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Element",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Mark",
+            "Effect": "Reverse",
+            "Multiplier": 8
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Prosthetic Mod",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 435,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "ActionDebuff",
+            "Effect": "Protect",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "TurnDamage",
+            "Effect": "Protect",
+            "Multiplier": 5
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Earth",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "ActionDebuff",
+            "Effect": "Protect",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "TurnDamage",
+            "Effect": "Protect",
+            "Multiplier": 5
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Earth",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Master of Platyjitsu",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 478,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Mark",
+            "Effect": "Reverse",
+            "Multiplier": 10
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Null",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Trap",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 0
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Mark",
+            "Effect": "Reverse",
+            "Multiplier": 10
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Null",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Trap",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Wench Slayer",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 484,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Reverse",
+            "Multiplier": 0
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Reverse",
+            "Multiplier": 0
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Nightmare Affinity",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 485,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Direct",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "InstantNerf",
+            "Effect": "Insane",
+            "Multiplier": 7
+          },
+          {
+            "SkillUnit": "InstantNerf",
+            "Effect": "Slack",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Direct",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "InstantNerf",
+            "Effect": "Insane",
+            "Multiplier": 7
+          },
+          {
+            "SkillUnit": "InstantNerf",
+            "Effect": "Slack",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Instinctual Fury",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 493,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Charge",
+            "Multiplier": 6
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Guard",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "ActionDamage",
+            "Effect": "MaxHP",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Charge",
+            "Multiplier": 6
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Guard",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "ActionDamage",
+            "Effect": "MaxHP",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Four Sylphs",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 494,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Heal",
+            "Effect": "Charge",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Delay",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Element",
+            "Multiplier": 4
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Heal",
+            "Effect": "Charge",
+            "Multiplier": 3
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Delay",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Element",
+            "Multiplier": 4
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Craftsmans Insight",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 511,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Protect",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "TurnBuff",
+            "Effect": "Dice",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Protect",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "TurnBuff",
+            "Effect": "Dice",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Battle Forgemaster",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 512,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Protect",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "TurnBuff",
+            "Effect": "Strength",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "ActionBuff",
+            "Effect": "Strength",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Protect",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "TurnBuff",
+            "Effect": "Strength",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "ActionBuff",
+            "Effect": "Strength",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Arcane Forgemaster",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 513,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Protect",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "TurnBuff",
+            "Effect": "Agility",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "ActionBuff",
+            "Effect": "Agility",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Protect",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "TurnBuff",
+            "Effect": "Agility",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "ActionBuff",
+            "Effect": "Agility",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Regal Forgemaster",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 514,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Protect",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "TurnBuff",
+            "Effect": "MaxHP",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "ActionBuff",
+            "Effect": "MaxHP",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Protect",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "TurnBuff",
+            "Effect": "MaxHP",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "ActionBuff",
+            "Effect": "MaxHP",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Tupi Supreme Deity",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 536,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Protect",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "TurnDebuff",
+            "Effect": "Thunder",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Protect",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "TurnDebuff",
+            "Effect": "Thunder",
+            "Multiplier": 1
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Carrier Of Decay",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 548,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Debuff",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Reflect",
+            "Effect": "Venom",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Reflect",
+            "Effect": "Strength",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Debuff",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Reflect",
+            "Effect": "Venom",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Reflect",
+            "Effect": "Strength",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "The Gourmet Chef",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 555,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Food",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Exhaust",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Heal",
+            "Effect": "Charge",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Heal",
+            "Effect": "Guard",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Food",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Exhaust",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Heal",
+            "Effect": "Charge",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Heal",
+            "Effect": "Guard",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Infinity Candy Magic",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 557,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Food",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Exhaust",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Combo",
+            "Effect": "InstantBoost",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Element",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Food",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Exhaust",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Combo",
+            "Effect": "InstantBoost",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "InstantBoost",
+            "Effect": "Element",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Carnival Carnage",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 560,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Delay",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "TurnDamage",
+            "Effect": "MaxHP",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "ActionBuff",
+            "Effect": "Intelligence",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Delay",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "TurnDamage",
+            "Effect": "MaxHP",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "ActionBuff",
+            "Effect": "Intelligence",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Power Armored Soldier",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 567,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Delay",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Agility",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "ActionDamage",
+            "Effect": "Agility",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Delay",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Agility",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "ActionDamage",
+            "Effect": "Agility",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Veteran Psionic Warrior",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 568,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Protect",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Intelligence",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "MaxHP",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Protect",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Intelligence",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "MaxHP",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Arthropod Mutation",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 569,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Unique",
+            "Effect": "LifeSteal",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Charge",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "TurnHeal",
+            "Effect": "MaxHP",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Creature",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Unique",
+            "Effect": "LifeSteal",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Sacrifice",
+            "Effect": "Charge",
+            "Multiplier": 4
+          },
+          {
+            "SkillUnit": "TurnHeal",
+            "Effect": "MaxHP",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Galactic Arsenal",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 589,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Draw",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Action",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "TurnBuff",
+            "Effect": "Dice",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Draw",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Debuff",
+            "Effect": "Action",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "TurnBuff",
+            "Effect": "Dice",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Master Tinkerer",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 620,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Null",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Gold",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Intelligence",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Null",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Matter",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Gold",
+            "Multiplier": 2
+          },
+          {
+            "SkillUnit": "Buff",
+            "Effect": "Intelligence",
+            "Multiplier": 2
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "The Last Stag",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 624,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Delay",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "TurnDebuff",
+            "Effect": "Water",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "ActionBuff",
+            "Effect": "Water",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Humanoid",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Delay",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "TurnDebuff",
+            "Effect": "Water",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "ActionBuff",
+            "Effect": "Water",
+            "Multiplier": 3
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
+    },
+    {
+      "version": null,
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Preta Path",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 636,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "changedFields": [
+        "SkillUnits"
+      ],
+      "before": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Combo",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Delay",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Drain",
+            "Effect": "MaxHP",
+            "Multiplier": 5
+          }
+        ]
+      },
+      "after": {
+        "SkillUnits": [
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Combo",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Upgrade",
+            "Effect": "Spirit",
+            "Multiplier": 1
+          },
+          {
+            "SkillUnit": "Protect",
+            "Effect": "Delay",
+            "Multiplier": 0
+          },
+          {
+            "SkillUnit": "Drain",
+            "Effect": "MaxHP",
+            "Multiplier": 5
+          }
+        ]
+      },
+      "description": "Reconciled effect units with numbered Database sheet; game version attribution pending",
+      "localizationRequired": true
     }
   ],
   "pendingContent": [
@@ -2051,6 +7052,12 @@
         "Job craft relationships",
         "Existing indexed AP cost discrepancies"
       ]
+    },
+    {
+      "wikiVersion": "0.0",
+      "date": "2026-10-18",
+      "action": "phase_2_existing_fields_reconciled",
+      "note": "Confirmed changes: 5 job field values, 4 character stat values, 2 ability icons, 20 ability skill-unit definitions and 65 passive skill-unit definitions. Existing ability-cost mismatches and prior localization differences remain for separate review."
     }
   ]
 }
