@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "type": "array",
+  "totalRecords": 621,
+  "parts": [
+    {
+      "file": "part_01.json",
+      "records": 298
+    },
+    {
+      "file": "part_02.json",
+      "records": 265
+    },
+    {
+      "file": "part_03.json",
+      "records": 58
+    }
+  ]
+}
