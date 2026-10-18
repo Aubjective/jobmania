@@ -1,0 +1,446 @@
+[
+  {
+    "AbilityKey": "Perfect Iai Execution",
+    "English": [
+      "Lose 30% of Max HP.",
+      "Apply 1 Certain on self.",
+      "Deal 8% damage based on Agi to the enemy."
+    ],
+    "Chinese": [
+      "失去 <sprite name=Hp> 体力上限 的 30%。",
+      "对自己施加 1个必然 效果。",
+      "对敌方造成 8% <sprite name=Agi> 敏捷 伤害。"
+    ],
+    "Chinese (Traditional)": [
+      "失去 <sprite name=Hp> 體力上限 的 30%。",
+      "對自己施加 1個必然 效果。",
+      "對敵方造成 8% <sprite name=Agi> 敏捷 傷害。"
+    ],
+    "Japanese": [
+      "<sprite name=Hp> 体力最大値の30%を失う。",
+      "自身に1つの必然を付与する。",
+      "8% <sprite name=Agi> 敏だけ敵にダメージを与える。"
+    ],
+    "French": [
+      "Perdez 30% de HP Max <sprite name=Hp> .",
+      "Applique 1 Certitude sur soi.",
+      "inflige 8% Agilité <sprite name=Agi> dégats à l'adversaire."
+    ],
+    "Italian": [
+      "Perdi 30% del tuo PV Mas. <sprite name=Hp>.",
+      "Aggiunge 1 Determinazione a te.",
+      "Provoca 8% Agilità <sprite name=Agi> danni al tuo avversario."
+    ],
+    "Portuguese": [
+      "Perca 30% de seu PV Máx <sprite name=Hp> .",
+      "Adiciona 1 Determinação a si.",
+      "Cause 8% Agilidade <sprite name=Agi> de dano em seu oponente."
+    ],
+    "Korean": [
+      "<sprite name=Hp> 최대HP의 30%을 잃는다.",
+      "자신에게 1개의불가피하게을 부여한다.",
+      "적에게 8% <sprite name=Agi> 민첩성만큼의 피해를 입힙니다."
+    ],
+    "Spanish": [
+      "Pierde un 30% de V.Máx <sprite name=Hp> .",
+      "Aplica 1 Certeza en ti mismo.",
+      "Inflinge un 8% Agilidad <sprite name=Agi> de daño al oponente."
+    ],
+    "Russian": [
+      "Теряете 30% Макс ХП <sprite name=Hp> здоровья.",
+      "Даёт 1 Неудержимость .",
+      "Наносит 8% Ловкость <sprite name=Agi> урона противнику."
+    ],
+    "German": [
+      "Verliere 30% von Max HP <sprite name=Hp> .",
+      "Erhalte 1 Selbstsicher .",
+      "Teile dem Gegner 8% Agilität <sprite name=Agi> Schaden aus."
+    ],
+    "Vietnamese": [
+      "Mất 30% của Max HP <sprite name=Hp> .",
+      "Áp dụng 1 Chắc Chắn lên bản thân.",
+      "Gây 8% Nhanh Nhẹn <sprite name=Agi> sát thương cho đối thủ."
+    ],
+    "Indonesian": [
+      "Hapus 30% dari <sprite name=Hp> Max HP .",
+      "Berikan 1 Certain pada hero.",
+      "Berikan 8% <sprite name=Agi> Agility damage pada lawan."
+    ],
+    "Arabic": [
+      "تفقد 30% من نقاط الصحة .",
+      "تطبيق 1 مؤكد على الذات.",
+      "تعامل 8% السرعة الضرر للعدو."
+    ],
+    "Turkish": [
+      "<sprite name=Hp> Maks CP değerinin 30% kadarını kaybet.",
+      "Kendine 1 Kaçınılmazlık uygula.",
+      "Düşmana 8% <sprite name=Agi> Çeviklik hasarı ver."
+    ]
+  },
+  {
+    "AbilityKey": "Checkpoint",
+    "English": [
+      "Draw 1 abilities at the start of next turn.",
+      "Gain 1 Int Buff.",
+      "Gain 1 Second Chance buff.",
+      "Gain 3 Insane on self."
+    ],
+    "Chinese": [
+      "对自己施加 下回合手牌 1 效果。",
+      "对自己施加 1 <sprite name=Int> 智力增益 效果。",
+      "对自己施加 1个二次机会 效果。",
+      "对自己施加 3个疯癫 效果。"
+    ],
+    "Chinese (Traditional)": [
+      "對自己施加 下回合手牌 1 效果。",
+      "對自己施加 1 <sprite name=Int> 智力增益 效果。",
+      "對自己施加 1個二次機會 效果。",
+      "對自己施加 3個瘋癲 效果。"
+    ],
+    "Japanese": [
+      "自身に次のターン手札 1を付与する。",
+      "自身に1 <sprite name=Int> 知バフを付与する。",
+      "自身に1つのセカンドチャンスを付与する。",
+      "自身に3つの狂気を付与する。"
+    ],
+    "French": [
+      "Applique 1 Pioche Prochain Tour sur soi.",
+      "Applique 1 Buff Intelligence <sprite name=Int> sur soi.",
+      "Applique 1 Seconde Chance sur soi.",
+      "Applique 3 Folie sur soi."
+    ],
+    "Italian": [
+      "Aggiunge Pesca 1 Prossimo Turno a te.",
+      "Aggiunge 1 Miglioramento Intelligenza <sprite name=Int> a te.",
+      "Aggiunge 1 Seconda Possibilità a te.",
+      "Aggiunge 3 Insania a te."
+    ],
+    "Portuguese": [
+      "Adiciona Saque Próx. Turn 1 a si.",
+      "Adiciona 1 Buff Inteligência <sprite name=Int> a si.",
+      "Adiciona 1 Segunda Chance a si.",
+      "Adiciona 3 Insanidade a si."
+    ],
+    "Korean": [
+      "자신에게 다음 턴 패 1을 부여한다.",
+      "자신에게 1 <sprite name=Int> 지능 이득을 부여한다.",
+      "자신에게 1개의두 번째 기회을 부여한다.",
+      "자신에게 3개의미친을 부여한다."
+    ],
+    "Spanish": [
+      "Aplica Robar 1 Próximo turno en ti mismo.",
+      "Aplica 1 Inteligencia <sprite name=Int> Mejora en ti mismo.",
+      "Aplica 1 Segunda Oportunidad en ti mismo.",
+      "Aplica 3 Insanía en ti mismo."
+    ],
+    "Russian": [
+      "Даёт 1 Добора На Следующий Ход .",
+      "Даёт 1 Интеллект <sprite name=Int> Баффа .",
+      "Даёт 1 Второй Шанс .",
+      "Даёт 3 Безумие ."
+    ],
+    "German": [
+      "Erhalte Nächste Runde ziehe 1 .",
+      "Erhalte 1 Intelligenz <sprite name=Int> Buff .",
+      "Erhalte 1 Zweite Chance .",
+      "Erhalte 3 Wahnsinn ."
+    ],
+    "Vietnamese": [
+      "Áp dụng Rút 1 Lượt Tiếp Theo lên bản thân.",
+      "Áp dụng 1 Buff Trí Tuệ <sprite name=Int> lên bản thân.",
+      "Áp dụng 1 Cơ Hội Thứ Hai lên bản thân.",
+      "Áp dụng 3 Điên Loạn lên bản thân."
+    ],
+    "Indonesian": [
+      "Berikan 1 Draw Giliran Selanjutnya pada hero.",
+      "Berikan 1 <sprite name=Int> Intelligence Buff pada hero.",
+      "Berikan 1 Second Chance pada hero.",
+      "Berikan 3 Insane pada hero."
+    ],
+    "Arabic": [
+      "تطبيق 1 سحب الدور التالي على الذات.",
+      "تطبيق  1 الذكاء بوف على الذات.",
+      "تطبيق 1 فرصة ثانية على الذات.",
+      "تطبيق 3 جنون على الذات."
+    ],
+    "Turkish": [
+      "Kendine Sonraki Tur 1 Çek uygula.",
+      "Kendine 1 <sprite name=Int> Zeka Güçlendirmesi uygula.",
+      "Kendine 1 İkinci Şans uygula.",
+      "Kendine 3 Delilik uygula."
+    ]
+  },
+  {
+    "AbilityKey": "Loop Correction",
+    "English": [
+      "Remove Insane from self.",
+      "Skip 1 turn, triggering player and enemy turn-start and turn-end passives 1 times.",
+      "Gain 2 Gamble Token.",
+      "Gain 5 Insane on self."
+    ],
+    "Chinese": [
+      "移除自身 疯癫 效果。",
+      "跳过1个回合。",
+      "对自己施加 2个赌币 效果。",
+      "对自己施加 5个疯癫 效果。"
+    ],
+    "Chinese (Traditional)": [
+      "移除自身 瘋癲 效果。",
+      "跳過1個回合。",
+      "對自己施加 2個賭幣 效果。",
+      "對自己施加 5個瘋癲 效果。"
+    ],
+    "Japanese": [
+      "自身の狂気をリムーブする。",
+      "1ターンをスキップする。",
+      "自身に2つのトークンを付与する。",
+      "自身に5つの狂気を付与する。"
+    ],
+    "French": [
+      "Retire Folie sur soi.",
+      "Passe 1 tours.",
+      "Applique 2 Jeton sur soi.",
+      "Applique 5 Folie sur soi."
+    ],
+    "Italian": [
+      "Rimuove Insania da te.",
+      "Salta 1 turno(i).",
+      "Aggiunge 2 Fiches a te.",
+      "Aggiunge 5 Insania a te."
+    ],
+    "Portuguese": [
+      "Remove Insanidade de si.",
+      "Pula 1 turno(s).",
+      "Adiciona 2 Fichas a si.",
+      "Adiciona 5 Insanidade a si."
+    ],
+    "Korean": [
+      "자신의 미친을 제거합니다.",
+      "자신의 속성 행동 버프 수가 2배로 증가한다.",
+      "자신에게 2개의코인을 부여한다.",
+      "자신에게 5개의미친을 부여한다."
+    ],
+    "Spanish": [
+      "Remueve Insanía de ti mismo.",
+      "Salta 1 turnos.",
+      "Aplica 2 Ficha en ti mismo.",
+      "Aplica 5 Insanía en ti mismo."
+    ],
+    "Russian": [
+      "Снимает Безумие .",
+      "Пропускает 1 ходов.",
+      "Даёт 2 Жетон .",
+      "Даёт 5 Безумие ."
+    ],
+    "German": [
+      "Entferne Wahnsinn von selbst.",
+      "Überspringe 1 Runde(n).",
+      "Erhalte 2 Chip .",
+      "Erhalte 5 Wahnsinn ."
+    ],
+    "Vietnamese": [
+      "Loại bỏ Điên Loạn khỏi bản thân.",
+      "Bỏ qua 1 lượt.",
+      "Áp dụng 2 Chip lên bản thân.",
+      "Áp dụng 5 Điên Loạn lên bản thân."
+    ],
+    "Indonesian": [
+      "Hapus Insane dari hero.",
+      "Skip 1 giliran.",
+      "Berikan 2 Token pada hero.",
+      "Berikan 5 Insane pada hero."
+    ],
+    "Arabic": [
+      "إزالة جنون من الذات.",
+      "تخطي 1 الدور.",
+      "تطبيق 2 عملة رمزية على الذات.",
+      "تطبيق 5 جنون على الذات."
+    ],
+    "Turkish": [
+      "Kendinden Delilik kaldır.",
+      "1 tur geçilir.",
+      "Kendine 2 Jeton uygula.",
+      "Kendine 5 Delilik uygula."
+    ]
+  },
+  {
+    "AbilityKey": "Brideheart Echo",
+    "English": [
+      "Lose 30% of Max HP.",
+      "Inflict 0 Madness on the opponent.",
+      "Player: For each unique Curse abilities in your deck, deal Highest combined 3 damage. Enemy: For every single abilities in player's deck instead. (Max 20x)",
+      "Inflict 1 Trance on the opponent."
+    ],
+    "Chinese": [
+      "失去 <sprite name=Hp> 体力上限 的 30%。",
+      "对敌方施加 0个疯狂 效果。",
+      "对敌方造成玩家牌组中的每一个独特名的诅咒技能数量乘以3%基于面板最高属性值伤害，作为一次性攻击, 最多x20倍。(敌方怪物会将玩家牌堆中的任何独特名技能纳入计算）",
+      "对敌方施加 1个精神恍惚 效果。"
+    ],
+    "Chinese (Traditional)": [
+      "失去 <sprite name=Hp> 體力上限 的 30%。",
+      "對敵方施加 0個瘋狂 效果。",
+      "對敵方造成玩家牌組中的每一個獨特名的詛咒技能數量乘以3%基於面板最高屬性值傷害，作為一次性攻擊, 最多x20倍。(敵方怪物會將玩家牌堆中的任何獨特名技能納入計算）",
+      "對敵方施加 1個精神恍惚 效果。"
+    ],
+    "Japanese": [
+      "<sprite name=Hp> 体力最大値の30%を失う。",
+      "敵に0つの狂乱を付与する。",
+      "プレイヤーのデッキに呪い系異なる名のスキルの数量ｘ3%（最大20倍）、敵に一撃で最も高い属性属性ダメージを与える。（敵の場合：プレイヤーのデッキにある異なる名のスキルを全てカウント）\n",
+      "敵に1つのトランスを付与する。"
+    ],
+    "French": [
+      "Perdez 30% de HP Max <sprite name=Hp> .",
+      "Inflige 0 Démence à l'adversaire.",
+      "Pour chaque compétence Malédiction distincte dans le deck du joueur, inflige 3% dégats basé sur l'attribut le plus élevé en un coup, jusqu'à un maximum de 20 fois. (Les monstres ennemis prennent en compte chaque compétence distincte dans le deck du joueur pour le calcul)",
+      "Inflige 1 Transe à l'adversaire."
+    ],
+    "Italian": [
+      "Perdi 30% del tuo PV Mas. <sprite name=Hp>.",
+      "Provoca 0 Pazzia al tuo avversario.",
+      "Per ogni abilità distinta di Maledizione nel mazzo del giocatore, infliggi 3% danni basati sul tuo attributo più potente, in un solo colpo, fino a un massimo di 20 volte. (Gli avversari considerano tutte le abilità nel mazzo del giocatore ai fini del calcolo.)",
+      "Provoca 1 Trance al tuo avversario."
+    ],
+    "Portuguese": [
+      "Perca 30% de seu PV Máx <sprite name=Hp> .",
+      "Cause 0 Loucura em seu oponente.",
+      "Para cada habilidade distinta de Maldição no baralho do jogador, cause 3% em dano baseado no atributo mais poderoso, em um único golpe, até um máximo de 20 vezes. (Oponentes consideram todas as habilidades no monte baralho do jogador para fins de cálculos.)",
+      "Cause 1 Transe em seu oponente."
+    ],
+    "Korean": [
+      "<sprite name=Hp> 최대HP의 30%을 잃는다.",
+      "적에게 0개의광기을 부여합니다.",
+      "플레이어의 덱에 있는 각 고유한 능력마다, 가장 높은 속성을 기반으로 3%의 피해를 하나의 공격으로 가합니다. 최대 20번까지 가능합니다. (적 몬스터는 플레이어의 덱에 있는 모든 고유한 능력을 계산에 고려합니다).",
+      "적에게 1개의트랜스을 부여합니다."
+    ],
+    "Spanish": [
+      "Pierde un 30% de V.Máx <sprite name=Hp> .",
+      "Inflinge 0 Locura al oponente.",
+      "Por cada habilidad de Maldición diferente en tu mazo, inflige 3% de daño en un solo golpe basado en tu Estadística más alta, hasta un máximo de 20 veces. Los enemigos usan todas las habilidades en el mazo del Jugador.",
+      "Inflinge 1 Trance al oponente."
+    ],
+    "Russian": [
+      "Теряете 30% Макс ХП <sprite name=Hp> здоровья.",
+      "Накладывает 0 Бешенство на противника.",
+      "За каждый различный навык Проклятие в колоде наносит 3% урона исходя из сильнейшего атрибута за удар, максимум 20 раз.(Противник учитывает все различные навыки в колоде игрока)",
+      "Накладывает 1 Транс на противника."
+    ],
+    "German": [
+      "Verliere 30% von Max HP <sprite name=Hp> .",
+      "Füge dem Gegner 0 Irrsinn zu.",
+      "Füge für jede einzelne Fähigkeit in deinem Deck, füge 3% Schaden basierend auf dem höchsten Attribut als einen Treffer zu, bis zu einem Maximum von 20 Stück. (Gegner nutzen jede Fähigkeit in deinem Ablagestapel zur Kalkulation)",
+      "Füge dem Gegner 1 Trance zu."
+    ],
+    "Vietnamese": [
+      "Mất 30% của Max HP <sprite name=Hp> .",
+      "Gây 0 Điên Cuồng cho đối thủ.",
+      "Với mỗi kỹ năng Lời Nguyền riêng biệt trong bộ bài của người chơi, gây 3% sát thương dựa trên chỉ số cao nhất dưới dạng 1 hit, tối đa 20 lần. (Đối thủ cũng sẽ sử dụng số lượng kỹ năng trong bộ bài của người chơi để tính toán)",
+      "Gây 1 Xuất Thần cho đối thủ."
+    ],
+    "Indonesian": [
+      "Hapus 30% dari <sprite name=Hp> Max HP .",
+      "Berikan 0 Madness pada lawan.",
+      "Untuk setiap abiliti Curse yang berbeda dalam deck pemain, hasilkan satu serangan sebesar 3% kerusakan berdasarkan atribut tertinggi, hingga maksimal 20 kali. (musuh menghitung setiap abiliti didalam deck pemain dalam hitungannya)",
+      "Berikan 1 Trance pada lawan."
+    ],
+    "Arabic": [
+      "تفقد 30% من نقاط الصحة .",
+      "ضع 0 سعر جنون على العدو",
+      "لكل قدرة مميزة في للسة اللاعب، تعامل مع الضرر 3% بناءً على أعلى سمة في ضربة واحدة، بحد أقصى 20 مرة. (تعتبر وحوش العدو أي قدرة مميزة في للسة اللاعب للحساب)",
+      "ضع 1 الغيبوبة على العدو"
+    ],
+    "Turkish": [
+      "<sprite name=Hp> Maks CP değerinin 30% kadarını kaybet.",
+      "Düşmana 0 Delilik uygulanır.",
+      "Maksimum 20 kez olmak üzere oyuncunun destesindeki her farklı yetenek için bir vuruş olarak en yüksek özellik temel alınarak 3% hasar verin. (Düşman canavarlar, hesaplama için oyuncunun ıskartasındaki herhangi bir yeteneği dikkate alır)",
+      "Düşmana 1 Trans uygulanır."
+    ]
+  },
+  {
+    "AbilityKey": "Voidblade Pierce",
+    "English": [
+      "Lose 10% of Max HP.",
+      "Inflict 3 Protect Pierce on the opponent.",
+      "Deal 6% damage based on Agi to the enemy."
+    ],
+    "Chinese": [
+      "失去 <sprite name=Hp> 体力上限 的 10%。",
+      "对敌方施加 3个护甲破防 效果。",
+      "对敌方造成 6% <sprite name=Agi> 敏捷 伤害。"
+    ],
+    "Chinese (Traditional)": [
+      "失去 <sprite name=Hp> 體力上限 的 10%。",
+      "對敵方施加 3個護甲破防 效果。",
+      "對敵方造成 6% <sprite name=Agi> 敏捷 傷害。"
+    ],
+    "Japanese": [
+      "<sprite name=Hp> 体力最大値の10%を失う。",
+      "敵に3つのシールド 弱みを付与する。",
+      "6% <sprite name=Agi> 敏だけ敵にダメージを与える。"
+    ],
+    "French": [
+      "Perdez 10% de HP Max <sprite name=Hp> .",
+      "Inflige 3 Vulnérable à Protection à l'adversaire.",
+      "inflige 6% Agilité <sprite name=Agi> dégats à l'adversaire."
+    ],
+    "Italian": [
+      "Perdi 10% del tuo PV Mas. <sprite name=Hp>.",
+      "Provoca 3 Vulnerabilità di Protezione al tuo avversario.",
+      "Provoca 6% Agilità <sprite name=Agi> danni al tuo avversario."
+    ],
+    "Portuguese": [
+      "Perca 10% de seu PV Máx <sprite name=Hp> .",
+      "Cause 3 Vulnerabilidade de Proteção em seu oponente.",
+      "Cause 6% Agilidade <sprite name=Agi> de dano em seu oponente."
+    ],
+    "Korean": [
+      "<sprite name=Hp> 최대HP의 10%을 잃는다.",
+      "적에게 3개의갑옷 약점을 부여합니다.",
+      "적에게 6% <sprite name=Agi> 민첩성만큼의 피해를 입힙니다."
+    ],
+    "Spanish": [
+      "Pierde un 10% de V.Máx <sprite name=Hp> .",
+      "Inflinge 3 Vulnerable a Escudo al oponente.",
+      "Inflinge un 6% Agilidad <sprite name=Agi> de daño al oponente."
+    ],
+    "Russian": [
+      "Теряете 10% Макс ХП <sprite name=Hp> здоровья.",
+      "Накладывает 3 Уязвимость Броня на противника.",
+      "Наносит 6% Ловкость <sprite name=Agi> урона противнику."
+    ],
+    "German": [
+      "Verliere 10% von Max HP <sprite name=Hp> .",
+      "Füge dem Gegner 3 Schild Verwundbarkeit zu.",
+      "Teile dem Gegner 6% Agilität <sprite name=Agi> Schaden aus."
+    ],
+    "Vietnamese": [
+      "Mất 10% của Max HP <sprite name=Hp> .",
+      "Gây 3 Tổn Thương với Giáp cho đối thủ.",
+      "Gây 6% Nhanh Nhẹn <sprite name=Agi> sát thương cho đối thủ."
+    ],
+    "Indonesian": [
+      "Hapus 10% dari <sprite name=Hp> Max HP .",
+      "Berikan 3 Protect Vulnerable pada lawan.",
+      "Berikan 6% <sprite name=Agi> Agility damage pada lawan."
+    ],
+    "Arabic": [
+      "تفقد 10% من نقاط الصحة .",
+      "ضع 3 الدرع غير حصين على العدو",
+      "تعامل 6% السرعة الضرر للعدو."
+    ],
+    "Turkish": [
+      "<sprite name=Hp> Maks CP değerinin 10% kadarını kaybet.",
+      "Düşmana 3 Zırh Hassaslığı uygulanır.",
+      "Düşmana 6% <sprite name=Agi> Çeviklik hasarı ver."
+    ]
+  },
+  {
+    "AbilityKey": "Black Gate Barrage",
+    "English": [
+      "Inflict 1 random debuff on self.",
+      "Inflict 3 Dark Vulnerable on the opponent.",
+      "Deal 4% damage based on Agi to the enemy.",
+      "Deal 4% damage based on Agi to the enemy."
+    ]
+  }
+]
