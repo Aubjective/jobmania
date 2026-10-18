@@ -1833,10 +1833,10 @@
   },
   {
     "RelicPassiveId": 150,
-    "RelicPassiveKey": "UpgradeHumanoid0",
+    "RelicPassiveKey": "UpgradeHumanoid1",
     "SkillType": "Upgrade",
     "EffectType": "Humanoid",
-    "Multiplier": 0,
+    "Multiplier": 1,
     "Type": "",
     "Rarities": [
       "Legendary"
@@ -1844,10 +1844,10 @@
   },
   {
     "RelicPassiveId": 151,
-    "RelicPassiveKey": "UpgradeSpirit0",
+    "RelicPassiveKey": "UpgradeSpirit1",
     "SkillType": "Upgrade",
     "EffectType": "Spirit",
-    "Multiplier": 0,
+    "Multiplier": 1,
     "Type": "",
     "Rarities": [
       "Legendary"
@@ -1855,10 +1855,10 @@
   },
   {
     "RelicPassiveId": 152,
-    "RelicPassiveKey": "UpgradeCreature0",
+    "RelicPassiveKey": "UpgradeCreature1",
     "SkillType": "Upgrade",
     "EffectType": "Creature",
-    "Multiplier": 0,
+    "Multiplier": 1,
     "Type": "",
     "Rarities": [
       "Legendary"
@@ -1866,10 +1866,10 @@
   },
   {
     "RelicPassiveId": 153,
-    "RelicPassiveKey": "UpgradeMatter0",
+    "RelicPassiveKey": "UpgradeMatter1",
     "SkillType": "Upgrade",
     "EffectType": "Matter",
-    "Multiplier": 0,
+    "Multiplier": 1,
     "Type": "",
     "Rarities": [
       "Legendary"
