@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "wikiVersion": "0.0",
+  "baseline": {
+    "label": "Wiki baseline 0.0 — before source synchronization",
+    "capturedDate": "2026-10-18",
+    "repository": "Aubjective/jobmania",
+    "branch": "wiki-baseline-0.0",
+    "commit": "fd58106d827f399bf510d2ba6ed0a7f5a8b29eb3",
+    "url": "https://github.com/Aubjective/jobmania/tree/wiki-baseline-0.0",
+    "rollbackNote": "The branch points to the original pre-sync wiki. Restore selected files or reset from this commit only after reviewing later changes."
+  },
+  "sources": {
+    "database": {
+      "name": "Jobmania Database",
+      "url": "https://docs.google.com/spreadsheets/d/1NplTp8arQXj5zZ6mj-x_eTjqp20rsRSrT7wgHWb0UT8",
+      "versionSheet": "Ver Log"
+    },
+    "localization": {
+      "name": "Jobmania Localization",
+      "url": "https://docs.google.com/spreadsheets/d/1B2olPb1sTgFSskGBC68czBBt1ICh2jGmQkIKOi_c39w"
+    }
+  },
+  "policy": {
+    "confirmation": "A valid numeric ID in the relevant Jobmania Database data sheet is required before a new gameplay asset can be imported. Unnumbered rows are pending/unconfirmed, not missing implemented content.",
+    "localization": "Localization entries require a matching confirmed gameplay asset. Preserve exact stable canonical keys; inspect whitespace/key differences before syncing.",
+    "status": "When explicit development status exists, do not import incomplete, stopped, untested, or otherwise unconfirmed entries automatically.",
+    "changes": "Never generate IDs, delete unmatched existing records, or overwrite gameplay values on the basis of a name-only diff.",
+    "versioning": "0.0 identifies the wiki baseline only. Future synced wiki versions follow the game Database Ver Log version number.",
+    "audit": "Do not advance lastAuditedGameVersion or lastSyncedGameVersion until the relevant version's confirmed items have been checked. New records, field changes, and related translations must be verified separately."
+  },
+  "checkpoints": {
+    "latestSourceGameVersionObserved": "2.48.1",
+    "lastAuditedGameVersion": null,
+    "lastSyncedGameVersion": null,
+    "lastAuditDate": null,
+    "lastSyncDate": null
+  },
+  "trackedCategories": {
+    "jobs": {
+      "databaseSheet": "Jobs",
+      "json": [
+        "data/jobs.json",
+        "data/jobs_localisation.json",
+        "data/jobcraft.json"
+      ]
+    },
+    "characters": {
+      "databaseSheet": "Characters",
+      "json": [
+        "data/monsters.json",
+        "data/monsters_localisation.json"
+      ]
+    },
+    "abilities": {
+      "databaseSheet": "Abilities",
+      "json": [
+        "data/abilities.json",
+        "data/ability_costs.json",
+        "data/abilities_description.json",
+        "data/abilities_localisation.json",
+        "data/abilities_description_localisation.json"
+      ]
+    },
+    "passives": {
+      "databaseSheet": "PassiveSkills",
+      "json": [
+        "data/passives.json",
+        "data/passives_description.json",
+        "data/passives_localisation.json",
+        "data/passives_description_localisation.json"
+      ]
+    },
+    "relics": {
+      "databaseSheet": "Relics",
+      "json": [
+        "data/relic.json",
+        "data/relic_localisation.json"
+      ]
+    },
+    "relicPassives": {
+      "databaseSheet": "RelicPassives",
+      "json": [
+        "data/relic_passives.json",
+        "data/relic_passive_rules.json",
+        "data/relic_passive_localisation.json"
+      ]
+    },
+    "materials": {
+      "databaseSheet": "Materials",
+      "json": [
+        "data/materials.json",
+        "data/materials_localisation.json"
+      ]
+    },
+    "mechanics": {
+      "databaseSheet": "Skill Unit",
+      "json": [
+        "data/mechanics.json",
+        "data/mechanics_localisation.json",
+        "data/delivery_patterns.json"
+      ]
+    },
+    "other": {
+      "databaseSheets": [
+        "Skins",
+        "Chapters",
+        "Gachas",
+        "Objectives",
+        "RunesMap",
+        "Job Craft Chart"
+      ],
+      "json": [
+        "data/chapters_series_localisation.json",
+        "data/wiki_dictionary.json",
+        "data/wiki_introduction.json"
+      ]
+    }
+  },
+  "entrySchema": {
+    "required": [
+      "version",
+      "category",
+      "changeType",
+      "key",
+      "sourceSheet",
+      "sourceId",
+      "status",
+      "syncStatus"
+    ],
+    "optional": [
+      "date",
+      "changedFields",
+      "before",
+      "after",
+      "description",
+      "sourceRow",
+      "localizationRequired",
+      "notes"
+    ],
+    "changeTypes": [
+      "added",
+      "modified",
+      "removed",
+      "rebalanced",
+      "mechanic_changed",
+      "localization_changed"
+    ],
+    "syncStatuses": [
+      "pending",
+      "synced",
+      "verified",
+      "skipped"
+    ]
+  },
+  "entries": [],
+  "pendingContent": [],
+  "auditHistory": [
+    {
+      "wikiVersion": "0.0",
+      "date": "2026-10-18",
+      "action": "baseline_created",
+      "note": "Recorded pre-sync revision and schema. No gameplay entries, localization data, or mechanics changed; confirmed numeric-ID audit is not yet complete."
+    }
+  ]
+}
