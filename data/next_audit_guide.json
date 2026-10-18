@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-18",
+  "wikiVersion": "1.0",
+  "reviewedGameVersion": "2.48.1",
+  "purpose": "Next audit handover, complementary to data/version_log.json",
+  "verified": {
+    "jsonFilesParsed": 65,
+    "chunkManifests": 8,
+    "abilityCosts": 1761,
+    "relicRecords": 113,
+    "characterAcquisitionValues": 617,
+    "jobcraftRecipes": 464
+  },
+  "exceptions": [
+    {
+      "type": "jobcraft",
+      "affectedRecipes": 15,
+      "unresolvedEndpointReferences": 19,
+      "uniqueUnnumberedJobs": 14,
+      "policy": "Preserve raw recipes; UI filters invalid links. Check numbered Jobs source before correcting."
+    },
+    {
+      "type": "abilityCost",
+      "keys": [
+        "Cycle Shift",
+        "Karmic Return",
+        "Sixfold Salvation"
+      ],
+      "policy": "Source IDs and AP costs missing; keep unknown values null."
+    },
+    {
+      "type": "relicLocalization",
+      "keys": [
+        "Treasure Land",
+        "ChallengeMode"
+      ],
+      "policy": "Use source text/fallback until translated keys are actually available."
+    }
+  ],
+  "ongoing": [
+    "Ability descriptions and mechanics explanations",
+    "Passive descriptions and mechanics explanations",
+    "Delivery patterns and related documentation",
+    "Localization and content enrichment"
+  ],
+  "nextAudit": [
+    "Review Database Ver Log and Localization updates",
+    "Compare numbered records by stable IDs and localizations by keys, including duplicates",
+    "Recheck the three documented exception groups",
+    "Parse all repository JSON and verify chunk manifests/record totals",
+    "Smoke-test main categories, detail views, language switching, mobile layout, and version page",
+    "Append dated results and GitHub commits to version_log.json",
+    "Advance source audit/sync checkpoints only after scope is verified; public wiki version is independent"
+  ],
+  "publicPolicy": "Public wiki-version.html shows only release status and ongoing documentation."
+}
