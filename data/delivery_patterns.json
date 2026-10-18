@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "source": "Jobmania Database Skill Unit sheet delivery wording, Localization Skills Description sheet, plus confirmed in-game descriptions",
   "families": {
     "elementStatus": {
@@ -41,7 +41,7 @@
         {
           "kind": "passive",
           "skillUnit": "TurnDebuff",
-          "template": "inflictEndOfTurn"
+          "template": "inflictStartOfTurn"
         },
         {
           "kind": "passive",
@@ -106,7 +106,7 @@
         {
           "kind": "passive",
           "skillUnit": "TurnDebuff",
-          "template": "inflictEndOfTurn"
+          "template": "inflictStartOfTurn"
         },
         {
           "kind": "passive",
@@ -147,6 +147,26 @@
           "template": "counterDebuffOnDamage"
         }
       ]
+    },
+    "turnTriggered": {
+      "source": "Jobmania Database Skill Unit numbered passive rows; Ver Log 2.48.0",
+      "rules": [
+        {
+          "kind": "passive",
+          "skillUnit": "TurnDebuff",
+          "triggerAt": "TurnStart",
+          "template": "inflictStartOfTurn"
+        },
+        {
+          "kind": "passive",
+          "skillUnit": "TurnBuff",
+          "triggerAt": "TurnStart",
+          "template": "gainTurnBuffStart"
+        }
+      ],
+      "exceptions": [
+        "TurnDamage and TurnHeal retain TurnEnd timing when their own Skill Unit rows specify it"
+      ]
     }
   },
   "locales": {
@@ -186,7 +206,9 @@
         "immuneStatus": "Immune to {status}.",
         "applyActionBuffSelf": "Apply {multiplier} {status} to self.",
         "drainStatusDamage": "When the opponent suffers from {status} damage, heal for half of the amount the opponent suffers.",
-        "counterDebuffOnDamage": "When damaged by the opponent, apply {multiplier} {status} to the opponent."
+        "counterDebuffOnDamage": "When damaged by the opponent, apply {multiplier} {status} to the opponent.",
+        "inflictStartOfTurn": "Inflict {multiplier} {status} on the opponent at {startOfTurn}.",
+        "gainTurnBuffStart": "Gain {multiplier} {status} at {startOfTurn}."
       }
     },
     "zh-CN": {
@@ -207,7 +229,9 @@
       "templates": {
         "drainStatusDamage": "当对手受到 {status} 伤害时，自己恢复对手所受伤害量的一半。",
         "counterDebuffOnDamage": "当承受敌方攻击时, 对敌方施加{multiplier}个{status}。",
-        "reflectStatus": "当敌方对自身施加{status}时, 敌方也会被施加相同数量的{status}。"
+        "reflectStatus": "当敌方对自身施加{status}时, 敌方也会被施加相同数量的{status}。",
+        "inflictStartOfTurn": "在回合开始时对敌方施加 {multiplier} 层{status}。",
+        "gainTurnBuffStart": "在回合开始时获得 {multiplier} 层{status}。"
       }
     },
     "zh-TW": {
@@ -228,7 +252,9 @@
       "templates": {
         "drainStatusDamage": "當對手受到 {status} 傷害時，自己恢復對手所受傷害量的一半。",
         "counterDebuffOnDamage": "當承受敵方攻擊時, 對敵方施加{multiplier}個{status}。",
-        "reflectStatus": "當敵方對自身施加{status}時, 敵方也會被施加相同數量的{status}。"
+        "reflectStatus": "當敵方對自身施加{status}時, 敵方也會被施加相同數量的{status}。",
+        "inflictStartOfTurn": "在回合開始時對敵方施加 {multiplier} 層{status}。",
+        "gainTurnBuffStart": "在回合開始時獲得 {multiplier} 層{status}。"
       }
     }
   }
