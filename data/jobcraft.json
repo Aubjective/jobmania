@@ -2198,5 +2198,125 @@
     "FromJobKey": "Illusionist",
     "MaterialKey": "Master Proof",
     "ToJobKey": "The Grand Illusionist"
+  },
+  {
+    "FromJobKey": "Performer",
+    "MaterialKey": "Martial Arts Training",
+    "ToJobKey": "Stunt Performer"
+  },
+  {
+    "FromJobKey": "Scholar",
+    "MaterialKey": "Coins",
+    "ToJobKey": "Accountant"
+  },
+  {
+    "FromJobKey": "Influencer",
+    "MaterialKey": "Coins",
+    "ToJobKey": "Onlyfriend"
+  },
+  {
+    "FromJobKey": "Street Artist",
+    "MaterialKey": "Noble Mission",
+    "ToJobKey": "Guerrilla Artist"
+  },
+  {
+    "FromJobKey": "Painter",
+    "MaterialKey": "Stealth Sense",
+    "ToJobKey": "Street Artist"
+  },
+  {
+    "FromJobKey": "Craftsman",
+    "MaterialKey": "Fire Spirit",
+    "ToJobKey": "Chef"
+  },
+  {
+    "FromJobKey": "Archer",
+    "MaterialKey": "Wind Spirit",
+    "ToJobKey": "Gale Archer"
+  },
+  {
+    "FromJobKey": "Gale Archer",
+    "MaterialKey": "Wind Spirit",
+    "ToJobKey": "Sonic Ranger"
+  },
+  {
+    "FromJobKey": "Cultist",
+    "MaterialKey": "Vast Experience",
+    "ToJobKey": "Voodoo Lord"
+  },
+  {
+    "FromJobKey": "Accountant",
+    "MaterialKey": "Vast Experience",
+    "ToJobKey": "Fund Manager"
+  },
+  {
+    "FromJobKey": "Stunt Performer",
+    "MaterialKey": "Vast Experience",
+    "ToJobKey": "Action Star"
+  },
+  {
+    "FromJobKey": "Content Creator",
+    "MaterialKey": "Vast Experience",
+    "ToJobKey": "Influencer"
+  },
+  {
+    "FromJobKey": "Storyteller",
+    "MaterialKey": "The Book Of Wisdom",
+    "ToJobKey": "Dungeon Master"
+  },
+  {
+    "FromJobKey": "Performer",
+    "MaterialKey": "The Book Of Wisdom",
+    "ToJobKey": "Content Creator"
+  },
+  {
+    "FromJobKey": "Action Star",
+    "MaterialKey": "Legendary Crest",
+    "ToJobKey": "Impossible Stunt Legend"
+  },
+  {
+    "FromJobKey": "Fund Manager",
+    "MaterialKey": "The Ring Of Lord",
+    "ToJobKey": "Wall Street Wolf"
+  },
+  {
+    "FromJobKey": "Chef",
+    "MaterialKey": "Champion Belt",
+    "ToJobKey": "Iron Chef"
+  },
+  {
+    "FromJobKey": "Guerrilla Artist",
+    "MaterialKey": "Phantom Crystal",
+    "ToJobKey": "Anonymous Muralist"
+  },
+  {
+    "FromJobKey": "Detective",
+    "MaterialKey": "Space Stone",
+    "ToJobKey": "Space Detective"
+  },
+  {
+    "FromJobKey": "Assassin",
+    "MaterialKey": "Easter Basket",
+    "ToJobKey": "Shadow Lone Wolf"
+  },
+  {
+    "FromJobKey": "Iron Chef",
+    "MaterialKey": "Tropical Sunglasses",
+    "ToJobKey": "Beach Grillmaster"
+  },
+  {
+    "FromJobKey": "Goldsmith",
+    "MaterialKey": "Tropical Sunglasses",
+    "ToJobKey": "Drowned Pharaoh"
+  },
+  {
+    "FromJobKey": "Serial Killer",
+    "MaterialKey": "Tropical Sunglasses",
+    "ToJobKey": "Cicada Reaper"
+  },
+  {
+    "FromJobKey": "Pirate Quartermaster",
+    "MaterialKey": "Tropical Sunglasses",
+    "ToJobKey": "Strawhat Corsair"
   }
 ]
