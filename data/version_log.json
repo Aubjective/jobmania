@@ -27,7 +27,9 @@
     "status": "When explicit development status exists, do not import incomplete, stopped, untested, or otherwise unconfirmed entries automatically.",
     "changes": "Never generate IDs, delete unmatched existing records, or overwrite gameplay values on the basis of a name-only diff.",
     "versioning": "0.0 identifies the wiki baseline only. Future synced wiki versions follow the game Database Ver Log version number.",
-    "audit": "Do not advance lastAuditedGameVersion or lastSyncedGameVersion until the relevant version's confirmed items have been checked. New records, field changes, and related translations must be verified separately."
+    "audit": "Do not advance lastAuditedGameVersion or lastSyncedGameVersion until the relevant version's confirmed items have been checked. New records, field changes, and related translations must be verified separately.",
+    "publicDisplay": "Present Wiki Version, Sheets Version and human-readable Updated / Ongoing / Excluded sections; no technical identifiers.",
+    "incrementalSync": "Game version checkpoints should only advance after scoped validation."
   },
   "checkpoints": {
     "latestSourceGameVersionObserved": "2.48.1",
@@ -7756,13 +7758,64 @@
   "publicStatus": {
     "asOf": "2026-10-18",
     "gameVersion": "2.48.1",
-    "summary": "Core wiki data is up to date with the reviewed game version.",
+    "summary": "Core gameplay synchronization recorded; mechanics, explanations and delivery refinements continue.",
     "ongoing": [
-      "Ability descriptions and skill mechanics explanations",
-      "Passive descriptions and mechanics explanations",
-      "Delivery patterns and related mechanics documentation",
-      "Further localization and description enrichment"
+      "Ability and passive-skill explanations",
+      "Mechanics and delivery-pattern documentation",
+      "Localization and description enrichment"
     ],
-    "lastReviewed": "2026-10-18"
+    "lastReviewed": "2026-10-18",
+    "sheetsVersion": "2.48.1",
+    "updated": [
+      "Core gameplay records reviewed against the source Sheets",
+      "Confirmed job and crafting additions synchronized",
+      "Selected skill timing and mechanics changes recorded"
+    ],
+    "excluded": [
+      "Unconfirmed, unfinished, stopped or untested additions",
+      "Draft records without confirmed source entries",
+      "Changes inferred from names alone"
+    ],
+    "editorialNote": "Core data reviewed; detailed per-change history retained."
+  },
+  "publicSections": {
+    "updated": [
+      "Core gameplay records reviewed against the source Sheets",
+      "Confirmed job and crafting additions synchronized",
+      "Selected skill timing and mechanics changes recorded"
+    ],
+    "ongoing": [
+      "Ability and passive-skill explanations",
+      "Mechanics and delivery-pattern documentation",
+      "Localization and description enrichment"
+    ],
+    "excluded": [
+      "Unconfirmed, unfinished, stopped or untested additions",
+      "Draft records without confirmed source entries",
+      "Changes inferred from names alone"
+    ]
+  },
+  "maintenance": {
+    "purpose": "Incremental future wiki updates without unnecessary full database re-audits",
+    "updateProcedure": [
+      "Read confirmed new game release and changed source records",
+      "Apply only documented in-scope additions and field changes by exact source identifiers",
+      "Check dependent references, relevant localized display text and publication",
+      "Add structured entry for each meaningful source change; preserve original audit history",
+      "Update public Updated/Ongoing/Excluded sections, observed Sheets version and only verified checkpoints"
+    ],
+    "changeRecordFields": [
+      "version",
+      "category",
+      "changeType",
+      "sourceSheet",
+      "sourceId",
+      "changedFields",
+      "syncStatus",
+      "localizationRequired",
+      "notes"
+    ],
+    "displayPolicy": "Internal source IDs, canonical keys, diff payloads and technical filenames remain in machine-readable records, not on public Version Log page.",
+    "lastScopeReview": "2026-10-20"
   }
 }
