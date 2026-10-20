@@ -24,7 +24,7 @@
 (async()=>{const status=document.getElementById('version-status');try{
 const response=await fetch('data/version_log.json',{cache:'no-cache'});if(!response.ok)throw new Error('HTTP '+response.status);
 const data=await response.json(),pub=data.publicStatus||{};
-const header=document.createElement('h2');header.textContent='Wiki '+(data.wikiVersion||'—');
+const header=document.createElement('h2');header.textContent='Wiki '+(data.wikiVersion||'—')+' (Sheets '+(pub.gameVersion||data.checkpoints?.latestSourceGameVersionObserved||'—')+')';
 const p=document.createElement('p');p.textContent='Updated: '+(pub.lastReviewed||pub.asOf||'—');
 status.replaceChildren(header,p);
 document.getElementById('source-status').textContent=pub.summary||'Version information unavailable.';
