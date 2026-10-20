@@ -108,3 +108,22 @@ h1 { text-align: center; color: #ffd700; margin: 10px 0 25px; font-size: 2.2rem;
 .wiki-footer a { color: #7bdfff; text-decoration: none; }
 .wiki-footer a:hover, .wiki-footer a:focus-visible { text-decoration: underline; }
 @media (max-width: 768px) { .wiki-footer { padding: 15px 20px 24px; } }
+
+
+/* Visual theme normalized to the Isekaimania Wiki reference. */
+body{font-family:'Segoe UI',system-ui,sans-serif}
+#langSelect{width:100%;padding:9px 10px;background:#16214d;color:var(--text);border:1px solid #334477;border-radius:8px}
+.game-info a{color:#00ffdd}
+hr{border:0;border-top:1px solid #334477;margin:16px 0}
+.menu-item,.menu-link{padding:13px 18px;border-radius:10px;transition:all .3s}
+.menu-item:hover,.menu-link:hover,.menu-item.active,.menu-link.active{background:rgba(0,204,255,.25);color:#fff;transform:translateX(8px)}
+main{min-width:0}
+.card{border-radius:16px;isolation:isolate;transition:transform .4s ease,border-color .4s ease,box-shadow .4s ease}
+.card>*{position:relative;z-index:2}
+.card::before{content:'';position:absolute;inset:-30%;border:0;border-radius:0;background:linear-gradient(115deg,rgba(255,210,31,.08) 0%,rgba(255,210,31,.58) 28%,rgba(84,255,184,.72) 50%,rgba(255,210,31,.58) 72%,rgba(84,255,184,.08) 100%);background-size:230% 230%;z-index:0;opacity:0;filter:blur(6px) saturate(1.22);pointer-events:none;transform:rotate(-6deg);animation:none}
+.card:hover::before{opacity:.9;animation:jobWikiIsekaiWash 2.6s linear infinite}
+.card:hover{border-color:rgba(255,226,92,.95);box-shadow:0 12px 30px rgba(0,0,0,.48),0 0 30px rgba(255,210,31,.34),0 0 26px rgba(84,255,184,.3)}
+@keyframes jobWikiIsekaiWash{0%{background-position:180% 40%;transform:rotate(-6deg) translate3d(-4%,0,0)}50%{background-position:20% 60%;transform:rotate(-6deg) translate3d(4%,-1%,0)}100%{background-position:-140% 40%;transform:rotate(-6deg) translate3d(-4%,0,0)}}
+.home-card{border-radius:16px;box-shadow:0 6px 20px rgba(0,0,0,.4)}
+a{color:#00ffdd}
+@media(prefers-reduced-motion:reduce){.card::before{animation:none!important}}
