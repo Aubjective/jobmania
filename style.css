@@ -127,3 +127,46 @@ main{min-width:0}
 .home-card{border-radius:16px;box-shadow:0 6px 20px rgba(0,0,0,.4)}
 a{color:#00ffdd}
 @media(prefers-reduced-motion:reduce){.card::before{animation:none!important}}
+
+
+/* Aubjective shared visual identity — matched to aubjective/home. */
+:root {
+  color-scheme: dark;
+  --primary: #e9c48a;
+  --accent: #e9c48a;
+  --bg: #090d16;
+  --nav: #0c1220;
+  --card: #111827;
+  --text: #f7f8fc;
+  --label: #e9c48a;
+  --aub-line: #ffffff1a;
+  --aub-muted: #acb5c8;
+}
+nav { border-right: 1px solid var(--aub-line); }
+.nav-logo { box-shadow: 0 0 0 1px #e9c48a55, 0 8px 26px #0005; }
+.game-info, .menu-item, .menu-link { color: var(--aub-muted); }
+.game-info strong, h1, .detail-title-card h3, .home-closing, .entity-primary-row .info-value { color: var(--primary); }
+h1 { text-shadow: none; }
+.menu-item:hover, .menu-link:hover, .menu-item.active, .menu-link.active {
+  background: #e9c48a18; color: #f7f8fc; transform: translateX(4px);
+}
+.hamburger { color: var(--primary); border-color: #e9c48a55; }
+hr, .skill-group + .skill-group, .relic-passive-group, .wiki-footer { border-color: var(--aub-line); }
+.header-card, .card, .relic-passive-pool details { border-color: var(--aub-line); }
+.card { box-shadow: 0 6px 20px #0004; }
+.card::before {
+  background: linear-gradient(115deg, #e9c48a00, #e9c48a35, #fff0c255, #e9c48a00);
+  filter: blur(8px); opacity: 0;
+}
+.card:hover { border-color: #e9c48a88; box-shadow: 0 12px 30px #0007, 0 0 18px #e9c48a16; }
+.card:hover::before, .card.is-warp-active::before { opacity: .6; }
+.home-card { background: linear-gradient(135deg, #1c2639, #111827); border: 1px solid #e9c48a55; }
+#langSelect, #searchInput, .search-input, .back-btn {
+  background: #0c1220; color: var(--text); border-color: #ffffff33;
+}
+#searchInput:focus, .search-input:focus, #langSelect:focus-visible { outline: 2px solid #e9c48a; outline-offset: 2px; box-shadow: none; }
+.back-btn { color: var(--aub-muted); }
+.back-btn:hover { border-color: var(--primary); color: var(--text); }
+a, .link, .game-info a, .wiki-footer a { color: var(--primary); }
+.link:hover, a:hover { color: #ffdd9e; }
+.wiki-footer, .story-separator, .travel-separator, .boost-separator { color: var(--aub-muted); }
