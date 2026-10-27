@@ -2318,5 +2318,25 @@
     "FromJobKey": "Pirate Quartermaster",
     "MaterialKey": "Tropical Sunglasses",
     "ToJobKey": "Strawhat Corsair"
+  },
+  {
+    "FromJobKey": "Iron Chef",
+    "MaterialKey": "Jack O Lantern",
+    "ToJobKey": "The Gourmet"
+  },
+  {
+    "FromJobKey": "Professional Gambler",
+    "MaterialKey": "Jack O Lantern",
+    "ToJobKey": "Bag of Nightmares"
+  },
+  {
+    "FromJobKey": "Action Star",
+    "MaterialKey": "Jack O Lantern",
+    "ToJobKey": "The Final Girl"
+  },
+  {
+    "FromJobKey": "Influencer",
+    "MaterialKey": "Jack O Lantern",
+    "ToJobKey": "The Ghost With The Most"
   }
 ]
