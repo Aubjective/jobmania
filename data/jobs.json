@@ -6256,5 +6256,61 @@
     "AbilityKey *3": "Pull The Strings",
     "AbilityKey *2": "False Flag Operation",
     "AbilityKey *1": "New World Order"
+  },
+  {
+    "JobKey": "The Gourmet",
+    "Rarity": "5",
+    "Lv10 HP": "500",
+    "Lv10 Str": "112",
+    "Lv10 Agi": "108",
+    "Lv10 Int": "112",
+    "PassiveKey": "Refined Appetite",
+    "AbilityKey": "Table for One",
+    "AbilityKey *5": "Cook",
+    "AbilityKey *3": "Fine Cut",
+    "AbilityKey *2": "First Course",
+    "AbilityKey *1": "Dinner Is Served"
+  },
+  {
+    "JobKey": "Bag of Nightmares",
+    "Rarity": "5",
+    "Lv10 HP": "470",
+    "Lv10 Str": "96",
+    "Lv10 Agi": "111",
+    "Lv10 Int": "124",
+    "PassiveKey": "Crooked Odds",
+    "AbilityKey": "Roll The Bones",
+    "AbilityKey *5": "Bet",
+    "AbilityKey *3": "Bug Bomb",
+    "AbilityKey *2": "Snake Eyes",
+    "AbilityKey *1": "Oogie Roulette"
+  },
+  {
+    "JobKey": "The Final Girl",
+    "Rarity": "5",
+    "Lv10 HP": "510",
+    "Lv10 Str": "107",
+    "Lv10 Agi": "123",
+    "Lv10 Int": "94",
+    "PassiveKey": "Last One Standing",
+    "AbilityKey": "Not The Final Scene!",
+    "AbilityKey *5": "Scream and Run",
+    "AbilityKey *3": "Dodging and Rolling",
+    "AbilityKey *2": "Desperate Strike",
+    "AbilityKey *1": "Final Confrontation"
+  },
+  {
+    "JobKey": "The Ghost With The Most",
+    "Rarity": "5",
+    "Lv10 HP": "480",
+    "Lv10 Str": "94",
+    "Lv10 Agi": "115",
+    "Lv10 Int": "126",
+    "PassiveKey": "Bio-Exorcist",
+    "AbilityKey": "Say My Name Three Times",
+    "AbilityKey *5": "Performing",
+    "AbilityKey *3": "Name Drop",
+    "AbilityKey *2": "Dead Air",
+    "AbilityKey *1": "It's Showtime!"
   }
 ]
