@@ -1,1 +1,71 @@
-{"Loop Correction":["Multiply"],"Brideheart Echo":["Exhaust","Dark","Curse","Full"],"Voidblade Pierce":["Dark","Combo","Direct"],"Black Gate Barrage":["Dark","Combo","Multiply","Debuff"]}
+{
+  "Loop Correction": [
+    "Multiply"
+  ],
+  "Brideheart Echo": [
+    "Exhaust",
+    "Dark",
+    "Curse",
+    "Full"
+  ],
+  "Voidblade Pierce": [
+    "Dark",
+    "Combo",
+    "Direct"
+  ],
+  "Black Gate Barrage": [
+    "Dark",
+    "Combo",
+    "Multiply",
+    "Debuff"
+  ],
+  "Grudge Cleave": [
+    "Sacrifice"
+  ],
+  "Death Refused": [
+    "Sacrifice"
+  ],
+  "Table for One": [
+    "Food"
+  ],
+  "Fine Cut": [
+    "Injury",
+    "2",
+    "Tool"
+  ],
+  "Dinner Is Served": [
+    "Bleed",
+    "2",
+    "LifeSteal",
+    "Food"
+  ],
+  "Roll The Bones": [
+    "Dice"
+  ],
+  "Bug Bomb": [
+    "Dice"
+  ],
+  "Oogie Roulette": [
+    "Misfortune",
+    "3",
+    "Buff",
+    "Dice"
+  ],
+  "Not The Final Scene!": [
+    "Debuff"
+  ],
+  "Final Confrontation": [
+    "Certain",
+    "Slack"
+  ],
+  "Dead Air": [
+    "Dark",
+    "Wind"
+  ],
+  "It's Showtime!": [
+    "Exhaust"
+  ],
+  "First Course": [
+    "Food"
+  ]
+}
