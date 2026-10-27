@@ -4,7 +4,7 @@
   "field": "Cost",
   "alignment": {
     "keySource": "data/abilities.json",
-    "count": 1764,
+    "count": 1783,
     "anchors": [
       {
         "index": 0,
@@ -33,6 +33,10 @@
       {
         "index": 1763,
         "key": "Blightmaw Devour"
+      },
+      {
+        "index": 1782,
+        "key": "Scream and Run"
       }
     ]
   },
@@ -1811,7 +1815,26 @@
     1,
     1,
     1,
-    2
+    2,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    3,
+    1,
+    1,
+    3,
+    2,
+    1,
+    3,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1
   ],
   "syncNote": "2026-10-18 Phase 4 live Database Abilities reconciliation: match by AbilityKey and occurrence to account for source row reordering and duplicate keys. Blank sheet costs preserved as unknown."
 }
