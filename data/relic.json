@@ -1693,5 +1693,35 @@
     "Craft Ability x5": "Essence Leech",
     "Series": "",
     "SpecificChapter": "Dragons Kingdom"
+  },
+  {
+    "RelicId": 114,
+    "RelicKey": "Voorhees's Machete",
+    "Rarity": "Legendary",
+    "Lv10 HP": "430",
+    "Lv10 Str": "380",
+    "Lv10 Agi": "240",
+    "Lv10 Int": "170",
+    "InnatePassiveId": 241,
+    "SpecialType": "Strength",
+    "Craft Material x1": "Sword",
+    "Craft Ability x5": "Grudge Cleave",
+    "Series": "",
+    "SpecificChapter": "Halloween Party"
+  },
+  {
+    "RelicId": 115,
+    "RelicKey": "Lyselle's Wand",
+    "Rarity": "Legendary",
+    "Lv10 HP": "300",
+    "Lv10 Str": "180",
+    "Lv10 Agi": "300",
+    "Lv10 Int": "430",
+    "InnatePassiveId": 146,
+    "SpecialType": "Light",
+    "Craft Material x1": "Staff",
+    "Craft Ability x5": "Pristine Radiance",
+    "Series": "",
+    "SpecificChapter": "Halloween Party"
   }
 ]
