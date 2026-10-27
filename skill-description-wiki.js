@@ -267,7 +267,11 @@
             const live = await getLiveEnglishLines(cat, key);
             if (live.length) return live;
         }
-        return getLocalisedDescriptionLines(getDescriptionEntry(cat, key));
+        const translated = getLocalisedDescriptionLines(getDescriptionEntry(cat, key));
+        if (translated.length) return translated;
+        // New SkillUnits may not have translated description rows yet.
+        // Fall back to their source-derived English effects, never invented translations.
+        return getLiveEnglishLines(cat, key);
     }
 
     function ensureMechanicStyles() {
