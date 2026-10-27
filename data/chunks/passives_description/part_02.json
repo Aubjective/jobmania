@@ -3998,5 +3998,205 @@
         "Multiplier": 3
       }
     ]
+  },
+  {
+    "PassiveKey": "Untouchable Standards",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Agility",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "LifeSteal",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "VRI",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Agility",
+        "Multiplier": 6
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Pure Duality",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Light",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Thunder",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Intelligence",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "InstantBoost",
+        "Effect": "Thunder",
+        "Multiplier": 4
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Project Argonaut",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "MaxHP",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Heal",
+        "Effect": "Direct",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "TurnHeal",
+        "Effect": "MaxHP",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Element",
+        "Multiplier": 2
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Unrelenting Pursuit",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Strength",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "ActionDebuff",
+        "Effect": "StrengthM",
+        "Multiplier": 3
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Restrain",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Guard",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Refined Appetite",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Food",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Strength",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Protect",
+        "Effect": "Venom",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "ActionHeal",
+        "Effect": "Strength",
+        "Multiplier": 2
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Crooked Odds",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Dice",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Curse",
+        "Effect": "Dice",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "TurnBuff",
+        "Effect": "Dice",
+        "Multiplier": 4
+      },
+      {
+        "SkillUnit": "TurnDebuff",
+        "Effect": "Confuse",
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Last One Standing",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Dice",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Agility",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Protect",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "Reflect",
+        "Effect": "Agility",
+        "Multiplier": 2
+      }
+    ]
+  },
+  {
+    "PassiveKey": "Bio-Exorcist",
+    "SkillUnits": [
+      {
+        "SkillUnit": "Upgrade",
+        "Effect": "Debuff",
+        "Multiplier": 0
+      },
+      {
+        "SkillUnit": "Buff",
+        "Effect": "Draw",
+        "Multiplier": 1
+      },
+      {
+        "SkillUnit": "Reflect",
+        "Effect": "Intelligence",
+        "Multiplier": 2
+      },
+      {
+        "SkillUnit": "TurnDebuff",
+        "Effect": "Confuse",
+        "Multiplier": 1
+      }
+    ]
   }
 ]
