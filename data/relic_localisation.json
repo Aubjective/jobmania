@@ -2032,5 +2032,41 @@
     "Indonesian": "Taring Wabah Bulan",
     "Arabic": "ناب الوباء القمري",
     "Turkish": "Ay Salgını Dişi"
+  },
+  {
+    "RelicKey": "Voorhees's Machete",
+    "English": "Voorhees's Machete",
+    "Chinese": "沃希斯的砍刀",
+    "Chinese (Traditional)": "沃希斯的砍刀",
+    "Japanese": "ヴォーヒーズの山刀",
+    "Russian": "Мачете Вурхиза",
+    "French": "Machette de Voorhees",
+    "Italian": "Machete di Voorhees",
+    "Portuguese": "Facão de Voorhees",
+    "Korean": "부히스의 마체테",
+    "Spanish": "Machete de Voorhees",
+    "German": "Voorhees' Machete",
+    "Vietnamese": "Mã Tấu Của Voorhees",
+    "Indonesian": "Golok Voorhees",
+    "Arabic": "ساطور فورهيز",
+    "Turkish": "Voorhees'in Palası"
+  },
+  {
+    "RelicKey": "Lyselle's Wand",
+    "English": "Lyselle's Wand",
+    "Chinese": "莉赛尔的魔杖",
+    "Chinese (Traditional)": "莉賽爾的魔杖",
+    "Japanese": "リゼルの杖",
+    "Russian": "Жезл Лизель",
+    "French": "Baguette de Lyselle",
+    "Italian": "Bacchetta di Lyselle",
+    "Portuguese": "Varinha de Lyselle",
+    "Korean": "리젤의 지팡이",
+    "Spanish": "Varita de Lyselle",
+    "German": "Lyselles Zauberstab",
+    "Vietnamese": "Đũa Phép Của Lyselle",
+    "Indonesian": "Tongkat Sihir Lyselle",
+    "Arabic": "عصا ليزيل",
+    "Turkish": "Lyselle'in Asası"
   }
 ]
