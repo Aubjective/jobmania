@@ -29492,5 +29492,108 @@
       "Dragon Blood",
       "Dragon Scale"
     ]
+  },
+  {
+    "MonsterKey": "Halloween Pristine Succubus Lyselle",
+    "Difficulty": "Boss",
+    "Lv100 HP": "10650",
+    "Lv100 Str": "480",
+    "Lv100 Agi": "620",
+    "Lv100 Int": "730",
+    "PassiveKey": "Untouchable Standards",
+    "PassiveKey_2": "Pure Duality",
+    "AbilityKey": "Pristine Radiance",
+    "AbilityKey_2": "Judgment Spark",
+    "Race": "Humanoid",
+    "Gender": "Female",
+    "Acquire Type": "EventGacha",
+    "Random Abilities": {
+      "100%": [
+        "Trick Or Treat",
+        "Magic Barrier"
+      ],
+      "99% to 50%": [
+        "Hypnosis",
+        "Elemental Spell . Lightning",
+        "Elemental Spell . Gleam",
+        "Lightning Blitz",
+        "Magic Barrier",
+        "Thunder Infuse",
+        "Light Infuse"
+      ],
+      "49% to 30%": [],
+      "29% to 1%": []
+    },
+    "Threshold Abilities": {
+      "Enemy act first": [
+        "Trick Or Treat"
+      ],
+      "Below 50%": [
+        "Pristine Radiance",
+        "Judgment Spark"
+      ],
+      "Below 30%": []
+    },
+    "Special Case Abilities": [],
+    "Random Passives": [
+      "Untouchable Standards",
+      "Pure Duality",
+      "Spooky Soul",
+      "Spirit Of Light",
+      "Spirit Of Thunder",
+      "Clear Sight"
+    ]
+  },
+  {
+    "MonsterKey": "Halloween Undying Butcher Voorhees",
+    "Difficulty": "Boss",
+    "Lv100 HP": "14250",
+    "Lv100 Str": "690",
+    "Lv100 Agi": "420",
+    "Lv100 Int": "320",
+    "PassiveKey": "Project Argonaut",
+    "PassiveKey_2": "Unrelenting Pursuit",
+    "AbilityKey": "Grudge Cleave",
+    "AbilityKey_2": "Death Refused",
+    "Race": "Humanoid",
+    "Gender": "Male",
+    "Acquire Type": "EventGacha",
+    "Random Abilities": {
+      "100%": [
+        "Stare",
+        "Smash",
+        "Cover Guard"
+      ],
+      "99% to 50%": [
+        "Smash",
+        "Cover Guard",
+        "Regenerate",
+        "Grudge Cleave"
+      ],
+      "49% to 30%": [
+        "Grudge Cleave",
+        "Regenerate",
+        "Rampage"
+      ],
+      "29% to 1%": []
+    },
+    "Threshold Abilities": {
+      "Enemy act first": [
+        "Stare"
+      ],
+      "Below 50%": [],
+      "Below 30%": [
+        "Grudge Cleave",
+        "Death Refused"
+      ]
+    },
+    "Special Case Abilities": [],
+    "Random Passives": [
+      "Project Argonaut",
+      "Unrelenting Pursuit",
+      "Spooky Soul",
+      "Thick Skin",
+      "Last Instinct"
+    ]
   }
 ]
