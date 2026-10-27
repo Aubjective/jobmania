@@ -10582,5 +10582,119 @@
     "Ability Tier": "Null",
     "IconImage": "Bite",
     "Description": ""
+  },
+  {
+    "AbilityKey": "Pristine Radiance",
+    "Ability Tier": "Null",
+    "IconImage": "EclipseFlare",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Judgment Spark",
+    "Ability Tier": "Null",
+    "IconImage": "FocusedLightning",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Grudge Cleave",
+    "Ability Tier": "Null",
+    "IconImage": "BattleAxe",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Death Refused",
+    "Ability Tier": "Null",
+    "IconImage": "Regeneration",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Table for One",
+    "Ability Tier": "Null",
+    "IconImage": "Apron",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Fine Cut",
+    "Ability Tier": "Null",
+    "IconImage": "DrippingKnife",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Dinner Is Served",
+    "Ability Tier": "Null",
+    "IconImage": "Gourmet",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Roll The Bones",
+    "Ability Tier": "Null",
+    "IconImage": "QuestionDice",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Bug Bomb",
+    "Ability Tier": "Null",
+    "IconImage": "BugsOut",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Oogie Roulette",
+    "Ability Tier": "Null",
+    "IconImage": "PokerHand",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Not The Final Scene!",
+    "Ability Tier": "Null",
+    "IconImage": "FishEscape",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Desperate Strike",
+    "Ability Tier": "Null",
+    "IconImage": "BowieKnife",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Final Confrontation",
+    "Ability Tier": "Null",
+    "IconImage": "PierceSkull",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Say My Name Three Times",
+    "Ability Tier": "Null",
+    "IconImage": "TopHat",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Dead Air",
+    "Ability Tier": "Null",
+    "IconImage": "Ghost",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "It's Showtime!",
+    "Ability Tier": "Null",
+    "IconImage": "SharpSmile",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "First Course",
+    "Ability Tier": "Null",
+    "IconImage": "Charcuterie",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Snake Eyes",
+    "Ability Tier": "Null",
+    "IconImage": "QuestionDice",
+    "Description": ""
+  },
+  {
+    "AbilityKey": "Scream and Run",
+    "Ability Tier": "Null",
+    "IconImage": "Screaming",
+    "Description": ""
   }
 ]
