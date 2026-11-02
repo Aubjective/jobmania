@@ -32,10 +32,10 @@
     "incrementalSync": "Game version checkpoints should only advance after scoped validation."
   },
   "checkpoints": {
-    "latestSourceGameVersionObserved": "2.48.1",
+    "latestSourceGameVersionObserved": "2.49.0",
     "lastAuditedGameVersion": null,
     "lastSyncedGameVersion": null,
-    "lastAuditDate": "2026-10-18",
+    "lastAuditDate": "2026-11-02",
     "lastSyncDate": "2026-10-18"
   },
   "trackedCategories": {
@@ -7511,6 +7511,56 @@
       "description": "TurnBuff and TurnDebuff occur at TurnStart for affected numbered Skill Unit rows; TurnDamage and TurnHeal retain their own triggers",
       "localizationRequired": true,
       "notes": "Multiple numbered Skill Unit rows; see data/mechanics.json mechanicFamilies.turnTriggered for specific effects"
+    },
+    {
+      "version": "2.49.0",
+      "category": "characters",
+      "changeType": "added",
+      "key": "Halloween Pristine Succubus Lyselle; Halloween Undying Butcher Voorhees",
+      "sourceSheet": "Characters",
+      "sourceId": 618,
+      "status": "confirmed",
+      "syncStatus": "verified",
+      "date": "2026-11-02",
+      "changedFields": [
+        "ID",
+        "Name"
+      ],
+      "description": "Current live Sheet IDs 618 and 619 match the existing wiki character names. Name/ID verification only, not all combat stats.",
+      "localizationRequired": true
+    },
+    {
+      "version": "2.49.0",
+      "category": "jobs",
+      "changeType": "added",
+      "key": "The Gourmet; Bag of Nightmares; The Final Girl; The Ghost With The Most",
+      "sourceSheet": "Jobs",
+      "sourceId": 448,
+      "status": "confirmed",
+      "syncStatus": "verified",
+      "date": "2026-11-02",
+      "changedFields": [
+        "ID",
+        "Name"
+      ],
+      "description": "Live Sheet IDs 448–451 match existing wiki job names. Name/ID verification only; other fields not comprehensively compared.",
+      "localizationRequired": true
+    },
+    {
+      "version": "2.49.0",
+      "category": "abilities",
+      "changeType": "modified",
+      "key": "Ability and passive source name-set audit",
+      "sourceSheet": "Abilities",
+      "sourceId": null,
+      "status": "review_required",
+      "syncStatus": "pending",
+      "date": "2026-11-02",
+      "changedFields": [
+        "source membership"
+      ],
+      "description": "Current numbered Sheet name sets: Abilities 1,778 vs wiki 1,781; three wiki-only names (Cycle Shift, Karmic Return, Sixfold Salvation). PassiveSkills 675 vs wiki 676; wiki-only Parasite Hunger. No confirmed Sheet name missing from wiki. Do not delete without checking historical/intentional scope.",
+      "localizationRequired": false
     }
   ],
   "pendingContent": [
@@ -7756,43 +7806,43 @@
     }
   ],
   "publicStatus": {
-    "asOf": "2026-10-18",
-    "gameVersion": "2.48.1",
-    "summary": "Core gameplay synchronization recorded; mechanics, explanations and delivery refinements continue.",
+    "asOf": "2026-11-02",
+    "gameVersion": "2.49.0",
+    "summary": "2.49.0 source version observed. Jobs (451) and Characters (619) match the live Sheets by confirmed IDs/names; skill name-set checks identified four wiki-only entries for classification. Complete field-by-field source parity is not yet certified.",
     "ongoing": [
-      "Ability and passive-skill explanations",
-      "Mechanics and delivery-pattern documentation",
-      "Localization and description enrichment"
+      "Classify wiki-only Abilities: Cycle Shift, Karmic Return, Sixfold Salvation; wiki-only Passive: Parasite Hunger",
+      "Gameplay field-by-field checks, 2.49.0 Halloween skin coverage and localization verification",
+      "Skill descriptions, mechanics and delivery-pattern explanations remain separately ongoing"
     ],
-    "lastReviewed": "2026-10-18",
-    "sheetsVersion": "2.48.1",
+    "lastReviewed": "2026-11-02",
+    "sheetsVersion": "2.49.0",
     "updated": [
-      "Core gameplay records reviewed against the source Sheets",
-      "Confirmed job and crafting additions synchronized",
-      "Selected skill timing and mechanics changes recorded"
+      "Confirmed 2.49.0 Halloween heroes and four Halloween jobs already appear in the wiki data",
+      "Verified all 451 numbered Jobs and 619 numbered Characters against the current Sheet name sets",
+      "Compared 1,778 numbered Abilities and 675 numbered Passive Skills against wiki name sets; no confirmed Sheet names missing"
     ],
     "excluded": [
-      "Unconfirmed, unfinished, stopped or untested additions",
-      "Draft records without confirmed source entries",
-      "Changes inferred from names alone"
+      "Blank-ID drafts and incomplete, stopped or untested work",
+      "Unconfirmed game-design proposals",
+      "Do not infer skill removals from name-only differences"
     ],
     "editorialNote": "Core data reviewed; detailed per-change history retained."
   },
   "publicSections": {
     "updated": [
-      "Core gameplay records reviewed against the source Sheets",
-      "Confirmed job and crafting additions synchronized",
-      "Selected skill timing and mechanics changes recorded"
+      "Confirmed 2.49.0 Halloween heroes and four Halloween jobs already appear in the wiki data",
+      "Verified all 451 numbered Jobs and 619 numbered Characters against the current Sheet name sets",
+      "Compared 1,778 numbered Abilities and 675 numbered Passive Skills against wiki name sets; no confirmed Sheet names missing"
     ],
     "ongoing": [
-      "Ability and passive-skill explanations",
-      "Mechanics and delivery-pattern documentation",
-      "Localization and description enrichment"
+      "Classify wiki-only Abilities: Cycle Shift, Karmic Return, Sixfold Salvation; wiki-only Passive: Parasite Hunger",
+      "Gameplay field-by-field checks, 2.49.0 Halloween skin coverage and localization verification",
+      "Skill descriptions, mechanics and delivery-pattern explanations remain separately ongoing"
     ],
     "excluded": [
-      "Unconfirmed, unfinished, stopped or untested additions",
-      "Draft records without confirmed source entries",
-      "Changes inferred from names alone"
+      "Blank-ID drafts and incomplete, stopped or untested work",
+      "Unconfirmed game-design proposals",
+      "Do not infer skill removals from name-only differences"
     ]
   },
   "maintenance": {
