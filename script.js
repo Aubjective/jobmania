@@ -113,6 +113,18 @@ function renderAbilityIcon(iconKey, altText, sizeClass) {
     return `<div class="card-media ${sizeClass}"><img src="iconimage/${encodeURIComponent(iconKey)}.png" alt="${escapeHtml(altText)}"></div>`;
 }
 
+// Relic sprite filenames normally match RelicKey. Preserve the two uploaded
+// filenames that omit possessives without changing their database keys.
+function renderRelicImage(relicKey, altText, sizeClass) {
+    if (!relicKey) return '';
+    const uploadedNames = {
+        "Voorhees's Machete": 'Voorhees Machete',
+        "Lyselle's Wand": 'Lyselle Wand'
+    };
+    const fileName = uploadedNames[relicKey] || relicKey;
+    return `<div class="card-media ${sizeClass} relic-media"><img src="relicsprites/${encodeURIComponent(fileName)}.png" alt="${escapeHtml(altText)}" loading="lazy" onerror="this.parentElement.remove()"></div>`;
+}
+
 function renderMaterialImage(materialKey, sizeClass) {
     if (!materialKey) return '';
     return `<div class="card-media ${sizeClass}"><img src="materialsprite/${encodeURIComponent(materialKey)}.png" alt="${escapeHtml(getLocalizedName('materials', materialKey))}" onerror="this.style.display='none'"></div>`;
@@ -298,6 +310,7 @@ function loadView(view) {
         const key = entityKey(cat, item), display = getLocalizedName(cat, key);
         let html = `<div class="card list-card" data-key="${escapeHtml(key)}" onclick="loadDetail('${cat}', this.dataset.key)">`;
         if (cat === 'monsters') html += `<div class="card-media card-media-compact"><img src="charactersprite/${encodeURIComponent(key)}.png" alt="${escapeHtml(display)}"></div>`;
+        if (cat === 'relic') html += renderRelicImage(key, display, 'card-media-compact');
         if (cat === 'abilities') html += renderAbilityIcon(item.IconImage, display, 'card-media-compact');
         if (cat === 'materials') html += renderMaterialImage(key, 'card-media-compact');
         html += '<div class="info-list">';
@@ -320,6 +333,7 @@ async function loadDetail(cat, key, fromHistory = false) {
     const title = getLocalizedName(cat,key);
     let media = '';
     if (cat === 'monsters') media = `<div class="card-media card-media-detail"><img src="charactersprite/${encodeURIComponent(key)}.png" alt="${escapeHtml(title)}"></div>`;
+    if (cat === 'relic') media = renderRelicImage(key, title, 'card-media-detail');
     if (cat === 'abilities') media = renderAbilityIcon(data.IconImage,title,'card-media-detail');
     if (cat === 'materials') media = renderMaterialImage(key,'card-media-detail');
     let html = `<button onclick="goBackToPreviousDetail()" class="back-btn">← ${escapeHtml(ui('back','Back'))}</button><div class="detail-stack"><div class="card detail-title-card">${media}<h3>${escapeHtml(title)}</h3></div>`;
