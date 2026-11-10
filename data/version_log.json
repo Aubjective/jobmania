@@ -7859,6 +7859,14 @@
         "Skill descriptions and delivery/mechanics ongoing"
       ],
       "checkpointDecision": "Scoped skill record synced; do not advance lastAuditedGameVersion or lastSyncedGameVersion from null; 2.49.1 is observed, not fully certified."
+    },
+    {
+      "wikiVersion": "1.0",
+      "date": "2026-11-10",
+      "action": "add_internal_incremental_audit_handover",
+      "status": "documentation_only",
+      "sourceVersion": "2.49.1",
+      "note": "Added structured per-category verified counts, recorded exclusions, pending work, source-vs-JSON-vs-public distinctions and continuation procedure in data/version_log.json. No gameplay data changed and full version parity was not certified."
     }
   ],
   "publicStatus": {
@@ -7908,11 +7916,11 @@
   "maintenance": {
     "purpose": "Incremental future wiki updates without unnecessary full database re-audits",
     "updateProcedure": [
-      "Read confirmed new game release and changed source records",
-      "Apply only documented in-scope additions and field changes by exact source identifiers",
-      "Check dependent references, relevant localized display text and publication",
-      "Add structured entry for each meaningful source change; preserve original audit history",
-      "Update public Updated/Ongoing/Excluded sections, observed Sheets version and only verified checkpoints"
+      "Read internalAudit, previous entries, auditHistory and pendingContent first; do not redo already verified category checks without a changed source.",
+      "Continue unsynced deltas even when no new Ver Log version exists.",
+      "For each affected category record source IDs, checked fields, JSON-retained/public-visible counts where relevant, exclusions, and cross-references.",
+      "Append technical evidence to repository logs; keep publicStatus/publicSections a short player-readable summary.",
+      "Advance full sync version markers only after validated scope."
     ],
     "changeRecordFields": [
       "version",
@@ -7926,6 +7934,297 @@
       "notes"
     ],
     "displayPolicy": "Internal source IDs, canonical keys, diff payloads and technical filenames remain in machine-readable records, not on public Version Log page.",
-    "lastScopeReview": "2026-10-20"
+    "lastScopeReview": "2026-11-10"
+  },
+  "internalAudit": {
+    "schemaVersion": 1,
+    "visibility": "Repository-only audit and continuation record; player-facing Wiki Version Log uses publicStatus/publicSections only.",
+    "lastUpdated": "2026-11-10",
+    "purpose": "Resume Jobmania audits from the last verified source checks and pending deltas, preserving prior decisions and non-published/draft content.",
+    "sourceOfTruth": {
+      "database": "https://docs.google.com/spreadsheets/d/1NplTp8arQXj5zZ6mj-x_eTjqp20rsRSrT7wgHWb0UT8",
+      "localization": "https://docs.google.com/spreadsheets/d/1B2olPb1sTgFSskGBC68czBBt1ICh2jGmQkIKOi_c39w",
+      "versionLog": "data/version_log.json",
+      "historyArrays": [
+        "entries",
+        "auditHistory",
+        "pendingContent"
+      ],
+      "baselineBranch": "wiki-baseline-0.0"
+    },
+    "historicalVerifiedWork": [
+      {
+        "date": "2026-10-18",
+        "scope": "Source-backed wiki reconciliation",
+        "sourceVersion": "2.48.1",
+        "status": "scoped",
+        "verified": "Numeric-ID checked asset, localization, abilities/passives/costs, recipes and references; phase-by-phase details and exceptions retained in auditHistory."
+      },
+      {
+        "date": "2026-10-18",
+        "scope": "Phase 2 gameplay field corrections",
+        "status": "scoped",
+        "changes": {
+          "jobFields": 5,
+          "characterStats": 4,
+          "abilityIcons": 2,
+          "abilitySkillUnits": 20,
+          "passiveSkillUnits": 65
+        },
+        "note": "Recorded in auditHistory; not evidence of full field parity."
+      },
+      {
+        "date": "2026-10-18",
+        "scope": "Phase 3 relic/crafting sync",
+        "status": "scoped",
+        "changes": {
+          "newNumberedRelics": 2,
+          "craftRecipes": 24,
+          "materialsCombineListLinks": 22,
+          "relicPassiveIdsRevised": 4
+        },
+        "exception": "Unnumbered Combo relic passives intentionally not imported; pre-existing conflicting recipes preserved."
+      },
+      {
+        "date": "2026-10-18",
+        "scope": "Phase 4 localization reconciliation",
+        "status": "scoped",
+        "changes": {
+          "localizedRecords": 791,
+          "languageFields": 2201
+        },
+        "exception": "Source-only or unnumbered localization records excluded pending verified asset identity."
+      },
+      {
+        "date": "2026-10-18",
+        "scope": "Phase 5 checks",
+        "status": "partial",
+        "checks": [
+          "All 65 JSON files parsed at that checkpoint",
+          "8 chunk manifests checked",
+          "1,761 populated ability AP costs matched",
+          "113 relic record chapter/series fields verified",
+          "390 relic-passive IDs examined",
+          "617 character acquisition source values checked",
+          "464 jobcraft recipes preserved verbatim"
+        ],
+        "exceptions": [
+          "19 jobcraft endpoint references across 15 recipes not fully resolvable; UI filters unnumbered endpoints",
+          "Three unnumbered abilities have unknown AP costs",
+          "Treasure Land and ChallengeMode lack official localized strings"
+        ],
+        "note": "Full browser/live publication certification not asserted."
+      },
+      {
+        "date": "2026-10-18",
+        "scope": "Wiki public release 1.0",
+        "status": "approved",
+        "note": "Public Wiki Version 1.0 approved, separate from full game source parity."
+      },
+      {
+        "date": "2026-11-02",
+        "scope": "Source 2.49.0 name/ID audit",
+        "status": "scoped",
+        "checks": [
+          "451 numbered Job IDs/names matched",
+          "619 numbered Character IDs/names matched",
+          "1,778 numbered Abilities compared by source name; no Sheet ability name missing in Wiki",
+          "675 numbered PassiveSkills compared by source name; no Sheet passive name missing in Wiki"
+        ],
+        "exceptions": [
+          "Three wiki-only ability names and one wiki-only passive name remain for classification",
+          "Name/ID checks do not prove field-by-field parity"
+        ]
+      },
+      {
+        "date": "2026-11-10",
+        "scope": "2.49.1 Return By Death passive correction",
+        "status": "synced-specific-field",
+        "sourceId": 639,
+        "changedField": "SkillUnits[3].SkillUnit",
+        "before": "InstantNerf",
+        "after": "TurnDebuff",
+        "note": "Four other units already match; no full 2.49.1 sync assertion."
+      }
+    ],
+    "wikiDataBaseline": {
+      "date": "2026-11-02",
+      "nature": "Last scoped confirmed source name/ID comparison; not full data parity.",
+      "categories": {
+        "Jobs": {
+          "numberedSourceRecords": 451,
+          "idNameMatch": "verified 2026-11-02",
+          "fullGameplayFields": "not exhaustively checked"
+        },
+        "Characters": {
+          "numberedSourceRecords": 619,
+          "idNameMatch": "verified 2026-11-02",
+          "fullGameplayFields": "not exhaustively checked"
+        },
+        "Abilities": {
+          "numberedSourceRecords": 1778,
+          "numberedSheetNamesMissingFromWiki": 0,
+          "wikiOnlyKeys": [
+            "Cycle Shift",
+            "Karmic Return",
+            "Sixfold Salvation"
+          ],
+          "state": "Do not delete wiki-only entries without verifying historical intent and blank-ID source"
+        },
+        "PassiveSkills": {
+          "numberedSourceRecords": 675,
+          "numberedSheetNamesMissingFromWiki": 0,
+          "wikiOnlyKeys": [
+            "Parasite Hunger"
+          ],
+          "state": "Check scope before removal; Return By Death ID639 specific field synced"
+        },
+        "Relics": {
+          "checkedRecords": 113,
+          "sourceCheckDate": "2026-10-18",
+          "note": "Relic audit not a current full-field 2.49.1 parity claim"
+        },
+        "RelicPassives": {
+          "checkedIds": 390,
+          "sourceCheckDate": "2026-10-18",
+          "exception": "Unnumbered Combo rows not automatically imported"
+        },
+        "Crafting": {
+          "sourceRecipesPreserved": 464,
+          "knownUnresolvedEndpointReferences": 19,
+          "knownAffectedRecipes": 15,
+          "rule": "Do not fabricate missing job IDs or delete legacy rows; UI excludes invalid endpoints"
+        },
+        "Localization": {
+          "verifiedRecordChanges": 791,
+          "verifiedLanguageFieldChanges": 2201,
+          "sourceCheckDate": "2026-10-18"
+        }
+      }
+    },
+    "publicationAndExclusionPolicy": {
+      "sourceRecordVsWikiJsonVsPublicDisplay": "Track distinct source count, in-repository JSON count, and public shown count when applicable; one does not imply the other.",
+      "numberedAssetRule": "Only confirmed numeric-ID game assets may be newly imported; preserve stable canonical keys and explicit status.",
+      "unnumberedDrafts": "Source rows with blank IDs are excluded from automatic Wiki imports, even if source text/localization exists. Keep pendingContent list for specific keys.",
+      "knownPendingAssetKeys": [
+        {
+          "category": "characters",
+          "key": "Peace Orixa Ogum",
+          "sourceRow": 621,
+          "reason": "Missing numeric source ID"
+        },
+        {
+          "category": "characters",
+          "key": "Meme Stand User Pepe Crinch",
+          "sourceRow": 629,
+          "reason": "Missing numeric source ID"
+        },
+        {
+          "category": "abilities",
+          "key": "Cycle Shift",
+          "sourceRow": 1771,
+          "reason": "Missing numeric source ID"
+        },
+        {
+          "category": "abilities",
+          "key": "Karmic Return",
+          "sourceRow": 1772,
+          "reason": "Missing numeric source ID"
+        },
+        {
+          "category": "abilities",
+          "key": "Sixfold Salvation",
+          "sourceRow": 1773,
+          "reason": "Missing numeric source ID"
+        }
+      ],
+      "localizationOnly": "Do not publish localization-only keys without matching confirmed numbered gameplay assets; do not invent translations.",
+      "skillNames": "Do not infer that wiki-only historical abilities/passives should be removed based only on numeric Sheet membership.",
+      "relicPassives": "Unnumbered Combo rows remain deliberately excluded from automatic source sync.",
+      "crafting": "Unresolved legacy jobcraft endpoints preserved as historical data, filtered from UI when target jobs lack confirmed numbered identity.",
+      "eventsAndCodes": "Event gacha pool configurations and redemption-code expiry dates alone do NOT prove an event is live or a code is always publicly available. Publication/rotation requires explicit editorial approval; keep events-portal approvals separate in Aubjective/home.",
+      "ongoingDocumentation": [
+        "Skills and passive descriptions",
+        "Mechanics explanations",
+        "Delivery/presentation refinements"
+      ],
+      "releaseRule": "Track as ongoing; do not automatically block a scoped data-sync checkpoint on optional explanation work.",
+      "approvedExceptions": [
+        "Source blank AP for three unnumbered abilities remains null, not fabricated",
+        "No fabricated translations for Treasure Land/ChallengeMode",
+        "Historic source/index recipe conflicts remain pending explicit resolution"
+      ]
+    },
+    "latestSourceObservation": {
+      "observedAt": "2026-11-10",
+      "gameVersion": "2.49.1",
+      "lastFullyAuditedGameVersion": null,
+      "lastFullySyncedGameVersion": null,
+      "verifiedLatestChange": {
+        "category": "PassiveSkills",
+        "id": 639,
+        "key": "Return By Death",
+        "field": "fourth SkillUnit",
+        "before": "InstantNerf",
+        "after": "TurnDebuff",
+        "status": "synced"
+      },
+      "outstandingSourceChecks": [
+        {
+          "category": "Unknown Events",
+          "keys": [
+            "Two Unknowns",
+            "Misfortune Curses Swap"
+          ],
+          "status": "scope/data review pending"
+        },
+        {
+          "category": "Halloween additions",
+          "status": "Character/job IDs/names confirmed but Halloween skin coverage and relevant fields not fully checked"
+        },
+        {
+          "category": "Abilities/PassiveSkills",
+          "keys": [
+            "Cycle Shift",
+            "Karmic Return",
+            "Sixfold Salvation",
+            "Parasite Hunger"
+          ],
+          "status": "wiki-only source-set differences; investigate before any deletion"
+        },
+        {
+          "category": "Localization",
+          "status": "Unverified new or changed gameplay translations"
+        },
+        {
+          "category": "Full field parity",
+          "status": "not certified"
+        }
+      ]
+    },
+    "continuationProtocol": [
+      "1. Read THIS data/version_log.json internalAudit, entries, auditHistory and pendingContent before searching Sheets; preserve prior decisions and numeric-ID exceptions.",
+      "2. Identify completed Ver Log changes newer than latest observed 2.49.1; also continue outstandingSourceChecks even when source game version is unchanged.",
+      "3. Compare only changed source IDs and fields against corresponding Wiki JSON and related localization; don't repeat verified historic counts unless sources changed.",
+      "4. Classify each source delta as synced, verified missing/changed, JSON-retained/public-hidden, explicitly excluded, pending clarification, or ongoing documentation.",
+      "5. Record precise source ID, source row, changed fields/before/after, category counts, references, displayed status, decisions and commit in entries/auditHistory.",
+      "6. Public Wiki Version Log remains concise via publicStatus/publicSections; do not leak raw technical audit record or unapproved codes.",
+      "7. Do not advance lastAuditedGameVersion or lastSyncedGameVersion unless the stated scope has actually been checked."
+    ],
+    "recordTemplate": {
+      "date": "YYYY-MM-DD",
+      "category": "Jobs|Characters|Abilities|PassiveSkills|Relics|etc",
+      "sourceVersion": "X.Y.Z",
+      "sourceSheet": "Source tab",
+      "sourceIds": [],
+      "wikiIds": [],
+      "sourceCount": null,
+      "wikiJsonCount": null,
+      "publicVisibleCount": null,
+      "fieldChecks": [],
+      "decision": "synced|source-retained-public-hidden|excluded|pending|incomplete",
+      "localizationCheck": "not-checked|verified|pending",
+      "notes": "Do not invent source data or full parity."
+    }
   }
 }
