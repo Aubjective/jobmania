@@ -3268,7 +3268,7 @@
         "Multiplier": 0
       },
       {
-        "SkillUnit": "InstantNerf",
+        "SkillUnit": "TurnDebuff",
         "Effect": "Aggro",
         "Multiplier": 1
       },
