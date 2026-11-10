@@ -32,11 +32,11 @@
     "incrementalSync": "Game version checkpoints should only advance after scoped validation."
   },
   "checkpoints": {
-    "latestSourceGameVersionObserved": "2.49.0",
+    "latestSourceGameVersionObserved": "2.49.1",
     "lastAuditedGameVersion": null,
     "lastSyncedGameVersion": null,
-    "lastAuditDate": "2026-11-02",
-    "lastSyncDate": "2026-10-18"
+    "lastAuditDate": "2026-11-10",
+    "lastSyncDate": "2026-11-10"
   },
   "trackedCategories": {
     "jobs": {
@@ -7561,6 +7561,34 @@
       ],
       "description": "Current numbered Sheet name sets: Abilities 1,778 vs wiki 1,781; three wiki-only names (Cycle Shift, Karmic Return, Sixfold Salvation). PassiveSkills 675 vs wiki 676; wiki-only Parasite Hunger. No confirmed Sheet name missing from wiki. Do not delete without checking historical/intentional scope.",
       "localizationRequired": false
+    },
+    {
+      "version": "2.49.1",
+      "category": "passives",
+      "changeType": "modified",
+      "key": "Return By Death",
+      "sourceSheet": "PassiveSkills",
+      "sourceId": 639,
+      "sourceRow": 640,
+      "status": "confirmed",
+      "syncStatus": "synced",
+      "date": "2026-11-10",
+      "changedFields": [
+        "SkillUnits[3].SkillUnit"
+      ],
+      "before": {
+        "SkillUnit": "InstantNerf",
+        "Effect": "Aggro",
+        "Multiplier": 1
+      },
+      "after": {
+        "SkillUnit": "TurnDebuff",
+        "Effect": "Aggro",
+        "Multiplier": 1
+      },
+      "description": "Changed the fourth skill unit to match live Database row 640; other four units confirmed unchanged.",
+      "localizationRequired": false,
+      "notes": "Verified source PassiveSkills!D640:R640; data/chunks/passives_description/part_02.json. Descriptions and delivery-mechanics documentation remain ongoing. Commit bc1d7a1bf6f4370609227a224bd1d412a9be28ee."
     }
   ],
   "pendingContent": [
@@ -7803,20 +7831,50 @@
         "Prior source exceptions remain recorded in audit history, not silently marked resolved"
       ],
       "checkpointDecision": "Public wiki version is 1.0; audited/synced game checkpoints are retained unchanged rather than implying missing source information has been filled."
+    },
+    {
+      "wikiVersion": "1.0",
+      "date": "2026-11-10",
+      "action": "incremental_skill_data_sync_2_49_1",
+      "sourceVersion": "2.49.1",
+      "source": {
+        "sheet": "PassiveSkills",
+        "row": 640,
+        "id": 639,
+        "key": "Return By Death"
+      },
+      "changed": [
+        {
+          "file": "data/chunks/passives_description/part_02.json",
+          "field": "SkillUnits[3].SkillUnit",
+          "before": "InstantNerf",
+          "after": "TurnDebuff",
+          "commit": "bc1d7a1bf6f4370609227a224bd1d412a9be28ee"
+        }
+      ],
+      "verified": "Other four Return By Death skill units match live Sheet. Halloween characters/jobs previously confirmed.",
+      "remaining": [
+        "Unknown Events coverage check",
+        "Field-by-field parity outside this skill correction",
+        "Skill descriptions and delivery/mechanics ongoing"
+      ],
+      "checkpointDecision": "Scoped skill record synced; do not advance lastAuditedGameVersion or lastSyncedGameVersion from null; 2.49.1 is observed, not fully certified."
     }
   ],
   "publicStatus": {
-    "asOf": "2026-11-02",
-    "gameVersion": "2.49.0",
-    "summary": "2.49.0 source version observed. Jobs (451) and Characters (619) match the live Sheets by confirmed IDs/names; skill name-set checks identified four wiki-only entries for classification. Complete field-by-field source parity is not yet certified.",
+    "asOf": "2026-11-10",
+    "gameVersion": "2.49.1",
+    "summary": "2.49.1 source version observed. Return By Death skill-unit correction synced 10 Nov 2026; earlier 2.49.0 core IDs/names checked. Full field-by-field parity is not yet certified.",
     "ongoing": [
+      "2.49.1 Unknown Events (Two Unknowns, Misfortune Curses Swap): scope/data support not yet checked; 10 Nov bug fixes are implementation-only until relevant wiki data differences are established.",
       "Classify wiki-only Abilities: Cycle Shift, Karmic Return, Sixfold Salvation; wiki-only Passive: Parasite Hunger",
       "Gameplay field-by-field checks, 2.49.0 Halloween skin coverage and localization verification",
       "Skill descriptions, mechanics and delivery-pattern explanations remain separately ongoing"
     ],
-    "lastReviewed": "2026-11-02",
-    "sheetsVersion": "2.49.0",
+    "lastReviewed": "2026-11-10",
+    "sheetsVersion": "2.49.1",
     "updated": [
+      "Synced Return By Death (PassiveSkills ID 639, row 640): fourth skill unit InstantNerf/Aggro/1 → TurnDebuff/Aggro/1; other four units already match.",
       "Confirmed 2.49.0 Halloween heroes and four Halloween jobs already appear in the wiki data",
       "Verified all 451 numbered Jobs and 619 numbered Characters against the current Sheet name sets",
       "Compared 1,778 numbered Abilities and 675 numbered Passive Skills against wiki name sets; no confirmed Sheet names missing"
@@ -7830,11 +7888,13 @@
   },
   "publicSections": {
     "updated": [
+      "Synced Return By Death (PassiveSkills ID 639, row 640): fourth skill unit InstantNerf/Aggro/1 → TurnDebuff/Aggro/1; other four units already match.",
       "Confirmed 2.49.0 Halloween heroes and four Halloween jobs already appear in the wiki data",
       "Verified all 451 numbered Jobs and 619 numbered Characters against the current Sheet name sets",
       "Compared 1,778 numbered Abilities and 675 numbered Passive Skills against wiki name sets; no confirmed Sheet names missing"
     ],
     "ongoing": [
+      "2.49.1 Unknown Events (Two Unknowns, Misfortune Curses Swap): scope/data support not yet checked; 10 Nov bug fixes are implementation-only until relevant wiki data differences are established.",
       "Classify wiki-only Abilities: Cycle Shift, Karmic Return, Sixfold Salvation; wiki-only Passive: Parasite Hunger",
       "Gameplay field-by-field checks, 2.49.0 Halloween skin coverage and localization verification",
       "Skill descriptions, mechanics and delivery-pattern explanations remain separately ongoing"
